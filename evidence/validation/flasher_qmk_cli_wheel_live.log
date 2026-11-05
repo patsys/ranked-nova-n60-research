@@ -1,0 +1,43 @@
+
+
+INFO Compiling keymap with <LOCAL_USER>/rynked/.build-tools/msys64/usr/bin/make.exe -r -R -f builddefs/build_keyboard.mk flash KEYBOARD=ranked/nova_n60 KEYMAP=neo2_via KEYBOARD_FILESAFE=ranked_nova_n60 TARGET=ranked_nova_n60_neo2_via VERBOSE=false COLOR=false SILENT=false QMK_BIN="qmk" SKIP_GIT=yes RY72XX_FLASHER=<LOCAL_USER>/rynked/.build-tools/uv/ry72xx-flasher-wheel/Scripts/ry72xx-flasher.exe QMK_USERSPACE=/c/Users/patrick/rynked/contributions/qmk_userspace MAIN_KEYMAP_PATH_1=/c/Users/patrick/rynked/contributions/qmk_userspace/keyboards/ranked/nova_n60/keymaps/neo2_via MAIN_KEYMAP_PATH_2=/c/Users/patrick/rynked/contributions/qmk_userspace/keyboards/ranked/nova_n60/keymaps/neo2_via MAIN_KEYMAP_PATH_3=/c/Users/patrick/rynked/contributions/qmk_userspace/keyboards/ranked/nova_n60/keymaps/neo2_via MAIN_KEYMAP_PATH_4=/c/Users/patrick/rynked/contributions/qmk_userspace/keyboards/ranked/nova_n60/keymaps/neo2_via MAIN_KEYMAP_PATH_5=/c/Users/patrick/rynked/contributions/qmk_userspace/keyboards/ranked/nova_n60/keymaps/neo2_via
+arm-none-eabi-gcc.exe (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Size before:
+   text	   data	    bss	    dec	    hex	filename
+      0	  26568	      0	  26568	   67c8	ranked_nova_n60_neo2_via.hex
+
+Generating: .build/obj_ranked_nova_n60_neo2_via/src/info_config.h                                   [OK]1     
+Generating: .build/obj_ranked_nova_n60_neo2_via/src/default_keyboard.c                              [OK]1     
+Generating: .build/obj_ranked_nova_n60_neo2_via/src/default_keyboard.h                              [OK]1     
+Compiling: quantum/via.c                                                                            [OK]1     
+Linking: .build/ranked_nova_n60_neo2_via.elf                                                        [OK]1     
+Creating load file for flashing: .build/ranked_nova_n60_neo2_via.hex                                [OK]1     
+Copying ranked_nova_n60_neo2_via.hex to qmk_firmware folder                                         [OK]1     
+Copying ranked_nova_n60_neo2_via.hex to userspace folder                                            [OK]1     
+
+Size after:
+   text	   data	    bss	    dec	    hex	filename
+      0	  26568	      0	  26568	   67c8	ranked_nova_n60_neo2_via.hex
+
+Flashing for bootloader: RY7203 vendor HID
+Application-only flash requested. Backups/results: <LOCAL_USER>\rynked\.local-flasher\live_qmk_cli_wheel_20261103_01
+before_flash.bin: 4096/131072 bytes
+before_flash.bin: 20480/131072 bytes
+before_flash.bin: 36864/131072 bytes
+before_flash.bin: 53248/131072 bytes
+before_flash.bin: 69632/131072 bytes
+before_flash.bin: 86016/131072 bytes
+before_flash.bin: 102400/131072 bytes
+before_flash.bin: 118784/131072 bytes
+before_flash.bin: 131072/131072 bytes
+Programmed 1/117 application pages
+Programmed 16/117 application pages
+Programmed 32/117 application pages
+Programmed 48/117 application pages
+Could not persist error log: [WinError 5] Zugriff verweigert: '<LOCAL_USER>\\rynked\\.local-flasher\\live_qmk_cli_wheel_20261103_01\\result.tmp' -> '<LOCAL_USER>\\rynked\\.local-flasher\\live_qmk_cli_wheel_20261103_01\\result.json'
+FLASH ERROR: no further programming. Read-only recovery keepalive is running. Keep USB power connected; host/power loss can defeat recovery. Ctrl-C stops this holder.
+make: *** [platforms/ry72xx/flash.mk:13: flash] Error 127

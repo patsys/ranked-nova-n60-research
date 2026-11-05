@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv*/
+.env
+.env.*
+*token*
+ranked_re.db
+*.db
+*.sqlite
+*.sqlite3
+*.o
+*.elf
+*.map
+*.nm
+*.exe
+.DS_Store

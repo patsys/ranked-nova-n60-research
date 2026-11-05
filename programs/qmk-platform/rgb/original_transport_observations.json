@@ -1,0 +1,132 @@
+{
+  "hardware_access": false,
+  "spi_init_events": [
+    {
+      "kind": "write",
+      "address": "0x4001402c",
+      "value": "0x20",
+      "bytes": 4
+    },
+    {
+      "kind": "short_delay",
+      "value": 10
+    },
+    {
+      "kind": "write",
+      "address": "0xe000e180",
+      "value": "0x800",
+      "bytes": 4
+    },
+    {
+      "kind": "write",
+      "address": "0x40005004",
+      "value": "0x0",
+      "bytes": 4
+    },
+    {
+      "kind": "write",
+      "address": "0x40005008",
+      "value": "0x7",
+      "bytes": 4
+    },
+    {
+      "kind": "write",
+      "address": "0x4000500c",
+      "value": "0x0",
+      "bytes": 4
+    },
+    {
+      "kind": "short_delay",
+      "value": 20
+    },
+    {
+      "kind": "write",
+      "address": "0x40005034",
+      "value": "0x46",
+      "bytes": 4
+    },
+    {
+      "kind": "write",
+      "address": "0x40005038",
+      "value": "0x44",
+      "bytes": 4
+    },
+    {
+      "kind": "write",
+      "address": "0x4000503c",
+      "value": "0x42",
+      "bytes": 4
+    },
+    {
+      "kind": "write",
+      "address": "0x40005040",
+      "value": "0x47",
+      "bytes": 4
+    },
+    {
+      "kind": "write",
+      "address": "0x40005014",
+      "value": "0x3",
+      "bytes": 4
+    },
+    {
+      "kind": "write",
+      "address": "0x40005020",
+      "value": "0x0",
+      "bytes": 4
+    },
+    {
+      "kind": "write",
+      "address": "0x4000501c",
+      "value": "0x5",
+      "bytes": 4
+    },
+    {
+      "kind": "write",
+      "address": "0x40005024",
+      "value": "0x0",
+      "bytes": 4
+    },
+    {
+      "kind": "write",
+      "address": "0x40005010",
+      "value": "0x11",
+      "bytes": 4
+    },
+    {
+      "kind": "write",
+      "address": "0x40005028",
+      "value": "0x3fff",
+      "bytes": 4
+    },
+    {
+      "kind": "write",
+      "address": "0x4000500c",
+      "value": "0x1",
+      "bytes": 4
+    },
+    {
+      "kind": "write",
+      "address": "0xe000e180",
+      "value": "0x800",
+      "bytes": 4
+    },
+    {
+      "kind": "write",
+      "address": "0x40005004",
+      "value": "0x7",
+      "bytes": 4
+    }
+  ],
+  "frame": {
+    "tx": "0x20003000",
+    "rx": "0x20003110",
+    "length": 269,
+    "hex": "c00b0600fa000001020304050000060708090a0b00000c0d0e0f10110000121314151617000018191a1b1c1d00001e1f20212223000024252627282900002a2b2c2d2e2f00003031323334350000363738393a3b00003c3d3e3f40410000464748494a4b00004c4d4e4f50510000525354555657000058595a5b5c5d00005e5f60616263000064656667686900006a6b6c6d6e6f00007071727374750000767778797a7b00007c7d7e7f8081000082838485868700008c8d8e8f90910000929394959697000098999a9b9c9d00009e9fa0a1a2a30000a4a5a6a7a8a90000aaabacadaeaf0000b0b1b2b3b4b50000b6b7b8b9babb0000bcbdbebfc0c10000c2c3c4c5c6c70000c8c9cacbcccd00"
+  },
+  "enabled_brightness_level": 9,
+  "enabled_timing_field": 250,
+  "disabled_fallback_field": 6250,
+  "frame_mapping": "6-byte header; three88-byte planes;11channels,8-byte stride,6 populated bank bytes;269-byte transfer",
+  "interpretation": "Observed transport for external RGB controller; exact controller identity and color plane names unconfirmed."
+}

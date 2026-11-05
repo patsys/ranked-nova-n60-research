@@ -1,0 +1,59 @@
+{
+  "method": "Original machine code, mutable-remap headers forced erased only in emulator",
+  "cases": [
+    {
+      "held_positions": [],
+      "flags": [
+        0,
+        0
+      ],
+      "suppressed_positions": [],
+      "bank0_channel1_usage": 30,
+      "passed": true
+    },
+    {
+      "held_positions": [
+        69
+      ],
+      "flags": [
+        1,
+        0
+      ],
+      "suppressed_positions": [
+        255
+      ],
+      "bank0_channel1_usage": 58,
+      "passed": true
+    },
+    {
+      "held_positions": [
+        70
+      ],
+      "flags": [
+        0,
+        1
+      ],
+      "suppressed_positions": [
+        255
+      ],
+      "bank0_channel1_usage": 0,
+      "passed": true
+    },
+    {
+      "held_positions": [
+        69,
+        70
+      ],
+      "flags": [
+        1,
+        1
+      ],
+      "suppressed_positions": [
+        255,
+        255
+      ],
+      "bank0_channel1_usage": 58,
+      "passed": true
+    }
+  ]
+}

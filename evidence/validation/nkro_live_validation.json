@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "elf_sha256": "75a14ce15eaa737da4fdafce2f84059b8b761588248dcf2184f2221e5e57bd26",
+  "pages": 117,
+  "full_readback_verified": true,
+  "protected_data_unchanged": true,
+  "application_interfaces": 3,
+  "via_protocol": 13,
+  "layers": 3,
+  "keymap_matches": true,
+  "physical_rollover": "failed: user confirms no characters from single keys",
+  "keyboard_input_passed": false,
+  "via_remains_responsive": true,
+  "rollback_backup_validated": true
+}

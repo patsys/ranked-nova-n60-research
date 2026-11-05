@@ -1,0 +1,266 @@
+{
+  "scope": "Neo base layer0 only; existing layers1Mod3/2Mod4 do not use these Shift overrides",
+  "clear_physical_shift_during_override": true,
+  "restore_previous_modifiers_after_tap": true,
+  "unavailable_is_consumed_not_fallback": true,
+  "overrides": [
+    {
+      "base_alias": "DE_1",
+      "shift_target_alias": "DE_DEG",
+      "canonical_shift": {
+        "keysym": "degree",
+        "kind": "unicode",
+        "display": "°",
+        "unicode": "°",
+        "codepoint": "U+00B0"
+      },
+      "bank": 0,
+      "channel": 1,
+      "physical_hid": "0x1e",
+      "available": true
+    },
+    {
+      "base_alias": "DE_2",
+      "shift_target_alias": "DE_SECT",
+      "canonical_shift": {
+        "keysym": "section",
+        "kind": "unicode",
+        "display": "§",
+        "unicode": "§",
+        "codepoint": "U+00A7"
+      },
+      "bank": 0,
+      "channel": 2,
+      "physical_hid": "0x1f",
+      "available": true
+    },
+    {
+      "base_alias": "DE_3",
+      "shift_target_alias": "KC_NO",
+      "canonical_shift": {
+        "keysym": "U2113",
+        "kind": "unicode",
+        "display": "ℓ",
+        "unicode": "ℓ",
+        "codepoint": "U+2113"
+      },
+      "bank": 0,
+      "channel": 3,
+      "physical_hid": "0x20",
+      "available": false
+    },
+    {
+      "base_alias": "DE_4",
+      "shift_target_alias": "KC_NO",
+      "canonical_shift": {
+        "keysym": "guillemotright",
+        "kind": "unicode",
+        "display": "»",
+        "unicode": "»",
+        "codepoint": "U+00BB"
+      },
+      "bank": 0,
+      "channel": 4,
+      "physical_hid": "0x21",
+      "available": false
+    },
+    {
+      "base_alias": "DE_5",
+      "shift_target_alias": "KC_NO",
+      "canonical_shift": {
+        "keysym": "guillemotleft",
+        "kind": "unicode",
+        "display": "«",
+        "unicode": "«",
+        "codepoint": "U+00AB"
+      },
+      "bank": 0,
+      "channel": 5,
+      "physical_hid": "0x22",
+      "available": false
+    },
+    {
+      "base_alias": "DE_6",
+      "shift_target_alias": "DE_DLR",
+      "canonical_shift": {
+        "keysym": "dollar",
+        "kind": "unicode",
+        "display": "$",
+        "unicode": "$",
+        "codepoint": "U+0024"
+      },
+      "bank": 0,
+      "channel": 6,
+      "physical_hid": "0x23",
+      "available": true
+    },
+    {
+      "base_alias": "DE_7",
+      "shift_target_alias": "DE_EURO",
+      "canonical_shift": {
+        "keysym": "EuroSign",
+        "kind": "unicode",
+        "display": "€",
+        "unicode": "€",
+        "codepoint": "U+20AC"
+      },
+      "bank": 0,
+      "channel": 7,
+      "physical_hid": "0x24",
+      "available": true
+    },
+    {
+      "base_alias": "DE_8",
+      "shift_target_alias": "KC_NO",
+      "canonical_shift": {
+        "keysym": "doublelowquotemark",
+        "kind": "unicode",
+        "display": "„",
+        "unicode": "„",
+        "codepoint": "U+201E"
+      },
+      "bank": 0,
+      "channel": 8,
+      "physical_hid": "0x25",
+      "available": false
+    },
+    {
+      "base_alias": "DE_9",
+      "shift_target_alias": "KC_NO",
+      "canonical_shift": {
+        "keysym": "leftdoublequotemark",
+        "kind": "unicode",
+        "display": "“",
+        "unicode": "“",
+        "codepoint": "U+201C"
+      },
+      "bank": 0,
+      "channel": 9,
+      "physical_hid": "0x26",
+      "available": false
+    },
+    {
+      "base_alias": "DE_0",
+      "shift_target_alias": "KC_NO",
+      "canonical_shift": {
+        "keysym": "rightdoublequotemark",
+        "kind": "unicode",
+        "display": "”",
+        "unicode": "”",
+        "codepoint": "U+201D"
+      },
+      "bank": 0,
+      "channel": 10,
+      "physical_hid": "0x27",
+      "available": false
+    },
+    {
+      "base_alias": "DE_COMM",
+      "shift_target_alias": "KC_NO",
+      "canonical_shift": {
+        "keysym": "endash",
+        "kind": "unicode",
+        "display": "–",
+        "unicode": "–",
+        "codepoint": "U+2013"
+      },
+      "bank": 3,
+      "channel": 9,
+      "physical_hid": "0x36",
+      "available": false
+    },
+    {
+      "base_alias": "DE_DOT",
+      "shift_target_alias": "KC_NO",
+      "canonical_shift": {
+        "keysym": "enfilledcircbullet",
+        "kind": "unicode",
+        "display": "•",
+        "unicode": "•",
+        "codepoint": "U+2022"
+      },
+      "bank": 3,
+      "channel": 10,
+      "physical_hid": "0x37",
+      "available": false
+    },
+    {
+      "base_alias": "DE_MINS",
+      "shift_target_alias": "KC_NO",
+      "canonical_shift": {
+        "keysym": "emdash",
+        "kind": "unicode",
+        "display": "—",
+        "unicode": "—",
+        "codepoint": "U+2014"
+      },
+      "bank": 5,
+      "channel": 1,
+      "physical_hid": "0x2d",
+      "available": false
+    },
+    {
+      "base_alias": "DE_GRV",
+      "shift_target_alias": "KC_NO",
+      "canonical_shift": {
+        "keysym": "dead_cedilla",
+        "kind": "dead_key",
+        "display": "¸"
+      },
+      "bank": 5,
+      "channel": 2,
+      "physical_hid": "0x2e",
+      "available": false
+    },
+    {
+      "base_alias": "DE_SS",
+      "shift_target_alias": "KC_NO",
+      "canonical_shift": {
+        "keysym": "U1E9E",
+        "kind": "unicode",
+        "display": "ẞ",
+        "unicode": "ẞ",
+        "codepoint": "U+1E9E"
+      },
+      "bank": 5,
+      "channel": 4,
+      "physical_hid": "0x2f",
+      "available": false
+    },
+    {
+      "base_alias": "DE_ACUT",
+      "shift_target_alias": "KC_NO",
+      "canonical_shift": {
+        "keysym": "dead_tilde",
+        "kind": "dead_key",
+        "display": "˜"
+      },
+      "bank": 5,
+      "channel": 5,
+      "physical_hid": "0x30",
+      "available": false
+    }
+  ],
+  "literal_mod3_actions": [
+    {
+      "layer": 1,
+      "keycode_alias": "DE_CIRC",
+      "canonical_unicode": "^",
+      "tap_sequence": [
+        "DE_CIRC",
+        "KC_SPC"
+      ]
+    },
+    {
+      "layer": 1,
+      "keycode_alias": "DE_GRV",
+      "canonical_unicode": "`",
+      "tap_sequence": [
+        "DE_GRV",
+        "KC_SPC"
+      ]
+    }
+  ],
+  "release_handling": "Consume releases corresponding to handled presses even if Shift/layer state changed in between; do not leak a base key event.",
+  "higher_layers": "Greek/math are not implemented in this three-layer core profile."
+}

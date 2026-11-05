@@ -1,0 +1,14 @@
+{
+  "watched_keys": [
+    "T",
+    "D",
+    "R"
+  ],
+  "counts": {
+    "T": 2,
+    "D": 1,
+    "R": 2
+  },
+  "seconds": 45,
+  "method": "Windows GetAsyncKeyState; selected expected keys only"
+}

@@ -1,0 +1,1390 @@
+{
+  "host": "Standard German Windows/QWERTZ, QMK DE_* aliases; no Neo driver/helper",
+  "scope": "Direct HID chords audited from QMK keymap_german.h. Not a claim that Windows cannot enter other Unicode via numeric input, Compose or application-specific methods.",
+  "unicode_symbols": [
+    {
+      "unicode": " ",
+      "codepoint": "U+0020",
+      "canonical_layers": [
+        1,
+        2,
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "KC_SPC",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "!",
+      "codepoint": "U+0021",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_EXLM",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "\"",
+      "codepoint": "U+0022",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_DQUO",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "#",
+      "codepoint": "U+0023",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_HASH",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "$",
+      "codepoint": "U+0024",
+      "canonical_layers": [
+        2,
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_DLR",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "%",
+      "codepoint": "U+0025",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_PERC",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "&",
+      "codepoint": "U+0026",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_AMPR",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "'",
+      "codepoint": "U+0027",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_QUOT",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "(",
+      "codepoint": "U+0028",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_LPRN",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": ")",
+      "codepoint": "U+0029",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_RPRN",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "*",
+      "codepoint": "U+002A",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_ASTR",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "+",
+      "codepoint": "U+002B",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_PLUS",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": ",",
+      "codepoint": "U+002C",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_COMM",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "-",
+      "codepoint": "U+002D",
+      "canonical_layers": [
+        1,
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_MINS",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": ".",
+      "codepoint": "U+002E",
+      "canonical_layers": [
+        1,
+        4
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_DOT",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "/",
+      "codepoint": "U+002F",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_SLSH",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "0",
+      "codepoint": "U+0030",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_0",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "1",
+      "codepoint": "U+0031",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_1",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "2",
+      "codepoint": "U+0032",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_2",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "3",
+      "codepoint": "U+0033",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_3",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "4",
+      "codepoint": "U+0034",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_4",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "5",
+      "codepoint": "U+0035",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_5",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "6",
+      "codepoint": "U+0036",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_6",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "7",
+      "codepoint": "U+0037",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_7",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "8",
+      "codepoint": "U+0038",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_8",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "9",
+      "codepoint": "U+0039",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_9",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": ":",
+      "codepoint": "U+003A",
+      "canonical_layers": [
+        3,
+        4
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_COLN",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": ";",
+      "codepoint": "U+003B",
+      "canonical_layers": [
+        3,
+        4
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_SCLN",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "<",
+      "codepoint": "U+003C",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_LABK",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "=",
+      "codepoint": "U+003D",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_EQL",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": ">",
+      "codepoint": "U+003E",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_RABK",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "?",
+      "codepoint": "U+003F",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_QUES",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "@",
+      "codepoint": "U+0040",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_AT",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "A",
+      "codepoint": "U+0041",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_A)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "B",
+      "codepoint": "U+0042",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_B)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "C",
+      "codepoint": "U+0043",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_C)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "D",
+      "codepoint": "U+0044",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_D)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "E",
+      "codepoint": "U+0045",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_E)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "F",
+      "codepoint": "U+0046",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_F)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "G",
+      "codepoint": "U+0047",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_G)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "H",
+      "codepoint": "U+0048",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_H)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "I",
+      "codepoint": "U+0049",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_I)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "J",
+      "codepoint": "U+004A",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_J)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "K",
+      "codepoint": "U+004B",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_K)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "L",
+      "codepoint": "U+004C",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_L)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "M",
+      "codepoint": "U+004D",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_M)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "N",
+      "codepoint": "U+004E",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_N)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "O",
+      "codepoint": "U+004F",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_O)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "P",
+      "codepoint": "U+0050",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_P)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "Q",
+      "codepoint": "U+0051",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_Q)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "R",
+      "codepoint": "U+0052",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_R)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "S",
+      "codepoint": "U+0053",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_S)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "T",
+      "codepoint": "U+0054",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_T)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "U",
+      "codepoint": "U+0055",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_U)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "V",
+      "codepoint": "U+0056",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_V)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "W",
+      "codepoint": "U+0057",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_W)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "X",
+      "codepoint": "U+0058",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_X)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "Y",
+      "codepoint": "U+0059",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_Y)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "Z",
+      "codepoint": "U+005A",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_Z)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "[",
+      "codepoint": "U+005B",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_LBRC",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "\\",
+      "codepoint": "U+005C",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_BSLS",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "]",
+      "codepoint": "U+005D",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_RBRC",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "^",
+      "codepoint": "U+005E",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "dead_key_then_space",
+      "qmk_german_alias": "DE_CIRC",
+      "needs_literal_followup_space": true
+    },
+    {
+      "unicode": "_",
+      "codepoint": "U+005F",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_UNDS",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "`",
+      "codepoint": "U+0060",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "dead_key_then_space",
+      "qmk_german_alias": "DE_GRV",
+      "needs_literal_followup_space": true
+    },
+    {
+      "unicode": "a",
+      "codepoint": "U+0061",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_A",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "b",
+      "codepoint": "U+0062",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_B",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "c",
+      "codepoint": "U+0063",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_C",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "d",
+      "codepoint": "U+0064",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_D",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "e",
+      "codepoint": "U+0065",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_E",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "f",
+      "codepoint": "U+0066",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_F",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "g",
+      "codepoint": "U+0067",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_G",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "h",
+      "codepoint": "U+0068",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_H",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "i",
+      "codepoint": "U+0069",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_I",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "j",
+      "codepoint": "U+006A",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_J",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "k",
+      "codepoint": "U+006B",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_K",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "l",
+      "codepoint": "U+006C",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_L",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "m",
+      "codepoint": "U+006D",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_M",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "n",
+      "codepoint": "U+006E",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_N",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "o",
+      "codepoint": "U+006F",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_O",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "p",
+      "codepoint": "U+0070",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_P",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "q",
+      "codepoint": "U+0071",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_Q",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "r",
+      "codepoint": "U+0072",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_R",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "s",
+      "codepoint": "U+0073",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_S",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "t",
+      "codepoint": "U+0074",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_T",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "u",
+      "codepoint": "U+0075",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_U",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "v",
+      "codepoint": "U+0076",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_V",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "w",
+      "codepoint": "U+0077",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_W",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "x",
+      "codepoint": "U+0078",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_X",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "y",
+      "codepoint": "U+0079",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_Y",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "z",
+      "codepoint": "U+007A",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_Z",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "{",
+      "codepoint": "U+007B",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_LCBR",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "|",
+      "codepoint": "U+007C",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_PIPE",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "}",
+      "codepoint": "U+007D",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_RCBR",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "~",
+      "codepoint": "U+007E",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_TILD",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "¡",
+      "codepoint": "U+00A1",
+      "canonical_layers": [
+        4
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "¢",
+      "codepoint": "U+00A2",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "£",
+      "codepoint": "U+00A3",
+      "canonical_layers": [
+        4
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "¤",
+      "codepoint": "U+00A4",
+      "canonical_layers": [
+        4
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "¥",
+      "codepoint": "U+00A5",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "§",
+      "codepoint": "U+00A7",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_SECT",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "ª",
+      "codepoint": "U+00AA",
+      "canonical_layers": [
+        4
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "«",
+      "codepoint": "U+00AB",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "°",
+      "codepoint": "U+00B0",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_DEG",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "²",
+      "codepoint": "U+00B2",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_SUP2",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "³",
+      "codepoint": "U+00B3",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_SUP3",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "·",
+      "codepoint": "U+00B7",
+      "canonical_layers": [
+        4
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "¹",
+      "codepoint": "U+00B9",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "º",
+      "codepoint": "U+00BA",
+      "canonical_layers": [
+        4
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "»",
+      "codepoint": "U+00BB",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "¿",
+      "codepoint": "U+00BF",
+      "canonical_layers": [
+        4
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "Ä",
+      "codepoint": "U+00C4",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_ADIA)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "Ö",
+      "codepoint": "U+00D6",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_ODIA)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "Ü",
+      "codepoint": "U+00DC",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "S(DE_UDIA)",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "ß",
+      "codepoint": "U+00DF",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_SS",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "ä",
+      "codepoint": "U+00E4",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_ADIA",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "ö",
+      "codepoint": "U+00F6",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_ODIA",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "ü",
+      "codepoint": "U+00FC",
+      "canonical_layers": [
+        1
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_UDIA",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "ſ",
+      "codepoint": "U+017F",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "ẞ",
+      "codepoint": "U+1E9E",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "–",
+      "codepoint": "U+2013",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "—",
+      "codepoint": "U+2014",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "‘",
+      "codepoint": "U+2018",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "’",
+      "codepoint": "U+2019",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "‚",
+      "codepoint": "U+201A",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "“",
+      "codepoint": "U+201C",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "”",
+      "codepoint": "U+201D",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "„",
+      "codepoint": "U+201E",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "•",
+      "codepoint": "U+2022",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "…",
+      "codepoint": "U+2026",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "‹",
+      "codepoint": "U+2039",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "›",
+      "codepoint": "U+203A",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "€",
+      "codepoint": "U+20AC",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "direct_chord",
+      "qmk_german_alias": "DE_EURO",
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "ℓ",
+      "codepoint": "U+2113",
+      "canonical_layers": [
+        2
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "№",
+      "codepoint": "U+2116",
+      "canonical_layers": [
+        4
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "↻",
+      "codepoint": "U+21BB",
+      "canonical_layers": [
+        3
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    },
+    {
+      "unicode": "−",
+      "codepoint": "U+2212",
+      "canonical_layers": [
+        4
+      ],
+      "availability": "not_in_audited_chord_set",
+      "qmk_german_alias": null,
+      "needs_literal_followup_space": false
+    }
+  ],
+  "dead_key_warning": "Core candidate intentionally leaves ^ and ` as German dead keys; no extra runtime macro silently emits Space.",
+  "selected_shift_policy": "Use exact supported Neo Shift targets ° § $ € through shift_overrides.json; consume unsupported typography as KC_NO. No silent German-row or ASCII fallback.",
+  "source": {
+    "path": "qmk_source/quantum/keymap_extras/keymap_german.h",
+    "sha256": "81c9872de62821fbeb385aa0b31cf27d40d8e482d8c9c37647e6baf88ffa436f",
+    "sendstring_dead_table_path": "qmk_source/quantum/keymap_extras/sendstring_german.h"
+  }
+}

@@ -1,0 +1,65 @@
+; CPU-visible bytes. Linear Thumb disassembly includes vectors, literal pools and data.
+; This is not recovered C source or a complete control-flow/function analysis.
+000020d8  0348       ldr       r0, [pc, #0xc]
+000020da  8546       mov       sp, r0
+000020dc  00f0d2f8   bl        #0x2284
+000020e0  0048       ldr       r0, [pc, #0]
+000020e2  0047       bx        r0
+000020e4  81cd       ldm       r5!, {r0, r7}
+000020e6  0000       movs      r0, r0
+000020e8  501c       adds      r0, r2, #1
+000020ea  0020       movs      r0, #0
+000020ec  401e       subs      r0, r0, #1
+000020ee  fdd1       bne       #0x20ec
+000020f0  7047       bx        lr
+000020f2  401e       subs      r0, r0, #1
+000020f4  00bf       nop       
+000020f6  fcd1       bne       #0x20f2
+000020f8  7047       bx        lr
+000020fa  401e       subs      r0, r0, #1
+000020fc  00bf       nop       
+000020fe  00bf       nop       
+00002100  00bf       nop       
+00002102  00bf       nop       
+00002104  f9d1       bne       #0x20fa
+00002106  7047       bx        lr
+00002108  401e       subs      r0, r0, #1
+0000210a  00bf       nop       
+0000210c  00bf       nop       
+0000210e  00bf       nop       
+00002110  00bf       nop       
+00002112  00bf       nop       
+00002114  00bf       nop       
+00002116  f7d1       bne       #0x2108
+00002118  7047       bx        lr
+0000211a  401e       subs      r0, r0, #1
+0000211c  00bf       nop       
+0000211e  00bf       nop       
+00002120  00bf       nop       
+00002122  00bf       nop       
+00002124  00bf       nop       
+00002126  00bf       nop       
+00002128  00bf       nop       
+0000212a  00bf       nop       
+0000212c  f5d1       bne       #0x211a
+0000212e  7047       bx        lr
+00002130  401e       subs      r0, r0, #1
+00002132  00bf       nop       
+00002134  00bf       nop       
+00002136  00bf       nop       
+00002138  00bf       nop       
+0000213a  00bf       nop       
+0000213c  00bf       nop       
+0000213e  00bf       nop       
+00002140  00bf       nop       
+00002142  00bf       nop       
+00002144  00bf       nop       
+00002146  00bf       nop       
+00002148  f2d1       bne       #0x2130
+0000214a  7047       bx        lr
+0000214c  401e       subs      r0, r0, #1
+0000214e  00bf       nop       
+00002150  00bf       nop       
+00002152  00bf       nop       
+00002154  00bf       nop       
+00002156  00bf       nop       

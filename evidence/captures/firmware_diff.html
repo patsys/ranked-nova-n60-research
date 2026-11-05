@@ -1,0 +1,54 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Firmware diff</title>
+<style>
+ :root{--bg:#faf9f5;--card:#fff;--ink:#1a1a19;--mut:#6b6a66;--bd:rgba(0,0,0,.1)}
+ :root:not([data-theme=light]) @media (prefers-color-scheme:dark){}
+ @media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1a1a19;--card:#242422;--ink:#f0efec;--mut:#9a9890;--bd:rgba(255,255,255,.12)}}
+ :root[data-theme=dark]{--bg:#1a1a19;--card:#242422;--ink:#f0efec;--mut:#9a9890;--bd:rgba(255,255,255,.12)}
+ body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;padding:16px}
+ h1{font-size:20px;font-weight:500;margin:0 0 4px}.sub{color:var(--mut);font-size:13px;margin:0 0 16px}
+ .cards{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+ .card{background:var(--card);border:.5px solid var(--bd);border-radius:12px;padding:10px 14px;min-width:90px}
+ .card .l{font-size:12px;color:var(--mut)}.card .v{font-size:22px;font-weight:500;margin-top:2px}
+ .panel{background:var(--card);border:.5px solid var(--bd);border-radius:12px;padding:12px 14px;margin-bottom:14px}
+ .panel h2{font-size:14px;font-weight:500;margin:0 0 8px}
+ canvas{width:100%;height:auto;image-rendering:pixelated;border-radius:6px}
+ .leg{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--mut);margin-top:10px}
+ .leg span{display:flex;align-items:center;gap:6px}.sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+</style></head><body>
+<h1>Firmware layout diff â€” v1.0.3 vs v1.0.4 (A0A3 / DE 62-key)</h1>
+<p class="sub">Each cell = one 16-byte block. Content vs blank is derived from the ECB pattern; the actual bytes stay encrypted. Byte values can't be compared (per-file key), so this compares block classification by position.</p>
+<div class="cards">
+ <div class="card"><div class="l">v1.0.3 size</div><div class="v">116,256</div></div>
+ <div class="card"><div class="l">v1.0.4 size</div><div class="v">117,792</div></div>
+ <div class="card"><div class="l">blocks added</div><div class="v" style="color:#008300">+96</div></div>
+ <div class="card"><div class="l">blocks changed</div><div class="v" style="color:#c98500">44</div></div>
+</div>
+<div class="panel"><h2>Combined diff map</h2><canvas id="cDiff"></canvas>
+ <div class="leg">
+  <span><i class="sw" style="background:#2a78d6"></i>code/data (both)</span>
+  <span><i class="sw" style="background:#B4B2A9"></i>blank flash (both)</span>
+  <span><i class="sw" style="background:#eda100"></i>changed class</span>
+  <span><i class="sw" style="background:#008300"></i>added in v1.0.4</span>
+ </div>
+</div>
+<div class="panel"><h2>v1.0.3 block map</h2><canvas id="c3"></canvas></div>
+<div class="panel"><h2>v1.0.4 block map</h2><canvas id="c4"></canvas></div>
+<script>
+const DIFF=$diff,V3=$v3,V4=$v4;
+const COLS=128;
+function draw(id,str,diffMode){
+ const c=document.getElementById(id),ctx=c.getContext('2d');
+ const rows=Math.ceil(str.length/COLS); c.width=COLS; c.height=rows;
+ const col={'0':'#B4B2A9','1':'#2a78d6','2':'#eda100','3':'#008300'};
+ const img=ctx.createImageData(COLS,rows);
+ for(let i=0;i<str.length;i++){
+  let ch=str[i]; if(!diffMode){ch = ch==='1'?'1':'0';}
+  const hex=col[ch]||'#B4B2A9';
+  const r=parseInt(hex.substr(1,2),16),g=parseInt(hex.substr(3,2),16),b=parseInt(hex.substr(5,2),16);
+  const p=i*4; img.data[p]=r;img.data[p+1]=g;img.data[p+2]=b;img.data[p+3]=255;
+ }
+ ctx.putImageData(img,0,0);
+}
+draw('cDiff',DIFF,true); draw('c3',V3,false); draw('c4',V4,false);
+</script></body></html>

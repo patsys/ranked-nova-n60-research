@@ -1,0 +1,993 @@
+{
+  "profile": "Neo2 core, standard German Windows host, three existing layers",
+  "canonical_commit": "cf36e07ce5ff22c51149c3ad933c71fcd770f613",
+  "canonical_url": "https://git.neo-layout.org/neo/neo-layout/src/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/A-REFERENZ-A/neo20.txt",
+  "host_layout": "German QWERTZ; no Neo OS driver and no Unicode helper",
+  "layers": {
+    "0": "Neo core letters",
+    "1": "Mod3 core symbols",
+    "2": "Mod4 navigation + F-row compatibility"
+  },
+  "matrix": [
+    [
+      [
+        "KC_ESC",
+        "DE_1",
+        "DE_2",
+        "DE_3",
+        "DE_4",
+        "DE_5",
+        "DE_6",
+        "DE_7",
+        "DE_8",
+        "DE_9",
+        "DE_0"
+      ],
+      [
+        "KC_TAB",
+        "DE_X",
+        "DE_V",
+        "DE_L",
+        "DE_C",
+        "DE_W",
+        "DE_K",
+        "DE_H",
+        "DE_G",
+        "DE_F",
+        "DE_Q"
+      ],
+      [
+        "MO(1)",
+        "DE_U",
+        "DE_I",
+        "DE_A",
+        "DE_E",
+        "DE_O",
+        "DE_S",
+        "DE_N",
+        "DE_R",
+        "DE_T",
+        "DE_D"
+      ],
+      [
+        "KC_LSFT",
+        "MO(2)",
+        "DE_UDIA",
+        "DE_ODIA",
+        "DE_ADIA",
+        "DE_P",
+        "DE_Z",
+        "DE_B",
+        "DE_M",
+        "DE_COMM",
+        "DE_DOT"
+      ],
+      [
+        "KC_LCTL",
+        "KC_LGUI",
+        "KC_LALT",
+        "KC_SPC",
+        "MO(2)",
+        "MO(2)",
+        "MO(1)",
+        "KC_RCTL",
+        "DE_J",
+        "KC_NO",
+        "KC_RSFT"
+      ],
+      [
+        "KC_NO",
+        "DE_MINS",
+        "DE_GRV",
+        "KC_BSPC",
+        "DE_SS",
+        "DE_ACUT",
+        "KC_NO",
+        "DE_Y",
+        "MO(1)",
+        "KC_ENT",
+        "KC_NO"
+      ]
+    ],
+    [
+      [
+        "KC_ESC",
+        "KC_NO",
+        "DE_SUP2",
+        "DE_SUP3",
+        "KC_NO",
+        "KC_NO",
+        "KC_NO",
+        "KC_NO",
+        "KC_NO",
+        "KC_NO",
+        "KC_NO"
+      ],
+      [
+        "KC_TAB",
+        "KC_NO",
+        "DE_UNDS",
+        "DE_LBRC",
+        "DE_RBRC",
+        "DE_CIRC",
+        "DE_EXLM",
+        "DE_LABK",
+        "DE_RABK",
+        "DE_EQL",
+        "DE_AMPR"
+      ],
+      [
+        "MO(1)",
+        "DE_BSLS",
+        "DE_SLSH",
+        "DE_LCBR",
+        "DE_RCBR",
+        "DE_ASTR",
+        "DE_QUES",
+        "DE_LPRN",
+        "DE_RPRN",
+        "DE_MINS",
+        "DE_COLN"
+      ],
+      [
+        "KC_LSFT",
+        "MO(2)",
+        "DE_HASH",
+        "DE_DLR",
+        "DE_PIPE",
+        "DE_TILD",
+        "DE_GRV",
+        "DE_PLUS",
+        "DE_PERC",
+        "DE_DQUO",
+        "DE_QUOT"
+      ],
+      [
+        "KC_LCTL",
+        "KC_LGUI",
+        "KC_LALT",
+        "KC_SPC",
+        "MO(2)",
+        "MO(2)",
+        "MO(1)",
+        "KC_RCTL",
+        "DE_SCLN",
+        "KC_NO",
+        "KC_RSFT"
+      ],
+      [
+        "KC_NO",
+        "KC_NO",
+        "KC_NO",
+        "KC_BSPC",
+        "KC_NO",
+        "KC_NO",
+        "KC_NO",
+        "DE_AT",
+        "MO(1)",
+        "KC_ENT",
+        "KC_NO"
+      ]
+    ],
+    [
+      [
+        "KC_ESC",
+        "KC_F1",
+        "KC_F2",
+        "KC_F3",
+        "KC_F4",
+        "KC_F5",
+        "KC_F6",
+        "KC_F7",
+        "KC_F8",
+        "KC_F9",
+        "KC_F10"
+      ],
+      [
+        "KC_TAB",
+        "KC_PGUP",
+        "KC_BSPC",
+        "KC_UP",
+        "KC_DEL",
+        "KC_PGDN",
+        "KC_NO",
+        "DE_7",
+        "DE_8",
+        "DE_9",
+        "DE_PLUS"
+      ],
+      [
+        "MO(1)",
+        "KC_HOME",
+        "KC_LEFT",
+        "KC_DOWN",
+        "KC_RGHT",
+        "KC_END",
+        "KC_NO",
+        "DE_4",
+        "DE_5",
+        "DE_6",
+        "DE_COMM"
+      ],
+      [
+        "KC_LSFT",
+        "MO(2)",
+        "KC_ESC",
+        "KC_TAB",
+        "KC_INS",
+        "KC_ENT",
+        "LCTL(DE_Z)",
+        "DE_COLN",
+        "DE_1",
+        "DE_2",
+        "DE_3"
+      ],
+      [
+        "KC_LCTL",
+        "KC_LGUI",
+        "KC_LALT",
+        "KC_SPC",
+        "MO(2)",
+        "MO(2)",
+        "MO(1)",
+        "KC_RCTL",
+        "DE_SCLN",
+        "KC_NO",
+        "KC_RSFT"
+      ],
+      [
+        "KC_NO",
+        "KC_F11",
+        "KC_F12",
+        "KC_BSPC",
+        "KC_NO",
+        "KC_NO",
+        "KC_NO",
+        "DE_DOT",
+        "MO(1)",
+        "KC_ENT",
+        "KC_NO"
+      ]
+    ]
+  ],
+  "positions": [
+    {
+      "bank": 0,
+      "channel": 0,
+      "original_logical_id": 21,
+      "physical_original_hid": "0x29",
+      "core_outputs": [
+        "KC_ESC",
+        "KC_ESC",
+        "KC_ESC"
+      ]
+    },
+    {
+      "bank": 0,
+      "channel": 1,
+      "original_logical_id": 22,
+      "physical_original_hid": "0x1e",
+      "core_outputs": [
+        "DE_1",
+        "KC_NO",
+        "KC_F1"
+      ]
+    },
+    {
+      "bank": 0,
+      "channel": 2,
+      "original_logical_id": 23,
+      "physical_original_hid": "0x1f",
+      "core_outputs": [
+        "DE_2",
+        "DE_SUP2",
+        "KC_F2"
+      ]
+    },
+    {
+      "bank": 0,
+      "channel": 3,
+      "original_logical_id": 24,
+      "physical_original_hid": "0x20",
+      "core_outputs": [
+        "DE_3",
+        "DE_SUP3",
+        "KC_F3"
+      ]
+    },
+    {
+      "bank": 0,
+      "channel": 4,
+      "original_logical_id": 25,
+      "physical_original_hid": "0x21",
+      "core_outputs": [
+        "DE_4",
+        "KC_NO",
+        "KC_F4"
+      ]
+    },
+    {
+      "bank": 0,
+      "channel": 5,
+      "original_logical_id": 26,
+      "physical_original_hid": "0x22",
+      "core_outputs": [
+        "DE_5",
+        "KC_NO",
+        "KC_F5"
+      ]
+    },
+    {
+      "bank": 0,
+      "channel": 6,
+      "original_logical_id": 27,
+      "physical_original_hid": "0x23",
+      "core_outputs": [
+        "DE_6",
+        "KC_NO",
+        "KC_F6"
+      ]
+    },
+    {
+      "bank": 0,
+      "channel": 7,
+      "original_logical_id": 28,
+      "physical_original_hid": "0x24",
+      "core_outputs": [
+        "DE_7",
+        "KC_NO",
+        "KC_F7"
+      ]
+    },
+    {
+      "bank": 0,
+      "channel": 8,
+      "original_logical_id": 29,
+      "physical_original_hid": "0x25",
+      "core_outputs": [
+        "DE_8",
+        "KC_NO",
+        "KC_F8"
+      ]
+    },
+    {
+      "bank": 0,
+      "channel": 9,
+      "original_logical_id": 30,
+      "physical_original_hid": "0x26",
+      "core_outputs": [
+        "DE_9",
+        "KC_NO",
+        "KC_F9"
+      ]
+    },
+    {
+      "bank": 0,
+      "channel": 10,
+      "original_logical_id": 31,
+      "physical_original_hid": "0x27",
+      "core_outputs": [
+        "DE_0",
+        "KC_NO",
+        "KC_F10"
+      ]
+    },
+    {
+      "bank": 1,
+      "channel": 0,
+      "original_logical_id": 42,
+      "physical_original_hid": "0x2b",
+      "core_outputs": [
+        "KC_TAB",
+        "KC_TAB",
+        "KC_TAB"
+      ]
+    },
+    {
+      "bank": 1,
+      "channel": 1,
+      "original_logical_id": 43,
+      "physical_original_hid": "0x14",
+      "core_outputs": [
+        "DE_X",
+        "KC_NO",
+        "KC_PGUP"
+      ]
+    },
+    {
+      "bank": 1,
+      "channel": 2,
+      "original_logical_id": 44,
+      "physical_original_hid": "0x1a",
+      "core_outputs": [
+        "DE_V",
+        "DE_UNDS",
+        "KC_BSPC"
+      ]
+    },
+    {
+      "bank": 1,
+      "channel": 3,
+      "original_logical_id": 45,
+      "physical_original_hid": "0x8",
+      "core_outputs": [
+        "DE_L",
+        "DE_LBRC",
+        "KC_UP"
+      ]
+    },
+    {
+      "bank": 1,
+      "channel": 4,
+      "original_logical_id": 46,
+      "physical_original_hid": "0x15",
+      "core_outputs": [
+        "DE_C",
+        "DE_RBRC",
+        "KC_DEL"
+      ]
+    },
+    {
+      "bank": 1,
+      "channel": 5,
+      "original_logical_id": 47,
+      "physical_original_hid": "0x17",
+      "core_outputs": [
+        "DE_W",
+        "DE_CIRC",
+        "KC_PGDN"
+      ]
+    },
+    {
+      "bank": 1,
+      "channel": 6,
+      "original_logical_id": 48,
+      "physical_original_hid": "0x1c",
+      "core_outputs": [
+        "DE_K",
+        "DE_EXLM",
+        "KC_NO"
+      ]
+    },
+    {
+      "bank": 1,
+      "channel": 7,
+      "original_logical_id": 49,
+      "physical_original_hid": "0x18",
+      "core_outputs": [
+        "DE_H",
+        "DE_LABK",
+        "DE_7"
+      ]
+    },
+    {
+      "bank": 1,
+      "channel": 8,
+      "original_logical_id": 50,
+      "physical_original_hid": "0xc",
+      "core_outputs": [
+        "DE_G",
+        "DE_RABK",
+        "DE_8"
+      ]
+    },
+    {
+      "bank": 1,
+      "channel": 9,
+      "original_logical_id": 51,
+      "physical_original_hid": "0x12",
+      "core_outputs": [
+        "DE_F",
+        "DE_EQL",
+        "DE_9"
+      ]
+    },
+    {
+      "bank": 1,
+      "channel": 10,
+      "original_logical_id": 52,
+      "physical_original_hid": "0x13",
+      "core_outputs": [
+        "DE_Q",
+        "DE_AMPR",
+        "DE_PLUS"
+      ]
+    },
+    {
+      "bank": 2,
+      "channel": 0,
+      "original_logical_id": 63,
+      "physical_original_hid": "0x39",
+      "core_outputs": [
+        "MO(1)",
+        "MO(1)",
+        "MO(1)"
+      ]
+    },
+    {
+      "bank": 2,
+      "channel": 1,
+      "original_logical_id": 64,
+      "physical_original_hid": "0x4",
+      "core_outputs": [
+        "DE_U",
+        "DE_BSLS",
+        "KC_HOME"
+      ]
+    },
+    {
+      "bank": 2,
+      "channel": 2,
+      "original_logical_id": 65,
+      "physical_original_hid": "0x16",
+      "core_outputs": [
+        "DE_I",
+        "DE_SLSH",
+        "KC_LEFT"
+      ]
+    },
+    {
+      "bank": 2,
+      "channel": 3,
+      "original_logical_id": 66,
+      "physical_original_hid": "0x7",
+      "core_outputs": [
+        "DE_A",
+        "DE_LCBR",
+        "KC_DOWN"
+      ]
+    },
+    {
+      "bank": 2,
+      "channel": 4,
+      "original_logical_id": 67,
+      "physical_original_hid": "0x9",
+      "core_outputs": [
+        "DE_E",
+        "DE_RCBR",
+        "KC_RGHT"
+      ]
+    },
+    {
+      "bank": 2,
+      "channel": 5,
+      "original_logical_id": 68,
+      "physical_original_hid": "0xa",
+      "core_outputs": [
+        "DE_O",
+        "DE_ASTR",
+        "KC_END"
+      ]
+    },
+    {
+      "bank": 2,
+      "channel": 6,
+      "original_logical_id": 69,
+      "physical_original_hid": "0xb",
+      "core_outputs": [
+        "DE_S",
+        "DE_QUES",
+        "KC_NO"
+      ]
+    },
+    {
+      "bank": 2,
+      "channel": 7,
+      "original_logical_id": 70,
+      "physical_original_hid": "0xd",
+      "core_outputs": [
+        "DE_N",
+        "DE_LPRN",
+        "DE_4"
+      ]
+    },
+    {
+      "bank": 2,
+      "channel": 8,
+      "original_logical_id": 71,
+      "physical_original_hid": "0xe",
+      "core_outputs": [
+        "DE_R",
+        "DE_RPRN",
+        "DE_5"
+      ]
+    },
+    {
+      "bank": 2,
+      "channel": 9,
+      "original_logical_id": 72,
+      "physical_original_hid": "0xf",
+      "core_outputs": [
+        "DE_T",
+        "DE_MINS",
+        "DE_6"
+      ]
+    },
+    {
+      "bank": 2,
+      "channel": 10,
+      "original_logical_id": 73,
+      "physical_original_hid": "0x33",
+      "core_outputs": [
+        "DE_D",
+        "DE_COLN",
+        "DE_COMM"
+      ]
+    },
+    {
+      "bank": 3,
+      "channel": 0,
+      "original_logical_id": 84,
+      "physical_original_hid": "0xe1",
+      "core_outputs": [
+        "KC_LSFT",
+        "KC_LSFT",
+        "KC_LSFT"
+      ]
+    },
+    {
+      "bank": 3,
+      "channel": 1,
+      "original_logical_id": 85,
+      "physical_original_hid": "0x64",
+      "core_outputs": [
+        "MO(2)",
+        "MO(2)",
+        "MO(2)"
+      ]
+    },
+    {
+      "bank": 3,
+      "channel": 2,
+      "original_logical_id": 86,
+      "physical_original_hid": "0x1d",
+      "core_outputs": [
+        "DE_UDIA",
+        "DE_HASH",
+        "KC_ESC"
+      ]
+    },
+    {
+      "bank": 3,
+      "channel": 3,
+      "original_logical_id": 87,
+      "physical_original_hid": "0x1b",
+      "core_outputs": [
+        "DE_ODIA",
+        "DE_DLR",
+        "KC_TAB"
+      ]
+    },
+    {
+      "bank": 3,
+      "channel": 4,
+      "original_logical_id": 88,
+      "physical_original_hid": "0x6",
+      "core_outputs": [
+        "DE_ADIA",
+        "DE_PIPE",
+        "KC_INS"
+      ]
+    },
+    {
+      "bank": 3,
+      "channel": 5,
+      "original_logical_id": 89,
+      "physical_original_hid": "0x19",
+      "core_outputs": [
+        "DE_P",
+        "DE_TILD",
+        "KC_ENT"
+      ]
+    },
+    {
+      "bank": 3,
+      "channel": 6,
+      "original_logical_id": 90,
+      "physical_original_hid": "0x5",
+      "core_outputs": [
+        "DE_Z",
+        "DE_GRV",
+        "LCTL(DE_Z)"
+      ]
+    },
+    {
+      "bank": 3,
+      "channel": 7,
+      "original_logical_id": 91,
+      "physical_original_hid": "0x11",
+      "core_outputs": [
+        "DE_B",
+        "DE_PLUS",
+        "DE_COLN"
+      ]
+    },
+    {
+      "bank": 3,
+      "channel": 8,
+      "original_logical_id": 92,
+      "physical_original_hid": "0x10",
+      "core_outputs": [
+        "DE_M",
+        "DE_PERC",
+        "DE_1"
+      ]
+    },
+    {
+      "bank": 3,
+      "channel": 9,
+      "original_logical_id": 93,
+      "physical_original_hid": "0x36",
+      "core_outputs": [
+        "DE_COMM",
+        "DE_DQUO",
+        "DE_2"
+      ]
+    },
+    {
+      "bank": 3,
+      "channel": 10,
+      "original_logical_id": 94,
+      "physical_original_hid": "0x37",
+      "core_outputs": [
+        "DE_DOT",
+        "DE_QUOT",
+        "DE_3"
+      ]
+    },
+    {
+      "bank": 4,
+      "channel": 0,
+      "original_logical_id": 105,
+      "physical_original_hid": "0xe0",
+      "core_outputs": [
+        "KC_LCTL",
+        "KC_LCTL",
+        "KC_LCTL"
+      ]
+    },
+    {
+      "bank": 4,
+      "channel": 1,
+      "original_logical_id": 106,
+      "physical_original_hid": "0xe3",
+      "core_outputs": [
+        "KC_LGUI",
+        "KC_LGUI",
+        "KC_LGUI"
+      ]
+    },
+    {
+      "bank": 4,
+      "channel": 2,
+      "original_logical_id": 107,
+      "physical_original_hid": "0xe2",
+      "core_outputs": [
+        "KC_LALT",
+        "KC_LALT",
+        "KC_LALT"
+      ]
+    },
+    {
+      "bank": 4,
+      "channel": 3,
+      "original_logical_id": 111,
+      "physical_original_hid": "0x2c",
+      "core_outputs": [
+        "KC_SPC",
+        "KC_SPC",
+        "KC_SPC"
+      ]
+    },
+    {
+      "bank": 4,
+      "channel": 4,
+      "original_logical_id": 115,
+      "physical_original_hid": "0xe6",
+      "core_outputs": [
+        "MO(2)",
+        "MO(2)",
+        "MO(2)"
+      ]
+    },
+    {
+      "bank": 4,
+      "channel": 5,
+      "original_logical_id": 116,
+      "physical_original_hid": "0xff",
+      "core_outputs": [
+        "MO(2)",
+        "MO(2)",
+        "MO(2)"
+      ]
+    },
+    {
+      "bank": 4,
+      "channel": 6,
+      "original_logical_id": 117,
+      "physical_original_hid": "0xfe",
+      "core_outputs": [
+        "MO(1)",
+        "MO(1)",
+        "MO(1)"
+      ]
+    },
+    {
+      "bank": 4,
+      "channel": 7,
+      "original_logical_id": 118,
+      "physical_original_hid": "0xe4",
+      "core_outputs": [
+        "KC_RCTL",
+        "KC_RCTL",
+        "KC_RCTL"
+      ]
+    },
+    {
+      "bank": 4,
+      "channel": 8,
+      "original_logical_id": 95,
+      "physical_original_hid": "0x38",
+      "core_outputs": [
+        "DE_J",
+        "DE_SCLN",
+        "DE_SCLN"
+      ]
+    },
+    {
+      "bank": 4,
+      "channel": 10,
+      "original_logical_id": 97,
+      "physical_original_hid": "0xe5",
+      "core_outputs": [
+        "KC_RSFT",
+        "KC_RSFT",
+        "KC_RSFT"
+      ]
+    },
+    {
+      "bank": 5,
+      "channel": 1,
+      "original_logical_id": 32,
+      "physical_original_hid": "0x2d",
+      "core_outputs": [
+        "DE_MINS",
+        "KC_NO",
+        "KC_F11"
+      ]
+    },
+    {
+      "bank": 5,
+      "channel": 2,
+      "original_logical_id": 33,
+      "physical_original_hid": "0x2e",
+      "core_outputs": [
+        "DE_GRV",
+        "KC_NO",
+        "KC_F12"
+      ]
+    },
+    {
+      "bank": 5,
+      "channel": 3,
+      "original_logical_id": 34,
+      "physical_original_hid": "0x2a",
+      "core_outputs": [
+        "KC_BSPC",
+        "KC_BSPC",
+        "KC_BSPC"
+      ]
+    },
+    {
+      "bank": 5,
+      "channel": 4,
+      "original_logical_id": 53,
+      "physical_original_hid": "0x2f",
+      "core_outputs": [
+        "DE_SS",
+        "KC_NO",
+        "KC_NO"
+      ]
+    },
+    {
+      "bank": 5,
+      "channel": 5,
+      "original_logical_id": 54,
+      "physical_original_hid": "0x30",
+      "core_outputs": [
+        "DE_ACUT",
+        "KC_NO",
+        "KC_NO"
+      ]
+    },
+    {
+      "bank": 5,
+      "channel": 7,
+      "original_logical_id": 74,
+      "physical_original_hid": "0x34",
+      "core_outputs": [
+        "DE_Y",
+        "DE_AT",
+        "DE_DOT"
+      ]
+    },
+    {
+      "bank": 5,
+      "channel": 8,
+      "original_logical_id": 75,
+      "physical_original_hid": "0x32",
+      "core_outputs": [
+        "MO(1)",
+        "MO(1)",
+        "MO(1)"
+      ]
+    },
+    {
+      "bank": 5,
+      "channel": 9,
+      "original_logical_id": 76,
+      "physical_original_hid": "0x28",
+      "core_outputs": [
+        "KC_ENT",
+        "KC_ENT",
+        "KC_ENT"
+      ]
+    }
+  ],
+  "deviations": [
+    {
+      "feature": "Shift typography",
+      "canonical": "Neo shifted number/punctuation row includes ° § ℓ » « $ € „ “ ” — ẞ – •",
+      "core": "Combine with shift_overrides.json hook: exact German chords for ° § $ €, otherwise explicitly unavailable KC_NO. This is not complete Neo2."
+    },
+    {
+      "feature": "Mod3 unavailable typography",
+      "unavailable": [
+        "¹",
+        "›",
+        "‹",
+        "¢",
+        "¥",
+        "‚",
+        "‘",
+        "’",
+        "…",
+        "ſ"
+      ],
+      "core": "KC_NO; no misleading ASCII substitutions."
+    },
+    {
+      "feature": "Dead accents",
+      "canonical": "Literal Mod3 ^ and `; dead ring/stroke/doubleacute accents",
+      "core": "Combine with keymap hook for Mod3 literal ^/` (dead key followed by Space). Base accents remain dead. Unsupported ring/stroke/doubleacute are KC_NO."
+    },
+    {
+      "feature": "Mod4 top number row",
+      "canonical": "ª º № blank · £ ¤ Tab / * - dead diaeresis",
+      "core": "F1–F12 to preserve function-key access on the 60% board."
+    },
+    {
+      "feature": "Mod4 unavailable punctuation",
+      "unavailable": [
+        "¡",
+        "¿",
+        "−"
+      ],
+      "core": "KC_NO, not ASCII approximations."
+    },
+    {
+      "feature": "Control keys",
+      "core": "Esc, Tab, Space, Enter, Backspace, Shift, Ctrl, GUI and left Alt preserved. Mod4 Space stays Space instead of canonical keypad0."
+    },
+    {
+      "feature": "Keypad/navigation",
+      "core": "Navigation preserved; numpad area emits ordinary German digits/punctuation (NumLock independent). Undo is Ctrl+German Z."
+    },
+    {
+      "feature": "Modifiers",
+      "core": "Caps and # are Mod3(MO1); ISO<> and right Alt are Mod4(MO2). Existing Fn2/Fn1 retain MO1/MO2. No Mod3+Shift Greek or Mod3+Mod4 math layer."
+    }
+  ],
+  "physical_keys": 62,
+  "requires_shift_and_literal_dead_key_hook": true
+}

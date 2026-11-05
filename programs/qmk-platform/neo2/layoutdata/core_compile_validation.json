@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "actual_upstream_QMK_macros_compiled": true,
+  "candidate_bytes": 396,
+  "layers": 3,
+  "matrix_rows": 6,
+  "matrix_cols": 11,
+  "no_ASCII_typography_approximations": true,
+  "canonical_shift_overrides": 16,
+  "available_shift_overrides": 4,
+  "candidate_c_sha256": "9e4e2f7d2d33765cf2bc029c7bafff5ba0f087b717d7ba7856c8a8a0ee89a9ad",
+  "requires_keymap_shift_and_literal_hook": true,
+  "no_active_firmware_or_runtime_edited": true
+}

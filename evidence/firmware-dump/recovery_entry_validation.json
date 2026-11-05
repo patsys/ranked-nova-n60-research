@@ -1,0 +1,536 @@
+{
+  "source_sha256": "5adca278d90a0672e05dfe5ad47d1635242f9ec0ff78827d83d9f28d6ccd8b49",
+  "boot_scatter_init_reaches_main": true,
+  "cases": [
+    {
+      "case": "original_app_fallback_magic",
+      "config_pin_word": "0xffffffff",
+      "gpio_input": "0xffffffff",
+      "retained_request": "0x5ac396c5",
+      "config_request": "0xffffffff",
+      "application_blank": false,
+      "decision": "usb_bootstrap",
+      "mode_word_r5": "0x2",
+      "gpio_reads": [],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "original_app_configured_magic",
+      "config_pin_word": "0xffffffff",
+      "gpio_input": "0xffffffff",
+      "retained_request": "0x12345678",
+      "config_request": "0x12345678",
+      "application_blank": false,
+      "decision": "usb_bootstrap",
+      "mode_word_r5": "0x2",
+      "gpio_reads": [],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "original_app_configured_magic_mismatch",
+      "config_pin_word": "0xffffffff",
+      "gpio_input": "0xffffffff",
+      "retained_request": "0x5ac396c5",
+      "config_request": "0x12345678",
+      "application_blank": false,
+      "decision": "application_validity_path",
+      "mode_word_r5": "0x0",
+      "gpio_reads": [],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x5ac396c5",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "original_app_synthetic_pin0_pin1_gpio_0",
+      "config_pin_word": "0x100",
+      "gpio_input": "0x0",
+      "retained_request": "0x0",
+      "config_request": "0xffffffff",
+      "application_blank": false,
+      "decision": "usb_bootstrap",
+      "mode_word_r5": "0xffff0002",
+      "gpio_reads": [
+        "0x40018030",
+        "0x40018030"
+      ],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "original_app_synthetic_pin0_pin1_gpio_1",
+      "config_pin_word": "0x100",
+      "gpio_input": "0x1",
+      "retained_request": "0x0",
+      "config_request": "0xffffffff",
+      "application_blank": false,
+      "decision": "application_validity_path",
+      "mode_word_r5": "0x0",
+      "gpio_reads": [
+        "0x40018030"
+      ],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "original_app_synthetic_pin0_pin1_gpio_2",
+      "config_pin_word": "0x100",
+      "gpio_input": "0x2",
+      "retained_request": "0x0",
+      "config_request": "0xffffffff",
+      "application_blank": false,
+      "decision": "application_validity_path",
+      "mode_word_r5": "0x0",
+      "gpio_reads": [
+        "0x40018030",
+        "0x40018030"
+      ],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "original_app_synthetic_pin0_pin1_gpio_3",
+      "config_pin_word": "0x100",
+      "gpio_input": "0x3",
+      "retained_request": "0x0",
+      "config_request": "0xffffffff",
+      "application_blank": false,
+      "decision": "application_validity_path",
+      "mode_word_r5": "0x0",
+      "gpio_reads": [
+        "0x40018030"
+      ],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "original_app_pin_override_disabled",
+      "config_pin_word": "0xffffffff",
+      "gpio_input": "0x0",
+      "retained_request": "0x0",
+      "config_request": "0xffffffff",
+      "application_blank": false,
+      "decision": "application_validity_path",
+      "mode_word_r5": "0x0",
+      "gpio_reads": [],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "blank_app_fallback_magic",
+      "config_pin_word": "0xffffffff",
+      "gpio_input": "0xffffffff",
+      "retained_request": "0x5ac396c5",
+      "config_request": "0xffffffff",
+      "application_blank": true,
+      "decision": "usb_bootstrap",
+      "mode_word_r5": "0x2",
+      "gpio_reads": [],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "blank_app_configured_magic",
+      "config_pin_word": "0xffffffff",
+      "gpio_input": "0xffffffff",
+      "retained_request": "0x12345678",
+      "config_request": "0x12345678",
+      "application_blank": true,
+      "decision": "usb_bootstrap",
+      "mode_word_r5": "0x2",
+      "gpio_reads": [],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "blank_app_configured_magic_mismatch",
+      "config_pin_word": "0xffffffff",
+      "gpio_input": "0xffffffff",
+      "retained_request": "0x5ac396c5",
+      "config_request": "0x12345678",
+      "application_blank": true,
+      "decision": "application_validity_path",
+      "mode_word_r5": "0x0",
+      "gpio_reads": [],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x5ac396c5",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "blank_app_synthetic_pin0_pin1_gpio_0",
+      "config_pin_word": "0x100",
+      "gpio_input": "0x0",
+      "retained_request": "0x0",
+      "config_request": "0xffffffff",
+      "application_blank": true,
+      "decision": "usb_bootstrap",
+      "mode_word_r5": "0xffff0002",
+      "gpio_reads": [
+        "0x40018030",
+        "0x40018030"
+      ],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "blank_app_synthetic_pin0_pin1_gpio_1",
+      "config_pin_word": "0x100",
+      "gpio_input": "0x1",
+      "retained_request": "0x0",
+      "config_request": "0xffffffff",
+      "application_blank": true,
+      "decision": "application_validity_path",
+      "mode_word_r5": "0x0",
+      "gpio_reads": [
+        "0x40018030"
+      ],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "blank_app_synthetic_pin0_pin1_gpio_2",
+      "config_pin_word": "0x100",
+      "gpio_input": "0x2",
+      "retained_request": "0x0",
+      "config_request": "0xffffffff",
+      "application_blank": true,
+      "decision": "application_validity_path",
+      "mode_word_r5": "0x0",
+      "gpio_reads": [
+        "0x40018030",
+        "0x40018030"
+      ],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "blank_app_synthetic_pin0_pin1_gpio_3",
+      "config_pin_word": "0x100",
+      "gpio_input": "0x3",
+      "retained_request": "0x0",
+      "config_request": "0xffffffff",
+      "application_blank": true,
+      "decision": "application_validity_path",
+      "mode_word_r5": "0x0",
+      "gpio_reads": [
+        "0x40018030"
+      ],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "blank_app_pin_override_disabled",
+      "config_pin_word": "0xffffffff",
+      "gpio_input": "0x0",
+      "retained_request": "0x0",
+      "config_request": "0xffffffff",
+      "application_blank": true,
+      "decision": "application_validity_path",
+      "mode_word_r5": "0x0",
+      "gpio_reads": [],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "blank_app_and_erased_metadata_fixture",
+      "config_pin_word": "0xffffffff",
+      "gpio_input": "0xffffffff",
+      "retained_request": "0x0",
+      "config_request": "0xffffffff",
+      "application_blank": true,
+      "decision": "usb_bootstrap",
+      "mode_word_r5": "0xffff0002",
+      "gpio_reads": [],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    },
+    {
+      "case": "invalid_register_patch_target",
+      "config_pin_word": "0xffffffff",
+      "gpio_input": "0xffffffff",
+      "retained_request": "0x0",
+      "config_request": "0xffffffff",
+      "application_blank": false,
+      "decision": "usb_bootstrap",
+      "mode_word_r5": "0xffff0002",
+      "gpio_reads": [],
+      "app_reads_before_decision": [],
+      "request_register_after": "0x0",
+      "original_delay_arguments": [
+        10,
+        3,
+        1
+      ],
+      "flash_writes": false,
+      "passed": true
+    }
+  ],
+  "case_count": 18,
+  "application_reset_primitive_writes": [
+    [
+      1073823756,
+      4,
+      1522767557
+    ],
+    [
+      3758157068,
+      4,
+      100270084
+    ]
+  ],
+  "limitations": "Original code executed offline using captured metadata plus modeled peripheral register storage/delay interception. USB initialization/physical recovery not exercised; stop before application BLX.",
+  "captured_metadata_sha256": "3bce58cb1e15aa6adfb8120c12b6911466a8d1f611a3efeefcb72c6bd7ca4d49",
+  "actual_metadata_cases": [
+    {
+      "application": "original",
+      "retained_request": "0x0",
+      "decision": "application_blx",
+      "attempted_application_target": "0x2211",
+      "checksum_gate_entered": false,
+      "gpio_reads": [],
+      "app_reads": [
+        "0x2004"
+      ],
+      "configuration_patch_writes": [
+        [
+          "0x400130e8",
+          "0xffff0000"
+        ],
+        [
+          "0x400130ec",
+          "0xffffffff"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "application": "original",
+      "retained_request": "0x5ac396c5",
+      "decision": "usb_bootstrap",
+      "attempted_application_target": null,
+      "checksum_gate_entered": false,
+      "gpio_reads": [],
+      "app_reads": [],
+      "configuration_patch_writes": [],
+      "passed": true
+    },
+    {
+      "application": "erased",
+      "retained_request": "0x0",
+      "decision": "application_blx",
+      "attempted_application_target": "0xffffffff",
+      "checksum_gate_entered": false,
+      "gpio_reads": [],
+      "app_reads": [
+        "0x2004"
+      ],
+      "configuration_patch_writes": [
+        [
+          "0x400130e8",
+          "0xffff0000"
+        ],
+        [
+          "0x400130ec",
+          "0xffffffff"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "application": "erased",
+      "retained_request": "0x5ac396c5",
+      "decision": "usb_bootstrap",
+      "attempted_application_target": null,
+      "checksum_gate_entered": false,
+      "gpio_reads": [],
+      "app_reads": [],
+      "configuration_patch_writes": [],
+      "passed": true
+    },
+    {
+      "application": "invalid_reset",
+      "retained_request": "0x0",
+      "decision": "application_blx",
+      "attempted_application_target": "0xdeadbeef",
+      "checksum_gate_entered": false,
+      "gpio_reads": [],
+      "app_reads": [
+        "0x2004"
+      ],
+      "configuration_patch_writes": [
+        [
+          "0x400130e8",
+          "0xffff0000"
+        ],
+        [
+          "0x400130ec",
+          "0xffffffff"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "application": "invalid_reset",
+      "retained_request": "0x5ac396c5",
+      "decision": "usb_bootstrap",
+      "attempted_application_target": null,
+      "checksum_gate_entered": false,
+      "gpio_reads": [],
+      "app_reads": [],
+      "configuration_patch_writes": [],
+      "passed": true
+    },
+    {
+      "application": "changed_body",
+      "retained_request": "0x0",
+      "decision": "application_blx",
+      "attempted_application_target": "0x2211",
+      "checksum_gate_entered": false,
+      "gpio_reads": [],
+      "app_reads": [
+        "0x2004"
+      ],
+      "configuration_patch_writes": [
+        [
+          "0x400130e8",
+          "0xffff0000"
+        ],
+        [
+          "0x400130ec",
+          "0xffffffff"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "application": "changed_body",
+      "retained_request": "0x5ac396c5",
+      "decision": "usb_bootstrap",
+      "attempted_application_target": null,
+      "checksum_gate_entered": false,
+      "gpio_reads": [],
+      "app_reads": [],
+      "configuration_patch_writes": [],
+      "passed": true
+    }
+  ],
+  "actual_metadata_conclusion": "Configured register-patch list bypasses checksum gate; GPIO override disabled. With request zero, even blank/bad-reset app reaches BLX of its reset vector. Existing default retained request still enters USB bootstrap first."
+}

@@ -1,0 +1,55 @@
+20000000: movs     r0, #0x52
+20000002: lsls     r0, r0, #8
+20000004: adds     r0, #0x4f
+20000006: lsls     r0, r0, #8
+20000008: adds     r0, #0x53
+2000000a: lsls     r0, r0, #8
+2000000c: adds     r0, #0x54
+2000000e: bx       lr
+20000024: movs     r0, #2
+20000026: bx       lr
+2000006c: movs     r0, #2
+2000006e: bx       lr
+200000da: movs     r0, #2
+200000dc: bx       lr
+200000fc: movs     r0, #2
+200000fe: bx       lr
+2000013a: movs     r0, #2
+2000013c: bx       lr
+20000140: mov      r1, lr
+20000142: str      r1, [r0, #0x28]
+20000144: movs     r1, #1
+20000146: str      r1, [r0, #4]
+20000148: movs     r1, #0x30
+2000014a: str      r1, [r0, #8]
+2000014c: mrs      r1, ipsr
+20000150: str      r1, [r0, #0x10]
+20000152: mrs      r1, control
+20000156: str      r1, [r0, #0x14]
+20000158: mrs      r1, primask
+2000015c: str      r1, [r0, #0x18]
+2000015e: mrs      r1, msp
+20000162: str      r1, [r0, #0x1c]
+20000164: mrs      r1, psp
+20000168: str      r1, [r0, #0x20]
+2000016a: mov      r1, pc
+2000016c: str      r1, [r0, #0x24]
+2000016e: movs     r1, #0
+20000170: str      r1, [r0, #0x2c]
+20000172: movs     r2, #0xe0
+20000174: lsls     r2, r2, #0x18
+20000176: movs     r3, #0xed
+20000178: lsls     r3, r3, #8
+2000017a: adds     r2, r2, r3
+2000017c: ldr      r1, [r2]
+2000017e: str      r1, [r0, #0xc]
+20000180: movs     r1, #0x52
+20000182: lsls     r1, r1, #8
+20000184: adds     r1, #0x4f
+20000186: lsls     r1, r1, #8
+20000188: adds     r1, #0x53
+2000018a: lsls     r1, r1, #8
+2000018c: adds     r1, #0x54
+2000018e: str      r1, [r0]
+20000190: movs     r0, #0
+20000192: bx       lr

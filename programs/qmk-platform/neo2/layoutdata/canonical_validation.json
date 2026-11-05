@@ -1,0 +1,1390 @@
+{
+  "passed": true,
+  "independent_reference_diagram_cells": 276,
+  "reference_layers": 6,
+  "physical_board_keys": 62,
+  "unresolved_symbols": 0,
+  "checks": [
+    {
+      "layer": 1,
+      "xmodmap_keycode": 49,
+      "display": "ˆ"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 10,
+      "display": "1"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 11,
+      "display": "2"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 12,
+      "display": "3"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 13,
+      "display": "4"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 14,
+      "display": "5"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 15,
+      "display": "6"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 16,
+      "display": "7"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 17,
+      "display": "8"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 18,
+      "display": "9"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 19,
+      "display": "0"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 20,
+      "display": "-"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 21,
+      "display": "`"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 24,
+      "display": "x"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 25,
+      "display": "v"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 26,
+      "display": "l"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 27,
+      "display": "c"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 28,
+      "display": "w"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 29,
+      "display": "k"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 30,
+      "display": "h"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 31,
+      "display": "g"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 32,
+      "display": "f"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 33,
+      "display": "q"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 34,
+      "display": "ß"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 35,
+      "display": "´"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 38,
+      "display": "u"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 39,
+      "display": "i"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 40,
+      "display": "a"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 41,
+      "display": "e"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 42,
+      "display": "o"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 43,
+      "display": "s"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 44,
+      "display": "n"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 45,
+      "display": "r"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 46,
+      "display": "t"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 47,
+      "display": "d"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 48,
+      "display": "y"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 52,
+      "display": "ü"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 53,
+      "display": "ö"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 54,
+      "display": "ä"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 55,
+      "display": "p"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 56,
+      "display": "z"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 57,
+      "display": "b"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 58,
+      "display": "m"
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 59,
+      "display": ","
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 60,
+      "display": "."
+    },
+    {
+      "layer": 1,
+      "xmodmap_keycode": 61,
+      "display": "j"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 49,
+      "display": "ˇ"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 10,
+      "display": "°"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 11,
+      "display": "§"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 12,
+      "display": "ℓ"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 13,
+      "display": "»"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 14,
+      "display": "«"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 15,
+      "display": "$"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 16,
+      "display": "€"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 17,
+      "display": "„"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 18,
+      "display": "“"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 19,
+      "display": "”"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 20,
+      "display": "—"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 21,
+      "display": "¸"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 24,
+      "display": "X"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 25,
+      "display": "V"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 26,
+      "display": "L"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 27,
+      "display": "C"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 28,
+      "display": "W"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 29,
+      "display": "K"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 30,
+      "display": "H"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 31,
+      "display": "G"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 32,
+      "display": "F"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 33,
+      "display": "Q"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 34,
+      "display": "ẞ"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 35,
+      "display": "˜"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 38,
+      "display": "U"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 39,
+      "display": "I"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 40,
+      "display": "A"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 41,
+      "display": "E"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 42,
+      "display": "O"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 43,
+      "display": "S"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 44,
+      "display": "N"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 45,
+      "display": "R"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 46,
+      "display": "T"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 47,
+      "display": "D"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 48,
+      "display": "Y"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 52,
+      "display": "Ü"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 53,
+      "display": "Ö"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 54,
+      "display": "Ä"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 55,
+      "display": "P"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 56,
+      "display": "Z"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 57,
+      "display": "B"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 58,
+      "display": "M"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 59,
+      "display": "–"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 60,
+      "display": "•"
+    },
+    {
+      "layer": 2,
+      "xmodmap_keycode": 61,
+      "display": "J"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 49,
+      "display": "↻"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 10,
+      "display": "¹"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 11,
+      "display": "²"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 12,
+      "display": "³"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 13,
+      "display": "›"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 14,
+      "display": "‹"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 15,
+      "display": "¢"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 16,
+      "display": "¥"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 17,
+      "display": "‚"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 18,
+      "display": "‘"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 19,
+      "display": "’"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 20,
+      "display": ""
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 21,
+      "display": "˚"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 24,
+      "display": "…"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 25,
+      "display": "_"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 26,
+      "display": "["
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 27,
+      "display": "]"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 28,
+      "display": "^"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 29,
+      "display": "!"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 30,
+      "display": "<"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 31,
+      "display": ">"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 32,
+      "display": "="
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 33,
+      "display": "&"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 34,
+      "display": "ſ"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 35,
+      "display": "/"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 38,
+      "display": "\\"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 39,
+      "display": "/"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 40,
+      "display": "{"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 41,
+      "display": "}"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 42,
+      "display": "*"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 43,
+      "display": "?"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 44,
+      "display": "("
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 45,
+      "display": ")"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 46,
+      "display": "-"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 47,
+      "display": ":"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 48,
+      "display": "@"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 52,
+      "display": "#"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 53,
+      "display": "$"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 54,
+      "display": "|"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 55,
+      "display": "~"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 56,
+      "display": "`"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 57,
+      "display": "+"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 58,
+      "display": "%"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 59,
+      "display": "\""
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 60,
+      "display": "'"
+    },
+    {
+      "layer": 3,
+      "xmodmap_keycode": 61,
+      "display": ";"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 49,
+      "display": "˙"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 10,
+      "display": "ª"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 11,
+      "display": "º"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 12,
+      "display": "№"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 13,
+      "display": ""
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 14,
+      "display": "·"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 15,
+      "display": "£"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 16,
+      "display": "¤"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 17,
+      "display": "⇥"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 18,
+      "display": "/"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 19,
+      "display": "*"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 20,
+      "display": "-"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 21,
+      "display": "¨"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 24,
+      "display": "⇞"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 25,
+      "display": "⌫"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 26,
+      "display": "⇡"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 27,
+      "display": "⌦"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 28,
+      "display": "⇟"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 29,
+      "display": "¡"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 30,
+      "display": "7"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 31,
+      "display": "8"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 32,
+      "display": "9"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 33,
+      "display": "+"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 34,
+      "display": "−"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 35,
+      "display": "˝"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 38,
+      "display": "⇱"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 39,
+      "display": "⇠"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 40,
+      "display": "⇣"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 41,
+      "display": "⇢"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 42,
+      "display": "⇲"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 43,
+      "display": "¿"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 44,
+      "display": "4"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 45,
+      "display": "5"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 46,
+      "display": "6"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 47,
+      "display": ","
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 48,
+      "display": "."
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 52,
+      "display": "⌧"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 53,
+      "display": "⇥"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 54,
+      "display": "⎀"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 55,
+      "display": "⏎"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 56,
+      "display": "↶"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 57,
+      "display": ":"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 58,
+      "display": "1"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 59,
+      "display": "2"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 60,
+      "display": "3"
+    },
+    {
+      "layer": 4,
+      "xmodmap_keycode": 61,
+      "display": ";"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 49,
+      "display": "˞"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 10,
+      "display": "₁"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 11,
+      "display": "₂"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 12,
+      "display": "₃"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 13,
+      "display": "♀"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 14,
+      "display": "♂"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 15,
+      "display": "⚥"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 16,
+      "display": "ϰ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 17,
+      "display": "⟨"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 18,
+      "display": "⟩"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 19,
+      "display": "₀"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 20,
+      "display": "‑"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 21,
+      "display": "῾"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 24,
+      "display": "ξ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 25,
+      "display": ""
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 26,
+      "display": "λ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 27,
+      "display": "χ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 28,
+      "display": "ω"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 29,
+      "display": "κ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 30,
+      "display": "ψ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 31,
+      "display": "γ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 32,
+      "display": "φ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 33,
+      "display": "ϕ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 34,
+      "display": "ς"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 35,
+      "display": "᾿"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 38,
+      "display": ""
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 39,
+      "display": "ι"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 40,
+      "display": "α"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 41,
+      "display": "ε"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 42,
+      "display": "ο"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 43,
+      "display": "σ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 44,
+      "display": "ν"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 45,
+      "display": "ρ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 46,
+      "display": "τ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 47,
+      "display": "δ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 48,
+      "display": "υ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 52,
+      "display": ""
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 53,
+      "display": "ϵ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 54,
+      "display": "η"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 55,
+      "display": "π"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 56,
+      "display": "ζ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 57,
+      "display": "β"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 58,
+      "display": "μ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 59,
+      "display": "ϱ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 60,
+      "display": "ϑ"
+    },
+    {
+      "layer": 5,
+      "xmodmap_keycode": 61,
+      "display": "θ"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 49,
+      "display": "."
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 10,
+      "display": "¬"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 11,
+      "display": "∨"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 12,
+      "display": "∧"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 13,
+      "display": "⊥"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 14,
+      "display": "∡"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 15,
+      "display": "∥"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 16,
+      "display": "→"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 17,
+      "display": "∞"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 18,
+      "display": "∝"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 19,
+      "display": "∅"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 20,
+      "display": "╌"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 21,
+      "display": "¯"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 24,
+      "display": "Ξ"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 25,
+      "display": "√"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 26,
+      "display": "Λ"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 27,
+      "display": "ℂ"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 28,
+      "display": "Ω"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 29,
+      "display": "×"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 30,
+      "display": "Ψ"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 31,
+      "display": "Γ"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 32,
+      "display": "Φ"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 33,
+      "display": "ℚ"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 34,
+      "display": "∘"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 35,
+      "display": "˘"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 38,
+      "display": "⊂"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 39,
+      "display": "∫"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 40,
+      "display": "∀"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 41,
+      "display": "∃"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 42,
+      "display": "∈"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 43,
+      "display": "Σ"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 44,
+      "display": "ℕ"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 45,
+      "display": "ℝ"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 46,
+      "display": "∂"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 47,
+      "display": "Δ"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 48,
+      "display": "∇"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 52,
+      "display": "∪"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 53,
+      "display": "∩"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 54,
+      "display": "ℵ"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 55,
+      "display": "Π"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 56,
+      "display": "ℤ"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 57,
+      "display": "⇐"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 58,
+      "display": "⇔"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 59,
+      "display": "⇒"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 60,
+      "display": "↦"
+    },
+    {
+      "layer": 6,
+      "xmodmap_keycode": 61,
+      "display": "Θ"
+    }
+  ],
+  "canonical_json_sha256": "8a81e7881c32f24ef8775b4b585740d911ddd4131b0673af6e476c0db51a724e"
+}

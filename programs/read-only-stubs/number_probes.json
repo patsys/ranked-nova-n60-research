@@ -1,0 +1,20 @@
+{
+  "number_zero": {
+    "sha256": "fca6c8e3d812ad70757702b0bfcd321dd056623a3bc399c8048269f312305f0c",
+    "encoded_number": 0,
+    "delay_iterations": 0,
+    "emulated_calls": 6
+  },
+  "number_unit": {
+    "sha256": "7e428e791418aec34e5a0f0068ffb2fc1839833868a3e416b3f82a352808b0bd",
+    "encoded_number": 1,
+    "delay_iterations": 262144,
+    "emulated_calls": 6
+  },
+  "number_computed": {
+    "sha256": "6c708eb3200295bf5d0cf8d5cb0901ab506557c0a9c075590b5f7215ed82992c",
+    "encoded_number": 7,
+    "delay_iterations": 1835008,
+    "emulated_calls": 6
+  }
+}

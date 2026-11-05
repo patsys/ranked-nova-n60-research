@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "requested": "solid green all populated keys",
+  "hue": 85,
+  "saturation": 255,
+  "brightness": 96,
+  "mode": 1,
+  "controller_reply": "0xa5",
+  "completed": 13482,
+  "errors": 0,
+  "flash_writes": false,
+  "settings_persistence": "RAM only; reset restores compiled white default",
+  "user_confirmed_green_pass": true
+}

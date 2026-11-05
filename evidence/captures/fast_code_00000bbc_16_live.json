@@ -1,0 +1,785 @@
+{
+  "start": 3004,
+  "length": 16,
+  "sessions": [
+    {
+      "index": 0,
+      "spec": {
+        "name": "cal0_whole15",
+        "kind": "cal",
+        "value": 0,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "ab2603cd65c6d2280f2871d43c1f5508a0b3d42b88cc7ab30fb82f30dd3dc6c8",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 17.1668,
+      "post_write_ms": 2.0259,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "complete": true
+    },
+    {
+      "index": 1,
+      "spec": {
+        "name": "cal255_whole15",
+        "kind": "cal",
+        "value": 255,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "6d5b3fc2c586c460a7073163d2cd6c523dcab985017aab391087817c1596a9bb",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 712.7767,
+      "post_write_ms": 697.853,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "complete": true
+    },
+    {
+      "index": 2,
+      "spec": {
+        "name": "byte_00001020_0_whole15",
+        "kind": "byte",
+        "value": 4128,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "cc839e7572b2b8e0693e109dfab0399c9c146d963900d8c04fc5b8557fea01c9",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 156.0947,
+      "post_write_ms": 141.1421,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 51,
+        "estimate": 50.981962329435,
+        "residual_units": 0.018037670565000496
+      },
+      "complete": true
+    },
+    {
+      "index": 3,
+      "spec": {
+        "name": "byte_00000bbc_0_whole15",
+        "kind": "byte",
+        "value": 3004,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "796e49f075bc612692021e39256f093738f2d35664f83baed6bd59f9e8d69a1e",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 60.8717,
+      "post_write_ms": 45.9289,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 16,
+        "estimate": 16.089147720748443,
+        "residual_units": 0.0891477207484428
+      },
+      "complete": true
+    },
+    {
+      "index": 4,
+      "spec": {
+        "name": "byte_00000bbd_0_whole15",
+        "kind": "byte",
+        "value": 3005,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "23216e9b7bb47608903b5ec9a903a2d91ec535ab617cfc176abbe8fcc8ae3656",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 510.9382,
+      "post_write_ms": 496.0123,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 181,
+        "estimate": 181.0313682809997,
+        "residual_units": 0.03136828099968625
+      },
+      "complete": true
+    },
+    {
+      "index": 5,
+      "spec": {
+        "name": "byte_00000bbe_0_whole15",
+        "kind": "byte",
+        "value": 3006,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "b9897aa2497e622bd21b04997616233fd5823ea9a9e3ae7d4e9111497b313154",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 16.9779,
+      "post_write_ms": 2.1539,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 0,
+        "estimate": 0.046908204638767347,
+        "residual_units": 0.046908204638767347
+      },
+      "complete": true
+    },
+    {
+      "index": 6,
+      "spec": {
+        "name": "byte_00000bbf_0_whole15",
+        "kind": "byte",
+        "value": 3007,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "3762cc661496990fa47967fa71c7410a793b382fd55ae80823278c2871910a15",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 126.2568,
+      "post_write_ms": 111.2022,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 40,
+        "estimate": 40.00987673518321,
+        "residual_units": 0.009876735183212304
+      },
+      "complete": true
+    },
+    {
+      "index": 7,
+      "spec": {
+        "name": "byte_00000bc0_0_whole15",
+        "kind": "byte",
+        "value": 3008,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "486fc1dadc2859ba436ba7e6381c99f3d0a8e8ea969cfdac6e32e32d0e58f5cb",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 40.8551,
+      "post_write_ms": 25.973,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 9,
+        "estimate": 8.775902088320503,
+        "residual_units": 0.22409791167949678
+      },
+      "complete": true
+    },
+    {
+      "index": 8,
+      "spec": {
+        "name": "byte_00000bc1_0_whole15",
+        "kind": "byte",
+        "value": 3009,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "a1df453c7b4a47a4e62811e5ebf9da6286e16af555bfcde2778dbb7665b29f61",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 585.0866,
+      "post_write_ms": 570.0598,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 208,
+        "estimate": 208.16758142935223,
+        "residual_units": 0.1675814293522251
+      },
+      "complete": true
+    },
+    {
+      "index": 9,
+      "spec": {
+        "name": "byte_00000bc2_0_whole15",
+        "kind": "byte",
+        "value": 3010,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "5a1b55d7b4a0615a7e80ea8708bb451203a4303193ca92bee2a952912a282cb2",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 19.9654,
+      "post_write_ms": 4.9984,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 1,
+        "estimate": 1.0893331116307485,
+        "residual_units": 0.08933311163074853
+      },
+      "complete": true
+    },
+    {
+      "index": 10,
+      "spec": {
+        "name": "byte_00000bc3_0_whole15",
+        "kind": "byte",
+        "value": 3011,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "6d42b6c1f8437a4ed3c3443f0d8de2dfa9b6a7738e9435baf0da96861af91dbf",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 16.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 328.2175,
+      "post_write_ms": 313.2984,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 114,
+        "estimate": 114.0721416282867,
+        "residual_units": 0.07214162828670112
+      },
+      "complete": true
+    },
+    {
+      "index": 11,
+      "spec": {
+        "name": "byte_00000bc4_0_whole15",
+        "kind": "byte",
+        "value": 3012,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "8008a4f2e8cb30ba7b5e8eead63fe902489c4eca39c118eefa26a7f3137650a2",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 19.9933,
+      "post_write_ms": 4.93,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 1,
+        "estimate": 1.064266539776907,
+        "residual_units": 0.0642665397769071
+      },
+      "complete": true
+    },
+    {
+      "index": 12,
+      "spec": {
+        "name": "byte_00000bc5_0_whole15",
+        "kind": "byte",
+        "value": 3013,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "c3d82ec9860e9f42b5199f1a09fd95047e3d74a1c447eabbb8471152af446d71",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 107.2614,
+      "post_write_ms": 92.3276,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 33,
+        "estimate": 33.092895490848235,
+        "residual_units": 0.09289549084823534
+      },
+      "complete": true
+    },
+    {
+      "index": 13,
+      "spec": {
+        "name": "byte_00000bc6_0_whole15",
+        "kind": "byte",
+        "value": 3014,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "afb90edaaa7090072b9164c44f2efa78a5f25bd4c2d1f44f65039cffea91c8ac",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 15.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 369.2043,
+      "post_write_ms": 354.1613,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 129,
+        "estimate": 129.04718284182954,
+        "residual_units": 0.0471828418295388
+      },
+      "complete": true
+    },
+    {
+      "index": 14,
+      "spec": {
+        "name": "byte_00000bc7_0_whole15",
+        "kind": "byte",
+        "value": 3015,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "7c5dc56bb07641287ceab72b22a2cc9b1a137bb8bb0c4907914b0aa4388053c4",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 16.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 366.0317,
+      "post_write_ms": 351.1027,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 128,
+        "estimate": 127.92629663317226,
+        "residual_units": 0.07370336682774337
+      },
+      "complete": true
+    },
+    {
+      "index": 15,
+      "spec": {
+        "name": "byte_00000bc8_0_whole15",
+        "kind": "byte",
+        "value": 3016,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "b026989d6b0089c624c0b07507337561ec3c91a281482e77084b88a82626173d",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 718.0554,
+      "post_write_ms": 697.966,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 255,
+        "estimate": 255.04141114940768,
+        "residual_units": 0.041411149407679204
+      },
+      "complete": true
+    },
+    {
+      "index": 16,
+      "spec": {
+        "name": "byte_00000bc9_0_whole15",
+        "kind": "byte",
+        "value": 3017,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "2b70e44f1603531abce2d2aaf3ffa6a73c008e5acaff753baabbce2da930d429",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 147.9329,
+      "post_write_ms": 132.9965,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 48,
+        "estimate": 47.996841456735446,
+        "residual_units": 0.0031585432645542255
+      },
+      "complete": true
+    },
+    {
+      "index": 17,
+      "spec": {
+        "name": "byte_00000bca_0_whole15",
+        "kind": "byte",
+        "value": 3018,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "e844b5d439e310daf6d2bfdcaf6efff6b83a04b3dfb4fafa7e77b698e6d04284",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 713.2434,
+      "post_write_ms": 698.3124,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 255,
+        "estimate": 255.16835647821134,
+        "residual_units": 0.16835647821133648
+      },
+      "complete": true
+    },
+    {
+      "index": 18,
+      "spec": {
+        "name": "byte_00000bcb_0_whole15",
+        "kind": "byte",
+        "value": 3019,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "861022150228bbe36a16535cc3e84d47502f87a07e54d96b073f97aab3319365",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 148.0707,
+      "post_write_ms": 132.9529,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 48,
+        "estimate": 47.98086334953037,
+        "residual_units": 0.01913665046963331
+      },
+      "complete": true
+    },
+    {
+      "index": 19,
+      "spec": {
+        "name": "byte_00000bbc_0_whole15",
+        "kind": "byte",
+        "value": 3004,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "796e49f075bc612692021e39256f093738f2d35664f83baed6bd59f9e8d69a1e",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 60.9327,
+      "post_write_ms": 45.9912,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 16,
+        "estimate": 16.11197882347497,
+        "residual_units": 0.11197882347497057
+      },
+      "complete": true
+    },
+    {
+      "index": 20,
+      "spec": {
+        "name": "cal255_whole15",
+        "kind": "cal",
+        "value": 255,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "6d5b3fc2c586c460a7073163d2cd6c523dcab985017aab391087817c1596a9bb",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 713.2142,
+      "post_write_ms": 698.3221,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "complete": true
+    },
+    {
+      "index": 21,
+      "spec": {
+        "name": "cal0_whole15",
+        "kind": "cal",
+        "value": 0,
+        "high": false,
+        "bits": 15,
+        "whole": true,
+        "sha256": "ab2603cd65c6d2280f2871d43c1f5508a0b3d42b88cc7ab30fb82f30dd3dc6c8",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 16.9345,
+      "post_write_ms": 2.0074,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "complete": true
+    }
+  ],
+  "result": {
+    "start": "0x00000bbc",
+    "hex": "10b5002809d0017201218180ff30ff30",
+    "known_byte_validated": true,
+    "repeated_first_byte_matches": true,
+    "unit_ms": 2.729689803921569
+  }
+}

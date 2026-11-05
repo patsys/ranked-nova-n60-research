@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "elf_sha256": "47dd2ad858d5c2552217eb9603fe98a4a885b35cda14da0d0a61b95bda842fed",
+  "cases": [
+    "remote-wakeup capability advertised",
+    "host permission controls GET_STATUS and scanning",
+    "scans throttled to20ms; unchanged keys do not signal",
+    "keypress sends one native-style prepare/pulse/release sequence",
+    "software remains suspended until real host bus activity",
+    "wake key suppressed until released; next press types normally",
+    "CLEAR_FEATURE revokes wake permission"
+  ],
+  "hardware_tested": false,
+  "limitation": "Synthetic bus/ADC/timer. Electrical pulse duration, Windows policy and physical wake remain unverified."
+}

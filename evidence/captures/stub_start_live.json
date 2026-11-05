@@ -1,0 +1,22 @@
+{
+  "operation": "START only, diagnostic no-write probe",
+  "stub_sha256": "7bf78ed9a7c88d9e862532c2dd38466b723600dc9417d54cd75f64def4ff5bc8",
+  "stub_xor32": "0xdac2bba8",
+  "writes": [
+    65,
+    65,
+    65,
+    65,
+    65,
+    65,
+    65,
+    65
+  ],
+  "replies": [
+    "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  ],
+  "followup_getv": "HID read error during disconnect",
+  "final_application_collections": 6,
+  "final_bootloader_interfaces": 0,
+  "execution_proven": false
+}

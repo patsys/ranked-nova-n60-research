@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "sha256": "57332cb094949feeba32c44fa829bb57069eaef61d92bceab161601737af4323",
+  "bytes": 440,
+  "cases": [
+    {
+      "caller_lr": "0x849",
+      "handler_lr": "0xcc3",
+      "incoming_lr": "0x1021",
+      "valid": true,
+      "writes": [
+        [
+          536875124,
+          4,
+          2175
+        ]
+      ]
+    },
+    {
+      "caller_lr": "0x87f",
+      "handler_lr": "0xcc3",
+      "incoming_lr": "0x1021",
+      "valid": true,
+      "writes": []
+    },
+    {
+      "caller_lr": "0xdead",
+      "handler_lr": "0xcc3",
+      "incoming_lr": "0x1021",
+      "valid": false,
+      "writes": []
+    },
+    {
+      "caller_lr": "0x849",
+      "handler_lr": "0xaaa",
+      "incoming_lr": "0x1021",
+      "valid": false,
+      "writes": []
+    },
+    {
+      "caller_lr": "0x849",
+      "handler_lr": "0xcc3",
+      "incoming_lr": "0x1201",
+      "valid": false,
+      "writes": []
+    }
+  ],
+  "method": "Actual release instructions; only permitted store restores original native caller return at guarded SP+116; no MMIO or flash stores"
+}

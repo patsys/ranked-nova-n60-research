@@ -1,0 +1,20 @@
+{
+  "kind": "Prepared plaintext stock application pages; not a flasher or completed flash test",
+  "file": "stock_application_pages.bin",
+  "cpu_start": "0x2000",
+  "cpu_end_exclusive": "0x10a00",
+  "metadata_code_length": "0xe908",
+  "pages": 117,
+  "sha256": "7f7f5853e7192c737be85cc00e0b21db56e8a40bd68495900002921ef914762c",
+  "original_application_checksum_matches": true,
+  "excludes_bootloader": true,
+  "excludes_settings": true,
+  "excludes_hidden_metadata": true,
+  "whole_current_snapshot": "stock_flash_preparation/20261103T052626Z",
+  "difference_offsets_range": [
+    "0x1a2e8",
+    "0x1a327"
+  ],
+  "bytes_changed_vs_old": 64,
+  "no_flash_attempted": true
+}

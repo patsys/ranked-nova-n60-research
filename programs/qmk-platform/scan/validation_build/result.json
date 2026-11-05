@@ -1,0 +1,110 @@
+{
+  "compiled_arm_matches_original_mmio_and_delays": true,
+  "cases": [
+    {
+      "operation": "init",
+      "trace_operations": 55,
+      "passed": true
+    },
+    {
+      "operation": "scan",
+      "sample": 0,
+      "initial": 0,
+      "trace_operations": 116,
+      "passed": true
+    },
+    {
+      "operation": "scan",
+      "sample": 0,
+      "initial": 63,
+      "trace_operations": 116,
+      "passed": true
+    },
+    {
+      "operation": "scan",
+      "sample": 19,
+      "initial": 0,
+      "trace_operations": 116,
+      "passed": true
+    },
+    {
+      "operation": "scan",
+      "sample": 19,
+      "initial": 63,
+      "trace_operations": 116,
+      "passed": true
+    },
+    {
+      "operation": "scan",
+      "sample": 20,
+      "initial": 0,
+      "trace_operations": 116,
+      "passed": true
+    },
+    {
+      "operation": "scan",
+      "sample": 20,
+      "initial": 63,
+      "trace_operations": 116,
+      "passed": true
+    },
+    {
+      "operation": "scan",
+      "sample": 25,
+      "initial": 0,
+      "trace_operations": 116,
+      "passed": true
+    },
+    {
+      "operation": "scan",
+      "sample": 25,
+      "initial": 63,
+      "trace_operations": 116,
+      "passed": true
+    },
+    {
+      "operation": "scan",
+      "sample": 30,
+      "initial": 0,
+      "trace_operations": 116,
+      "passed": true
+    },
+    {
+      "operation": "scan",
+      "sample": 30,
+      "initial": 63,
+      "trace_operations": 116,
+      "passed": true
+    },
+    {
+      "operation": "scan",
+      "sample": 31,
+      "initial": 0,
+      "trace_operations": 116,
+      "passed": true
+    },
+    {
+      "operation": "scan",
+      "sample": 31,
+      "initial": 63,
+      "trace_operations": 116,
+      "passed": true
+    },
+    {
+      "operation": "scan",
+      "sample": 65535,
+      "initial": 0,
+      "trace_operations": 116,
+      "passed": true
+    },
+    {
+      "operation": "scan",
+      "sample": 65535,
+      "initial": 63,
+      "trace_operations": 116,
+      "passed": true
+    }
+  ],
+  "matrix_rows_checked": true,
+  "limitations": "Offline MMIO storage, original delay calls intercepted; hardware timing and USB not validated."
+}

@@ -1,0 +1,3 @@
+VIA_ENABLE = yes
+SRC += via_guard.c
+OPT_DEFS += -DNOVA_USB_DIAGNOSTIC

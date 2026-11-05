@@ -1,0 +1,54 @@
+Making [1mranked/nova_n60[0m with keymap [1mneo2_via[0m and target [1mflash[0m
+
+arm-none-eabi-gcc.exe (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Size before:
+   text	   data	    bss	    dec	    hex	filename
+      0	  26568	      0	  26568	   67c8	ranked_nova_n60_neo2_via.hex
+
+Generating: .build/obj_ranked_nova_n60_neo2_via/src/info_config.h                                   [32;01m[OK][0m
+Generating: .build/obj_ranked_nova_n60_neo2_via/src/default_keyboard.c                              [32;01m[OK][0m
+Generating: .build/obj_ranked_nova_n60_neo2_via/src/default_keyboard.h                              [32;01m[OK][0m
+Compiling: quantum/via.c                                                                            [32;01m[OK][0m
+Linking: .build/ranked_nova_n60_neo2_via.elf                                                        [32;01m[OK][0m
+Creating load file for flashing: .build/ranked_nova_n60_neo2_via.hex                                [32;01m[OK][0m
+Copying ranked_nova_n60_neo2_via.hex to qmk_firmware folder                                         [32;01m[OK][0m
+Copying ranked_nova_n60_neo2_via.hex to userspace folder                                            [32;01m[OK][0m
+
+Size after:
+   text	   data	    bss	    dec	    hex	filename
+      0	  26568	      0	  26568	   67c8	ranked_nova_n60_neo2_via.hex
+
+Flashing for bootloader: RY7203 vendor HID
+Application-only flash requested. Backups/results: <LOCAL_USER>\rynked\.local-flasher\live_qmk_standard_20261103_01
+before_flash.bin: 4096/131072 bytes
+before_flash.bin: 20480/131072 bytes
+before_flash.bin: 36864/131072 bytes
+before_flash.bin: 53248/131072 bytes
+before_flash.bin: 69632/131072 bytes
+before_flash.bin: 86016/131072 bytes
+before_flash.bin: 102400/131072 bytes
+before_flash.bin: 118784/131072 bytes
+before_flash.bin: 131072/131072 bytes
+Programmed 1/117 application pages
+Programmed 16/117 application pages
+Programmed 32/117 application pages
+Programmed 48/117 application pages
+Programmed 64/117 application pages
+Programmed 80/117 application pages
+Programmed 96/117 application pages
+Programmed 112/117 application pages
+Programmed 117/117 application pages
+after_flash.bin: 4096/131072 bytes
+after_flash.bin: 20480/131072 bytes
+after_flash.bin: 36864/131072 bytes
+after_flash.bin: 53248/131072 bytes
+after_flash.bin: 69632/131072 bytes
+after_flash.bin: 86016/131072 bytes
+after_flash.bin: 102400/131072 bytes
+after_flash.bin: 118784/131072 bytes
+after_flash.bin: 131072/131072 bytes
+{"passed": true, "verified": true, "result_file": "<LOCAL_USER>\\rynked\\.local-flasher\\live_qmk_standard_20261103_01\\result.json"}

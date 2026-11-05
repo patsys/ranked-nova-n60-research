@@ -1,0 +1,251 @@
+{
+  "passed": true,
+  "code_files_with_license_and_format": 41,
+  "source_files": 60,
+  "lowercase_names": true,
+  "assembly_extension_exception": ".S is the existing QMK convention for preprocessed assembly",
+  "json_syntax": true,
+  "hardware_access": false,
+  "files": [
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\atomic_util.h",
+      "sha256": "c7f6c1f4fcc5e83661183bc4ef2e969d6e8a8e31e1076082628a2cc94bf1ae70"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\cmparams.h",
+      "sha256": "0c59d1c7236730a0cddf90717f3d2be150ba08bdca23f4a616d8db0feb6bb372"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\flash.mk",
+      "sha256": "9fbb790a36d7a064b365711b1f00fac47673598e71da1e2cf8d68f254090b3ae"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\mcu_selection.mk",
+      "sha256": "649da405feafa11faa342eb22ab8ab8b17376613feef37f466a0ed3e0cafd6a3"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\nova_research.ld",
+      "sha256": "4eb3695f517405bb4c12181056904070372ba2b0b307fd9e0344e75e3a4b0780"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\original_delay.c",
+      "sha256": "6cd6d963b3200c6e84ce42628d91a39c51d1133988cba8a6a5e099728bf64bb3"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\original_delay_loop.S",
+      "sha256": "cd93878e19bf79e337ffa371b702dba1102c1707eafbce36c4234f2d65b7b692"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\platform.c",
+      "sha256": "140b7bd3984d0d545e0ea09e32aefddd965c911897acabb10606afd6c879fcb8"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\platform.mk",
+      "sha256": "ecedae5a286aaa15c1866bf3a605e2025476af59f662f70116a1f5b68f111039"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\platform_deps.h",
+      "sha256": "c753dc293f9755510c7f7b5c7d6216159f209229780065be0ca75d3222457880"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\readme.md",
+      "sha256": "b8dcadb744f1428e13bfa6499b686c3fae3929d4c6ee76460c1894b5ecf479c2"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\recovered_clock.c",
+      "sha256": "319abf7109f457182b7e1a70b3e5ce49b15b29db6a6c6bf2171ee9bfdb246814"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\recovered_clock.h",
+      "sha256": "1dc909231984bb8781d725f79eeeeb6821eb76166b947339c5f0da8bf3682e7b"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\syscalls.c",
+      "sha256": "df320cc3811e72b314e3c530365420fa139dda02f205bdb7488264ec9a3ba14e"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\_pin_defs.h",
+      "sha256": "2d6ca35a3200f6b7bd731537e57c1a62265e91f7d80cd4160818c09c70ee0507"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\_timer.h",
+      "sha256": "f4b311c82f239a600d9d20969619b09f4ba7b6a6301d8854151f050c13ce61b1"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\_wait.h",
+      "sha256": "e4123cc12cec1a032eee2ce0333abd0433bb7fff01e254b584578a3478b92750"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\runtime\\emergency_boot.h",
+      "sha256": "d7aaeb0ab9d0b8ad4a285d9e78e2bdcf4d959e805840dd31af818752b4788f28"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\runtime\\timebase.c",
+      "sha256": "a1909ff4266ae7cffce69486b9daea11ad5df6e0ffb9617cea2b710295c25a13"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\runtime\\usb_diagnostic.c",
+      "sha256": "e279e91b0af114239faafb259040f8f3df75ad40afe8de8f957e0d4962dc6bc5"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\runtime\\usb_diagnostic.h",
+      "sha256": "781931eb510c3514120689bda2ca32bf66c809a9ffbbe2404e5417dc1458d83c"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\runtime\\usb_keyboard.c",
+      "sha256": "a5eadf27d5398a9a1d417e12453026c24b135ecc46da5c030413d3c205705ec6"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\scan\\emergency_boot.c",
+      "sha256": "844f475e4c9409686db4dca098f3924b244c9f9ae1f4af64262fec0178b3ce53"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\scan\\matrix.c",
+      "sha256": "dffc015dd1d490d8823bf27e4fe53e3a5b1a5f900d1ef6f242008ff19b6963d0"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\scan\\nova_acquisition.c",
+      "sha256": "0943019a33fd7ec6be4d1ad7201d1d8b3f292ea5169188334bbab8bd25025bfe"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\scan\\nova_acquisition.h",
+      "sha256": "828c63a8ec63919062a81e24adaaa7f45505affe9d866ca77a0fa244e321b031"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\scan\\recovered_scan.c",
+      "sha256": "f8dfd3600571e220cc2091abfa32644e7b6bd55606d26991d3c9e2dcb0c9ae53"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\scan\\recovered_scan.h",
+      "sha256": "83cf2a4b0341b2a4eec7a823178e22769fd4a403a257be422917ffd068c08559"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\usb\\ranked_usb_device.c",
+      "sha256": "1eaab338ee39cfada809e17e4280e3ef1ffc63be2b531cc65d995d5fb9a7979d"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\usb\\ranked_usb_device.h",
+      "sha256": "954a464ffc8a3249eab01e26912e582e4c522731e9c7e36c0e95f4598862f230"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\usb\\ranked_usb_io.c",
+      "sha256": "83795e21d4334b3711a7f0c7825a578707894e02f60e25b9c10c994a2317256d"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\platforms\\ry72xx\\usb\\ranked_usb_io.h",
+      "sha256": "87bffbd1aa9b820d35499a67c06ae020fd7553221636f9249a602f3ce0dd3d69"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\keyboards\\ranked\\nova_n60\\config.h",
+      "sha256": "74f64a00171d9b546c8cbd953b7acb3c838b474a2444b3a7a311cd66ac2f76c0"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\keyboards\\ranked\\nova_n60\\keyboard.json",
+      "sha256": "9c435bccee44076106bac682c4999941d8f3c96b0275e5e8a897a96c6ef5de74"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\keyboards\\ranked\\nova_n60\\readme.md",
+      "sha256": "c664a086befd6c21367cb7bce7444125c733a617092125ae0704872a150c95e7"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\keyboards\\ranked\\nova_n60\\rules.mk",
+      "sha256": "7a7a74bf23b9978144ef5f3d23dde7716b101636233bf0e1476b48b3b708bdea"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\keyboards\\ranked\\nova_n60\\rgb\\nova_rgb_layout.c",
+      "sha256": "37a7362e74c0c4e3114c58ef39ac50377fee89fe52f43be15366fed2c55db9a9"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\keyboards\\ranked\\nova_n60\\rgb\\nova_rgb_matrix.c",
+      "sha256": "f3c7c5748545664ac8c4c08e44af1d7e4de43a3a9126340747fc7bed36881ffe"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\keyboards\\ranked\\nova_n60\\rgb\\nova_rgb_transport.c",
+      "sha256": "c34b681789b05faffe29995279347e8889ba42cf07b8c1ed8b446ce67d87fdf2"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\keyboards\\ranked\\nova_n60\\rgb\\nova_rgb_transport.h",
+      "sha256": "22f711402f946ab67c9e9175b3304c679e7e9e5156158b3ad46583f3cb8851b5"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\keyboards\\ranked\\nova_n60\\keymaps\\default\\keymap.c",
+      "sha256": "dc02a00352d79ac2ccf11bb97ee4a38eb1e00eca935ce3c44b6457e8112c6727"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\keyboards\\handwired\\onekey\\ry7203\\config.h",
+      "sha256": "e20a0fa202f3e800dc90be48a6439c1aeb6fc6d0c45e0e4e27e1f7cedea86c71"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\keyboards\\handwired\\onekey\\ry7203\\keyboard.json",
+      "sha256": "59d26cd0793b911538677678d78befade123a3f26f59a148c3aabe451ac90541"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\keyboards\\handwired\\onekey\\ry7203\\readme.md",
+      "sha256": "219fc44f72c511df209bdaf11c2ec1ecbfdec257c7e384be9fcd6b4c9f2f3c6d"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\keyboards\\handwired\\onekey\\ry7203\\rules.mk",
+      "sha256": "fb3a648cb228990b544441d6bb9e448a6fab2d97d35957bbfafd620c1095bc2b"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\keyboards\\handwired\\onekey\\ry7203\\keymaps\\default\\keymap.c",
+      "sha256": "c323a6fa52f265b8de9436a88f1b4359c8f9150b3df635cce2367d77a9f0dfb1"
+    },
+    {
+      "path": "contributions\\qmk_firmware\\tmk_core\\protocol\\ry72xx\\ry72xx.mk",
+      "sha256": "4864753188e1baa2e5d24898420cfa3895e3ad1fc524328119d8d43c43211694"
+    },
+    {
+      "path": "contributions\\qmk_userspace\\qmk.json",
+      "sha256": "54a1dc7593c23381c4119454ab40792a61af98d7e3adf20eac6a00262bad7c9c"
+    },
+    {
+      "path": "contributions\\qmk_userspace\\readme.md",
+      "sha256": "e7525758c45891c69f1fb9b57849917f13b794a6d97ad8e75d46144af39f79b9"
+    },
+    {
+      "path": "contributions\\qmk_userspace\\keyboards\\ranked\\nova_n60\\keymaps\\neo2\\keymap.c",
+      "sha256": "ceff63edb34b46d449f8c19bf97f92964493b282d7cfa4a83aae7c7cb8776c64"
+    },
+    {
+      "path": "contributions\\qmk_userspace\\keyboards\\ranked\\nova_n60\\keymaps\\neo2\\rules.mk",
+      "sha256": "c372f2d964df6610202490ba9a25563a82dd4ef8535f08c5aae7bcbdaa6c5dd1"
+    },
+    {
+      "path": "contributions\\qmk_userspace\\keyboards\\ranked\\nova_n60\\keymaps\\neo2_via\\config.h",
+      "sha256": "fd36653f7058bbfcf3a1fa3f245ba53e25806863881f013bd24812eb0b4e6447"
+    },
+    {
+      "path": "contributions\\qmk_userspace\\keyboards\\ranked\\nova_n60\\keymaps\\neo2_via\\keymap.c",
+      "sha256": "ceff63edb34b46d449f8c19bf97f92964493b282d7cfa4a83aae7c7cb8776c64"
+    },
+    {
+      "path": "contributions\\qmk_userspace\\keyboards\\ranked\\nova_n60\\keymaps\\neo2_via\\rules.mk",
+      "sha256": "864c71e0e6b93de9738548a7ce7a6d753cfb27258aabc6cd261d0458d2d219aa"
+    },
+    {
+      "path": "contributions\\qmk_userspace\\keyboards\\ranked\\nova_n60\\keymaps\\neo2_via\\via_guard.c",
+      "sha256": "fa8dbbc072c9f946eabd67ea517e9331c161c98cfd967674ca254efbfc3b5c42"
+    },
+    {
+      "path": "contributions\\qmk_userspace\\keyboards\\ranked\\nova_n60\\keymaps\\via\\config.h",
+      "sha256": "fd36653f7058bbfcf3a1fa3f245ba53e25806863881f013bd24812eb0b4e6447"
+    },
+    {
+      "path": "contributions\\qmk_userspace\\keyboards\\ranked\\nova_n60\\keymaps\\via\\keymap.c",
+      "sha256": "b15905907f0137c89855ed62a3571c933f6d218e697decd7891c30a59c26d1b8"
+    },
+    {
+      "path": "contributions\\qmk_userspace\\keyboards\\ranked\\nova_n60\\keymaps\\via\\rules.mk",
+      "sha256": "fa8620d58edd193e8d79bb8aace678f3025ef75276ce4fac34ce2de9ffbdd23b"
+    },
+    {
+      "path": "contributions\\qmk_userspace\\keyboards\\ranked\\nova_n60\\keymaps\\via\\via_guard.c",
+      "sha256": "fa8dbbc072c9f946eabd67ea517e9331c161c98cfd967674ca254efbfc3b5c42"
+    },
+    {
+      "path": "contributions\\via\\nova_n60.json",
+      "sha256": "fbd04bd5916f1194cdca70856c95e4c4a07a26bffac806c1ae59707d6b4bc889"
+    }
+  ]
+}

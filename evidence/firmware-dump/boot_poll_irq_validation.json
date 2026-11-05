@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "boot_sha256": "e46c6d9300a13f4d2eea7c16584d24ea6e4e1b83815e5f84f389d4aeb0915f62",
+  "cases": [
+    {
+      "primask": 0,
+      "application_erased": false,
+      "reply_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "native_calls": [
+        "0x10e8",
+        "0x1278",
+        "0x3ee",
+        "0xf00",
+        "0x594"
+      ],
+      "app_data_reads": [],
+      "passed": true
+    },
+    {
+      "primask": 0,
+      "application_erased": true,
+      "reply_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "native_calls": [
+        "0x10e8",
+        "0x1278",
+        "0x3ee",
+        "0xf00",
+        "0x594"
+      ],
+      "app_data_reads": [],
+      "passed": true
+    },
+    {
+      "primask": 1,
+      "application_erased": false,
+      "reply_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "native_calls": [
+        "0x10e8",
+        "0x1278",
+        "0x3ee",
+        "0xf00",
+        "0x594"
+      ],
+      "app_data_reads": [],
+      "passed": true
+    },
+    {
+      "primask": 1,
+      "application_erased": true,
+      "reply_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "native_calls": [
+        "0x10e8",
+        "0x1278",
+        "0x3ee",
+        "0xf00",
+        "0x594"
+      ],
+      "app_data_reads": [],
+      "passed": true
+    }
+  ],
+  "method": "ActualnativeUSBOUTpoll/reassembly10e8->1278->3ee->10cc,GETV0xf00,andnativeTX1124->594. MMIOpacket/eventstate supplied,delay9bcskipped,no IRQs synthesized.",
+  "scope": "DemonstratespollingdoesnotneedappvectorsorPRIMASK0. DoesNOTprovehardwarehasnoenabledIRQ/SysTicksources or that erased/newvectorscouldsurvive an actual asynchronous exception.",
+  "hardware_access": false
+}

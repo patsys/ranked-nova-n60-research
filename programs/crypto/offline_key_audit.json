@@ -1,0 +1,36 @@
+{
+  "hardware_access": false,
+  "original_flash_sha256": "5adca278d90a0672e05dfe5ad47d1635242f9ec0ff78827d83d9f28d6ccd8b49",
+  "candidate_hex": "4c68384139f574d836bcf34e9dfb01bf",
+  "candidate_RAM_address": "0x2000021c",
+  "candidate_bytes": 16,
+  "candidate_literal_flash_offset": "0x173c",
+  "actual_reset_scatter_reproduced": true,
+  "actual_native398_copy_verified": true,
+  "descriptor_fixture": "Only descriptor+4=200007c0 supplied; native398/memcpy executed, no cipher modeled",
+  "descriptor_configuration_address": "0x200007c0",
+  "header_ciphertexts": [
+    "7b09cb2a7b9b3b8d7438992522ee9f8e",
+    "9ce761f77d60b57408cbc4407dffd037"
+  ],
+  "standard_cipher_hypothesis_tests": 4096,
+  "matching_metadata_hypotheses": [
+    {
+      "algorithm": "AES",
+      "key_transform": 0,
+      "input_transform": 0,
+      "output_transform": 0,
+      "encrypt": true,
+      "header_offset": 16,
+      "plaintext": "00cc010084f05b2504a1423a84f0a425"
+    }
+  ],
+  "validation_target": "Known START metadata image length1cc00 and hardware IDa104",
+  "key_confirmed_by_this_header_search": false,
+  "IV_identity_confirmed": false,
+  "dataflow": {
+    "START": "Native398 loads2000021c configuration,029c transforms header+32 to20000544 and header+16 to20000554",
+    "DATA": "Two16-byte loops load configurations2000021c then20000544; the intermediate result is copied back into the raw DATA buffer before the second pass"
+  },
+  "limits": "This header search identifies an AES-forward metadata match but does not by itself validate the complete format. Full captured-payload and independent physical-source verification is in key_extraction_result.json. The earlier metadata-half assumption was wrong; native header+16 goes to metadata554 and header+32 to file-key544. No brute-force key search performed."
+}

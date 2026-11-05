@@ -1,0 +1,21 @@
+{
+  "selected_key_press_counts": {
+    "Neo_r": 0,
+    "Neo_t": 0,
+    "Neo_d": 0,
+    "Neo_u": 3,
+    "Neo_i": 5,
+    "Neo_a": 2
+  },
+  "selected_key_down_samples": {
+    "Neo_r": 0,
+    "Neo_t": 0,
+    "Neo_d": 0,
+    "Neo_u": 2609,
+    "Neo_i": 2643,
+    "Neo_a": 2522
+  },
+  "poll_seconds": 55,
+  "poll_interval_seconds": 0.01,
+  "method": "Windows GetAsyncKeyState, six explicitly expected test keys only"
+}

@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "stub_sha256": "e4c466571f03c5ece7ae4417c281dd9be3787d659945633acec7cfb92dae3a8c",
+  "cases": [
+    {
+      "kind": "error",
+      "passed": true,
+      "reached": [
+        "0x848"
+      ],
+      "native_return": 4,
+      "restored_sp": "0x2000f000",
+      "restored_r4_r7": [
+        "0x44444444",
+        "0x55555555",
+        "0x66666666",
+        "0x77777777"
+      ],
+      "saved_return_patch_before_first_flash_command": true,
+      "delay_calls_modeled": 0,
+      "acks": [
+        {
+          "packet": "START",
+          "status": 4
+        },
+        {
+          "packet": "DATA1",
+          "status": 4
+        },
+        {
+          "packet": "midtransfer_START",
+          "status": 5
+        }
+      ],
+      "saved_return_patch": {
+        "address": "0x2000effc",
+        "value": 2121,
+        "pc": "0x2000010a"
+      }
+    },
+    {
+      "kind": "timeout",
+      "passed": true,
+      "reached": [
+        "0x848"
+      ],
+      "native_return": 5,
+      "restored_sp": "0x2000f000",
+      "restored_r4_r7": [
+        "0x44444444",
+        "0x55555555",
+        "0x66666666",
+        "0x77777777"
+      ],
+      "saved_return_patch_before_first_flash_command": true,
+      "delay_calls_modeled": 1000,
+      "acks": [
+        {
+          "packet": "START",
+          "status": 4
+        },
+        {
+          "packet": "DATA1",
+          "status": 4
+        }
+      ],
+      "saved_return_patch": {
+        "address": "0x2000effc",
+        "value": 2121,
+        "pc": "0x2000010a"
+      }
+    }
+  ],
+  "no_hardware_access": true,
+  "no_COMPLETE": true,
+  "model": "OriginalnativeBDCouterhandlerandstub/nativeABIhelpers; STARTcryptooutputacceptedfixture;delay9bcskippedonlyforfasttimeout;RAM-likeMMIObusyclear. Stopsatbootstrap848beforephysicalUSBinit.",
+  "limitation": "SinglefailureUSBbootstrapreentry, not indefinitehold. NewBDCsessionwillstartwith87Funlessholdstubrenewsprotection. Powerloss recovery not established."
+}

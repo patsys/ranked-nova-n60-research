@@ -1,0 +1,103 @@
+{
+  "kind": "Nativebootmetadataread, noDATA/COMPLETE/ownflashoperations",
+  "blocks": [
+    {
+      "address": "0x10000600",
+      "length": 56,
+      "stub_sha256": "3e13cbb263768c1bde40364061b6860c7c5db1cc913ca17e807cec97e0370528",
+      "reply_hex": "01000073380001770100000000000000ec17000065f019a105a100000d07e6070f2b1400010000000020000008e9000084f0a42504a10000020bea0712150e00",
+      "offline_bounded_reads_writes_passed": true
+    },
+    {
+      "address": "0x10000638",
+      "length": 56,
+      "stub_sha256": "2f74d6d12d8da2ef382c2faba1a4f3c3b965614ad06862e145b06544c4706d10",
+      "reply_hex": "01000073380001770100000000a001000046000000a100000d07e6070f2b140000000000000000000000000000000000e0ffffffffffffffffffffffffffffff",
+      "offline_bounded_reads_writes_passed": true
+    },
+    {
+      "address": "0x10000670",
+      "length": 56,
+      "stub_sha256": "53268090d55f56183cc6c89c51d6ada237a66d7d85ffd3087300f61ca9757cd5",
+      "reply_hex": "0100007338000177ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "offline_bounded_reads_writes_passed": true
+    },
+    {
+      "address": "0x100006a8",
+      "length": 56,
+      "stub_sha256": "df0aecf69576db562d4f11e5eaf58e22147bf5891638a271cc5ddc5bafce53cd",
+      "reply_hex": "0100007338000177ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "offline_bounded_reads_writes_passed": true
+    },
+    {
+      "address": "0x100006e0",
+      "length": 56,
+      "stub_sha256": "0b03cd80c62710b6c67f46d629372f6769e318f12cd7341b259d9b4f5f29be55",
+      "reply_hex": "0100007338000177ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01112d35ffffffff",
+      "offline_bounded_reads_writes_passed": true
+    },
+    {
+      "address": "0x10000718",
+      "length": 56,
+      "stub_sha256": "53d6bd0c4cc7c2f842df3a88288381aa0e390c1314048b401e26c7dccaaee5eb",
+      "reply_hex": "010000733800017700000000b1b1000102000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "offline_bounded_reads_writes_passed": true
+    },
+    {
+      "address": "0x10000750",
+      "length": 56,
+      "stub_sha256": "2a403387a6cdc1047fa419ec261696923abb45c22a6d0eff6953424e1bcf8107",
+      "reply_hex": "0100007338000177e83001400000ffffec300140ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "offline_bounded_reads_writes_passed": true
+    },
+    {
+      "address": "0x10000788",
+      "length": 56,
+      "stub_sha256": "6db08a6732c2abf738748680441002fb6e004082736c827de6891f2d47275c2e",
+      "reply_hex": "0100007338000177ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "offline_bounded_reads_writes_passed": true
+    },
+    {
+      "address": "0x100007c0",
+      "length": 56,
+      "stub_sha256": "cb3fa2b4203792b5509d5df7471bd17c6ee8913450ed813b7e3cff577d82554b",
+      "reply_hex": "0100007338000177ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "offline_bounded_reads_writes_passed": true
+    },
+    {
+      "address": "0x100007f8",
+      "length": 8,
+      "stub_sha256": "59fa5314c6525e7caf1b31ce5047f8bad2ed9980858e6dd226faf90ae93086bf",
+      "reply_hex": "0100007308000177ffffffffbc278a48000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "offline_bounded_reads_writes_passed": true
+    }
+  ],
+  "persistent_caveat": "Mode transitions may append vendor bookkeeping",
+  "version": {
+    "request_hex": "000000000400000167657476",
+    "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "round_trip_ms": 0.0,
+    "version_words_hex": [
+      "a1050000",
+      "a1040000"
+    ]
+  },
+  "passed": true,
+  "sha256": "3bce58cb1e15aa6adfb8120c12b6911466a8d1f611a3efeefcb72c6bd7ca4d49",
+  "metadata_xor": "0x488a27bc",
+  "stored_metadata_xor": "0x488a27bc",
+  "metadata_xor_matches": true,
+  "tag": "0x1",
+  "application_length": "0xe908",
+  "application_xor": "0x25a4f084",
+  "normal_START": {
+    "total_ms": 16.471,
+    "post_write_ms": 1.8598,
+    "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "cleanup": {
+    "exit_query_error": "read error",
+    "application_collections": 6,
+    "bootloader_interfaces": 0
+  }
+}

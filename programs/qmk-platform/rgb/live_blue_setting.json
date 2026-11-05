@@ -1,0 +1,14 @@
+{
+  "passed_command_and_readback": true,
+  "requested": "solid blue all populated keys",
+  "hue": 170,
+  "saturation": 255,
+  "brightness": 96,
+  "mode": 1,
+  "controller_reply": "0xa5",
+  "completed": 17434,
+  "errors": 0,
+  "flash_writes": false,
+  "physical_color_confirmation_pending": true,
+  "settings_persistence": "RAM only; reset restores compiled white default"
+}

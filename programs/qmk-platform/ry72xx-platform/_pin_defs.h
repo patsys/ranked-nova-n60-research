@@ -1,0 +1,6 @@
+// Copyright 2026 patsys
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+#pragma once
+#include <stdint.h>
+typedef uint16_t pin_t;

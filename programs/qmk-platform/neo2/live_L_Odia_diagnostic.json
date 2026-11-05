@@ -1,0 +1,9 @@
+{
+  "counts": {
+    "physical_L": 0,
+    "physical_Odia": 0
+  },
+  "method": "Temporary volatile F23/F24 mapping; selected Windows GetAsyncKeyState presses",
+  "restored": true,
+  "flash_writes": false
+}

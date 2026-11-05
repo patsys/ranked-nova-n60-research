@@ -1,0 +1,20 @@
+{
+  "protocol": 13,
+  "layers": 3,
+  "matrix_rows": 6,
+  "matrix_cols": 11,
+  "layout_options_hex": "00000000",
+  "buffers": {
+    "keymap": {
+      "file": "keymap.bin",
+      "bytes": 396,
+      "sha256": "c2390f219cb831c99b7bdeeadfa5322d7e17dd7bdd6dd39c26a2be212fb642bb"
+    },
+    "macros": {
+      "file": "macros.bin",
+      "bytes": 587,
+      "sha256": "29b0ae8da8ef7076b23dda64c21888cd3208984724dcb6d5aaf4a2c478e8ef33"
+    }
+  },
+  "kind": "Read-only backup of volatile VIA state"
+}

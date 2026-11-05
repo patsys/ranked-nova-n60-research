@@ -1,0 +1,2 @@
+[console_scripts]
+ry72xx-flasher = ry72xx_flasher.cli:main

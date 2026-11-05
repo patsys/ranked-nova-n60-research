@@ -1,0 +1,119 @@
+{
+  "kind": "Physical before/after conversion-window comparison",
+  "original_units": 5,
+  "corrected_units": 20,
+  "units_are_not_measured_microseconds": true,
+  "user_confirmed_previously_failing_keys_work": true,
+  "windows": {
+    "before_K_L_Odia": {
+      "seconds": [
+        34.51,
+        58.58
+      ],
+      "snapshots": 46,
+      "channels": {
+        "8": {
+          "min_sample": 3,
+          "max_sample": 134,
+          "raw_active_snapshots": 4,
+          "debounced_active_snapshots": 0
+        },
+        "9": {
+          "min_sample": 0,
+          "max_sample": 134,
+          "raw_active_snapshots": 4,
+          "debounced_active_snapshots": 0
+        },
+        "10": {
+          "min_sample": 0,
+          "max_sample": 134,
+          "raw_active_snapshots": 2,
+          "debounced_active_snapshots": 0
+        }
+      }
+    },
+    "after_K_L_Odia": {
+      "seconds": [
+        26.06,
+        50.09
+      ],
+      "snapshots": 47,
+      "channels": {
+        "8": {
+          "min_sample": 133,
+          "max_sample": 134,
+          "raw_active_snapshots": 47,
+          "debounced_active_snapshots": 47
+        },
+        "9": {
+          "min_sample": 134,
+          "max_sample": 134,
+          "raw_active_snapshots": 47,
+          "debounced_active_snapshots": 47
+        },
+        "10": {
+          "min_sample": 134,
+          "max_sample": 134,
+          "raw_active_snapshots": 47,
+          "debounced_active_snapshots": 47
+        }
+      }
+    },
+    "before_A_S_D": {
+      "seconds": [
+        60.19,
+        87.28
+      ],
+      "snapshots": 52,
+      "channels": {
+        "1": {
+          "min_sample": 133,
+          "max_sample": 133,
+          "raw_active_snapshots": 52,
+          "debounced_active_snapshots": 52
+        },
+        "2": {
+          "min_sample": 133,
+          "max_sample": 133,
+          "raw_active_snapshots": 52,
+          "debounced_active_snapshots": 52
+        },
+        "3": {
+          "min_sample": 132,
+          "max_sample": 132,
+          "raw_active_snapshots": 52,
+          "debounced_active_snapshots": 52
+        }
+      }
+    },
+    "after_A_S_D": {
+      "seconds": [
+        57,
+        82.99
+      ],
+      "snapshots": 50,
+      "channels": {
+        "1": {
+          "min_sample": 133,
+          "max_sample": 133,
+          "raw_active_snapshots": 50,
+          "debounced_active_snapshots": 50
+        },
+        "2": {
+          "min_sample": 133,
+          "max_sample": 133,
+          "raw_active_snapshots": 50,
+          "debounced_active_snapshots": 50
+        },
+        "3": {
+          "min_sample": 132,
+          "max_sample": 132,
+          "raw_active_snapshots": 50,
+          "debounced_active_snapshots": 50
+        }
+      }
+    }
+  },
+  "passed_selected_keys": true,
+  "limitations": "Selected physical keys and user-reported previously failing keys; not an exhaustive62key physical certification. Hardware conversion-ready timing was not scoped."
+}

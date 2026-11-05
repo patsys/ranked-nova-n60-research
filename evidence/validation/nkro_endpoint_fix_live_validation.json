@@ -1,0 +1,20 @@
+{
+  "elf_sha256": "4f78ad8b0afc2181eae8bc3ee42cb66d25abfae36b3119d4103755c622688123",
+  "flash_verified": true,
+  "protected_data_unchanged": true,
+  "pages": 117,
+  "interfaces": 3,
+  "via_protocol": 13,
+  "physical_typing": "user confirmed normal typing including K/L/O-umlaut",
+  "physical_rollover": {
+    "maximum_simultaneous_target_keys": 8,
+    "all_target_keys_observed": true,
+    "all_eight_simultaneous": true,
+    "all_released_after_chord": true,
+    "limitation": "Windows aggregate key state; other keyboards must remain untouched. Proves the tested chord only."
+  },
+  "physical_sleep_wake": "user confirmed lighting sleep/wake and typing after external wake",
+  "post_wake_via_protocol": 13,
+  "post_wake_via_layers": 3,
+  "remote_wake_supported": false
+}

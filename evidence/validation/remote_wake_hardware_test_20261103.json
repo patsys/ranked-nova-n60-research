@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-03",
+  "image": "Nova RY72xx QMK CLI remote-wake test image",
+  "image_sha256": "dc2296e21a256d1b20c5496464932f202ac10dfcb81c9fc74546d4d5f5405405",
+  "eeprom_driver": "transient",
+  "host": "Windows PC; version not recorded",
+  "procedure": "Host entered Sleep; after about 10 seconds a Nova key was pressed.",
+  "user_reported": {
+    "typing_works_before_sleep": true,
+    "lighting_works_before_sleep": true,
+    "nova_key_woke_host": true,
+    "typing_and_lighting_work_after_wake": true
+  },
+  "flasher_verification": {
+    "passed": true,
+    "application_readback_verified": true,
+    "bootloader_unchanged": true,
+    "outside_application_unchanged": true,
+    "hidden_metadata_unchanged": true,
+    "before_flash_sha256": "ed750cc6178ea10aec8d6294e7736adbad4e1e7df1683b6fe7b4dbc3cf875077",
+    "after_flash_sha256": "a82de3b6def46ce9a60eb678c0d8faeab156db5d573d86a5c815bcd4d3620018",
+    "backup_directory": ".local-flasher/remote_wake_test_20261103_01"
+  },
+  "scope": "One physical Nova and one Windows host. Does not test persistent storage, suspend current, other hosts, or power-loss recovery."
+}

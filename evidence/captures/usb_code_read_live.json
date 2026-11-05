@@ -1,0 +1,495 @@
+{
+  "method": "direct one-byte USB reply per bounded code-byte request",
+  "blocks": [
+    {
+      "address": "0x0000101c",
+      "hex": "fff706f933e0",
+      "matches_independent_timing_read": true
+    },
+    {
+      "address": "0x00000bbc",
+      "hex": "10b5002809d0017201218180ff30ff30023040698047002010bd032010bd0000",
+      "first16_match_independent_timing_read": true
+    }
+  ],
+  "version": {
+    "request_hex": "000000000400000167657476",
+    "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "round_trip_ms": 0.0,
+    "version_words_hex": [
+      "a1050000",
+      "a1040000"
+    ]
+  },
+  "verified": true,
+  "transactions": [
+    {
+      "spec": {
+        "address": "0x0000101c",
+        "sha256": "d194381f2d08c76ecbbfb8d761d923e54b16fbde5ec11e9272f9b7b3b3b9a494",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "0100007301000177ff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "d194381f2d08c76ecbbfb8d761d923e54b16fbde5ec11e9272f9b7b3b3b9a494",
+        "number": 255
+      }
+    },
+    {
+      "spec": {
+        "address": "0x0000101d",
+        "sha256": "bc086e7e2e5ccffc7fd23ff489b7f30e16da18ad36753bddfd48b356f78dba68",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "0100007301000177f700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "bc086e7e2e5ccffc7fd23ff489b7f30e16da18ad36753bddfd48b356f78dba68",
+        "number": 247
+      }
+    },
+    {
+      "spec": {
+        "address": "0x0000101e",
+        "sha256": "27dd6e9b2b2bb3df2721f921653eaede98c73cdc145577fa5a145ad34d282140",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001770600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "27dd6e9b2b2bb3df2721f921653eaede98c73cdc145577fa5a145ad34d282140",
+        "number": 6
+      }
+    },
+    {
+      "spec": {
+        "address": "0x0000101f",
+        "sha256": "258e2b5774a8dd3492fcfb14a31d4ee6356fda16b5a71fb29167b4a05fffa373",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "0100007301000177f900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "258e2b5774a8dd3492fcfb14a31d4ee6356fda16b5a71fb29167b4a05fffa373",
+        "number": 249
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00001020",
+        "sha256": "9b0ae96cf38de19aca6d27b07b8a6a4f4852a6eb6ff9b52683da74507b359600",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001773300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "9b0ae96cf38de19aca6d27b07b8a6a4f4852a6eb6ff9b52683da74507b359600",
+        "number": 51
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00001021",
+        "sha256": "96c98de913d14b8be1e99c48118d04ebe7905bf63125b03939bc49c05b419aba",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "0100007301000177e000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "96c98de913d14b8be1e99c48118d04ebe7905bf63125b03939bc49c05b419aba",
+        "number": 224
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bbc",
+        "sha256": "394ef4555a8e5707ad43a143e7bafd6b2020f792e591889cc532e09faded50da",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001771000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "394ef4555a8e5707ad43a143e7bafd6b2020f792e591889cc532e09faded50da",
+        "number": 16
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bbd",
+        "sha256": "c8deab967faa1bfa4558f79cd8a5b8590c01595447bb8324c2e4bd1f0eadc7d9",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "0100007301000177b500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "c8deab967faa1bfa4558f79cd8a5b8590c01595447bb8324c2e4bd1f0eadc7d9",
+        "number": 181
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bbe",
+        "sha256": "bec42a2e6bdd27d19a9c0609c3d456e39ac566514137f154dd89736471e4fa7c",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001770000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "bec42a2e6bdd27d19a9c0609c3d456e39ac566514137f154dd89736471e4fa7c",
+        "number": 0
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bbf",
+        "sha256": "24f4c902da2570ec72c90a062d249ccfd27fc50aaf6cb57d4dc96336ba7269a0",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001772800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "24f4c902da2570ec72c90a062d249ccfd27fc50aaf6cb57d4dc96336ba7269a0",
+        "number": 40
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bc0",
+        "sha256": "80ff0c60598c8f8942ab04c7352c4ea5a38852a3c5fb1b71d83cf9cabaf9447f",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001770900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "80ff0c60598c8f8942ab04c7352c4ea5a38852a3c5fb1b71d83cf9cabaf9447f",
+        "number": 9
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bc1",
+        "sha256": "978d25fad29f920750e721ce8c9e8c0b2c0cdfc96277984329d1739f75de5f6c",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "0100007301000177d000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "978d25fad29f920750e721ce8c9e8c0b2c0cdfc96277984329d1739f75de5f6c",
+        "number": 208
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bc2",
+        "sha256": "858e33215bd636a988e4052e61ebd5c42c6422754ef20e5d8403973c6258296d",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001770100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "858e33215bd636a988e4052e61ebd5c42c6422754ef20e5d8403973c6258296d",
+        "number": 1
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bc3",
+        "sha256": "40abcff3f92e6dadc28aa4cd9f95d9bb9e9a9ddfc2613b62d1d4bb9cffa57257",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001777200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "40abcff3f92e6dadc28aa4cd9f95d9bb9e9a9ddfc2613b62d1d4bb9cffa57257",
+        "number": 114
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bc4",
+        "sha256": "3ed3d1c9dd330d5f21ab0157f34db665e8b6c7bee3f5150e6bafa6ba66bdc1e6",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001770100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "3ed3d1c9dd330d5f21ab0157f34db665e8b6c7bee3f5150e6bafa6ba66bdc1e6",
+        "number": 1
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bc5",
+        "sha256": "98693529a4d045ed493b4d793726333f86ce40f69732b6c941cea1d30db3ef0e",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001772100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "98693529a4d045ed493b4d793726333f86ce40f69732b6c941cea1d30db3ef0e",
+        "number": 33
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bc6",
+        "sha256": "115dcd7e93fb32f841ffebfe424d81b605adfd64fbed9ed3860c39cf1d48810c",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001778100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "115dcd7e93fb32f841ffebfe424d81b605adfd64fbed9ed3860c39cf1d48810c",
+        "number": 129
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bc7",
+        "sha256": "5b4e7e7eeaa7ef723541796ac0ba0d13225440bb48aa0a998918261f4a33005f",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001778000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "5b4e7e7eeaa7ef723541796ac0ba0d13225440bb48aa0a998918261f4a33005f",
+        "number": 128
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bc8",
+        "sha256": "53cda25f5ed28271cb7417f18a565f9825f4a36d4455620290bd3560fa418b62",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "0100007301000177ff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "53cda25f5ed28271cb7417f18a565f9825f4a36d4455620290bd3560fa418b62",
+        "number": 255
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bc9",
+        "sha256": "dbaa4f2d22513480770be1722dc5f3b5fb05ccf168f48593fb3d974b2613f365",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001773000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "dbaa4f2d22513480770be1722dc5f3b5fb05ccf168f48593fb3d974b2613f365",
+        "number": 48
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bca",
+        "sha256": "b014ead3b644c36b1c07032922e56e7d5b83f8307f9761aa0841cb70dfe20033",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "0100007301000177ff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "b014ead3b644c36b1c07032922e56e7d5b83f8307f9761aa0841cb70dfe20033",
+        "number": 255
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bcb",
+        "sha256": "cdb9789db22bfe961c754521125c16f2099f93dda3043f31a1fee5027602e2bc",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001773000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "cdb9789db22bfe961c754521125c16f2099f93dda3043f31a1fee5027602e2bc",
+        "number": 48
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bcc",
+        "sha256": "bd0bf4ace94a95450fda860b0febeded4c6810abf7b8c25442b174a684655955",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001770200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "bd0bf4ace94a95450fda860b0febeded4c6810abf7b8c25442b174a684655955",
+        "number": 2
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bcd",
+        "sha256": "f6e3be44108558c546cac943837157a7ef628e31b1b0f2f39f2381d4fa4616b4",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001773000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "f6e3be44108558c546cac943837157a7ef628e31b1b0f2f39f2381d4fa4616b4",
+        "number": 48
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bce",
+        "sha256": "8d6e01e0a2090867287d57001d402737f0573ae0a363d8f25e2f1a4ad7db7449",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001774000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "8d6e01e0a2090867287d57001d402737f0573ae0a363d8f25e2f1a4ad7db7449",
+        "number": 64
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bcf",
+        "sha256": "99d0242af37138bb884ad1b3798bef140f7528755b5290783095fabef3c3724d",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001776900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "99d0242af37138bb884ad1b3798bef140f7528755b5290783095fabef3c3724d",
+        "number": 105
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bd0",
+        "sha256": "056faf83e079342ae2ea2bebbec7ed27ebee8a8393bdcae329e0bb082b974706",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001778000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "056faf83e079342ae2ea2bebbec7ed27ebee8a8393bdcae329e0bb082b974706",
+        "number": 128
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bd1",
+        "sha256": "3cf7fdb6d653295a1fc579016f9555bcba92ca7a37e07d0619492e78217f93c2",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001774700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "3cf7fdb6d653295a1fc579016f9555bcba92ca7a37e07d0619492e78217f93c2",
+        "number": 71
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bd2",
+        "sha256": "412b32cc99b2f6896bd42a0ccb2d1ab8c9b3ae8c0d761cc1c48c789a9ff38cd6",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001770000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "412b32cc99b2f6896bd42a0ccb2d1ab8c9b3ae8c0d761cc1c48c789a9ff38cd6",
+        "number": 0
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bd3",
+        "sha256": "d4d472163f687a49a0726eed897900ae79bb1f4be0ed1aed6b70fe7ba1725718",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001772000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "d4d472163f687a49a0726eed897900ae79bb1f4be0ed1aed6b70fe7ba1725718",
+        "number": 32
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bd4",
+        "sha256": "b42dd54067ec33b758e33f5c9d1ea00ab1e650582124f4ddc07704d9c53f4de7",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001771000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "b42dd54067ec33b758e33f5c9d1ea00ab1e650582124f4ddc07704d9c53f4de7",
+        "number": 16
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bd5",
+        "sha256": "ee63a5ee398f5e44472fc17a817b7eb9503460e991b95dd6a0c43302ce94fe8d",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "0100007301000177bd00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "ee63a5ee398f5e44472fc17a817b7eb9503460e991b95dd6a0c43302ce94fe8d",
+        "number": 189
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bd6",
+        "sha256": "7b10e1e829f72fba34384b5b5f080c29bba4d59869b81d19910e730dfd6b9f30",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001770300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "7b10e1e829f72fba34384b5b5f080c29bba4d59869b81d19910e730dfd6b9f30",
+        "number": 3
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bd7",
+        "sha256": "21ae807f8031445aa891922c435684a7146ce2da2e30ac501f88eab985c33490",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001772000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "21ae807f8031445aa891922c435684a7146ce2da2e30ac501f88eab985c33490",
+        "number": 32
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bd8",
+        "sha256": "fb5928fca710645fcf549d8b5d49c2f197419b49f43cc1a3084dfd6726010e60",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001771000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "fb5928fca710645fcf549d8b5d49c2f197419b49f43cc1a3084dfd6726010e60",
+        "number": 16
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bd9",
+        "sha256": "6e28895354031907ef7b176df44b8226c39fade1e8a77f6ee668b754fb7613b9",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "0100007301000177bd00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "6e28895354031907ef7b176df44b8226c39fade1e8a77f6ee668b754fb7613b9",
+        "number": 189
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bda",
+        "sha256": "91e83e9440f51b8077db8be926bc12a862b460cfdebcedd71b688581e93fa3ae",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001770000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "91e83e9440f51b8077db8be926bc12a862b460cfdebcedd71b688581e93fa3ae",
+        "number": 0
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00000bdb",
+        "sha256": "970d192bf33d3915b2656ec0d19c6cafd5b3d1b27e87f33493c846fb8a3cb037",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001770000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "970d192bf33d3915b2656ec0d19c6cafd5b3d1b27e87f33493c846fb8a3cb037",
+        "number": 0
+      }
+    }
+  ],
+  "cleanup": {
+    "normal_START": {
+      "total_ms": 16.8192,
+      "post_write_ms": 2.0097,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "final_state": {
+      "exit_query_error": "read error",
+      "application_collections": 6,
+      "bootloader_interfaces": 0
+    }
+  }
+}

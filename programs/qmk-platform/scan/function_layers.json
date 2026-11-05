@@ -1,0 +1,1613 @@
+{
+  "evidence": {
+    "detect": "0x33a0",
+    "dispatch": "0x3598",
+    "layer1": "0x32f0",
+    "layer2": "0x3348"
+  },
+  "behavior": "Held FF selects alternate layer1, otherwise held FE selects layer2. FF has priority; selectors suppressed from normal report. Original mutable mappings and conditional timer behavior are separate.",
+  "layers": [
+    {
+      "layer": 0,
+      "table_address": "0xf6a2",
+      "entries": [
+        {
+          "bank": 0,
+          "channel": 0,
+          "original_key_id": 21,
+          "first_byte": 41,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 1,
+          "original_key_id": 22,
+          "first_byte": 30,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 2,
+          "original_key_id": 23,
+          "first_byte": 31,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 3,
+          "original_key_id": 24,
+          "first_byte": 32,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 4,
+          "original_key_id": 25,
+          "first_byte": 33,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 5,
+          "original_key_id": 26,
+          "first_byte": 34,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 6,
+          "original_key_id": 27,
+          "first_byte": 35,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 7,
+          "original_key_id": 28,
+          "first_byte": 36,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 8,
+          "original_key_id": 29,
+          "first_byte": 37,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 9,
+          "original_key_id": 30,
+          "first_byte": 38,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 10,
+          "original_key_id": 31,
+          "first_byte": 39,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 0,
+          "original_key_id": 42,
+          "first_byte": 43,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 1,
+          "original_key_id": 43,
+          "first_byte": 20,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 2,
+          "original_key_id": 44,
+          "first_byte": 26,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 3,
+          "original_key_id": 45,
+          "first_byte": 8,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 4,
+          "original_key_id": 46,
+          "first_byte": 21,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 5,
+          "original_key_id": 47,
+          "first_byte": 23,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 6,
+          "original_key_id": 48,
+          "first_byte": 28,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 7,
+          "original_key_id": 49,
+          "first_byte": 24,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 8,
+          "original_key_id": 50,
+          "first_byte": 12,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 9,
+          "original_key_id": 51,
+          "first_byte": 18,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 10,
+          "original_key_id": 52,
+          "first_byte": 19,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 0,
+          "original_key_id": 63,
+          "first_byte": 57,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 1,
+          "original_key_id": 64,
+          "first_byte": 4,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 2,
+          "original_key_id": 65,
+          "first_byte": 22,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 3,
+          "original_key_id": 66,
+          "first_byte": 7,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 4,
+          "original_key_id": 67,
+          "first_byte": 9,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 5,
+          "original_key_id": 68,
+          "first_byte": 10,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 6,
+          "original_key_id": 69,
+          "first_byte": 11,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 7,
+          "original_key_id": 70,
+          "first_byte": 13,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 8,
+          "original_key_id": 71,
+          "first_byte": 14,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 9,
+          "original_key_id": 72,
+          "first_byte": 15,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 10,
+          "original_key_id": 73,
+          "first_byte": 51,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 0,
+          "original_key_id": 84,
+          "first_byte": 225,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 1,
+          "original_key_id": 85,
+          "first_byte": 100,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 2,
+          "original_key_id": 86,
+          "first_byte": 29,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 3,
+          "original_key_id": 87,
+          "first_byte": 27,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 4,
+          "original_key_id": 88,
+          "first_byte": 6,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 5,
+          "original_key_id": 89,
+          "first_byte": 25,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 6,
+          "original_key_id": 90,
+          "first_byte": 5,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 7,
+          "original_key_id": 91,
+          "first_byte": 17,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 8,
+          "original_key_id": 92,
+          "first_byte": 16,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 9,
+          "original_key_id": 93,
+          "first_byte": 54,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 10,
+          "original_key_id": 94,
+          "first_byte": 55,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 0,
+          "original_key_id": 105,
+          "first_byte": 224,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 1,
+          "original_key_id": 106,
+          "first_byte": 227,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 2,
+          "original_key_id": 107,
+          "first_byte": 226,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 3,
+          "original_key_id": 111,
+          "first_byte": 44,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 4,
+          "original_key_id": 115,
+          "first_byte": 230,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 5,
+          "original_key_id": 116,
+          "first_byte": 255,
+          "second_byte": 0,
+          "kind": "momentary_layer1"
+        },
+        {
+          "bank": 4,
+          "channel": 6,
+          "original_key_id": 117,
+          "first_byte": 254,
+          "second_byte": 0,
+          "kind": "momentary_layer2"
+        },
+        {
+          "bank": 4,
+          "channel": 7,
+          "original_key_id": 118,
+          "first_byte": 228,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 8,
+          "original_key_id": 95,
+          "first_byte": 56,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 9,
+          "original_key_id": 1,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "absent"
+        },
+        {
+          "bank": 4,
+          "channel": 10,
+          "original_key_id": 97,
+          "first_byte": 229,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 0,
+          "original_key_id": 1,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "absent"
+        },
+        {
+          "bank": 5,
+          "channel": 1,
+          "original_key_id": 32,
+          "first_byte": 45,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 2,
+          "original_key_id": 33,
+          "first_byte": 46,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 3,
+          "original_key_id": 34,
+          "first_byte": 42,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 4,
+          "original_key_id": 53,
+          "first_byte": 47,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 5,
+          "original_key_id": 54,
+          "first_byte": 48,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 6,
+          "original_key_id": 1,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "absent"
+        },
+        {
+          "bank": 5,
+          "channel": 7,
+          "original_key_id": 74,
+          "first_byte": 52,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 8,
+          "original_key_id": 75,
+          "first_byte": 50,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 9,
+          "original_key_id": 76,
+          "first_byte": 40,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 10,
+          "original_key_id": 1,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "absent"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "table_address": "0xf79e",
+      "entries": [
+        {
+          "bank": 0,
+          "channel": 0,
+          "original_key_id": 21,
+          "first_byte": 53,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 1,
+          "original_key_id": 22,
+          "first_byte": 58,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 2,
+          "original_key_id": 23,
+          "first_byte": 59,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 3,
+          "original_key_id": 24,
+          "first_byte": 60,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 4,
+          "original_key_id": 25,
+          "first_byte": 61,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 5,
+          "original_key_id": 26,
+          "first_byte": 62,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 6,
+          "original_key_id": 27,
+          "first_byte": 63,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 7,
+          "original_key_id": 28,
+          "first_byte": 64,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 8,
+          "original_key_id": 29,
+          "first_byte": 65,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 9,
+          "original_key_id": 30,
+          "first_byte": 66,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 10,
+          "original_key_id": 31,
+          "first_byte": 67,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 0,
+          "original_key_id": 42,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 1,
+          "original_key_id": 43,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 2,
+          "original_key_id": 44,
+          "first_byte": 82,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 3,
+          "original_key_id": 45,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 4,
+          "original_key_id": 46,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 5,
+          "original_key_id": 47,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 6,
+          "original_key_id": 48,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 7,
+          "original_key_id": 49,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 8,
+          "original_key_id": 50,
+          "first_byte": 70,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 9,
+          "original_key_id": 51,
+          "first_byte": 74,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 10,
+          "original_key_id": 52,
+          "first_byte": 77,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 0,
+          "original_key_id": 63,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 1,
+          "original_key_id": 64,
+          "first_byte": 80,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 2,
+          "original_key_id": 65,
+          "first_byte": 81,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 3,
+          "original_key_id": 66,
+          "first_byte": 79,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 4,
+          "original_key_id": 67,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 5,
+          "original_key_id": 68,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 6,
+          "original_key_id": 69,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 7,
+          "original_key_id": 70,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 8,
+          "original_key_id": 71,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 9,
+          "original_key_id": 72,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 10,
+          "original_key_id": 73,
+          "first_byte": 75,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 0,
+          "original_key_id": 84,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 1,
+          "original_key_id": 85,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 2,
+          "original_key_id": 86,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 3,
+          "original_key_id": 87,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 4,
+          "original_key_id": 88,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 5,
+          "original_key_id": 89,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 6,
+          "original_key_id": 90,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 7,
+          "original_key_id": 91,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 8,
+          "original_key_id": 92,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 9,
+          "original_key_id": 93,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 10,
+          "original_key_id": 94,
+          "first_byte": 73,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 0,
+          "original_key_id": 105,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 1,
+          "original_key_id": 106,
+          "first_byte": 251,
+          "second_byte": 16,
+          "kind": "vendor_action"
+        },
+        {
+          "bank": 4,
+          "channel": 2,
+          "original_key_id": 107,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 3,
+          "original_key_id": 111,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 4,
+          "original_key_id": 115,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 5,
+          "original_key_id": 116,
+          "first_byte": 255,
+          "second_byte": 0,
+          "kind": "momentary_layer1"
+        },
+        {
+          "bank": 4,
+          "channel": 6,
+          "original_key_id": 117,
+          "first_byte": 254,
+          "second_byte": 0,
+          "kind": "momentary_layer2"
+        },
+        {
+          "bank": 4,
+          "channel": 7,
+          "original_key_id": 118,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 8,
+          "original_key_id": 95,
+          "first_byte": 76,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 9,
+          "original_key_id": 1,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "absent"
+        },
+        {
+          "bank": 4,
+          "channel": 10,
+          "original_key_id": 97,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 0,
+          "original_key_id": 1,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "absent"
+        },
+        {
+          "bank": 5,
+          "channel": 1,
+          "original_key_id": 32,
+          "first_byte": 68,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 2,
+          "original_key_id": 33,
+          "first_byte": 69,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 3,
+          "original_key_id": 34,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 4,
+          "original_key_id": 53,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 5,
+          "original_key_id": 54,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 6,
+          "original_key_id": 1,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "absent"
+        },
+        {
+          "bank": 5,
+          "channel": 7,
+          "original_key_id": 74,
+          "first_byte": 78,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 8,
+          "original_key_id": 75,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 9,
+          "original_key_id": 76,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 10,
+          "original_key_id": 1,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "absent"
+        }
+      ]
+    },
+    {
+      "layer": 2,
+      "table_address": "0xf89a",
+      "entries": [
+        {
+          "bank": 0,
+          "channel": 0,
+          "original_key_id": 21,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 1,
+          "original_key_id": 22,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 2,
+          "original_key_id": 23,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 3,
+          "original_key_id": 24,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 4,
+          "original_key_id": 25,
+          "first_byte": 251,
+          "second_byte": 15,
+          "kind": "vendor_action"
+        },
+        {
+          "bank": 0,
+          "channel": 5,
+          "original_key_id": 26,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 6,
+          "original_key_id": 27,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 7,
+          "original_key_id": 28,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 8,
+          "original_key_id": 29,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 9,
+          "original_key_id": 30,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 0,
+          "channel": 10,
+          "original_key_id": 31,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 0,
+          "original_key_id": 42,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 1,
+          "original_key_id": 43,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 2,
+          "original_key_id": 44,
+          "first_byte": 251,
+          "second_byte": 4,
+          "kind": "vendor_action"
+        },
+        {
+          "bank": 1,
+          "channel": 3,
+          "original_key_id": 45,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 4,
+          "original_key_id": 46,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 5,
+          "original_key_id": 47,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 6,
+          "original_key_id": 48,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 7,
+          "original_key_id": 49,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 8,
+          "original_key_id": 50,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 9,
+          "original_key_id": 51,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 1,
+          "channel": 10,
+          "original_key_id": 52,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 0,
+          "original_key_id": 63,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 1,
+          "original_key_id": 64,
+          "first_byte": 251,
+          "second_byte": 8,
+          "kind": "vendor_action"
+        },
+        {
+          "bank": 2,
+          "channel": 2,
+          "original_key_id": 65,
+          "first_byte": 251,
+          "second_byte": 5,
+          "kind": "vendor_action"
+        },
+        {
+          "bank": 2,
+          "channel": 3,
+          "original_key_id": 66,
+          "first_byte": 251,
+          "second_byte": 7,
+          "kind": "vendor_action"
+        },
+        {
+          "bank": 2,
+          "channel": 4,
+          "original_key_id": 67,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 5,
+          "original_key_id": 68,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 6,
+          "original_key_id": 69,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 7,
+          "original_key_id": 70,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 8,
+          "original_key_id": 71,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 9,
+          "original_key_id": 72,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 2,
+          "channel": 10,
+          "original_key_id": 73,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 0,
+          "original_key_id": 84,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 1,
+          "original_key_id": 85,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 2,
+          "original_key_id": 86,
+          "first_byte": 179,
+          "second_byte": 0,
+          "kind": "vendor_action"
+        },
+        {
+          "bank": 3,
+          "channel": 3,
+          "original_key_id": 87,
+          "first_byte": 178,
+          "second_byte": 0,
+          "kind": "vendor_action"
+        },
+        {
+          "bank": 3,
+          "channel": 4,
+          "original_key_id": 88,
+          "first_byte": 177,
+          "second_byte": 0,
+          "kind": "vendor_action"
+        },
+        {
+          "bank": 3,
+          "channel": 5,
+          "original_key_id": 89,
+          "first_byte": 176,
+          "second_byte": 0,
+          "kind": "vendor_action"
+        },
+        {
+          "bank": 3,
+          "channel": 6,
+          "original_key_id": 90,
+          "first_byte": 180,
+          "second_byte": 0,
+          "kind": "vendor_action"
+        },
+        {
+          "bank": 3,
+          "channel": 7,
+          "original_key_id": 91,
+          "first_byte": 182,
+          "second_byte": 0,
+          "kind": "vendor_action"
+        },
+        {
+          "bank": 3,
+          "channel": 8,
+          "original_key_id": 92,
+          "first_byte": 181,
+          "second_byte": 0,
+          "kind": "vendor_action"
+        },
+        {
+          "bank": 3,
+          "channel": 9,
+          "original_key_id": 93,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 3,
+          "channel": 10,
+          "original_key_id": 94,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 0,
+          "original_key_id": 105,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 1,
+          "original_key_id": 106,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 2,
+          "original_key_id": 107,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 3,
+          "original_key_id": 111,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 4,
+          "original_key_id": 115,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 5,
+          "original_key_id": 116,
+          "first_byte": 255,
+          "second_byte": 0,
+          "kind": "momentary_layer1"
+        },
+        {
+          "bank": 4,
+          "channel": 6,
+          "original_key_id": 117,
+          "first_byte": 254,
+          "second_byte": 0,
+          "kind": "momentary_layer2"
+        },
+        {
+          "bank": 4,
+          "channel": 7,
+          "original_key_id": 118,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 8,
+          "original_key_id": 95,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 4,
+          "channel": 9,
+          "original_key_id": 1,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "absent"
+        },
+        {
+          "bank": 4,
+          "channel": 10,
+          "original_key_id": 97,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 0,
+          "original_key_id": 1,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "absent"
+        },
+        {
+          "bank": 5,
+          "channel": 1,
+          "original_key_id": 32,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 2,
+          "original_key_id": 33,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 3,
+          "original_key_id": 34,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 4,
+          "original_key_id": 53,
+          "first_byte": 251,
+          "second_byte": 0,
+          "kind": "vendor_action"
+        },
+        {
+          "bank": 5,
+          "channel": 5,
+          "original_key_id": 54,
+          "first_byte": 251,
+          "second_byte": 14,
+          "kind": "vendor_action"
+        },
+        {
+          "bank": 5,
+          "channel": 6,
+          "original_key_id": 1,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "absent"
+        },
+        {
+          "bank": 5,
+          "channel": 7,
+          "original_key_id": 74,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 8,
+          "original_key_id": 75,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 9,
+          "original_key_id": 76,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "basic_hid_usage"
+        },
+        {
+          "bank": 5,
+          "channel": 10,
+          "original_key_id": 1,
+          "first_byte": 0,
+          "second_byte": 0,
+          "kind": "absent"
+        }
+      ]
+    }
+  ]
+}

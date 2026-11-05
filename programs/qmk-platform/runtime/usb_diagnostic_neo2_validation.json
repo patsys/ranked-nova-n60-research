@@ -1,0 +1,194 @@
+{
+  "passed": true,
+  "elf_sha256": {
+    "firmware_diagnostic_neo2": "ee2e3578880e4bbd8d0366e901246181017cbbcb3df07ad16dec4853540e815e",
+    "firmware_via_diagnostic_neo2": "8fbed3bc051b69ae5005ae2293566ffaeb2c4b91fbf36e7c53c0539bc700c711"
+  },
+  "case_count": 22,
+  "cases": [
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "full5000ticks repeatedUSBreset0 never renews deadline",
+      "passed": true,
+      "retention": {
+        "original_boot_reached": "0xbdc",
+        "trace_unchanged": true,
+        "native_writes": 1696,
+        "fixture": "Core reset registers modeled; actual reset/scatter/main/USB init executes; host-config phase injected at11ae"
+      }
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "configured deadline allowed; later configuration loss returns boot",
+      "passed": true
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "SysTickpriority0 aboveUSBpriority1; neighboringbytespreserved",
+      "passed": true
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "V2 reserves sharedstatus/AUX slots against event overwrites",
+      "passed": true
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "deadline with256B preexistingUSB/exceptionstack budget",
+      "passed": true,
+      "minimum_sp": "0x200000d8",
+      "total_stack_used": 296
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "HardFault_Handler 0xfffffffd frame0x200005c0",
+      "passed": true,
+      "minimum_fault_stack": "0x20003158",
+      "fault_stack_used": 88,
+      "frame_trustworthy": true
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "HardFault_Handler 0xfffffff9 frame0x200001c0",
+      "passed": true,
+      "minimum_fault_stack": "0x20003158",
+      "fault_stack_used": 88,
+      "frame_trustworthy": true
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "NMI_Handler 0xfffffffd frame0x200005c0",
+      "passed": true,
+      "minimum_fault_stack": "0x20003158",
+      "fault_stack_used": 88,
+      "frame_trustworthy": true
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "HardFault_Handler 0xfffffffd frame0x40000000",
+      "passed": true,
+      "minimum_fault_stack": "0x20003158",
+      "fault_stack_used": 88,
+      "frame_trustworthy": false
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "NMI_Handler 0xfffffff9 frame0x20003180",
+      "passed": true,
+      "minimum_fault_stack": "0x20003158",
+      "fault_stack_used": 88,
+      "frame_trustworthy": false
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "HardFault_Handler 0xfffffffd frame0x20003000",
+      "passed": true,
+      "minimum_fault_stack": "0x20003158",
+      "fault_stack_used": 88,
+      "frame_trustworthy": true
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "full5000ticks repeatedUSBreset0 never renews deadline",
+      "passed": true,
+      "retention": {
+        "original_boot_reached": "0xbdc",
+        "trace_unchanged": true,
+        "native_writes": 1696,
+        "fixture": "Core reset registers modeled; actual reset/scatter/main/USB init executes; host-config phase injected at11ae"
+      }
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "configured deadline allowed; later configuration loss returns boot",
+      "passed": true
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "SysTickpriority0 aboveUSBpriority1; neighboringbytespreserved",
+      "passed": true
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "V2 reserves sharedstatus/AUX slots against event overwrites",
+      "passed": true
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "deadline with256B preexistingUSB/exceptionstack budget",
+      "passed": true,
+      "minimum_sp": "0x200000d8",
+      "total_stack_used": 296
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "HardFault_Handler 0xfffffffd frame0x200005c0",
+      "passed": true,
+      "minimum_fault_stack": "0x20003158",
+      "fault_stack_used": 88,
+      "frame_trustworthy": true
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "HardFault_Handler 0xfffffff9 frame0x200001c0",
+      "passed": true,
+      "minimum_fault_stack": "0x20003158",
+      "fault_stack_used": 88,
+      "frame_trustworthy": true
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "NMI_Handler 0xfffffffd frame0x200005c0",
+      "passed": true,
+      "minimum_fault_stack": "0x20003158",
+      "fault_stack_used": 88,
+      "frame_trustworthy": true
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "HardFault_Handler 0xfffffffd frame0x40000000",
+      "passed": true,
+      "minimum_fault_stack": "0x20003158",
+      "fault_stack_used": 88,
+      "frame_trustworthy": false
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "NMI_Handler 0xfffffff9 frame0x20003180",
+      "passed": true,
+      "minimum_fault_stack": "0x20003158",
+      "fault_stack_used": 88,
+      "frame_trustworthy": false
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "HardFault_Handler 0xfffffffd frame0x20003000",
+      "passed": true,
+      "minimum_fault_stack": "0x20003158",
+      "fault_stack_used": 88,
+      "frame_trustworthy": true
+    }
+  ],
+  "deadline_ticks": 5000,
+  "trace_version": 2,
+  "absolute_deadline_not_reset_by_USB": true,
+  "bounded_timeout": true,
+  "sysTick_priority": 0,
+  "usb_priority": 1,
+  "trace_address": "0x20003000",
+  "trace_bytes": 256,
+  "trace_retained_by_original_boot_code": true,
+  "faultstack_minSP": "0x20003158",
+  "faultstack_top": "0x200031b0",
+  "faultstack_lower_bound": "0x20003100",
+  "faultstack_max_used": 88,
+  "max_main_stack_model_used": 296,
+  "noflashwrites": true,
+  "hardware_access": false,
+  "limits": [
+    "Synthetic ticks/exception IPSR entries; actual physical preemption/timing not emulated",
+    "Failed exception stacking, unreadable code/vector or broken clocks can defeat this software guard",
+    "Original boot writes tested not to clear trace; silicon SRAM retention across reset remains to be observed physically",
+    "Native boot configuration completion injected; no physical USB recovery guarantee"
+  ]
+}

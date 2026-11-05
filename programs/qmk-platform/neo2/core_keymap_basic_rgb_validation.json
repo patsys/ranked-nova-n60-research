@@ -1,0 +1,1051 @@
+{
+  "passed": true,
+  "elf_sha256": "c19616a2fa63a87baa7bc45177e6d92cca4d278d00da1368d82456a4198b98d2",
+  "candidate_keymap_sha256": "cae662d25decbce1f84e303b6c274168a66107d9c6ddd05b022a336225f0b9c4",
+  "cases": [
+    {
+      "case": "idle",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "physical_Q_to_X",
+      "pressed_positions": [
+        [
+          1,
+          1
+        ]
+      ],
+      "report_hex": "00001b0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "physical_A_to_U",
+      "pressed_positions": [
+        [
+          2,
+          1
+        ]
+      ],
+      "report_hex": "0000180000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "physical_Z_to_udia",
+      "pressed_positions": [
+        [
+          3,
+          2
+        ]
+      ],
+      "report_hex": "00002f0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Neo_Z_German_host_Y_usage",
+      "pressed_positions": [
+        [
+          3,
+          6
+        ]
+      ],
+      "report_hex": "00001c0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Neo_Y_German_host_Z_usage",
+      "pressed_positions": [
+        [
+          5,
+          7
+        ]
+      ],
+      "report_hex": "00001d0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_plus_Neo_X",
+      "pressed_positions": [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "report_hex": "02001b0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Ctrl_plus_Neo_C",
+      "pressed_positions": [
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "report_hex": "0100060000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Mod3_left_brace_(2, 0)",
+      "pressed_positions": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "report_hex": "4000240000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Mod3_right_brace_(2, 0)",
+      "pressed_positions": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "report_hex": "4000270000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Mod3_left_brace_(5, 8)",
+      "pressed_positions": [
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "report_hex": "4000240000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Mod3_right_brace_(5, 8)",
+      "pressed_positions": [
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "report_hex": "4000270000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Mod4_(3, 1)_left",
+      "pressed_positions": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "report_hex": "0000500000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Mod4_(3, 1)_down",
+      "pressed_positions": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "report_hex": "0000510000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Mod4_(3, 1)_right",
+      "pressed_positions": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "report_hex": "00004f0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Mod4_(3, 1)_up",
+      "pressed_positions": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "report_hex": "0000520000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Mod4_(4, 4)_left",
+      "pressed_positions": [
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "report_hex": "0000500000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Mod4_(4, 4)_down",
+      "pressed_positions": [
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "report_hex": "0000510000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Mod4_(4, 4)_right",
+      "pressed_positions": [
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "report_hex": "00004f0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Mod4_(4, 4)_up",
+      "pressed_positions": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "report_hex": "0000520000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Fn1_F1",
+      "pressed_positions": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "report_hex": "00003a0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Fn1_F2",
+      "pressed_positions": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "report_hex": "00003b0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Fn1_F3",
+      "pressed_positions": [
+        [
+          0,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "report_hex": "00003c0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Fn1_F4",
+      "pressed_positions": [
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "report_hex": "00003d0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Fn1_F5",
+      "pressed_positions": [
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "report_hex": "00003e0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Fn1_F6",
+      "pressed_positions": [
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "report_hex": "00003f0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Fn1_F7",
+      "pressed_positions": [
+        [
+          0,
+          7
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "report_hex": "0000400000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Fn1_F8",
+      "pressed_positions": [
+        [
+          0,
+          8
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "report_hex": "0000410000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Fn1_F9",
+      "pressed_positions": [
+        [
+          0,
+          9
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "report_hex": "0000420000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Fn1_F10",
+      "pressed_positions": [
+        [
+          0,
+          10
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "report_hex": "0000430000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Fn1_F11",
+      "pressed_positions": [
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "report_hex": "0000440000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Fn1_F12",
+      "pressed_positions": [
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "report_hex": "0000450000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "both_layers_held",
+      "pressed_positions": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "release_Mod4_keep_Mod3",
+      "pressed_positions": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "report_hex": "4000240000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "both_layers_again",
+      "pressed_positions": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "release_Mod3_keep_Mod4",
+      "pressed_positions": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "report_hex": "0000510000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "dual_Mod3_release_first",
+      "pressed_positions": [
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "report_hex": "4000240000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "dual_Mod4_release_first",
+      "pressed_positions": [
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "report_hex": "0000500000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_1",
+      "reports": [
+        "0200350000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_2",
+      "reports": [
+        "0200200000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_3",
+      "reports": [
+        "0000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_4",
+      "reports": [
+        "0000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_5",
+      "reports": [
+        "0000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_6",
+      "reports": [
+        "0200210000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_7",
+      "reports": [
+        "4000000000000000",
+        "4000080000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_8",
+      "reports": [
+        "0000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_9",
+      "reports": [
+        "0000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_0",
+      "reports": [
+        "0000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_COMM",
+      "reports": [
+        "0000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_DOT",
+      "reports": [
+        "0000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_MINS",
+      "reports": [
+        "0000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_GRV",
+      "reports": [
+        "0000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_SS",
+      "reports": [
+        "0000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "Shift_override_DE_ACUT",
+      "reports": [
+        "0000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "German_dead_circumflex",
+      "pressed_positions": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "report_hex": "0000350000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "German_dead_circumflex_manual_Space",
+      "pressed_positions": [
+        [
+          4,
+          3
+        ]
+      ],
+      "report_hex": "00002c0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "German_dead_grave",
+      "pressed_positions": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "report_hex": "02002e0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    },
+    {
+      "case": "German_dead_grave_manual_Space",
+      "pressed_positions": [
+        [
+          4,
+          3
+        ]
+      ],
+      "report_hex": "00002c0000000000",
+      "passed": true
+    },
+    {
+      "case": "release_cleanup",
+      "pressed_positions": [],
+      "report_hex": "0000000000000000",
+      "passed": true
+    }
+  ],
+  "case_count": 113,
+  "via_cases": [],
+  "via_case_count": 0,
+  "minimum_process_stack": "0x20000500",
+  "acquisition_reads": 122760,
+  "flash_writes": [],
+  "fixtures": "Actual linked keyboard_init/task, analog MMIO samples100/0, debounce, QMK actions, runtime host reports. ELF data loaded directly; original delays bypassed; synthetic timer. VIA actual upstream handlers and transient EEPROM.",
+  "limitations": "No physical hardware, USB transfer, Windows rendering, timing or cold boot test. Neo2 core first four levels only; unsupported characters and layers5/6 excluded."
+}

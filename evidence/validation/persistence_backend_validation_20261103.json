@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-03",
+  "candidate_page_gate_clear_fix_20261104": {
+    "finding": "The recovered vendor program stub clears only the selected gate bit with read-modify-write; the QMK backend had written zero to the full gate register.",
+    "change": "Both erase and program paths now use *gate &= ~bit.",
+    "default_build": "passed via normal QMK CLI",
+    "via_build": "passed via normal QMK CLI",
+    "default_lint": "passed",
+    "offline_image_check": {
+      "passed": true,
+      "bytes": 29880,
+      "lowest_address": "0x2000",
+      "highest_address": "0x94b7",
+      "hardware_access": false
+    },
+    "live_flash": "pending physical Esc bootloader entry"
+  },
+  "persistent_via_image": {
+    "keymap_source": "local QMK userspace generic ISO via keymap; no Neo2 mappings",
+    "eeprom_driver": "wear_leveling, selected by keyboard rules.mk; no transient override",
+    "elf_sha256": "8084a5ce253fa747af9e0b069b1391fecc5f63738b217bdcdd4533aacfc984697",
+    "hex_sha256": "f0b55f63bc1ab1f81a065774bdd94ae2b255b735311f6f82831f1a3f825f94e5",
+    "size_bytes": 28464,
+    "image_bounds_check": {
+      "passed": true,
+      "lowest_address": "0x2000",
+      "highest_address": "0x8f2f",
+      "hardware_access": false
+    }
+  },
+  "checks": {
+    "nova_default_compile": "passed with wear_leveling enabled",
+    "nova_default_lint": "passed",
+    "handwired_test_compile": "passed without warnings",
+    "handwired_test_lint": "passed",
+    "via_userspace_compile": "passed with wear_leveling selected by the keyboard rules",
+    "qmk_flash_cli_offline": "passed; normal qmk flash route invoked freshly installed ry72xx-flasher with --check-image and no USB access",
+    "nova_range_guard_tests": "2 passed: aligned start/end accepted; misaligned, end and UINT32_MAX rejected",
+    "generic_wear_leveling_tests": "15 passed: 5 four-byte and 10 general tests"
+  },
+  "hardware_status": {
+    "remote_wake": "passed once on one Nova and one Windows host using transient EEPROM image; see remote_wake_hardware_test_20261103.json",
+    "persistent_image_flashed": true,
+    "nvm_write_readback_cold_power_test": "not reliable: returned 0x0004 after one user-confirmed cold start, but after read-only probe release/reset returned 0x0001",
+    "flash_controller_runtime_test": "diagnostic stage 5 reported success and immediate VIA readback returned 0x0004, but the later read-only raw dump showed the reported CPU address 0x1F744 erased; runtime/raw evidence conflicts, so controller persistence is not validated",
+    "live_qmk_flash": "passed; full readback verified; bootloader, outside-application data and hidden metadata unchanged",
+    "test_write": {
+      "slot": "VIA layer 2, row 4, column 9; unmapped by the physical layout",
+      "previous_keycode": "0x0001",
+      "test_keycode": "0x0004 (KC_A)",
+      "immediate_readback": "0x0004",
+      "cold_power_recovery": "failed; reverted to original 0x0001",
+      "full_flash_probe": ".local-flasher/persist_fail_probe_20261103_01; no changed bytes in F8-FF"
+    },
+    "backup_directory": ".local-flasher/qmk_cli_persistent_via_20261103_01",
+    "corrected_controller_backend": "flashed through QMK CLI; full readback passed; bootloader, outside-application data and hidden metadata unchanged",
+    "corrected_test_write": {
+      "slot": "VIA layer 2, row 4, column 9; unmapped",
+      "previous": "0x0001",
+      "written": "0x0004",
+      "immediate_readback": "0x0004",
+      "cold_power_recovery": "failed; post-restart VIA query returned 0x0001",
+      "flash_result": "<LOCAL_USER>\\.local\\state\\ry72xx-flasher\\20261103T221348_195612Z\\result.json",
+      "read_only_full_flash_probe": {
+        "result": ".local-flasher/persist_second_probe_20261103_01",
+        "passed": true,
+        "whole_flash_unchanged": true,
+        "F8_FF_all_erased": true,
+        "write_started": false
+      }
+    },
+      "diagnostic_build": "temporary read-only Raw HID query compiled, passed offline image bounds, and was installed through the normal QMK CLI flash route with full application readback",
+    "diagnostic_build_status": {
+      "diagnostic_build": "temporary Raw HID status query, read-only only",
+      "hex_sha256": "39280ff260d035695dc5b6f9d533c64f1db7be370883f8b7097be248a74fa154",
+      "elf_sha256": "cfc4390d94fd4056e9b0f4a0bf06629087b251ac92bc033f59026cd94ae1f9d5",
+      "offline_flash_check": {
+        "passed": true,
+        "bytes": 29880,
+        "lowest_address": "0x2000",
+        "highest_address": "0x94b7",
+        "hardware_access": false
+      },
+      "hardware_flash": "pending Esc bootloader entry",
+      "diagnostic_write_test": "not run"
+    },
+    "latest_diagnostic": {
+      "stage": 2,
+      "controller_ready": true,
+      "write_unlocked_at_query": false,
+      "last_address": "0x408",
+      "page": "0xFA",
+      "metadata_permission_word": "0xFFFFFFFF",
+      "page_gate_register_readback": "0xFFFFFFFF",
+      "controller_status": "0x00000000",
+      "flash_word": "0xFFFFFFFF",
+      "meaning": "backend rejected at page_allowed before issuing a controller command"
+    },
+    "latest_source_correction": "removed the unsupported requirement that the page-gate register read back clear; still checks metadata page permission and restricts accesses to F8-FF",
+      "corrected_hardware_write": "diagnostic stage 5 reported success and immediate VIA readback returned 0x0004; raw flash dump later contradicted the reported address, so the persistence backend remains unverified",
+    "latest_corrected_live_write": {
+      "date": "2026-11-04",
+      "image_sha256": "93a54f33b1708b49a5627b6519da1fd36d87bb820892c9ce18ca7959b1aa4c3a",
+      "qmk_cli_flash_result": "<LOCAL_USER>\\.local\\state\\ry72xx-flasher\\20261104T004341_121285Z\\result.json",
+      "flash_passed": true,
+      "full_readback_verified": true,
+      "bootloader_unchanged": true,
+      "outside_application_unchanged": true,
+      "hidden_metadata_unchanged": true,
+      "test_slot": [
+        2,
+        4,
+        9
+      ],
+      "old_keycode": "0x0001",
+      "new_keycode": "0x0004",
+      "immediate_via_readback": "0x0004",
+      "diagnostic_before_test": {
+        "stage": 5,
+        "last_address": "0x740",
+        "page": "0xFB",
+        "permission_word": "0xFFFFFFFF",
+        "gate_word_readback": "0x00000000",
+        "physical_word": "0xFBD8FFF7"
+      },
+      "diagnostic_after_test": {
+        "stage": 5,
+        "last_address": "0x744",
+        "page": "0xFB",
+        "permission_word": "0xFFFFFFFF",
+        "gate_word_readback": "0x00000000",
+        "physical_word": "0xFB63FEF7"
+      },
+      "interpretation": "backend reports successful controller write and physical word changed; stage 2 gate-readback rejection is resolved.",
+      "cold_power_replay": {
+        "after_cold_restart": "0x0004",
+        "retained": true,
+        "cold_restart_user_confirmed": true
+      },
+      "final_read_only_flash_probe": ".local-flasher/persist_success_probe_20261104_01; read-only dump passed, but the reported target address remained erased and VIA returned 0x0001 after probe release/reset"
+    },
+    "final_read_only_full_flash_audit": {
+      "date": "2026-11-04",
+      "probe_directory": ".local-flasher/persist_success_probe_20261104_01",
+      "read_only_probe_passed": true,
+      "probe_only": true,
+      "write_started": false,
+      "probe_before_sha256": "43e346047d3b953b983ee32707337d96d0b9a17adb87ac412ec6561ee3779a67",
+      "probe_after_sha256": "43e346047d3b953b983ee32707337d96d0b9a17adb87ac412ec6561ee3779a67",
+      "flash_unchanged_during_probe": true,
+      "diff_from_verified_postflash_baseline_bytes": 3,
+      "diff_outside_candidate_F8_FF": 0,
+      "outside_diff_sample": [],
+      "changed_candidate_bytes": [
+        {
+          "address": "0x1f408",
+          "before": 255,
+          "after": 239
+        },
+        {
+          "address": "0x1f40b",
+          "before": 255,
+          "after": 0
+        },
+        {
+          "address": "0x1f40c",
+          "before": 255,
+          "after": 0
+        }
+      ],
+      "changed_word_at_0x1F408": "0xffffef",
+      "word_at_expected_diag_address_0x1F744": "0xffffffff",
+      "word_at_0x1F740": "0xffffffff",
+      "bootloader_unchanged": true,
+      "outside_application_unchanged_during_probe": true,
+      "hidden_metadata_unchanged": true,
+      "slot_query_after_probe_release": "0x0001",
+      "slot_had_read_0x0004_after_user_cold_restart": true,
+      "interpretation": "Persistence is not reliable: post-cold VIA returned 0x0004 before the read-only probe; after probe release/reset the app returned 0x0001. The only changed raw bytes versus postflash baseline are 3 bytes at 0x1F408..0x1F40C, while diagnostic had reported a write at 0x1F744. Do not open PR or claim persistence."
+    }
+  },
+  "upstream_scope": {
+    "qmk_firmware": "platform, RY7203 registration, Nova default keyboard, standalone one-key platform test target, and storage guard tests",
+    "neo2": "excluded",
+    "via_keymap": "external userspace; QMK firmware lint reserves keymap names via and vial",
+    "public_flasher_release": "pending"
+  },
+  "corrected_image_sha256": "46bba0f3e39386fab5cf4225f2a75c1017208196a4dd739881a71e9f940d5124",
+  "controller_mismatch_found": {
+    "page_gate": "vendor stub sets and clears one-hot bit at 0x400130D0 + group*4; previous backend omitted this operation.",
+    "timing": "vendor stub uses 0x34BC0 for 0x3C and 0x15F900 for 0x40; previous backend used 0x15F900 for both.",
+    "evidence": "offline vendor-stub disassembly plus unchanged F8-FF region after cold restart."
+  },
+  "pr_gate": "closed; raw flash diff does not match diagnostic-reported address and VIA setting reverts after probe reset"
+}

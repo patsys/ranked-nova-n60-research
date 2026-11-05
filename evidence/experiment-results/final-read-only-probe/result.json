@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "version": "0.1.1",
+  "created_at": "2026-11-04T01:33:06.920506+00:00",
+  "no_complete_command": true,
+  "write_started": false,
+  "verified": true,
+  "released": true,
+  "boot_verified": true,
+  "pages": [],
+  "host_sources": {
+    "__init__.py": "06ec534bcd027f63af2366ced96f1a3dcd5a099a5e04683698963bc4740597ba",
+    "cli.py": "aa1e75733c47d11986a0339571bac069da63d382788811af5a8f24e4547e128b",
+    "image.py": "894e6f58995387b47954eb1ed393dcf25afb21efe9d2fc10551e000e8beb77d8",
+    "loader.py": "bc3e249b0d570c493b2e668c1024901282d8b57adf2ffc5b63b526270ead8dac",
+    "nvm_audit.py": "c7ee50245f46560f224623dfa807e60868c1bb935a977c6962d4362ad4b2c727",
+    "session.py": "2d2bd641c13790567b674721fc82491a16bcd5a3467d89f06b686de0c0c01b70",
+    "stubs.py": "ef83a567879a46a45346557dce67f8d9642d651ca22e2fce0c5aa6a7634ed6ec",
+    "transport.py": "8ef18566e4108c9d85572fd0bd3139687ebfd460f400daa18644345eb073a3dd"
+  },
+  "boot_version": "a1050000a1040000",
+  "core_before_backup": {
+    "before": 0,
+    "after": 1,
+    "cpuid": "0x410cc200",
+    "nvic_iser": 0,
+    "systick": 4
+  },
+  "probe_only": true,
+  "before_flash_sha256": "4f1f2c75387c0fd14d21e7b33ac7462311a7c7f6072453e0265b46df2fce11c5",
+  "before_metadata_sha256": "3bce58cb1e15aa6adfb8120c12b6911466a8d1f611a3efeefcb72c6bd7ca4d49",
+  "expected_flash_sha256": "4f1f2c75387c0fd14d21e7b33ac7462311a7c7f6072453e0265b46df2fce11c5",
+  "target_application_sha256": "e6ac178bafd11d65310011191c13efe3bea4a8f74a464c24338d2386310fbbaa",
+  "loader_sha256": "e4c466571f03c5ece7ae4417c281dd9be3787d659945633acec7cfb92dae3a8c",
+  "core_before_readback": {
+    "before": 1,
+    "after": 1,
+    "cpuid": "0x410cc200",
+    "nvic_iser": 0,
+    "systick": 4
+  },
+  "core_after_readback": {
+    "before": 1,
+    "after": 1,
+    "cpuid": "0x410cc200",
+    "nvic_iser": 0,
+    "systick": 4
+  },
+  "whole_flash_matches_expected": true,
+  "bootloader_unchanged": true,
+  "outside_application_unchanged": true,
+  "hidden_metadata_unchanged": true,
+  "after_flash_sha256": "4f1f2c75387c0fd14d21e7b33ac7462311a7c7f6072453e0265b46df2fce11c5",
+  "after_metadata_sha256": "3bce58cb1e15aa6adfb8120c12b6911466a8d1f611a3efeefcb72c6bd7ca4d49",
+  "final_state": {
+    "application_interfaces": 3,
+    "bootloader_interfaces": 0
+  },
+  "passed": true
+}

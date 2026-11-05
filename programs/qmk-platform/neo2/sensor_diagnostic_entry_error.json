@@ -1,0 +1,14 @@
+{
+  "stage": "raw_sensor_diagnostic_entry",
+  "capture_started": false,
+  "flash_writes": false,
+  "bootloader_pnp_present": true,
+  "bootloader_hid_collections": 0,
+  "application_hid_collections": 0,
+  "windows_problem_code": 10,
+  "windows_problem_status": "0xc0000001",
+  "bus_description": "RY USB Adapter",
+  "service": "HidUsb",
+  "device_restart": "Access denied; no restart performed",
+  "next_step": "Physical reconnect to another direct USB port with Esc held"
+}

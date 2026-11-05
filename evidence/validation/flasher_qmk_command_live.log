@@ -1,0 +1,10 @@
+
+
+INFO Compiling keymap with <LOCAL_USER>/rynked/.build-tools/msys64/usr/bin/make.exe -r -R -f builddefs/build_keyboard.mk flash KEYBOARD=ranked/nova_n60 KEYMAP=neo2_via KEYBOARD_FILESAFE=ranked_nova_n60 TARGET=ranked_nova_n60_neo2_via VERBOSE=false COLOR=false SILENT=false QMK_BIN="qmk" SKIP_GIT=yes QMK_BIN=qmk RY72XX_FLASHER=<LOCAL_USER>/rynked/.build-tools/uv/ry72xx-flasher/Scripts/ry72xx-flasher.exe QMK_USERSPACE=/c/Users/patrick/rynked/contributions/qmk_userspace MAIN_KEYMAP_PATH_1=/c/Users/patrick/rynked/contributions/qmk_userspace/keyboards/ranked/nova_n60/keymaps/neo2_via MAIN_KEYMAP_PATH_2=/c/Users/patrick/rynked/contributions/qmk_userspace/keyboards/ranked/nova_n60/keymaps/neo2_via MAIN_KEYMAP_PATH_3=/c/Users/patrick/rynked/contributions/qmk_userspace/keyboards/ranked/nova_n60/keymaps/neo2_via MAIN_KEYMAP_PATH_4=/c/Users/patrick/rynked/contributions/qmk_userspace/keyboards/ranked/nova_n60/keymaps/neo2_via MAIN_KEYMAP_PATH_5=/c/Users/patrick/rynked/contributions/qmk_userspace/keyboards/ranked/nova_n60/keymaps/neo2_via
+/bin/sh: -c: line 1: unexpected EOF while looking for matching `"'
+/bin/sh: -c: line 1: unexpected EOF while looking for matching `"'
+/bin/sh: -c: line 1: unexpected EOF while looking for matching `"'
+
+ *                                                                                                     [ERRORS]1
+
+builddefs/build_keyboard.mk:247: *** Platform not defined.  Stop.

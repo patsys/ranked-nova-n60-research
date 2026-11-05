@@ -1,0 +1,57 @@
+{
+  "K_L_Odia": {
+    "window_seconds": [
+      34.51,
+      58.58
+    ],
+    "snapshots": 46,
+    "channels": {
+      "8": {
+        "min": 3,
+        "max": 134,
+        "raw_active_count": 4,
+        "debounced_active_count": 0
+      },
+      "9": {
+        "min": 0,
+        "max": 134,
+        "raw_active_count": 4,
+        "debounced_active_count": 0
+      },
+      "10": {
+        "min": 0,
+        "max": 134,
+        "raw_active_count": 2,
+        "debounced_active_count": 0
+      }
+    }
+  },
+  "A_S_D": {
+    "window_seconds": [
+      60.19,
+      87.28
+    ],
+    "snapshots": 52,
+    "channels": {
+      "1": {
+        "min": 133,
+        "max": 133,
+        "raw_active_count": 52,
+        "debounced_active_count": 52
+      },
+      "2": {
+        "min": 133,
+        "max": 133,
+        "raw_active_count": 52,
+        "debounced_active_count": 52
+      },
+      "3": {
+        "min": 132,
+        "max": 132,
+        "raw_active_count": 52,
+        "debounced_active_count": 52
+      }
+    }
+  },
+  "interpretation": "Held late channels mostly below threshold with intermittent valid peaks; early channels sustained. Supports conversion timing hypothesis, not yet a proven cause or fix."
+}

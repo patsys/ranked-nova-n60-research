@@ -1,0 +1,17 @@
+{
+    "userspace_version": "1.1",
+    "build_targets": [
+        [
+            "ranked/nova_n60",
+            "neo2"
+        ],
+        [
+            "ranked/nova_n60",
+            "via"
+        ],
+        [
+            "ranked/nova_n60",
+            "neo2_via"
+        ]
+    ]
+}

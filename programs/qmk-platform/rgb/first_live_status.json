@@ -1,0 +1,15 @@
+{
+  "ready": true,
+  "active": true,
+  "last_reply": "0xa5",
+  "submitted": 2542,
+  "completed": 2541,
+  "errors": 0,
+  "skipped": 0,
+  "mode": 1,
+  "hue": 0,
+  "sat": 0,
+  "val": 96,
+  "enabled": true,
+  "protocol": "000d"
+}

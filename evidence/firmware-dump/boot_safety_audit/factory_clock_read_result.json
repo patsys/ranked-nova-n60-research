@@ -1,0 +1,37 @@
+{
+  "kind": "Read only the native-used factory clock word",
+  "address": "0x10000234",
+  "bytes": 4,
+  "stub_sha256": "c90b3463a201acb7944fc56e2e92cb5e8359696d53858d41533243f823e2f95f",
+  "no_DATA_or_COMPLETE": true,
+  "persistent_caveat": "Vendor mode transition may append journal bookkeeping",
+  "version": {
+    "request_hex": "000000000400000167657476",
+    "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "round_trip_ms": 0.0,
+    "version_words_hex": [
+      "a1050000",
+      "a1040000"
+    ]
+  },
+  "passed": true,
+  "word": "0x6a20060",
+  "data_sha256": "aea61104133c661985d4c4a3708b4d8819b111a34c753accad01ba823871839b",
+  "reply_hex": "01000073040001776000a20600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "source_hz_formula_24M_plus4M_index": 48000000,
+  "factory_index_bits4_6": 6,
+  "reg1900c_field_8_10": "0x600",
+  "reg19010_value": "0x600a2",
+  "cleanup": {
+    "normal_START": {
+      "total_ms": 16.8986,
+      "post_write_ms": 2.0533,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "final_state": {
+      "exit_query_error": "read error",
+      "application_collections": 6,
+      "bootloader_interfaces": 0
+    }
+  }
+}

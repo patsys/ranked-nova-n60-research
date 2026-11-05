@@ -1,0 +1,61 @@
+{
+  "commit": "cf36e07ce5ff22c51149c3ad933c71fcd770f613",
+  "sources": [
+    {
+      "path": "A-REFERENZ-A/neo20.txt",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/A-REFERENZ-A/neo20.txt",
+      "sha256": "c1963a44fc8ffa12ed8467ece0e0fa2a215768f9f6db0015da85fdcaeadea3b5",
+      "bytes": 31304,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\A-REFERENZ-A__neo20.txt"
+    },
+    {
+      "path": "linux/xmodmap/neo_de.xmodmap",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/linux/xmodmap/neo_de.xmodmap",
+      "sha256": "be754e5ca507f591e828be1738689ad51a1a3d74fb010cedeb12dd715a87bff1",
+      "bytes": 14914,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\linux__xmodmap__neo_de.xmodmap"
+    },
+    {
+      "path": "yaml/parse_neo.py",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/yaml/parse_neo.py",
+      "sha256": "2ac6b334db6fbfeef473b7e1d37f2bff69b58762cae4b9558670fbeab6a21511",
+      "bytes": 11919,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\yaml__parse_neo.py"
+    },
+    {
+      "path": "COPYING",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/COPYING",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "bytes": 35147,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\COPYING"
+    },
+    {
+      "path": "grafik/_not_working/xmodmap2tastenaufkleber/keysymdef.h",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/grafik/_not_working/xmodmap2tastenaufkleber/keysymdef.h",
+      "sha256": "a5c27fdf527fdb526eb11b80af5cdaee99c5df54b5560ef68b597edee3cf0ce3",
+      "bytes": 167999,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\grafik___not_working__xmodmap2tastenaufkleber__keysymdef.h"
+    },
+    {
+      "path": "windows/kbdneo2/source/kbdneo2/kbdneo2.c",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/windows/kbdneo2/source/kbdneo2/kbdneo2.c",
+      "sha256": "106b6f5ca0f16508e488a844ae7410181237ecca58a8518347bf67dbf2aded13",
+      "bytes": 12614,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\windows__kbdneo2__source__kbdneo2__kbdneo2.c"
+    },
+    {
+      "path": "windows/kbdneo2/source/keysym4utf16.h",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/windows/kbdneo2/source/keysym4utf16.h",
+      "sha256": "5f2137f7d0d3c7f01f703804f9ea12fe1a2a02ac2bdaa369ae432984a0ee47d5",
+      "bytes": 48366,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\windows__kbdneo2__source__keysym4utf16.h"
+    },
+    {
+      "path": "yaml/neo_import.py",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/yaml/neo_import.py",
+      "sha256": "bdaa0d050b230fb912081cabc6eeeb7e54b07068402b997d6dc1c1a8491bfac5",
+      "bytes": 1285,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\yaml__neo_import.py"
+    }
+  ]
+}

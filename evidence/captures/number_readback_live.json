@@ -1,0 +1,69 @@
+{
+  "method": "START ACK timing, not a returned USB payload byte",
+  "sessions": [
+    {
+      "variant": "number_zero",
+      "sha256": "fca6c8e3d812ad70757702b0bfcd321dd056623a3bc399c8048269f312305f0c",
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 17.0542,
+      "post_write_ms": 2.0036,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exit_query_error": "read error",
+      "final_application_collections": 6,
+      "final_bootloader_interfaces": 0
+    },
+    {
+      "variant": "number_unit",
+      "sha256": "7e428e791418aec34e5a0f0068ffb2fc1839833868a3e416b3f82a352808b0bd",
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 38.9748,
+      "post_write_ms": 24.0226,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exit_query_error": "read error",
+      "final_application_collections": 6,
+      "final_bootloader_interfaces": 0
+    },
+    {
+      "variant": "number_computed",
+      "sha256": "6c708eb3200295bf5d0cf8d5cb0901ab506557c0a9c075590b5f7215ed82992c",
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 15.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 169.9438,
+      "post_write_ms": 155.0121,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exit_query_error": "read error",
+      "final_application_collections": 6,
+      "final_bootloader_interfaces": 0
+    }
+  ],
+  "decode": {
+    "unit_ms": 22.019000000000002,
+    "estimate": 6.948930469140287,
+    "number": 7,
+    "residual_units": 0.051069530859712664
+  },
+  "matches_test_number": true
+}

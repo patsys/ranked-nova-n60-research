@@ -1,0 +1,114 @@
+{
+  "method": "Actual boot dispatch with synthetic IPSR, stopped at app handler; no actual hardware exceptions triggered",
+  "cases_passed": 27,
+  "cases": [
+    {
+      "exception": 2,
+      "forwarded_to": "0x2214"
+    },
+    {
+      "exception": 3,
+      "forwarded_to": "0x29dc"
+    },
+    {
+      "exception": 11,
+      "forwarded_to": "0x2218"
+    },
+    {
+      "exception": 14,
+      "forwarded_to": "0x221a"
+    },
+    {
+      "exception": 15,
+      "forwarded_to": "0x30ec"
+    },
+    {
+      "exception": 16,
+      "forwarded_to": "0x2a44"
+    },
+    {
+      "exception": 17,
+      "forwarded_to": "0x2dc8"
+    },
+    {
+      "exception": 18,
+      "forwarded_to": "0x2f20"
+    },
+    {
+      "exception": 19,
+      "forwarded_to": "0x315c"
+    },
+    {
+      "exception": 20,
+      "forwarded_to": "0x312c"
+    },
+    {
+      "exception": 21,
+      "forwarded_to": "0x28e4"
+    },
+    {
+      "exception": 22,
+      "forwarded_to": "0x2300"
+    },
+    {
+      "exception": 23,
+      "forwarded_to": "0x222e"
+    },
+    {
+      "exception": 24,
+      "forwarded_to": "0x222e"
+    },
+    {
+      "exception": 25,
+      "forwarded_to": "0x222e"
+    },
+    {
+      "exception": 26,
+      "forwarded_to": "0x30b8"
+    },
+    {
+      "exception": 27,
+      "forwarded_to": "0x3090"
+    },
+    {
+      "exception": 28,
+      "forwarded_to": "0x2d28"
+    },
+    {
+      "exception": 29,
+      "forwarded_to": "0x30fc"
+    },
+    {
+      "exception": 30,
+      "forwarded_to": "0x222e"
+    },
+    {
+      "exception": 31,
+      "forwarded_to": "0x2a1c"
+    },
+    {
+      "exception": 32,
+      "forwarded_to": "0x29f4"
+    },
+    {
+      "exception": 33,
+      "forwarded_to": "0x2cf4"
+    },
+    {
+      "exception": 34,
+      "forwarded_to": "0x222e"
+    },
+    {
+      "exception": 35,
+      "forwarded_to": "0x222e"
+    },
+    {
+      "exception": 36,
+      "forwarded_to": "0x222e"
+    },
+    {
+      "exception": 37,
+      "forwarded_to": "0x222e"
+    }
+  ]
+}

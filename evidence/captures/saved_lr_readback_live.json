@@ -1,0 +1,504 @@
+{
+  "stack_offset": 52,
+  "sessions": [
+    {
+      "index": 0,
+      "spec": {
+        "name": "cal0",
+        "kind": "cal",
+        "value": 0,
+        "high": false,
+        "sha256": "fca6c8e3d812ad70757702b0bfcd321dd056623a3bc399c8048269f312305f0c",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 17.0229,
+      "post_write_ms": 2.1588,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "complete": true
+    },
+    {
+      "index": 1,
+      "spec": {
+        "name": "cal8",
+        "kind": "cal",
+        "value": 8,
+        "high": false,
+        "sha256": "cec5dbfc681919b3a14741aa92ac7138e10eda7fef49781ee3419789c18a1299",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 16.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 192.0767,
+      "post_write_ms": 177.1319,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "complete": true
+    },
+    {
+      "index": 2,
+      "spec": {
+        "name": "saved_0",
+        "kind": "saved",
+        "value": 0,
+        "high": false,
+        "sha256": "5b395e3dd0c96aea6626812a4e78167af11f4fabc34e41072efb5742e09aa126",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 82.1959,
+      "post_write_ms": 67.1926,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 3,
+        "estimate": 2.9734307730731184,
+        "residual_units": 0.026569226926881573
+      },
+      "complete": true
+    },
+    {
+      "index": 3,
+      "spec": {
+        "name": "saved_1",
+        "kind": "saved",
+        "value": 1,
+        "high": false,
+        "sha256": "0c2f90bd48dd12b2ea11b2630db9327cecb228fcbb4674657eb45ffb7dca4a4a",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 278.9418,
+      "post_write_ms": 263.9572,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 12,
+        "estimate": 11.969766781293812,
+        "residual_units": 0.030233218706188225
+      },
+      "complete": true
+    },
+    {
+      "index": 4,
+      "spec": {
+        "name": "saved_2",
+        "kind": "saved",
+        "value": 2,
+        "high": false,
+        "sha256": "54a696d8a25c247af60c8714a536a199e01b26876095a20c402d17b4a65b7451",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 16.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 279.0665,
+      "post_write_ms": 264.1244,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 12,
+        "estimate": 11.97741138495003,
+        "residual_units": 0.022588615049970784
+      },
+      "complete": true
+    },
+    {
+      "index": 5,
+      "spec": {
+        "name": "saved_3",
+        "kind": "saved",
+        "value": 3,
+        "high": false,
+        "sha256": "5c617e288e28689d78295b7b5b585b8c315b2e0feecccfb98e960ac3461503ae",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 16.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 16.9624,
+      "post_write_ms": 1.9877,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 0,
+        "estimate": -0.007822916779779284,
+        "residual_units": 0.007822916779779284
+      },
+      "complete": true
+    },
+    {
+      "index": 6,
+      "spec": {
+        "name": "saved_4",
+        "kind": "saved",
+        "value": 4,
+        "high": false,
+        "sha256": "cc9b4b1b6b97722e111cec7d417ae9b903dda33ec6023043a8298360c7533aaa",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 20.2577,
+      "post_write_ms": 2.0046,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 0,
+        "estimate": -0.007050226577685365,
+        "residual_units": 0.007050226577685365
+      },
+      "complete": true
+    },
+    {
+      "index": 7,
+      "spec": {
+        "name": "saved_5",
+        "kind": "saved",
+        "value": 5,
+        "high": false,
+        "sha256": "7bd1dd44b07eaaeaebb6f3ed8fe1990757a54cb787552b245c630fdacb0608f6",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 16.8424,
+      "post_write_ms": 1.9064,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 0,
+        "estimate": -0.011540059586302111,
+        "residual_units": 0.011540059586302111
+      },
+      "complete": true
+    },
+    {
+      "index": 8,
+      "spec": {
+        "name": "saved_6",
+        "kind": "saved",
+        "value": 6,
+        "high": false,
+        "sha256": "def6cef4c3e8bfc84465d15ff3c07e174f4c7345a2615aab3d1ba4da6f51c83d",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 17.0762,
+      "post_write_ms": 1.9646,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 0,
+        "estimate": -0.008879079127020094,
+        "residual_units": 0.008879079127020094
+      },
+      "complete": true
+    },
+    {
+      "index": 9,
+      "spec": {
+        "name": "saved_7",
+        "kind": "saved",
+        "value": 7,
+        "high": false,
+        "sha256": "545f0bf64c3b198d9c2aab1c89d4e62c3a1c59e3b38563df8c2bedf4a490905c",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 16.853,
+      "post_write_ms": 1.9879,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 0,
+        "estimate": -0.007813772517032611,
+        "residual_units": 0.007813772517032611
+      },
+      "complete": true
+    },
+    {
+      "index": 10,
+      "spec": {
+        "name": "savedcheck_0",
+        "kind": "savedcheck",
+        "value": 0,
+        "high": false,
+        "sha256": "3693becffb6f605593de41548d8d436eb38fdbb8589bb5469676a69b2d3be71b",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 81.5851,
+      "post_write_ms": 67.0847,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 3,
+        "estimate": 2.968497443321288,
+        "residual_units": 0.03150255667871216
+      },
+      "complete": true
+    },
+    {
+      "index": 11,
+      "spec": {
+        "name": "saved_0",
+        "kind": "saved",
+        "value": 0,
+        "high": false,
+        "sha256": "5b395e3dd0c96aea6626812a4e78167af11f4fabc34e41072efb5742e09aa126",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 82.0775,
+      "post_write_ms": 67.1151,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 3,
+        "estimate": 2.9698873712587823,
+        "residual_units": 0.030112628741217673
+      },
+      "complete": true
+    },
+    {
+      "index": 12,
+      "spec": {
+        "name": "saved_4",
+        "kind": "saved",
+        "value": 4,
+        "high": false,
+        "sha256": "cc9b4b1b6b97722e111cec7d417ae9b903dda33ec6023043a8298360c7533aaa",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 16.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 17.0893,
+      "post_write_ms": 2.2669,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": {
+        "value": 0,
+        "estimate": 0.004942474014577113,
+        "residual_units": 0.004942474014577113
+      },
+      "complete": true
+    },
+    {
+      "index": 13,
+      "spec": {
+        "name": "cal8",
+        "kind": "cal",
+        "value": 8,
+        "high": false,
+        "sha256": "cec5dbfc681919b3a14741aa92ac7138e10eda7fef49781ee3419789c18a1299",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 192.0463,
+      "post_write_ms": 177.0429,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "complete": true
+    },
+    {
+      "index": 14,
+      "spec": {
+        "name": "cal0",
+        "kind": "cal",
+        "value": 0,
+        "high": false,
+        "sha256": "fca6c8e3d812ad70757702b0bfcd321dd056623a3bc399c8048269f312305f0c",
+        "emulated_calls": 6
+      },
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "total_ms": 20.2946,
+      "post_write_ms": 2.0038,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "complete": true
+    }
+  ],
+  "result": {
+    "saved_lr": "0x00000cc3",
+    "return_address": "0x00000cc2",
+    "stack_offset": 52,
+    "checksum": 3,
+    "repeated_digits_match": true,
+    "initial_unit_ms": 21.8716375,
+    "final_unit_ms": 21.8798875
+  }
+}

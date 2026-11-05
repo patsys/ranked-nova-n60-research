@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "sha256": "1c04bf5c4c9ae72885acfd8a62dc948219bb36c4cbc7a12ea3106367a0ebf871",
+  "cases": [
+    {
+      "previous_native_caller": "0x849",
+      "new_native_caller": "0x849",
+      "reply_hex": "fff706f933e0"
+    },
+    {
+      "previous_native_caller": "0x87f",
+      "new_native_caller": "0x849",
+      "reply_hex": "fff706f933e0"
+    }
+  ],
+  "scope": "Read-only boot-code reply and guarded native caller return in RAM; continuous host keepalive still required"
+}

@@ -1,0 +1,154 @@
+{
+  "passed": true,
+  "source": "<LOCAL_USER>\\rynked\\qmk_port\\runtime\\usb_keyboard.c",
+  "source_sha256": "5fb1a0f013237367624733c0eb589e85a4cd75648fec651e7cdd3639a44fa64b",
+  "native_init_long_helper_arguments": [
+    1,
+    1,
+    6
+  ],
+  "native_raw_loop_arguments": [
+    128,
+    999,
+    128,
+    999,
+    768,
+    999,
+    999,
+    999,
+    999,
+    999,
+    999
+  ],
+  "cases": [
+    {
+      "via": false,
+      "compiled_callback_matches_native_init": true,
+      "loop_arguments": [
+        128,
+        999,
+        128,
+        999,
+        768,
+        999,
+        999,
+        999,
+        999,
+        999,
+        999
+      ],
+      "compiled_initializer_relocation": "OFFSET   TYPE              VALUE\n00000006 R_ARM_THM_CALL    nova_original_domain_select\n00000012 R_ARM_THM_CALL    nova_original_gate_write\n00000038 R_ARM_THM_CALL    nova_platform_delay_original_long\n0000005a R_ARM_THM_CALL    memset\n00000070 R_ARM_THM_CALL    usb_device_state_init\n0000007a R_ARM_THM_CALL    ranked_usb_device_init\n00000080 R_ARM_THM_CALL    host_set_driver\n000000a0 R_ARM_ABS32       nova_platform_delay_original_units\n000000ac R_ARM_ABS32       read8\n000000b0 R_ARM_ABS32       read32\n000000b4 R_ARM_ABS32       write32\n000000b8 R_ARM_ABS32       delay_controller_long\n000000bc R_ARM_ABS32       descriptor\n000000c0 R_ARM_ABS32       configured\n000000c4 R_ARM_ABS32       control\n000000c8 R_ARM_ABS32       control_complete\n000000cc R_ARM_ABS32       .bss.device\n000000d0 R_ARM_ABS32       .data.driver",
+      "boundary_cases": [
+        {
+          "argument": 0,
+          "loop_arguments": []
+        },
+        {
+          "argument": 1,
+          "loop_arguments": [
+            128,
+            999
+          ]
+        },
+        {
+          "argument": 6,
+          "loop_arguments": [
+            768,
+            999,
+            999,
+            999,
+            999,
+            999,
+            999
+          ]
+        },
+        {
+          "argument": 10,
+          "loop_arguments": [
+            1280,
+            999,
+            999,
+            999,
+            999,
+            999,
+            999,
+            999,
+            999,
+            999,
+            999
+          ]
+        }
+      ]
+    },
+    {
+      "via": true,
+      "compiled_callback_matches_native_init": true,
+      "loop_arguments": [
+        128,
+        999,
+        128,
+        999,
+        768,
+        999,
+        999,
+        999,
+        999,
+        999,
+        999
+      ],
+      "compiled_initializer_relocation": "OFFSET   TYPE              VALUE\n00000006 R_ARM_THM_CALL    nova_original_domain_select\n00000012 R_ARM_THM_CALL    nova_original_gate_write\n00000038 R_ARM_THM_CALL    nova_platform_delay_original_long\n0000005a R_ARM_THM_CALL    memset\n00000074 R_ARM_THM_CALL    usb_device_state_init\n0000007e R_ARM_THM_CALL    ranked_usb_device_init\n00000084 R_ARM_THM_CALL    host_set_driver\n000000a4 R_ARM_ABS32       nova_platform_delay_original_units\n000000b0 R_ARM_ABS32       read8\n000000b4 R_ARM_ABS32       read32\n000000b8 R_ARM_ABS32       write32\n000000bc R_ARM_ABS32       delay_controller_long\n000000c0 R_ARM_ABS32       descriptor\n000000c4 R_ARM_ABS32       configured\n000000c8 R_ARM_ABS32       control\n000000cc R_ARM_ABS32       control_complete\n000000d0 R_ARM_ABS32       raw_packet\n000000d4 R_ARM_ABS32       .bss.device\n000000d8 R_ARM_ABS32       .data.driver",
+      "boundary_cases": [
+        {
+          "argument": 0,
+          "loop_arguments": []
+        },
+        {
+          "argument": 1,
+          "loop_arguments": [
+            128,
+            999
+          ]
+        },
+        {
+          "argument": 6,
+          "loop_arguments": [
+            768,
+            999,
+            999,
+            999,
+            999,
+            999,
+            999
+          ]
+        },
+        {
+          "argument": 10,
+          "loop_arguments": [
+            1280,
+            999,
+            999,
+            999,
+            999,
+            999,
+            999,
+            999,
+            999,
+            999,
+            999
+          ]
+        }
+      ]
+    }
+  ],
+  "old_wiring_negative_control": {
+    "loop_arguments": [
+      1,
+      1,
+      6
+    ],
+    "mismatch_detected": true
+  },
+  "clock_gate_short_delay_wiring_preserved": true,
+  "hardware_access": false,
+  "method": "Actualnative46fc/longdd80wrappers andactualcompiledruntimecallback;rawlooponlybypassedtocaptureloopcounts.Initclockenablef0dcskipped,MMIOstorage-backed.Confirmscallsemantics,nothardwaretimingorenumeration."
+}

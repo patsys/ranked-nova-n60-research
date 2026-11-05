@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "case_count": 9,
+  "cases": [
+    "default enabled solid white via standard VIA RGB API",
+    "all62 populated positions white; absent positions black; aligned bounded DMA",
+    "standard VIA HSV update renders red",
+    "standard VIA disable sends black frame",
+    "standard VIA effect mode 2",
+    "standard VIA effect mode 3",
+    "reenable white without persistent writes",
+    "invalid LED indices do not mutate buffer",
+    "read-only diagnostic reports A5 completions and zero errors"
+  ],
+  "elf_sha256": "1c63569e9e1dfbf343757fd425856a4891c08a53c4aae54345a465f0cabda88f",
+  "minimum_process_stack": "0x20000550",
+  "frame_count": 11,
+  "flash_or_fmc_writes": false,
+  "hardware_access": false,
+  "limitation": "Modeled SPI completion/A5 reply; physical RGB brightness/color order and USB coexistence still require validation."
+}

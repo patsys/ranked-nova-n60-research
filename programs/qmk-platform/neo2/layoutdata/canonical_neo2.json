@@ -1,0 +1,4738 @@
+{
+  "layout": "Canonical Neo2 six levels, data only",
+  "commit": "cf36e07ce5ff22c51149c3ad933c71fcd770f613",
+  "source_order_to_canonical": [
+    0,
+    1,
+    2,
+    4,
+    3,
+    6
+  ],
+  "canonical_keys": {
+    "49": {
+      "xmodmap_keycode": 49,
+      "levels": {
+        "1": {
+          "keysym": "dead_circumflex",
+          "kind": "dead_key",
+          "display": "ˆ"
+        },
+        "2": {
+          "keysym": "dead_caron",
+          "kind": "dead_key",
+          "display": "ˇ"
+        },
+        "3": {
+          "keysym": "U21BB",
+          "kind": "unicode",
+          "display": "↻",
+          "unicode": "↻",
+          "codepoint": "U+21BB"
+        },
+        "4": {
+          "keysym": "dead_abovedot",
+          "kind": "dead_key",
+          "display": "˙"
+        },
+        "5": {
+          "keysym": "U02DE",
+          "kind": "unicode",
+          "display": "˞",
+          "unicode": "˞",
+          "codepoint": "U+02DE"
+        },
+        "6": {
+          "keysym": "dead_belowdot",
+          "kind": "dead_key",
+          "display": "."
+        }
+      }
+    },
+    "10": {
+      "xmodmap_keycode": 10,
+      "levels": {
+        "1": {
+          "keysym": "1",
+          "kind": "unicode",
+          "display": "1",
+          "unicode": "1",
+          "codepoint": "U+0031"
+        },
+        "2": {
+          "keysym": "degree",
+          "kind": "unicode",
+          "display": "°",
+          "unicode": "°",
+          "codepoint": "U+00B0"
+        },
+        "3": {
+          "keysym": "onesuperior",
+          "kind": "unicode",
+          "display": "¹",
+          "unicode": "¹",
+          "codepoint": "U+00B9"
+        },
+        "4": {
+          "keysym": "ordfeminine",
+          "kind": "unicode",
+          "display": "ª",
+          "unicode": "ª",
+          "codepoint": "U+00AA"
+        },
+        "5": {
+          "keysym": "onesubscript",
+          "kind": "unicode",
+          "display": "₁",
+          "unicode": "₁",
+          "codepoint": "U+2081"
+        },
+        "6": {
+          "keysym": "notsign",
+          "kind": "unicode",
+          "display": "¬",
+          "unicode": "¬",
+          "codepoint": "U+00AC"
+        }
+      }
+    },
+    "11": {
+      "xmodmap_keycode": 11,
+      "levels": {
+        "1": {
+          "keysym": "2",
+          "kind": "unicode",
+          "display": "2",
+          "unicode": "2",
+          "codepoint": "U+0032"
+        },
+        "2": {
+          "keysym": "section",
+          "kind": "unicode",
+          "display": "§",
+          "unicode": "§",
+          "codepoint": "U+00A7"
+        },
+        "3": {
+          "keysym": "twosuperior",
+          "kind": "unicode",
+          "display": "²",
+          "unicode": "²",
+          "codepoint": "U+00B2"
+        },
+        "4": {
+          "keysym": "masculine",
+          "kind": "unicode",
+          "display": "º",
+          "unicode": "º",
+          "codepoint": "U+00BA"
+        },
+        "5": {
+          "keysym": "twosubscript",
+          "kind": "unicode",
+          "display": "₂",
+          "unicode": "₂",
+          "codepoint": "U+2082"
+        },
+        "6": {
+          "keysym": "logicalor",
+          "kind": "unicode",
+          "display": "∨",
+          "unicode": "∨",
+          "codepoint": "U+2228"
+        }
+      }
+    },
+    "12": {
+      "xmodmap_keycode": 12,
+      "levels": {
+        "1": {
+          "keysym": "3",
+          "kind": "unicode",
+          "display": "3",
+          "unicode": "3",
+          "codepoint": "U+0033"
+        },
+        "2": {
+          "keysym": "U2113",
+          "kind": "unicode",
+          "display": "ℓ",
+          "unicode": "ℓ",
+          "codepoint": "U+2113"
+        },
+        "3": {
+          "keysym": "threesuperior",
+          "kind": "unicode",
+          "display": "³",
+          "unicode": "³",
+          "codepoint": "U+00B3"
+        },
+        "4": {
+          "keysym": "numerosign",
+          "kind": "unicode",
+          "display": "№",
+          "unicode": "№",
+          "codepoint": "U+2116"
+        },
+        "5": {
+          "keysym": "threesubscript",
+          "kind": "unicode",
+          "display": "₃",
+          "unicode": "₃",
+          "codepoint": "U+2083"
+        },
+        "6": {
+          "keysym": "logicaland",
+          "kind": "unicode",
+          "display": "∧",
+          "unicode": "∧",
+          "codepoint": "U+2227"
+        }
+      }
+    },
+    "13": {
+      "xmodmap_keycode": 13,
+      "levels": {
+        "1": {
+          "keysym": "4",
+          "kind": "unicode",
+          "display": "4",
+          "unicode": "4",
+          "codepoint": "U+0034"
+        },
+        "2": {
+          "keysym": "guillemotright",
+          "kind": "unicode",
+          "display": "»",
+          "unicode": "»",
+          "codepoint": "U+00BB"
+        },
+        "3": {
+          "keysym": "U203A",
+          "kind": "unicode",
+          "display": "›",
+          "unicode": "›",
+          "codepoint": "U+203A"
+        },
+        "4": {
+          "keysym": "NoSymbol",
+          "kind": "unassigned",
+          "display": ""
+        },
+        "5": {
+          "keysym": "femalesymbol",
+          "kind": "unicode",
+          "display": "♀",
+          "unicode": "♀",
+          "codepoint": "U+2640"
+        },
+        "6": {
+          "keysym": "U22A5",
+          "kind": "unicode",
+          "display": "⊥",
+          "unicode": "⊥",
+          "codepoint": "U+22A5"
+        }
+      }
+    },
+    "14": {
+      "xmodmap_keycode": 14,
+      "levels": {
+        "1": {
+          "keysym": "5",
+          "kind": "unicode",
+          "display": "5",
+          "unicode": "5",
+          "codepoint": "U+0035"
+        },
+        "2": {
+          "keysym": "guillemotleft",
+          "kind": "unicode",
+          "display": "«",
+          "unicode": "«",
+          "codepoint": "U+00AB"
+        },
+        "3": {
+          "keysym": "U2039",
+          "kind": "unicode",
+          "display": "‹",
+          "unicode": "‹",
+          "codepoint": "U+2039"
+        },
+        "4": {
+          "keysym": "periodcentered",
+          "kind": "unicode",
+          "display": "·",
+          "unicode": "·",
+          "codepoint": "U+00B7"
+        },
+        "5": {
+          "keysym": "malesymbol",
+          "kind": "unicode",
+          "display": "♂",
+          "unicode": "♂",
+          "codepoint": "U+2642"
+        },
+        "6": {
+          "keysym": "U2221",
+          "kind": "unicode",
+          "display": "∡",
+          "unicode": "∡",
+          "codepoint": "U+2221"
+        }
+      }
+    },
+    "15": {
+      "xmodmap_keycode": 15,
+      "levels": {
+        "1": {
+          "keysym": "6",
+          "kind": "unicode",
+          "display": "6",
+          "unicode": "6",
+          "codepoint": "U+0036"
+        },
+        "2": {
+          "keysym": "dollar",
+          "kind": "unicode",
+          "display": "$",
+          "unicode": "$",
+          "codepoint": "U+0024"
+        },
+        "3": {
+          "keysym": "cent",
+          "kind": "unicode",
+          "display": "¢",
+          "unicode": "¢",
+          "codepoint": "U+00A2"
+        },
+        "4": {
+          "keysym": "sterling",
+          "kind": "unicode",
+          "display": "£",
+          "unicode": "£",
+          "codepoint": "U+00A3"
+        },
+        "5": {
+          "keysym": "U26A5",
+          "kind": "unicode",
+          "display": "⚥",
+          "unicode": "⚥",
+          "codepoint": "U+26A5"
+        },
+        "6": {
+          "keysym": "U2225",
+          "kind": "unicode",
+          "display": "∥",
+          "unicode": "∥",
+          "codepoint": "U+2225"
+        }
+      }
+    },
+    "16": {
+      "xmodmap_keycode": 16,
+      "levels": {
+        "1": {
+          "keysym": "7",
+          "kind": "unicode",
+          "display": "7",
+          "unicode": "7",
+          "codepoint": "U+0037"
+        },
+        "2": {
+          "keysym": "EuroSign",
+          "kind": "unicode",
+          "display": "€",
+          "unicode": "€",
+          "codepoint": "U+20AC"
+        },
+        "3": {
+          "keysym": "yen",
+          "kind": "unicode",
+          "display": "¥",
+          "unicode": "¥",
+          "codepoint": "U+00A5"
+        },
+        "4": {
+          "keysym": "currency",
+          "kind": "unicode",
+          "display": "¤",
+          "unicode": "¤",
+          "codepoint": "U+00A4"
+        },
+        "5": {
+          "keysym": "U03F0",
+          "kind": "unicode",
+          "display": "ϰ",
+          "unicode": "ϰ",
+          "codepoint": "U+03F0"
+        },
+        "6": {
+          "keysym": "rightarrow",
+          "kind": "unicode",
+          "display": "→",
+          "unicode": "→",
+          "codepoint": "U+2192"
+        }
+      }
+    },
+    "17": {
+      "xmodmap_keycode": 17,
+      "levels": {
+        "1": {
+          "keysym": "8",
+          "kind": "unicode",
+          "display": "8",
+          "unicode": "8",
+          "codepoint": "U+0038"
+        },
+        "2": {
+          "keysym": "doublelowquotemark",
+          "kind": "unicode",
+          "display": "„",
+          "unicode": "„",
+          "codepoint": "U+201E"
+        },
+        "3": {
+          "keysym": "singlelowquotemark",
+          "kind": "unicode",
+          "display": "‚",
+          "unicode": "‚",
+          "codepoint": "U+201A"
+        },
+        "4": {
+          "keysym": "Tab",
+          "kind": "action",
+          "display": "⇥"
+        },
+        "5": {
+          "keysym": "leftanglebracket",
+          "kind": "unicode",
+          "display": "⟨",
+          "unicode": "⟨",
+          "codepoint": "U+27E8"
+        },
+        "6": {
+          "keysym": "infinity",
+          "kind": "unicode",
+          "display": "∞",
+          "unicode": "∞",
+          "codepoint": "U+221E"
+        }
+      }
+    },
+    "18": {
+      "xmodmap_keycode": 18,
+      "levels": {
+        "1": {
+          "keysym": "9",
+          "kind": "unicode",
+          "display": "9",
+          "unicode": "9",
+          "codepoint": "U+0039"
+        },
+        "2": {
+          "keysym": "leftdoublequotemark",
+          "kind": "unicode",
+          "display": "“",
+          "unicode": "“",
+          "codepoint": "U+201C"
+        },
+        "3": {
+          "keysym": "leftsinglequotemark",
+          "kind": "unicode",
+          "display": "‘",
+          "unicode": "‘",
+          "codepoint": "U+2018"
+        },
+        "4": {
+          "keysym": "KP_Divide",
+          "kind": "action",
+          "display": "/"
+        },
+        "5": {
+          "keysym": "rightanglebracket",
+          "kind": "unicode",
+          "display": "⟩",
+          "unicode": "⟩",
+          "codepoint": "U+27E9"
+        },
+        "6": {
+          "keysym": "variation",
+          "kind": "unicode",
+          "display": "∝",
+          "unicode": "∝",
+          "codepoint": "U+221D"
+        }
+      }
+    },
+    "19": {
+      "xmodmap_keycode": 19,
+      "levels": {
+        "1": {
+          "keysym": "0",
+          "kind": "unicode",
+          "display": "0",
+          "unicode": "0",
+          "codepoint": "U+0030"
+        },
+        "2": {
+          "keysym": "rightdoublequotemark",
+          "kind": "unicode",
+          "display": "”",
+          "unicode": "”",
+          "codepoint": "U+201D"
+        },
+        "3": {
+          "keysym": "rightsinglequotemark",
+          "kind": "unicode",
+          "display": "’",
+          "unicode": "’",
+          "codepoint": "U+2019"
+        },
+        "4": {
+          "keysym": "KP_Multiply",
+          "kind": "action",
+          "display": "*"
+        },
+        "5": {
+          "keysym": "zerosubscript",
+          "kind": "unicode",
+          "display": "₀",
+          "unicode": "₀",
+          "codepoint": "U+2080"
+        },
+        "6": {
+          "keysym": "emptyset",
+          "kind": "unicode",
+          "display": "∅",
+          "unicode": "∅",
+          "codepoint": "U+2205"
+        }
+      }
+    },
+    "20": {
+      "xmodmap_keycode": 20,
+      "levels": {
+        "1": {
+          "keysym": "minus",
+          "kind": "unicode",
+          "display": "-",
+          "unicode": "-",
+          "codepoint": "U+002D"
+        },
+        "2": {
+          "keysym": "emdash",
+          "kind": "unicode",
+          "display": "—",
+          "unicode": "—",
+          "codepoint": "U+2014"
+        },
+        "3": {
+          "keysym": "NoSymbol",
+          "kind": "unassigned",
+          "display": ""
+        },
+        "4": {
+          "keysym": "KP_Subtract",
+          "kind": "action",
+          "display": "-"
+        },
+        "5": {
+          "keysym": "U2011",
+          "kind": "unicode",
+          "display": "‑",
+          "unicode": "‑",
+          "codepoint": "U+2011"
+        },
+        "6": {
+          "keysym": "hyphen",
+          "kind": "unicode",
+          "display": "╌",
+          "unicode": "­",
+          "codepoint": "U+00AD"
+        }
+      }
+    },
+    "21": {
+      "xmodmap_keycode": 21,
+      "levels": {
+        "1": {
+          "keysym": "dead_grave",
+          "kind": "dead_key",
+          "display": "`"
+        },
+        "2": {
+          "keysym": "dead_cedilla",
+          "kind": "dead_key",
+          "display": "¸"
+        },
+        "3": {
+          "keysym": "dead_abovering",
+          "kind": "dead_key",
+          "display": "˚"
+        },
+        "4": {
+          "keysym": "dead_diaeresis",
+          "kind": "dead_key",
+          "display": "¨"
+        },
+        "5": {
+          "keysym": "dead_dasia",
+          "kind": "dead_key",
+          "display": "῾"
+        },
+        "6": {
+          "keysym": "dead_macron",
+          "kind": "dead_key",
+          "display": "¯"
+        }
+      }
+    },
+    "24": {
+      "xmodmap_keycode": 24,
+      "levels": {
+        "1": {
+          "keysym": "x",
+          "kind": "unicode",
+          "display": "x",
+          "unicode": "x",
+          "codepoint": "U+0078"
+        },
+        "2": {
+          "keysym": "X",
+          "kind": "unicode",
+          "display": "X",
+          "unicode": "X",
+          "codepoint": "U+0058"
+        },
+        "3": {
+          "keysym": "ellipsis",
+          "kind": "unicode",
+          "display": "…",
+          "unicode": "…",
+          "codepoint": "U+2026"
+        },
+        "4": {
+          "keysym": "Prior",
+          "kind": "action",
+          "display": "⇞"
+        },
+        "5": {
+          "keysym": "Greek_xi",
+          "kind": "unicode",
+          "display": "ξ",
+          "unicode": "ξ",
+          "codepoint": "U+03BE"
+        },
+        "6": {
+          "keysym": "Greek_XI",
+          "kind": "unicode",
+          "display": "Ξ",
+          "unicode": "Ξ",
+          "codepoint": "U+039E"
+        }
+      }
+    },
+    "25": {
+      "xmodmap_keycode": 25,
+      "levels": {
+        "1": {
+          "keysym": "v",
+          "kind": "unicode",
+          "display": "v",
+          "unicode": "v",
+          "codepoint": "U+0076"
+        },
+        "2": {
+          "keysym": "V",
+          "kind": "unicode",
+          "display": "V",
+          "unicode": "V",
+          "codepoint": "U+0056"
+        },
+        "3": {
+          "keysym": "underscore",
+          "kind": "unicode",
+          "display": "_",
+          "unicode": "_",
+          "codepoint": "U+005F"
+        },
+        "4": {
+          "keysym": "BackSpace",
+          "kind": "action",
+          "display": "⌫"
+        },
+        "5": {
+          "keysym": "NoSymbol",
+          "kind": "unassigned",
+          "display": ""
+        },
+        "6": {
+          "keysym": "radical",
+          "kind": "unicode",
+          "display": "√",
+          "unicode": "√",
+          "codepoint": "U+221A"
+        }
+      }
+    },
+    "26": {
+      "xmodmap_keycode": 26,
+      "levels": {
+        "1": {
+          "keysym": "l",
+          "kind": "unicode",
+          "display": "l",
+          "unicode": "l",
+          "codepoint": "U+006C"
+        },
+        "2": {
+          "keysym": "L",
+          "kind": "unicode",
+          "display": "L",
+          "unicode": "L",
+          "codepoint": "U+004C"
+        },
+        "3": {
+          "keysym": "bracketleft",
+          "kind": "unicode",
+          "display": "[",
+          "unicode": "[",
+          "codepoint": "U+005B"
+        },
+        "4": {
+          "keysym": "Up",
+          "kind": "action",
+          "display": "⇡"
+        },
+        "5": {
+          "keysym": "Greek_lambda",
+          "kind": "unicode",
+          "display": "λ",
+          "unicode": "λ",
+          "codepoint": "U+03BB"
+        },
+        "6": {
+          "keysym": "Greek_LAMBDA",
+          "kind": "unicode",
+          "display": "Λ",
+          "unicode": "Λ",
+          "codepoint": "U+039B"
+        }
+      }
+    },
+    "27": {
+      "xmodmap_keycode": 27,
+      "levels": {
+        "1": {
+          "keysym": "c",
+          "kind": "unicode",
+          "display": "c",
+          "unicode": "c",
+          "codepoint": "U+0063"
+        },
+        "2": {
+          "keysym": "C",
+          "kind": "unicode",
+          "display": "C",
+          "unicode": "C",
+          "codepoint": "U+0043"
+        },
+        "3": {
+          "keysym": "bracketright",
+          "kind": "unicode",
+          "display": "]",
+          "unicode": "]",
+          "codepoint": "U+005D"
+        },
+        "4": {
+          "keysym": "Delete",
+          "kind": "action",
+          "display": "⌦"
+        },
+        "5": {
+          "keysym": "Greek_chi",
+          "kind": "unicode",
+          "display": "χ",
+          "unicode": "χ",
+          "codepoint": "U+03C7"
+        },
+        "6": {
+          "keysym": "U2102",
+          "kind": "unicode",
+          "display": "ℂ",
+          "unicode": "ℂ",
+          "codepoint": "U+2102"
+        }
+      }
+    },
+    "28": {
+      "xmodmap_keycode": 28,
+      "levels": {
+        "1": {
+          "keysym": "w",
+          "kind": "unicode",
+          "display": "w",
+          "unicode": "w",
+          "codepoint": "U+0077"
+        },
+        "2": {
+          "keysym": "W",
+          "kind": "unicode",
+          "display": "W",
+          "unicode": "W",
+          "codepoint": "U+0057"
+        },
+        "3": {
+          "keysym": "asciicircum",
+          "kind": "unicode",
+          "display": "^",
+          "unicode": "^",
+          "codepoint": "U+005E"
+        },
+        "4": {
+          "keysym": "Next",
+          "kind": "action",
+          "display": "⇟"
+        },
+        "5": {
+          "keysym": "Greek_omega",
+          "kind": "unicode",
+          "display": "ω",
+          "unicode": "ω",
+          "codepoint": "U+03C9"
+        },
+        "6": {
+          "keysym": "Greek_OMEGA",
+          "kind": "unicode",
+          "display": "Ω",
+          "unicode": "Ω",
+          "codepoint": "U+03A9"
+        }
+      }
+    },
+    "29": {
+      "xmodmap_keycode": 29,
+      "levels": {
+        "1": {
+          "keysym": "k",
+          "kind": "unicode",
+          "display": "k",
+          "unicode": "k",
+          "codepoint": "U+006B"
+        },
+        "2": {
+          "keysym": "K",
+          "kind": "unicode",
+          "display": "K",
+          "unicode": "K",
+          "codepoint": "U+004B"
+        },
+        "3": {
+          "keysym": "exclam",
+          "kind": "unicode",
+          "display": "!",
+          "unicode": "!",
+          "codepoint": "U+0021"
+        },
+        "4": {
+          "keysym": "exclamdown",
+          "kind": "unicode",
+          "display": "¡",
+          "unicode": "¡",
+          "codepoint": "U+00A1"
+        },
+        "5": {
+          "keysym": "Greek_kappa",
+          "kind": "unicode",
+          "display": "κ",
+          "unicode": "κ",
+          "codepoint": "U+03BA"
+        },
+        "6": {
+          "keysym": "multiply",
+          "kind": "unicode",
+          "display": "×",
+          "unicode": "×",
+          "codepoint": "U+00D7"
+        }
+      }
+    },
+    "30": {
+      "xmodmap_keycode": 30,
+      "levels": {
+        "1": {
+          "keysym": "h",
+          "kind": "unicode",
+          "display": "h",
+          "unicode": "h",
+          "codepoint": "U+0068"
+        },
+        "2": {
+          "keysym": "H",
+          "kind": "unicode",
+          "display": "H",
+          "unicode": "H",
+          "codepoint": "U+0048"
+        },
+        "3": {
+          "keysym": "less",
+          "kind": "unicode",
+          "display": "<",
+          "unicode": "<",
+          "codepoint": "U+003C"
+        },
+        "4": {
+          "keysym": "KP_7",
+          "kind": "keypad_digit",
+          "display": "7",
+          "digit": 7
+        },
+        "5": {
+          "keysym": "Greek_psi",
+          "kind": "unicode",
+          "display": "ψ",
+          "unicode": "ψ",
+          "codepoint": "U+03C8"
+        },
+        "6": {
+          "keysym": "Greek_PSI",
+          "kind": "unicode",
+          "display": "Ψ",
+          "unicode": "Ψ",
+          "codepoint": "U+03A8"
+        }
+      }
+    },
+    "31": {
+      "xmodmap_keycode": 31,
+      "levels": {
+        "1": {
+          "keysym": "g",
+          "kind": "unicode",
+          "display": "g",
+          "unicode": "g",
+          "codepoint": "U+0067"
+        },
+        "2": {
+          "keysym": "G",
+          "kind": "unicode",
+          "display": "G",
+          "unicode": "G",
+          "codepoint": "U+0047"
+        },
+        "3": {
+          "keysym": "greater",
+          "kind": "unicode",
+          "display": ">",
+          "unicode": ">",
+          "codepoint": "U+003E"
+        },
+        "4": {
+          "keysym": "KP_8",
+          "kind": "keypad_digit",
+          "display": "8",
+          "digit": 8
+        },
+        "5": {
+          "keysym": "Greek_gamma",
+          "kind": "unicode",
+          "display": "γ",
+          "unicode": "γ",
+          "codepoint": "U+03B3"
+        },
+        "6": {
+          "keysym": "Greek_GAMMA",
+          "kind": "unicode",
+          "display": "Γ",
+          "unicode": "Γ",
+          "codepoint": "U+0393"
+        }
+      }
+    },
+    "32": {
+      "xmodmap_keycode": 32,
+      "levels": {
+        "1": {
+          "keysym": "f",
+          "kind": "unicode",
+          "display": "f",
+          "unicode": "f",
+          "codepoint": "U+0066"
+        },
+        "2": {
+          "keysym": "F",
+          "kind": "unicode",
+          "display": "F",
+          "unicode": "F",
+          "codepoint": "U+0046"
+        },
+        "3": {
+          "keysym": "equal",
+          "kind": "unicode",
+          "display": "=",
+          "unicode": "=",
+          "codepoint": "U+003D"
+        },
+        "4": {
+          "keysym": "KP_9",
+          "kind": "keypad_digit",
+          "display": "9",
+          "digit": 9
+        },
+        "5": {
+          "keysym": "Greek_phi",
+          "kind": "unicode",
+          "display": "φ",
+          "unicode": "φ",
+          "codepoint": "U+03C6"
+        },
+        "6": {
+          "keysym": "Greek_PHI",
+          "kind": "unicode",
+          "display": "Φ",
+          "unicode": "Φ",
+          "codepoint": "U+03A6"
+        }
+      }
+    },
+    "33": {
+      "xmodmap_keycode": 33,
+      "levels": {
+        "1": {
+          "keysym": "q",
+          "kind": "unicode",
+          "display": "q",
+          "unicode": "q",
+          "codepoint": "U+0071"
+        },
+        "2": {
+          "keysym": "Q",
+          "kind": "unicode",
+          "display": "Q",
+          "unicode": "Q",
+          "codepoint": "U+0051"
+        },
+        "3": {
+          "keysym": "ampersand",
+          "kind": "unicode",
+          "display": "&",
+          "unicode": "&",
+          "codepoint": "U+0026"
+        },
+        "4": {
+          "keysym": "KP_Add",
+          "kind": "action",
+          "display": "+"
+        },
+        "5": {
+          "keysym": "U03D5",
+          "kind": "unicode",
+          "display": "ϕ",
+          "unicode": "ϕ",
+          "codepoint": "U+03D5"
+        },
+        "6": {
+          "keysym": "U211A",
+          "kind": "unicode",
+          "display": "ℚ",
+          "unicode": "ℚ",
+          "codepoint": "U+211A"
+        }
+      }
+    },
+    "34": {
+      "xmodmap_keycode": 34,
+      "levels": {
+        "1": {
+          "keysym": "ssharp",
+          "kind": "unicode",
+          "display": "ß",
+          "unicode": "ß",
+          "codepoint": "U+00DF"
+        },
+        "2": {
+          "keysym": "U1E9E",
+          "kind": "unicode",
+          "display": "ẞ",
+          "unicode": "ẞ",
+          "codepoint": "U+1E9E"
+        },
+        "3": {
+          "keysym": "U017F",
+          "kind": "unicode",
+          "display": "ſ",
+          "unicode": "ſ",
+          "codepoint": "U+017F"
+        },
+        "4": {
+          "keysym": "U2212",
+          "kind": "unicode",
+          "display": "−",
+          "unicode": "−",
+          "codepoint": "U+2212"
+        },
+        "5": {
+          "keysym": "Greek_finalsmallsigma",
+          "kind": "unicode",
+          "display": "ς",
+          "unicode": "ς",
+          "codepoint": "U+03C2"
+        },
+        "6": {
+          "keysym": "jot",
+          "kind": "unicode",
+          "display": "∘",
+          "unicode": "∘",
+          "codepoint": "U+2218"
+        }
+      }
+    },
+    "35": {
+      "xmodmap_keycode": 35,
+      "levels": {
+        "1": {
+          "keysym": "dead_acute",
+          "kind": "dead_key",
+          "display": "´"
+        },
+        "2": {
+          "keysym": "dead_tilde",
+          "kind": "dead_key",
+          "display": "˜"
+        },
+        "3": {
+          "keysym": "dead_stroke",
+          "kind": "dead_key",
+          "display": "/"
+        },
+        "4": {
+          "keysym": "dead_doubleacute",
+          "kind": "dead_key",
+          "display": "˝"
+        },
+        "5": {
+          "keysym": "dead_psili",
+          "kind": "dead_key",
+          "display": "᾿"
+        },
+        "6": {
+          "keysym": "dead_breve",
+          "kind": "dead_key",
+          "display": "˘"
+        }
+      }
+    },
+    "38": {
+      "xmodmap_keycode": 38,
+      "levels": {
+        "1": {
+          "keysym": "u",
+          "kind": "unicode",
+          "display": "u",
+          "unicode": "u",
+          "codepoint": "U+0075"
+        },
+        "2": {
+          "keysym": "U",
+          "kind": "unicode",
+          "display": "U",
+          "unicode": "U",
+          "codepoint": "U+0055"
+        },
+        "3": {
+          "keysym": "backslash",
+          "kind": "unicode",
+          "display": "\\",
+          "unicode": "\\",
+          "codepoint": "U+005C"
+        },
+        "4": {
+          "keysym": "Home",
+          "kind": "action",
+          "display": "⇱"
+        },
+        "5": {
+          "keysym": "NoSymbol",
+          "kind": "unassigned",
+          "display": ""
+        },
+        "6": {
+          "keysym": "includedin",
+          "kind": "unicode",
+          "display": "⊂",
+          "unicode": "⊂",
+          "codepoint": "U+2282"
+        }
+      }
+    },
+    "39": {
+      "xmodmap_keycode": 39,
+      "levels": {
+        "1": {
+          "keysym": "i",
+          "kind": "unicode",
+          "display": "i",
+          "unicode": "i",
+          "codepoint": "U+0069"
+        },
+        "2": {
+          "keysym": "I",
+          "kind": "unicode",
+          "display": "I",
+          "unicode": "I",
+          "codepoint": "U+0049"
+        },
+        "3": {
+          "keysym": "slash",
+          "kind": "unicode",
+          "display": "/",
+          "unicode": "/",
+          "codepoint": "U+002F"
+        },
+        "4": {
+          "keysym": "Left",
+          "kind": "action",
+          "display": "⇠"
+        },
+        "5": {
+          "keysym": "Greek_iota",
+          "kind": "unicode",
+          "display": "ι",
+          "unicode": "ι",
+          "codepoint": "U+03B9"
+        },
+        "6": {
+          "keysym": "integral",
+          "kind": "unicode",
+          "display": "∫",
+          "unicode": "∫",
+          "codepoint": "U+222B"
+        }
+      }
+    },
+    "40": {
+      "xmodmap_keycode": 40,
+      "levels": {
+        "1": {
+          "keysym": "a",
+          "kind": "unicode",
+          "display": "a",
+          "unicode": "a",
+          "codepoint": "U+0061"
+        },
+        "2": {
+          "keysym": "A",
+          "kind": "unicode",
+          "display": "A",
+          "unicode": "A",
+          "codepoint": "U+0041"
+        },
+        "3": {
+          "keysym": "braceleft",
+          "kind": "unicode",
+          "display": "{",
+          "unicode": "{",
+          "codepoint": "U+007B"
+        },
+        "4": {
+          "keysym": "Down",
+          "kind": "action",
+          "display": "⇣"
+        },
+        "5": {
+          "keysym": "Greek_alpha",
+          "kind": "unicode",
+          "display": "α",
+          "unicode": "α",
+          "codepoint": "U+03B1"
+        },
+        "6": {
+          "keysym": "U2200",
+          "kind": "unicode",
+          "display": "∀",
+          "unicode": "∀",
+          "codepoint": "U+2200"
+        }
+      }
+    },
+    "41": {
+      "xmodmap_keycode": 41,
+      "levels": {
+        "1": {
+          "keysym": "e",
+          "kind": "unicode",
+          "display": "e",
+          "unicode": "e",
+          "codepoint": "U+0065"
+        },
+        "2": {
+          "keysym": "E",
+          "kind": "unicode",
+          "display": "E",
+          "unicode": "E",
+          "codepoint": "U+0045"
+        },
+        "3": {
+          "keysym": "braceright",
+          "kind": "unicode",
+          "display": "}",
+          "unicode": "}",
+          "codepoint": "U+007D"
+        },
+        "4": {
+          "keysym": "Right",
+          "kind": "action",
+          "display": "⇢"
+        },
+        "5": {
+          "keysym": "Greek_epsilon",
+          "kind": "unicode",
+          "display": "ε",
+          "unicode": "ε",
+          "codepoint": "U+03B5"
+        },
+        "6": {
+          "keysym": "U2203",
+          "kind": "unicode",
+          "display": "∃",
+          "unicode": "∃",
+          "codepoint": "U+2203"
+        }
+      }
+    },
+    "42": {
+      "xmodmap_keycode": 42,
+      "levels": {
+        "1": {
+          "keysym": "o",
+          "kind": "unicode",
+          "display": "o",
+          "unicode": "o",
+          "codepoint": "U+006F"
+        },
+        "2": {
+          "keysym": "O",
+          "kind": "unicode",
+          "display": "O",
+          "unicode": "O",
+          "codepoint": "U+004F"
+        },
+        "3": {
+          "keysym": "asterisk",
+          "kind": "unicode",
+          "display": "*",
+          "unicode": "*",
+          "codepoint": "U+002A"
+        },
+        "4": {
+          "keysym": "End",
+          "kind": "action",
+          "display": "⇲"
+        },
+        "5": {
+          "keysym": "Greek_omicron",
+          "kind": "unicode",
+          "display": "ο",
+          "unicode": "ο",
+          "codepoint": "U+03BF"
+        },
+        "6": {
+          "keysym": "elementof",
+          "kind": "unicode",
+          "display": "∈",
+          "unicode": "∈",
+          "codepoint": "U+2208"
+        }
+      }
+    },
+    "43": {
+      "xmodmap_keycode": 43,
+      "levels": {
+        "1": {
+          "keysym": "s",
+          "kind": "unicode",
+          "display": "s",
+          "unicode": "s",
+          "codepoint": "U+0073"
+        },
+        "2": {
+          "keysym": "S",
+          "kind": "unicode",
+          "display": "S",
+          "unicode": "S",
+          "codepoint": "U+0053"
+        },
+        "3": {
+          "keysym": "question",
+          "kind": "unicode",
+          "display": "?",
+          "unicode": "?",
+          "codepoint": "U+003F"
+        },
+        "4": {
+          "keysym": "questiondown",
+          "kind": "unicode",
+          "display": "¿",
+          "unicode": "¿",
+          "codepoint": "U+00BF"
+        },
+        "5": {
+          "keysym": "Greek_sigma",
+          "kind": "unicode",
+          "display": "σ",
+          "unicode": "σ",
+          "codepoint": "U+03C3"
+        },
+        "6": {
+          "keysym": "Greek_SIGMA",
+          "kind": "unicode",
+          "display": "Σ",
+          "unicode": "Σ",
+          "codepoint": "U+03A3"
+        }
+      }
+    },
+    "44": {
+      "xmodmap_keycode": 44,
+      "levels": {
+        "1": {
+          "keysym": "n",
+          "kind": "unicode",
+          "display": "n",
+          "unicode": "n",
+          "codepoint": "U+006E"
+        },
+        "2": {
+          "keysym": "N",
+          "kind": "unicode",
+          "display": "N",
+          "unicode": "N",
+          "codepoint": "U+004E"
+        },
+        "3": {
+          "keysym": "parenleft",
+          "kind": "unicode",
+          "display": "(",
+          "unicode": "(",
+          "codepoint": "U+0028"
+        },
+        "4": {
+          "keysym": "KP_4",
+          "kind": "keypad_digit",
+          "display": "4",
+          "digit": 4
+        },
+        "5": {
+          "keysym": "Greek_nu",
+          "kind": "unicode",
+          "display": "ν",
+          "unicode": "ν",
+          "codepoint": "U+03BD"
+        },
+        "6": {
+          "keysym": "U2115",
+          "kind": "unicode",
+          "display": "ℕ",
+          "unicode": "ℕ",
+          "codepoint": "U+2115"
+        }
+      }
+    },
+    "45": {
+      "xmodmap_keycode": 45,
+      "levels": {
+        "1": {
+          "keysym": "r",
+          "kind": "unicode",
+          "display": "r",
+          "unicode": "r",
+          "codepoint": "U+0072"
+        },
+        "2": {
+          "keysym": "R",
+          "kind": "unicode",
+          "display": "R",
+          "unicode": "R",
+          "codepoint": "U+0052"
+        },
+        "3": {
+          "keysym": "parenright",
+          "kind": "unicode",
+          "display": ")",
+          "unicode": ")",
+          "codepoint": "U+0029"
+        },
+        "4": {
+          "keysym": "KP_5",
+          "kind": "keypad_digit",
+          "display": "5",
+          "digit": 5
+        },
+        "5": {
+          "keysym": "Greek_rho",
+          "kind": "unicode",
+          "display": "ρ",
+          "unicode": "ρ",
+          "codepoint": "U+03C1"
+        },
+        "6": {
+          "keysym": "U211D",
+          "kind": "unicode",
+          "display": "ℝ",
+          "unicode": "ℝ",
+          "codepoint": "U+211D"
+        }
+      }
+    },
+    "46": {
+      "xmodmap_keycode": 46,
+      "levels": {
+        "1": {
+          "keysym": "t",
+          "kind": "unicode",
+          "display": "t",
+          "unicode": "t",
+          "codepoint": "U+0074"
+        },
+        "2": {
+          "keysym": "T",
+          "kind": "unicode",
+          "display": "T",
+          "unicode": "T",
+          "codepoint": "U+0054"
+        },
+        "3": {
+          "keysym": "minus",
+          "kind": "unicode",
+          "display": "-",
+          "unicode": "-",
+          "codepoint": "U+002D"
+        },
+        "4": {
+          "keysym": "KP_6",
+          "kind": "keypad_digit",
+          "display": "6",
+          "digit": 6
+        },
+        "5": {
+          "keysym": "Greek_tau",
+          "kind": "unicode",
+          "display": "τ",
+          "unicode": "τ",
+          "codepoint": "U+03C4"
+        },
+        "6": {
+          "keysym": "partialderivative",
+          "kind": "unicode",
+          "display": "∂",
+          "unicode": "∂",
+          "codepoint": "U+2202"
+        }
+      }
+    },
+    "47": {
+      "xmodmap_keycode": 47,
+      "levels": {
+        "1": {
+          "keysym": "d",
+          "kind": "unicode",
+          "display": "d",
+          "unicode": "d",
+          "codepoint": "U+0064"
+        },
+        "2": {
+          "keysym": "D",
+          "kind": "unicode",
+          "display": "D",
+          "unicode": "D",
+          "codepoint": "U+0044"
+        },
+        "3": {
+          "keysym": "colon",
+          "kind": "unicode",
+          "display": ":",
+          "unicode": ":",
+          "codepoint": "U+003A"
+        },
+        "4": {
+          "keysym": "KP_Separator",
+          "kind": "action",
+          "display": ","
+        },
+        "5": {
+          "keysym": "Greek_delta",
+          "kind": "unicode",
+          "display": "δ",
+          "unicode": "δ",
+          "codepoint": "U+03B4"
+        },
+        "6": {
+          "keysym": "Greek_DELTA",
+          "kind": "unicode",
+          "display": "Δ",
+          "unicode": "Δ",
+          "codepoint": "U+0394"
+        }
+      }
+    },
+    "48": {
+      "xmodmap_keycode": 48,
+      "levels": {
+        "1": {
+          "keysym": "y",
+          "kind": "unicode",
+          "display": "y",
+          "unicode": "y",
+          "codepoint": "U+0079"
+        },
+        "2": {
+          "keysym": "Y",
+          "kind": "unicode",
+          "display": "Y",
+          "unicode": "Y",
+          "codepoint": "U+0059"
+        },
+        "3": {
+          "keysym": "at",
+          "kind": "unicode",
+          "display": "@",
+          "unicode": "@",
+          "codepoint": "U+0040"
+        },
+        "4": {
+          "keysym": "period",
+          "kind": "unicode",
+          "display": ".",
+          "unicode": ".",
+          "codepoint": "U+002E"
+        },
+        "5": {
+          "keysym": "Greek_upsilon",
+          "kind": "unicode",
+          "display": "υ",
+          "unicode": "υ",
+          "codepoint": "U+03C5"
+        },
+        "6": {
+          "keysym": "nabla",
+          "kind": "unicode",
+          "display": "∇",
+          "unicode": "∇",
+          "codepoint": "U+2207"
+        }
+      }
+    },
+    "52": {
+      "xmodmap_keycode": 52,
+      "levels": {
+        "1": {
+          "keysym": "udiaeresis",
+          "kind": "unicode",
+          "display": "ü",
+          "unicode": "ü",
+          "codepoint": "U+00FC"
+        },
+        "2": {
+          "keysym": "Udiaeresis",
+          "kind": "unicode",
+          "display": "Ü",
+          "unicode": "Ü",
+          "codepoint": "U+00DC"
+        },
+        "3": {
+          "keysym": "numbersign",
+          "kind": "unicode",
+          "display": "#",
+          "unicode": "#",
+          "codepoint": "U+0023"
+        },
+        "4": {
+          "keysym": "Escape",
+          "kind": "action",
+          "display": "⌧"
+        },
+        "5": {
+          "keysym": "NoSymbol",
+          "kind": "unassigned",
+          "display": ""
+        },
+        "6": {
+          "keysym": "union",
+          "kind": "unicode",
+          "display": "∪",
+          "unicode": "∪",
+          "codepoint": "U+222A"
+        }
+      }
+    },
+    "53": {
+      "xmodmap_keycode": 53,
+      "levels": {
+        "1": {
+          "keysym": "odiaeresis",
+          "kind": "unicode",
+          "display": "ö",
+          "unicode": "ö",
+          "codepoint": "U+00F6"
+        },
+        "2": {
+          "keysym": "Odiaeresis",
+          "kind": "unicode",
+          "display": "Ö",
+          "unicode": "Ö",
+          "codepoint": "U+00D6"
+        },
+        "3": {
+          "keysym": "dollar",
+          "kind": "unicode",
+          "display": "$",
+          "unicode": "$",
+          "codepoint": "U+0024"
+        },
+        "4": {
+          "keysym": "Tab",
+          "kind": "action",
+          "display": "⇥"
+        },
+        "5": {
+          "keysym": "U03F5",
+          "kind": "unicode",
+          "display": "ϵ",
+          "unicode": "ϵ",
+          "codepoint": "U+03F5"
+        },
+        "6": {
+          "keysym": "intersection",
+          "kind": "unicode",
+          "display": "∩",
+          "unicode": "∩",
+          "codepoint": "U+2229"
+        }
+      }
+    },
+    "54": {
+      "xmodmap_keycode": 54,
+      "levels": {
+        "1": {
+          "keysym": "adiaeresis",
+          "kind": "unicode",
+          "display": "ä",
+          "unicode": "ä",
+          "codepoint": "U+00E4"
+        },
+        "2": {
+          "keysym": "Adiaeresis",
+          "kind": "unicode",
+          "display": "Ä",
+          "unicode": "Ä",
+          "codepoint": "U+00C4"
+        },
+        "3": {
+          "keysym": "bar",
+          "kind": "unicode",
+          "display": "|",
+          "unicode": "|",
+          "codepoint": "U+007C"
+        },
+        "4": {
+          "keysym": "Insert",
+          "kind": "action",
+          "display": "⎀"
+        },
+        "5": {
+          "keysym": "Greek_eta",
+          "kind": "unicode",
+          "display": "η",
+          "unicode": "η",
+          "codepoint": "U+03B7"
+        },
+        "6": {
+          "keysym": "U2135",
+          "kind": "unicode",
+          "display": "ℵ",
+          "unicode": "ℵ",
+          "codepoint": "U+2135"
+        }
+      }
+    },
+    "55": {
+      "xmodmap_keycode": 55,
+      "levels": {
+        "1": {
+          "keysym": "p",
+          "kind": "unicode",
+          "display": "p",
+          "unicode": "p",
+          "codepoint": "U+0070"
+        },
+        "2": {
+          "keysym": "P",
+          "kind": "unicode",
+          "display": "P",
+          "unicode": "P",
+          "codepoint": "U+0050"
+        },
+        "3": {
+          "keysym": "asciitilde",
+          "kind": "unicode",
+          "display": "~",
+          "unicode": "~",
+          "codepoint": "U+007E"
+        },
+        "4": {
+          "keysym": "Return",
+          "kind": "action",
+          "display": "⏎"
+        },
+        "5": {
+          "keysym": "Greek_pi",
+          "kind": "unicode",
+          "display": "π",
+          "unicode": "π",
+          "codepoint": "U+03C0"
+        },
+        "6": {
+          "keysym": "Greek_PI",
+          "kind": "unicode",
+          "display": "Π",
+          "unicode": "Π",
+          "codepoint": "U+03A0"
+        }
+      }
+    },
+    "56": {
+      "xmodmap_keycode": 56,
+      "levels": {
+        "1": {
+          "keysym": "z",
+          "kind": "unicode",
+          "display": "z",
+          "unicode": "z",
+          "codepoint": "U+007A"
+        },
+        "2": {
+          "keysym": "Z",
+          "kind": "unicode",
+          "display": "Z",
+          "unicode": "Z",
+          "codepoint": "U+005A"
+        },
+        "3": {
+          "keysym": "grave",
+          "kind": "unicode",
+          "display": "`",
+          "unicode": "`",
+          "codepoint": "U+0060"
+        },
+        "4": {
+          "keysym": "Undo",
+          "kind": "action",
+          "display": "↶"
+        },
+        "5": {
+          "keysym": "Greek_zeta",
+          "kind": "unicode",
+          "display": "ζ",
+          "unicode": "ζ",
+          "codepoint": "U+03B6"
+        },
+        "6": {
+          "keysym": "U2124",
+          "kind": "unicode",
+          "display": "ℤ",
+          "unicode": "ℤ",
+          "codepoint": "U+2124"
+        }
+      }
+    },
+    "57": {
+      "xmodmap_keycode": 57,
+      "levels": {
+        "1": {
+          "keysym": "b",
+          "kind": "unicode",
+          "display": "b",
+          "unicode": "b",
+          "codepoint": "U+0062"
+        },
+        "2": {
+          "keysym": "B",
+          "kind": "unicode",
+          "display": "B",
+          "unicode": "B",
+          "codepoint": "U+0042"
+        },
+        "3": {
+          "keysym": "plus",
+          "kind": "unicode",
+          "display": "+",
+          "unicode": "+",
+          "codepoint": "U+002B"
+        },
+        "4": {
+          "keysym": "colon",
+          "kind": "unicode",
+          "display": ":",
+          "unicode": ":",
+          "codepoint": "U+003A"
+        },
+        "5": {
+          "keysym": "Greek_beta",
+          "kind": "unicode",
+          "display": "β",
+          "unicode": "β",
+          "codepoint": "U+03B2"
+        },
+        "6": {
+          "keysym": "U21D0",
+          "kind": "unicode",
+          "display": "⇐",
+          "unicode": "⇐",
+          "codepoint": "U+21D0"
+        }
+      }
+    },
+    "58": {
+      "xmodmap_keycode": 58,
+      "levels": {
+        "1": {
+          "keysym": "m",
+          "kind": "unicode",
+          "display": "m",
+          "unicode": "m",
+          "codepoint": "U+006D"
+        },
+        "2": {
+          "keysym": "M",
+          "kind": "unicode",
+          "display": "M",
+          "unicode": "M",
+          "codepoint": "U+004D"
+        },
+        "3": {
+          "keysym": "percent",
+          "kind": "unicode",
+          "display": "%",
+          "unicode": "%",
+          "codepoint": "U+0025"
+        },
+        "4": {
+          "keysym": "KP_1",
+          "kind": "keypad_digit",
+          "display": "1",
+          "digit": 1
+        },
+        "5": {
+          "keysym": "Greek_mu",
+          "kind": "unicode",
+          "display": "μ",
+          "unicode": "μ",
+          "codepoint": "U+03BC"
+        },
+        "6": {
+          "keysym": "ifonlyif",
+          "kind": "unicode",
+          "display": "⇔",
+          "unicode": "⇔",
+          "codepoint": "U+21D4"
+        }
+      }
+    },
+    "59": {
+      "xmodmap_keycode": 59,
+      "levels": {
+        "1": {
+          "keysym": "comma",
+          "kind": "unicode",
+          "display": ",",
+          "unicode": ",",
+          "codepoint": "U+002C"
+        },
+        "2": {
+          "keysym": "endash",
+          "kind": "unicode",
+          "display": "–",
+          "unicode": "–",
+          "codepoint": "U+2013"
+        },
+        "3": {
+          "keysym": "quotedbl",
+          "kind": "unicode",
+          "display": "\"",
+          "unicode": "\"",
+          "codepoint": "U+0022"
+        },
+        "4": {
+          "keysym": "KP_2",
+          "kind": "keypad_digit",
+          "display": "2",
+          "digit": 2
+        },
+        "5": {
+          "keysym": "U03F1",
+          "kind": "unicode",
+          "display": "ϱ",
+          "unicode": "ϱ",
+          "codepoint": "U+03F1"
+        },
+        "6": {
+          "keysym": "U21D2",
+          "kind": "unicode",
+          "display": "⇒",
+          "unicode": "⇒",
+          "codepoint": "U+21D2"
+        }
+      }
+    },
+    "60": {
+      "xmodmap_keycode": 60,
+      "levels": {
+        "1": {
+          "keysym": "period",
+          "kind": "unicode",
+          "display": ".",
+          "unicode": ".",
+          "codepoint": "U+002E"
+        },
+        "2": {
+          "keysym": "enfilledcircbullet",
+          "kind": "unicode",
+          "display": "•",
+          "unicode": "•",
+          "codepoint": "U+2022"
+        },
+        "3": {
+          "keysym": "apostrophe",
+          "kind": "unicode",
+          "display": "'",
+          "unicode": "'",
+          "codepoint": "U+0027"
+        },
+        "4": {
+          "keysym": "KP_3",
+          "kind": "keypad_digit",
+          "display": "3",
+          "digit": 3
+        },
+        "5": {
+          "keysym": "U03D1",
+          "kind": "unicode",
+          "display": "ϑ",
+          "unicode": "ϑ",
+          "codepoint": "U+03D1"
+        },
+        "6": {
+          "keysym": "U21A6",
+          "kind": "unicode",
+          "display": "↦",
+          "unicode": "↦",
+          "codepoint": "U+21A6"
+        }
+      }
+    },
+    "61": {
+      "xmodmap_keycode": 61,
+      "levels": {
+        "1": {
+          "keysym": "j",
+          "kind": "unicode",
+          "display": "j",
+          "unicode": "j",
+          "codepoint": "U+006A"
+        },
+        "2": {
+          "keysym": "J",
+          "kind": "unicode",
+          "display": "J",
+          "unicode": "J",
+          "codepoint": "U+004A"
+        },
+        "3": {
+          "keysym": "semicolon",
+          "kind": "unicode",
+          "display": ";",
+          "unicode": ";",
+          "codepoint": "U+003B"
+        },
+        "4": {
+          "keysym": "semicolon",
+          "kind": "unicode",
+          "display": ";",
+          "unicode": ";",
+          "codepoint": "U+003B"
+        },
+        "5": {
+          "keysym": "Greek_theta",
+          "kind": "unicode",
+          "display": "θ",
+          "unicode": "θ",
+          "codepoint": "U+03B8"
+        },
+        "6": {
+          "keysym": "Greek_THETA",
+          "kind": "unicode",
+          "display": "Θ",
+          "unicode": "Θ",
+          "codepoint": "U+0398"
+        }
+      }
+    },
+    "23": {
+      "xmodmap_keycode": 23,
+      "levels": {
+        "1": {
+          "keysym": "Tab",
+          "kind": "action",
+          "display": "⇥"
+        },
+        "2": {
+          "keysym": "ISO_Left_Tab",
+          "kind": "action",
+          "display": "⇤"
+        },
+        "3": {
+          "keysym": "Multi_key",
+          "kind": "action",
+          "display": "♫"
+        },
+        "4": {
+          "keysym": "NoSymbol",
+          "kind": "unassigned",
+          "display": ""
+        },
+        "5": {
+          "keysym": "ISO_Level3_Lock",
+          "kind": "action",
+          "display": "4Lk"
+        },
+        "6": {
+          "keysym": "NoSymbol",
+          "kind": "unassigned",
+          "display": ""
+        }
+      }
+    },
+    "36": {
+      "xmodmap_keycode": 36,
+      "levels": {
+        "1": {
+          "keysym": "Return",
+          "kind": "action",
+          "display": "⏎"
+        },
+        "2": {
+          "keysym": "Return",
+          "kind": "action",
+          "display": "⏎"
+        },
+        "3": {
+          "keysym": "Return",
+          "kind": "action",
+          "display": "⏎"
+        },
+        "4": {
+          "keysym": "KP_Enter",
+          "kind": "action",
+          "display": "⏎"
+        },
+        "5": {
+          "keysym": "Return",
+          "kind": "action",
+          "display": "⏎"
+        },
+        "6": {
+          "keysym": "Return",
+          "kind": "action",
+          "display": "⏎"
+        }
+      }
+    },
+    "65": {
+      "xmodmap_keycode": 65,
+      "levels": {
+        "1": {
+          "keysym": "space",
+          "kind": "unicode",
+          "display": " ",
+          "unicode": " ",
+          "codepoint": "U+0020"
+        },
+        "2": {
+          "keysym": "space",
+          "kind": "unicode",
+          "display": " ",
+          "unicode": " ",
+          "codepoint": "U+0020"
+        },
+        "3": {
+          "keysym": "space",
+          "kind": "unicode",
+          "display": " ",
+          "unicode": " ",
+          "codepoint": "U+0020"
+        },
+        "4": {
+          "keysym": "KP_0",
+          "kind": "keypad_digit",
+          "display": "0",
+          "digit": 0
+        },
+        "5": {
+          "keysym": "nobreakspace",
+          "kind": "unicode",
+          "display": "⍽",
+          "unicode": " ",
+          "codepoint": "U+00A0"
+        },
+        "6": {
+          "keysym": "U202F",
+          "kind": "unicode",
+          "display": "¦",
+          "unicode": " ",
+          "codepoint": "U+202F"
+        }
+      }
+    }
+  },
+  "physical_board_positions": [
+    {
+      "bank": 0,
+      "channel": 0,
+      "original_logical_id": 21,
+      "physical_hid": "0x29",
+      "role": "Escape_preserved"
+    },
+    {
+      "bank": 0,
+      "channel": 1,
+      "original_logical_id": 22,
+      "physical_hid": "0x1e",
+      "xmodmap_keycode": 10,
+      "levels": {
+        "1": {
+          "keysym": "1",
+          "kind": "unicode",
+          "display": "1",
+          "unicode": "1",
+          "codepoint": "U+0031"
+        },
+        "2": {
+          "keysym": "degree",
+          "kind": "unicode",
+          "display": "°",
+          "unicode": "°",
+          "codepoint": "U+00B0"
+        },
+        "3": {
+          "keysym": "onesuperior",
+          "kind": "unicode",
+          "display": "¹",
+          "unicode": "¹",
+          "codepoint": "U+00B9"
+        },
+        "4": {
+          "keysym": "ordfeminine",
+          "kind": "unicode",
+          "display": "ª",
+          "unicode": "ª",
+          "codepoint": "U+00AA"
+        },
+        "5": {
+          "keysym": "onesubscript",
+          "kind": "unicode",
+          "display": "₁",
+          "unicode": "₁",
+          "codepoint": "U+2081"
+        },
+        "6": {
+          "keysym": "notsign",
+          "kind": "unicode",
+          "display": "¬",
+          "unicode": "¬",
+          "codepoint": "U+00AC"
+        }
+      }
+    },
+    {
+      "bank": 0,
+      "channel": 2,
+      "original_logical_id": 23,
+      "physical_hid": "0x1f",
+      "xmodmap_keycode": 11,
+      "levels": {
+        "1": {
+          "keysym": "2",
+          "kind": "unicode",
+          "display": "2",
+          "unicode": "2",
+          "codepoint": "U+0032"
+        },
+        "2": {
+          "keysym": "section",
+          "kind": "unicode",
+          "display": "§",
+          "unicode": "§",
+          "codepoint": "U+00A7"
+        },
+        "3": {
+          "keysym": "twosuperior",
+          "kind": "unicode",
+          "display": "²",
+          "unicode": "²",
+          "codepoint": "U+00B2"
+        },
+        "4": {
+          "keysym": "masculine",
+          "kind": "unicode",
+          "display": "º",
+          "unicode": "º",
+          "codepoint": "U+00BA"
+        },
+        "5": {
+          "keysym": "twosubscript",
+          "kind": "unicode",
+          "display": "₂",
+          "unicode": "₂",
+          "codepoint": "U+2082"
+        },
+        "6": {
+          "keysym": "logicalor",
+          "kind": "unicode",
+          "display": "∨",
+          "unicode": "∨",
+          "codepoint": "U+2228"
+        }
+      }
+    },
+    {
+      "bank": 0,
+      "channel": 3,
+      "original_logical_id": 24,
+      "physical_hid": "0x20",
+      "xmodmap_keycode": 12,
+      "levels": {
+        "1": {
+          "keysym": "3",
+          "kind": "unicode",
+          "display": "3",
+          "unicode": "3",
+          "codepoint": "U+0033"
+        },
+        "2": {
+          "keysym": "U2113",
+          "kind": "unicode",
+          "display": "ℓ",
+          "unicode": "ℓ",
+          "codepoint": "U+2113"
+        },
+        "3": {
+          "keysym": "threesuperior",
+          "kind": "unicode",
+          "display": "³",
+          "unicode": "³",
+          "codepoint": "U+00B3"
+        },
+        "4": {
+          "keysym": "numerosign",
+          "kind": "unicode",
+          "display": "№",
+          "unicode": "№",
+          "codepoint": "U+2116"
+        },
+        "5": {
+          "keysym": "threesubscript",
+          "kind": "unicode",
+          "display": "₃",
+          "unicode": "₃",
+          "codepoint": "U+2083"
+        },
+        "6": {
+          "keysym": "logicaland",
+          "kind": "unicode",
+          "display": "∧",
+          "unicode": "∧",
+          "codepoint": "U+2227"
+        }
+      }
+    },
+    {
+      "bank": 0,
+      "channel": 4,
+      "original_logical_id": 25,
+      "physical_hid": "0x21",
+      "xmodmap_keycode": 13,
+      "levels": {
+        "1": {
+          "keysym": "4",
+          "kind": "unicode",
+          "display": "4",
+          "unicode": "4",
+          "codepoint": "U+0034"
+        },
+        "2": {
+          "keysym": "guillemotright",
+          "kind": "unicode",
+          "display": "»",
+          "unicode": "»",
+          "codepoint": "U+00BB"
+        },
+        "3": {
+          "keysym": "U203A",
+          "kind": "unicode",
+          "display": "›",
+          "unicode": "›",
+          "codepoint": "U+203A"
+        },
+        "4": {
+          "keysym": "NoSymbol",
+          "kind": "unassigned",
+          "display": ""
+        },
+        "5": {
+          "keysym": "femalesymbol",
+          "kind": "unicode",
+          "display": "♀",
+          "unicode": "♀",
+          "codepoint": "U+2640"
+        },
+        "6": {
+          "keysym": "U22A5",
+          "kind": "unicode",
+          "display": "⊥",
+          "unicode": "⊥",
+          "codepoint": "U+22A5"
+        }
+      }
+    },
+    {
+      "bank": 0,
+      "channel": 5,
+      "original_logical_id": 26,
+      "physical_hid": "0x22",
+      "xmodmap_keycode": 14,
+      "levels": {
+        "1": {
+          "keysym": "5",
+          "kind": "unicode",
+          "display": "5",
+          "unicode": "5",
+          "codepoint": "U+0035"
+        },
+        "2": {
+          "keysym": "guillemotleft",
+          "kind": "unicode",
+          "display": "«",
+          "unicode": "«",
+          "codepoint": "U+00AB"
+        },
+        "3": {
+          "keysym": "U2039",
+          "kind": "unicode",
+          "display": "‹",
+          "unicode": "‹",
+          "codepoint": "U+2039"
+        },
+        "4": {
+          "keysym": "periodcentered",
+          "kind": "unicode",
+          "display": "·",
+          "unicode": "·",
+          "codepoint": "U+00B7"
+        },
+        "5": {
+          "keysym": "malesymbol",
+          "kind": "unicode",
+          "display": "♂",
+          "unicode": "♂",
+          "codepoint": "U+2642"
+        },
+        "6": {
+          "keysym": "U2221",
+          "kind": "unicode",
+          "display": "∡",
+          "unicode": "∡",
+          "codepoint": "U+2221"
+        }
+      }
+    },
+    {
+      "bank": 0,
+      "channel": 6,
+      "original_logical_id": 27,
+      "physical_hid": "0x23",
+      "xmodmap_keycode": 15,
+      "levels": {
+        "1": {
+          "keysym": "6",
+          "kind": "unicode",
+          "display": "6",
+          "unicode": "6",
+          "codepoint": "U+0036"
+        },
+        "2": {
+          "keysym": "dollar",
+          "kind": "unicode",
+          "display": "$",
+          "unicode": "$",
+          "codepoint": "U+0024"
+        },
+        "3": {
+          "keysym": "cent",
+          "kind": "unicode",
+          "display": "¢",
+          "unicode": "¢",
+          "codepoint": "U+00A2"
+        },
+        "4": {
+          "keysym": "sterling",
+          "kind": "unicode",
+          "display": "£",
+          "unicode": "£",
+          "codepoint": "U+00A3"
+        },
+        "5": {
+          "keysym": "U26A5",
+          "kind": "unicode",
+          "display": "⚥",
+          "unicode": "⚥",
+          "codepoint": "U+26A5"
+        },
+        "6": {
+          "keysym": "U2225",
+          "kind": "unicode",
+          "display": "∥",
+          "unicode": "∥",
+          "codepoint": "U+2225"
+        }
+      }
+    },
+    {
+      "bank": 0,
+      "channel": 7,
+      "original_logical_id": 28,
+      "physical_hid": "0x24",
+      "xmodmap_keycode": 16,
+      "levels": {
+        "1": {
+          "keysym": "7",
+          "kind": "unicode",
+          "display": "7",
+          "unicode": "7",
+          "codepoint": "U+0037"
+        },
+        "2": {
+          "keysym": "EuroSign",
+          "kind": "unicode",
+          "display": "€",
+          "unicode": "€",
+          "codepoint": "U+20AC"
+        },
+        "3": {
+          "keysym": "yen",
+          "kind": "unicode",
+          "display": "¥",
+          "unicode": "¥",
+          "codepoint": "U+00A5"
+        },
+        "4": {
+          "keysym": "currency",
+          "kind": "unicode",
+          "display": "¤",
+          "unicode": "¤",
+          "codepoint": "U+00A4"
+        },
+        "5": {
+          "keysym": "U03F0",
+          "kind": "unicode",
+          "display": "ϰ",
+          "unicode": "ϰ",
+          "codepoint": "U+03F0"
+        },
+        "6": {
+          "keysym": "rightarrow",
+          "kind": "unicode",
+          "display": "→",
+          "unicode": "→",
+          "codepoint": "U+2192"
+        }
+      }
+    },
+    {
+      "bank": 0,
+      "channel": 8,
+      "original_logical_id": 29,
+      "physical_hid": "0x25",
+      "xmodmap_keycode": 17,
+      "levels": {
+        "1": {
+          "keysym": "8",
+          "kind": "unicode",
+          "display": "8",
+          "unicode": "8",
+          "codepoint": "U+0038"
+        },
+        "2": {
+          "keysym": "doublelowquotemark",
+          "kind": "unicode",
+          "display": "„",
+          "unicode": "„",
+          "codepoint": "U+201E"
+        },
+        "3": {
+          "keysym": "singlelowquotemark",
+          "kind": "unicode",
+          "display": "‚",
+          "unicode": "‚",
+          "codepoint": "U+201A"
+        },
+        "4": {
+          "keysym": "Tab",
+          "kind": "action",
+          "display": "⇥"
+        },
+        "5": {
+          "keysym": "leftanglebracket",
+          "kind": "unicode",
+          "display": "⟨",
+          "unicode": "⟨",
+          "codepoint": "U+27E8"
+        },
+        "6": {
+          "keysym": "infinity",
+          "kind": "unicode",
+          "display": "∞",
+          "unicode": "∞",
+          "codepoint": "U+221E"
+        }
+      }
+    },
+    {
+      "bank": 0,
+      "channel": 9,
+      "original_logical_id": 30,
+      "physical_hid": "0x26",
+      "xmodmap_keycode": 18,
+      "levels": {
+        "1": {
+          "keysym": "9",
+          "kind": "unicode",
+          "display": "9",
+          "unicode": "9",
+          "codepoint": "U+0039"
+        },
+        "2": {
+          "keysym": "leftdoublequotemark",
+          "kind": "unicode",
+          "display": "“",
+          "unicode": "“",
+          "codepoint": "U+201C"
+        },
+        "3": {
+          "keysym": "leftsinglequotemark",
+          "kind": "unicode",
+          "display": "‘",
+          "unicode": "‘",
+          "codepoint": "U+2018"
+        },
+        "4": {
+          "keysym": "KP_Divide",
+          "kind": "action",
+          "display": "/"
+        },
+        "5": {
+          "keysym": "rightanglebracket",
+          "kind": "unicode",
+          "display": "⟩",
+          "unicode": "⟩",
+          "codepoint": "U+27E9"
+        },
+        "6": {
+          "keysym": "variation",
+          "kind": "unicode",
+          "display": "∝",
+          "unicode": "∝",
+          "codepoint": "U+221D"
+        }
+      }
+    },
+    {
+      "bank": 0,
+      "channel": 10,
+      "original_logical_id": 31,
+      "physical_hid": "0x27",
+      "xmodmap_keycode": 19,
+      "levels": {
+        "1": {
+          "keysym": "0",
+          "kind": "unicode",
+          "display": "0",
+          "unicode": "0",
+          "codepoint": "U+0030"
+        },
+        "2": {
+          "keysym": "rightdoublequotemark",
+          "kind": "unicode",
+          "display": "”",
+          "unicode": "”",
+          "codepoint": "U+201D"
+        },
+        "3": {
+          "keysym": "rightsinglequotemark",
+          "kind": "unicode",
+          "display": "’",
+          "unicode": "’",
+          "codepoint": "U+2019"
+        },
+        "4": {
+          "keysym": "KP_Multiply",
+          "kind": "action",
+          "display": "*"
+        },
+        "5": {
+          "keysym": "zerosubscript",
+          "kind": "unicode",
+          "display": "₀",
+          "unicode": "₀",
+          "codepoint": "U+2080"
+        },
+        "6": {
+          "keysym": "emptyset",
+          "kind": "unicode",
+          "display": "∅",
+          "unicode": "∅",
+          "codepoint": "U+2205"
+        }
+      }
+    },
+    {
+      "bank": 1,
+      "channel": 0,
+      "original_logical_id": 42,
+      "physical_hid": "0x2b",
+      "xmodmap_keycode": 23,
+      "levels": {
+        "1": {
+          "keysym": "Tab",
+          "kind": "action",
+          "display": "⇥"
+        },
+        "2": {
+          "keysym": "ISO_Left_Tab",
+          "kind": "action",
+          "display": "⇤"
+        },
+        "3": {
+          "keysym": "Multi_key",
+          "kind": "action",
+          "display": "♫"
+        },
+        "4": {
+          "keysym": "NoSymbol",
+          "kind": "unassigned",
+          "display": ""
+        },
+        "5": {
+          "keysym": "ISO_Level3_Lock",
+          "kind": "action",
+          "display": "4Lk"
+        },
+        "6": {
+          "keysym": "NoSymbol",
+          "kind": "unassigned",
+          "display": ""
+        }
+      }
+    },
+    {
+      "bank": 1,
+      "channel": 1,
+      "original_logical_id": 43,
+      "physical_hid": "0x14",
+      "xmodmap_keycode": 24,
+      "levels": {
+        "1": {
+          "keysym": "x",
+          "kind": "unicode",
+          "display": "x",
+          "unicode": "x",
+          "codepoint": "U+0078"
+        },
+        "2": {
+          "keysym": "X",
+          "kind": "unicode",
+          "display": "X",
+          "unicode": "X",
+          "codepoint": "U+0058"
+        },
+        "3": {
+          "keysym": "ellipsis",
+          "kind": "unicode",
+          "display": "…",
+          "unicode": "…",
+          "codepoint": "U+2026"
+        },
+        "4": {
+          "keysym": "Prior",
+          "kind": "action",
+          "display": "⇞"
+        },
+        "5": {
+          "keysym": "Greek_xi",
+          "kind": "unicode",
+          "display": "ξ",
+          "unicode": "ξ",
+          "codepoint": "U+03BE"
+        },
+        "6": {
+          "keysym": "Greek_XI",
+          "kind": "unicode",
+          "display": "Ξ",
+          "unicode": "Ξ",
+          "codepoint": "U+039E"
+        }
+      }
+    },
+    {
+      "bank": 1,
+      "channel": 2,
+      "original_logical_id": 44,
+      "physical_hid": "0x1a",
+      "xmodmap_keycode": 25,
+      "levels": {
+        "1": {
+          "keysym": "v",
+          "kind": "unicode",
+          "display": "v",
+          "unicode": "v",
+          "codepoint": "U+0076"
+        },
+        "2": {
+          "keysym": "V",
+          "kind": "unicode",
+          "display": "V",
+          "unicode": "V",
+          "codepoint": "U+0056"
+        },
+        "3": {
+          "keysym": "underscore",
+          "kind": "unicode",
+          "display": "_",
+          "unicode": "_",
+          "codepoint": "U+005F"
+        },
+        "4": {
+          "keysym": "BackSpace",
+          "kind": "action",
+          "display": "⌫"
+        },
+        "5": {
+          "keysym": "NoSymbol",
+          "kind": "unassigned",
+          "display": ""
+        },
+        "6": {
+          "keysym": "radical",
+          "kind": "unicode",
+          "display": "√",
+          "unicode": "√",
+          "codepoint": "U+221A"
+        }
+      }
+    },
+    {
+      "bank": 1,
+      "channel": 3,
+      "original_logical_id": 45,
+      "physical_hid": "0x8",
+      "xmodmap_keycode": 26,
+      "levels": {
+        "1": {
+          "keysym": "l",
+          "kind": "unicode",
+          "display": "l",
+          "unicode": "l",
+          "codepoint": "U+006C"
+        },
+        "2": {
+          "keysym": "L",
+          "kind": "unicode",
+          "display": "L",
+          "unicode": "L",
+          "codepoint": "U+004C"
+        },
+        "3": {
+          "keysym": "bracketleft",
+          "kind": "unicode",
+          "display": "[",
+          "unicode": "[",
+          "codepoint": "U+005B"
+        },
+        "4": {
+          "keysym": "Up",
+          "kind": "action",
+          "display": "⇡"
+        },
+        "5": {
+          "keysym": "Greek_lambda",
+          "kind": "unicode",
+          "display": "λ",
+          "unicode": "λ",
+          "codepoint": "U+03BB"
+        },
+        "6": {
+          "keysym": "Greek_LAMBDA",
+          "kind": "unicode",
+          "display": "Λ",
+          "unicode": "Λ",
+          "codepoint": "U+039B"
+        }
+      }
+    },
+    {
+      "bank": 1,
+      "channel": 4,
+      "original_logical_id": 46,
+      "physical_hid": "0x15",
+      "xmodmap_keycode": 27,
+      "levels": {
+        "1": {
+          "keysym": "c",
+          "kind": "unicode",
+          "display": "c",
+          "unicode": "c",
+          "codepoint": "U+0063"
+        },
+        "2": {
+          "keysym": "C",
+          "kind": "unicode",
+          "display": "C",
+          "unicode": "C",
+          "codepoint": "U+0043"
+        },
+        "3": {
+          "keysym": "bracketright",
+          "kind": "unicode",
+          "display": "]",
+          "unicode": "]",
+          "codepoint": "U+005D"
+        },
+        "4": {
+          "keysym": "Delete",
+          "kind": "action",
+          "display": "⌦"
+        },
+        "5": {
+          "keysym": "Greek_chi",
+          "kind": "unicode",
+          "display": "χ",
+          "unicode": "χ",
+          "codepoint": "U+03C7"
+        },
+        "6": {
+          "keysym": "U2102",
+          "kind": "unicode",
+          "display": "ℂ",
+          "unicode": "ℂ",
+          "codepoint": "U+2102"
+        }
+      }
+    },
+    {
+      "bank": 1,
+      "channel": 5,
+      "original_logical_id": 47,
+      "physical_hid": "0x17",
+      "xmodmap_keycode": 28,
+      "levels": {
+        "1": {
+          "keysym": "w",
+          "kind": "unicode",
+          "display": "w",
+          "unicode": "w",
+          "codepoint": "U+0077"
+        },
+        "2": {
+          "keysym": "W",
+          "kind": "unicode",
+          "display": "W",
+          "unicode": "W",
+          "codepoint": "U+0057"
+        },
+        "3": {
+          "keysym": "asciicircum",
+          "kind": "unicode",
+          "display": "^",
+          "unicode": "^",
+          "codepoint": "U+005E"
+        },
+        "4": {
+          "keysym": "Next",
+          "kind": "action",
+          "display": "⇟"
+        },
+        "5": {
+          "keysym": "Greek_omega",
+          "kind": "unicode",
+          "display": "ω",
+          "unicode": "ω",
+          "codepoint": "U+03C9"
+        },
+        "6": {
+          "keysym": "Greek_OMEGA",
+          "kind": "unicode",
+          "display": "Ω",
+          "unicode": "Ω",
+          "codepoint": "U+03A9"
+        }
+      }
+    },
+    {
+      "bank": 1,
+      "channel": 6,
+      "original_logical_id": 48,
+      "physical_hid": "0x1c",
+      "xmodmap_keycode": 29,
+      "levels": {
+        "1": {
+          "keysym": "k",
+          "kind": "unicode",
+          "display": "k",
+          "unicode": "k",
+          "codepoint": "U+006B"
+        },
+        "2": {
+          "keysym": "K",
+          "kind": "unicode",
+          "display": "K",
+          "unicode": "K",
+          "codepoint": "U+004B"
+        },
+        "3": {
+          "keysym": "exclam",
+          "kind": "unicode",
+          "display": "!",
+          "unicode": "!",
+          "codepoint": "U+0021"
+        },
+        "4": {
+          "keysym": "exclamdown",
+          "kind": "unicode",
+          "display": "¡",
+          "unicode": "¡",
+          "codepoint": "U+00A1"
+        },
+        "5": {
+          "keysym": "Greek_kappa",
+          "kind": "unicode",
+          "display": "κ",
+          "unicode": "κ",
+          "codepoint": "U+03BA"
+        },
+        "6": {
+          "keysym": "multiply",
+          "kind": "unicode",
+          "display": "×",
+          "unicode": "×",
+          "codepoint": "U+00D7"
+        }
+      }
+    },
+    {
+      "bank": 1,
+      "channel": 7,
+      "original_logical_id": 49,
+      "physical_hid": "0x18",
+      "xmodmap_keycode": 30,
+      "levels": {
+        "1": {
+          "keysym": "h",
+          "kind": "unicode",
+          "display": "h",
+          "unicode": "h",
+          "codepoint": "U+0068"
+        },
+        "2": {
+          "keysym": "H",
+          "kind": "unicode",
+          "display": "H",
+          "unicode": "H",
+          "codepoint": "U+0048"
+        },
+        "3": {
+          "keysym": "less",
+          "kind": "unicode",
+          "display": "<",
+          "unicode": "<",
+          "codepoint": "U+003C"
+        },
+        "4": {
+          "keysym": "KP_7",
+          "kind": "keypad_digit",
+          "display": "7",
+          "digit": 7
+        },
+        "5": {
+          "keysym": "Greek_psi",
+          "kind": "unicode",
+          "display": "ψ",
+          "unicode": "ψ",
+          "codepoint": "U+03C8"
+        },
+        "6": {
+          "keysym": "Greek_PSI",
+          "kind": "unicode",
+          "display": "Ψ",
+          "unicode": "Ψ",
+          "codepoint": "U+03A8"
+        }
+      }
+    },
+    {
+      "bank": 1,
+      "channel": 8,
+      "original_logical_id": 50,
+      "physical_hid": "0xc",
+      "xmodmap_keycode": 31,
+      "levels": {
+        "1": {
+          "keysym": "g",
+          "kind": "unicode",
+          "display": "g",
+          "unicode": "g",
+          "codepoint": "U+0067"
+        },
+        "2": {
+          "keysym": "G",
+          "kind": "unicode",
+          "display": "G",
+          "unicode": "G",
+          "codepoint": "U+0047"
+        },
+        "3": {
+          "keysym": "greater",
+          "kind": "unicode",
+          "display": ">",
+          "unicode": ">",
+          "codepoint": "U+003E"
+        },
+        "4": {
+          "keysym": "KP_8",
+          "kind": "keypad_digit",
+          "display": "8",
+          "digit": 8
+        },
+        "5": {
+          "keysym": "Greek_gamma",
+          "kind": "unicode",
+          "display": "γ",
+          "unicode": "γ",
+          "codepoint": "U+03B3"
+        },
+        "6": {
+          "keysym": "Greek_GAMMA",
+          "kind": "unicode",
+          "display": "Γ",
+          "unicode": "Γ",
+          "codepoint": "U+0393"
+        }
+      }
+    },
+    {
+      "bank": 1,
+      "channel": 9,
+      "original_logical_id": 51,
+      "physical_hid": "0x12",
+      "xmodmap_keycode": 32,
+      "levels": {
+        "1": {
+          "keysym": "f",
+          "kind": "unicode",
+          "display": "f",
+          "unicode": "f",
+          "codepoint": "U+0066"
+        },
+        "2": {
+          "keysym": "F",
+          "kind": "unicode",
+          "display": "F",
+          "unicode": "F",
+          "codepoint": "U+0046"
+        },
+        "3": {
+          "keysym": "equal",
+          "kind": "unicode",
+          "display": "=",
+          "unicode": "=",
+          "codepoint": "U+003D"
+        },
+        "4": {
+          "keysym": "KP_9",
+          "kind": "keypad_digit",
+          "display": "9",
+          "digit": 9
+        },
+        "5": {
+          "keysym": "Greek_phi",
+          "kind": "unicode",
+          "display": "φ",
+          "unicode": "φ",
+          "codepoint": "U+03C6"
+        },
+        "6": {
+          "keysym": "Greek_PHI",
+          "kind": "unicode",
+          "display": "Φ",
+          "unicode": "Φ",
+          "codepoint": "U+03A6"
+        }
+      }
+    },
+    {
+      "bank": 1,
+      "channel": 10,
+      "original_logical_id": 52,
+      "physical_hid": "0x13",
+      "xmodmap_keycode": 33,
+      "levels": {
+        "1": {
+          "keysym": "q",
+          "kind": "unicode",
+          "display": "q",
+          "unicode": "q",
+          "codepoint": "U+0071"
+        },
+        "2": {
+          "keysym": "Q",
+          "kind": "unicode",
+          "display": "Q",
+          "unicode": "Q",
+          "codepoint": "U+0051"
+        },
+        "3": {
+          "keysym": "ampersand",
+          "kind": "unicode",
+          "display": "&",
+          "unicode": "&",
+          "codepoint": "U+0026"
+        },
+        "4": {
+          "keysym": "KP_Add",
+          "kind": "action",
+          "display": "+"
+        },
+        "5": {
+          "keysym": "U03D5",
+          "kind": "unicode",
+          "display": "ϕ",
+          "unicode": "ϕ",
+          "codepoint": "U+03D5"
+        },
+        "6": {
+          "keysym": "U211A",
+          "kind": "unicode",
+          "display": "ℚ",
+          "unicode": "ℚ",
+          "codepoint": "U+211A"
+        }
+      }
+    },
+    {
+      "bank": 2,
+      "channel": 0,
+      "original_logical_id": 63,
+      "physical_hid": "0x39",
+      "role": "Mod3_left"
+    },
+    {
+      "bank": 2,
+      "channel": 1,
+      "original_logical_id": 64,
+      "physical_hid": "0x4",
+      "xmodmap_keycode": 38,
+      "levels": {
+        "1": {
+          "keysym": "u",
+          "kind": "unicode",
+          "display": "u",
+          "unicode": "u",
+          "codepoint": "U+0075"
+        },
+        "2": {
+          "keysym": "U",
+          "kind": "unicode",
+          "display": "U",
+          "unicode": "U",
+          "codepoint": "U+0055"
+        },
+        "3": {
+          "keysym": "backslash",
+          "kind": "unicode",
+          "display": "\\",
+          "unicode": "\\",
+          "codepoint": "U+005C"
+        },
+        "4": {
+          "keysym": "Home",
+          "kind": "action",
+          "display": "⇱"
+        },
+        "5": {
+          "keysym": "NoSymbol",
+          "kind": "unassigned",
+          "display": ""
+        },
+        "6": {
+          "keysym": "includedin",
+          "kind": "unicode",
+          "display": "⊂",
+          "unicode": "⊂",
+          "codepoint": "U+2282"
+        }
+      }
+    },
+    {
+      "bank": 2,
+      "channel": 2,
+      "original_logical_id": 65,
+      "physical_hid": "0x16",
+      "xmodmap_keycode": 39,
+      "levels": {
+        "1": {
+          "keysym": "i",
+          "kind": "unicode",
+          "display": "i",
+          "unicode": "i",
+          "codepoint": "U+0069"
+        },
+        "2": {
+          "keysym": "I",
+          "kind": "unicode",
+          "display": "I",
+          "unicode": "I",
+          "codepoint": "U+0049"
+        },
+        "3": {
+          "keysym": "slash",
+          "kind": "unicode",
+          "display": "/",
+          "unicode": "/",
+          "codepoint": "U+002F"
+        },
+        "4": {
+          "keysym": "Left",
+          "kind": "action",
+          "display": "⇠"
+        },
+        "5": {
+          "keysym": "Greek_iota",
+          "kind": "unicode",
+          "display": "ι",
+          "unicode": "ι",
+          "codepoint": "U+03B9"
+        },
+        "6": {
+          "keysym": "integral",
+          "kind": "unicode",
+          "display": "∫",
+          "unicode": "∫",
+          "codepoint": "U+222B"
+        }
+      }
+    },
+    {
+      "bank": 2,
+      "channel": 3,
+      "original_logical_id": 66,
+      "physical_hid": "0x7",
+      "xmodmap_keycode": 40,
+      "levels": {
+        "1": {
+          "keysym": "a",
+          "kind": "unicode",
+          "display": "a",
+          "unicode": "a",
+          "codepoint": "U+0061"
+        },
+        "2": {
+          "keysym": "A",
+          "kind": "unicode",
+          "display": "A",
+          "unicode": "A",
+          "codepoint": "U+0041"
+        },
+        "3": {
+          "keysym": "braceleft",
+          "kind": "unicode",
+          "display": "{",
+          "unicode": "{",
+          "codepoint": "U+007B"
+        },
+        "4": {
+          "keysym": "Down",
+          "kind": "action",
+          "display": "⇣"
+        },
+        "5": {
+          "keysym": "Greek_alpha",
+          "kind": "unicode",
+          "display": "α",
+          "unicode": "α",
+          "codepoint": "U+03B1"
+        },
+        "6": {
+          "keysym": "U2200",
+          "kind": "unicode",
+          "display": "∀",
+          "unicode": "∀",
+          "codepoint": "U+2200"
+        }
+      }
+    },
+    {
+      "bank": 2,
+      "channel": 4,
+      "original_logical_id": 67,
+      "physical_hid": "0x9",
+      "xmodmap_keycode": 41,
+      "levels": {
+        "1": {
+          "keysym": "e",
+          "kind": "unicode",
+          "display": "e",
+          "unicode": "e",
+          "codepoint": "U+0065"
+        },
+        "2": {
+          "keysym": "E",
+          "kind": "unicode",
+          "display": "E",
+          "unicode": "E",
+          "codepoint": "U+0045"
+        },
+        "3": {
+          "keysym": "braceright",
+          "kind": "unicode",
+          "display": "}",
+          "unicode": "}",
+          "codepoint": "U+007D"
+        },
+        "4": {
+          "keysym": "Right",
+          "kind": "action",
+          "display": "⇢"
+        },
+        "5": {
+          "keysym": "Greek_epsilon",
+          "kind": "unicode",
+          "display": "ε",
+          "unicode": "ε",
+          "codepoint": "U+03B5"
+        },
+        "6": {
+          "keysym": "U2203",
+          "kind": "unicode",
+          "display": "∃",
+          "unicode": "∃",
+          "codepoint": "U+2203"
+        }
+      }
+    },
+    {
+      "bank": 2,
+      "channel": 5,
+      "original_logical_id": 68,
+      "physical_hid": "0xa",
+      "xmodmap_keycode": 42,
+      "levels": {
+        "1": {
+          "keysym": "o",
+          "kind": "unicode",
+          "display": "o",
+          "unicode": "o",
+          "codepoint": "U+006F"
+        },
+        "2": {
+          "keysym": "O",
+          "kind": "unicode",
+          "display": "O",
+          "unicode": "O",
+          "codepoint": "U+004F"
+        },
+        "3": {
+          "keysym": "asterisk",
+          "kind": "unicode",
+          "display": "*",
+          "unicode": "*",
+          "codepoint": "U+002A"
+        },
+        "4": {
+          "keysym": "End",
+          "kind": "action",
+          "display": "⇲"
+        },
+        "5": {
+          "keysym": "Greek_omicron",
+          "kind": "unicode",
+          "display": "ο",
+          "unicode": "ο",
+          "codepoint": "U+03BF"
+        },
+        "6": {
+          "keysym": "elementof",
+          "kind": "unicode",
+          "display": "∈",
+          "unicode": "∈",
+          "codepoint": "U+2208"
+        }
+      }
+    },
+    {
+      "bank": 2,
+      "channel": 6,
+      "original_logical_id": 69,
+      "physical_hid": "0xb",
+      "xmodmap_keycode": 43,
+      "levels": {
+        "1": {
+          "keysym": "s",
+          "kind": "unicode",
+          "display": "s",
+          "unicode": "s",
+          "codepoint": "U+0073"
+        },
+        "2": {
+          "keysym": "S",
+          "kind": "unicode",
+          "display": "S",
+          "unicode": "S",
+          "codepoint": "U+0053"
+        },
+        "3": {
+          "keysym": "question",
+          "kind": "unicode",
+          "display": "?",
+          "unicode": "?",
+          "codepoint": "U+003F"
+        },
+        "4": {
+          "keysym": "questiondown",
+          "kind": "unicode",
+          "display": "¿",
+          "unicode": "¿",
+          "codepoint": "U+00BF"
+        },
+        "5": {
+          "keysym": "Greek_sigma",
+          "kind": "unicode",
+          "display": "σ",
+          "unicode": "σ",
+          "codepoint": "U+03C3"
+        },
+        "6": {
+          "keysym": "Greek_SIGMA",
+          "kind": "unicode",
+          "display": "Σ",
+          "unicode": "Σ",
+          "codepoint": "U+03A3"
+        }
+      }
+    },
+    {
+      "bank": 2,
+      "channel": 7,
+      "original_logical_id": 70,
+      "physical_hid": "0xd",
+      "xmodmap_keycode": 44,
+      "levels": {
+        "1": {
+          "keysym": "n",
+          "kind": "unicode",
+          "display": "n",
+          "unicode": "n",
+          "codepoint": "U+006E"
+        },
+        "2": {
+          "keysym": "N",
+          "kind": "unicode",
+          "display": "N",
+          "unicode": "N",
+          "codepoint": "U+004E"
+        },
+        "3": {
+          "keysym": "parenleft",
+          "kind": "unicode",
+          "display": "(",
+          "unicode": "(",
+          "codepoint": "U+0028"
+        },
+        "4": {
+          "keysym": "KP_4",
+          "kind": "keypad_digit",
+          "display": "4",
+          "digit": 4
+        },
+        "5": {
+          "keysym": "Greek_nu",
+          "kind": "unicode",
+          "display": "ν",
+          "unicode": "ν",
+          "codepoint": "U+03BD"
+        },
+        "6": {
+          "keysym": "U2115",
+          "kind": "unicode",
+          "display": "ℕ",
+          "unicode": "ℕ",
+          "codepoint": "U+2115"
+        }
+      }
+    },
+    {
+      "bank": 2,
+      "channel": 8,
+      "original_logical_id": 71,
+      "physical_hid": "0xe",
+      "xmodmap_keycode": 45,
+      "levels": {
+        "1": {
+          "keysym": "r",
+          "kind": "unicode",
+          "display": "r",
+          "unicode": "r",
+          "codepoint": "U+0072"
+        },
+        "2": {
+          "keysym": "R",
+          "kind": "unicode",
+          "display": "R",
+          "unicode": "R",
+          "codepoint": "U+0052"
+        },
+        "3": {
+          "keysym": "parenright",
+          "kind": "unicode",
+          "display": ")",
+          "unicode": ")",
+          "codepoint": "U+0029"
+        },
+        "4": {
+          "keysym": "KP_5",
+          "kind": "keypad_digit",
+          "display": "5",
+          "digit": 5
+        },
+        "5": {
+          "keysym": "Greek_rho",
+          "kind": "unicode",
+          "display": "ρ",
+          "unicode": "ρ",
+          "codepoint": "U+03C1"
+        },
+        "6": {
+          "keysym": "U211D",
+          "kind": "unicode",
+          "display": "ℝ",
+          "unicode": "ℝ",
+          "codepoint": "U+211D"
+        }
+      }
+    },
+    {
+      "bank": 2,
+      "channel": 9,
+      "original_logical_id": 72,
+      "physical_hid": "0xf",
+      "xmodmap_keycode": 46,
+      "levels": {
+        "1": {
+          "keysym": "t",
+          "kind": "unicode",
+          "display": "t",
+          "unicode": "t",
+          "codepoint": "U+0074"
+        },
+        "2": {
+          "keysym": "T",
+          "kind": "unicode",
+          "display": "T",
+          "unicode": "T",
+          "codepoint": "U+0054"
+        },
+        "3": {
+          "keysym": "minus",
+          "kind": "unicode",
+          "display": "-",
+          "unicode": "-",
+          "codepoint": "U+002D"
+        },
+        "4": {
+          "keysym": "KP_6",
+          "kind": "keypad_digit",
+          "display": "6",
+          "digit": 6
+        },
+        "5": {
+          "keysym": "Greek_tau",
+          "kind": "unicode",
+          "display": "τ",
+          "unicode": "τ",
+          "codepoint": "U+03C4"
+        },
+        "6": {
+          "keysym": "partialderivative",
+          "kind": "unicode",
+          "display": "∂",
+          "unicode": "∂",
+          "codepoint": "U+2202"
+        }
+      }
+    },
+    {
+      "bank": 2,
+      "channel": 10,
+      "original_logical_id": 73,
+      "physical_hid": "0x33",
+      "xmodmap_keycode": 47,
+      "levels": {
+        "1": {
+          "keysym": "d",
+          "kind": "unicode",
+          "display": "d",
+          "unicode": "d",
+          "codepoint": "U+0064"
+        },
+        "2": {
+          "keysym": "D",
+          "kind": "unicode",
+          "display": "D",
+          "unicode": "D",
+          "codepoint": "U+0044"
+        },
+        "3": {
+          "keysym": "colon",
+          "kind": "unicode",
+          "display": ":",
+          "unicode": ":",
+          "codepoint": "U+003A"
+        },
+        "4": {
+          "keysym": "KP_Separator",
+          "kind": "action",
+          "display": ","
+        },
+        "5": {
+          "keysym": "Greek_delta",
+          "kind": "unicode",
+          "display": "δ",
+          "unicode": "δ",
+          "codepoint": "U+03B4"
+        },
+        "6": {
+          "keysym": "Greek_DELTA",
+          "kind": "unicode",
+          "display": "Δ",
+          "unicode": "Δ",
+          "codepoint": "U+0394"
+        }
+      }
+    },
+    {
+      "bank": 3,
+      "channel": 0,
+      "original_logical_id": 84,
+      "physical_hid": "0xe1",
+      "role": "Shift_left"
+    },
+    {
+      "bank": 3,
+      "channel": 1,
+      "original_logical_id": 85,
+      "physical_hid": "0x64",
+      "role": "Mod4_left"
+    },
+    {
+      "bank": 3,
+      "channel": 2,
+      "original_logical_id": 86,
+      "physical_hid": "0x1d",
+      "xmodmap_keycode": 52,
+      "levels": {
+        "1": {
+          "keysym": "udiaeresis",
+          "kind": "unicode",
+          "display": "ü",
+          "unicode": "ü",
+          "codepoint": "U+00FC"
+        },
+        "2": {
+          "keysym": "Udiaeresis",
+          "kind": "unicode",
+          "display": "Ü",
+          "unicode": "Ü",
+          "codepoint": "U+00DC"
+        },
+        "3": {
+          "keysym": "numbersign",
+          "kind": "unicode",
+          "display": "#",
+          "unicode": "#",
+          "codepoint": "U+0023"
+        },
+        "4": {
+          "keysym": "Escape",
+          "kind": "action",
+          "display": "⌧"
+        },
+        "5": {
+          "keysym": "NoSymbol",
+          "kind": "unassigned",
+          "display": ""
+        },
+        "6": {
+          "keysym": "union",
+          "kind": "unicode",
+          "display": "∪",
+          "unicode": "∪",
+          "codepoint": "U+222A"
+        }
+      }
+    },
+    {
+      "bank": 3,
+      "channel": 3,
+      "original_logical_id": 87,
+      "physical_hid": "0x1b",
+      "xmodmap_keycode": 53,
+      "levels": {
+        "1": {
+          "keysym": "odiaeresis",
+          "kind": "unicode",
+          "display": "ö",
+          "unicode": "ö",
+          "codepoint": "U+00F6"
+        },
+        "2": {
+          "keysym": "Odiaeresis",
+          "kind": "unicode",
+          "display": "Ö",
+          "unicode": "Ö",
+          "codepoint": "U+00D6"
+        },
+        "3": {
+          "keysym": "dollar",
+          "kind": "unicode",
+          "display": "$",
+          "unicode": "$",
+          "codepoint": "U+0024"
+        },
+        "4": {
+          "keysym": "Tab",
+          "kind": "action",
+          "display": "⇥"
+        },
+        "5": {
+          "keysym": "U03F5",
+          "kind": "unicode",
+          "display": "ϵ",
+          "unicode": "ϵ",
+          "codepoint": "U+03F5"
+        },
+        "6": {
+          "keysym": "intersection",
+          "kind": "unicode",
+          "display": "∩",
+          "unicode": "∩",
+          "codepoint": "U+2229"
+        }
+      }
+    },
+    {
+      "bank": 3,
+      "channel": 4,
+      "original_logical_id": 88,
+      "physical_hid": "0x6",
+      "xmodmap_keycode": 54,
+      "levels": {
+        "1": {
+          "keysym": "adiaeresis",
+          "kind": "unicode",
+          "display": "ä",
+          "unicode": "ä",
+          "codepoint": "U+00E4"
+        },
+        "2": {
+          "keysym": "Adiaeresis",
+          "kind": "unicode",
+          "display": "Ä",
+          "unicode": "Ä",
+          "codepoint": "U+00C4"
+        },
+        "3": {
+          "keysym": "bar",
+          "kind": "unicode",
+          "display": "|",
+          "unicode": "|",
+          "codepoint": "U+007C"
+        },
+        "4": {
+          "keysym": "Insert",
+          "kind": "action",
+          "display": "⎀"
+        },
+        "5": {
+          "keysym": "Greek_eta",
+          "kind": "unicode",
+          "display": "η",
+          "unicode": "η",
+          "codepoint": "U+03B7"
+        },
+        "6": {
+          "keysym": "U2135",
+          "kind": "unicode",
+          "display": "ℵ",
+          "unicode": "ℵ",
+          "codepoint": "U+2135"
+        }
+      }
+    },
+    {
+      "bank": 3,
+      "channel": 5,
+      "original_logical_id": 89,
+      "physical_hid": "0x19",
+      "xmodmap_keycode": 55,
+      "levels": {
+        "1": {
+          "keysym": "p",
+          "kind": "unicode",
+          "display": "p",
+          "unicode": "p",
+          "codepoint": "U+0070"
+        },
+        "2": {
+          "keysym": "P",
+          "kind": "unicode",
+          "display": "P",
+          "unicode": "P",
+          "codepoint": "U+0050"
+        },
+        "3": {
+          "keysym": "asciitilde",
+          "kind": "unicode",
+          "display": "~",
+          "unicode": "~",
+          "codepoint": "U+007E"
+        },
+        "4": {
+          "keysym": "Return",
+          "kind": "action",
+          "display": "⏎"
+        },
+        "5": {
+          "keysym": "Greek_pi",
+          "kind": "unicode",
+          "display": "π",
+          "unicode": "π",
+          "codepoint": "U+03C0"
+        },
+        "6": {
+          "keysym": "Greek_PI",
+          "kind": "unicode",
+          "display": "Π",
+          "unicode": "Π",
+          "codepoint": "U+03A0"
+        }
+      }
+    },
+    {
+      "bank": 3,
+      "channel": 6,
+      "original_logical_id": 90,
+      "physical_hid": "0x5",
+      "xmodmap_keycode": 56,
+      "levels": {
+        "1": {
+          "keysym": "z",
+          "kind": "unicode",
+          "display": "z",
+          "unicode": "z",
+          "codepoint": "U+007A"
+        },
+        "2": {
+          "keysym": "Z",
+          "kind": "unicode",
+          "display": "Z",
+          "unicode": "Z",
+          "codepoint": "U+005A"
+        },
+        "3": {
+          "keysym": "grave",
+          "kind": "unicode",
+          "display": "`",
+          "unicode": "`",
+          "codepoint": "U+0060"
+        },
+        "4": {
+          "keysym": "Undo",
+          "kind": "action",
+          "display": "↶"
+        },
+        "5": {
+          "keysym": "Greek_zeta",
+          "kind": "unicode",
+          "display": "ζ",
+          "unicode": "ζ",
+          "codepoint": "U+03B6"
+        },
+        "6": {
+          "keysym": "U2124",
+          "kind": "unicode",
+          "display": "ℤ",
+          "unicode": "ℤ",
+          "codepoint": "U+2124"
+        }
+      }
+    },
+    {
+      "bank": 3,
+      "channel": 7,
+      "original_logical_id": 91,
+      "physical_hid": "0x11",
+      "xmodmap_keycode": 57,
+      "levels": {
+        "1": {
+          "keysym": "b",
+          "kind": "unicode",
+          "display": "b",
+          "unicode": "b",
+          "codepoint": "U+0062"
+        },
+        "2": {
+          "keysym": "B",
+          "kind": "unicode",
+          "display": "B",
+          "unicode": "B",
+          "codepoint": "U+0042"
+        },
+        "3": {
+          "keysym": "plus",
+          "kind": "unicode",
+          "display": "+",
+          "unicode": "+",
+          "codepoint": "U+002B"
+        },
+        "4": {
+          "keysym": "colon",
+          "kind": "unicode",
+          "display": ":",
+          "unicode": ":",
+          "codepoint": "U+003A"
+        },
+        "5": {
+          "keysym": "Greek_beta",
+          "kind": "unicode",
+          "display": "β",
+          "unicode": "β",
+          "codepoint": "U+03B2"
+        },
+        "6": {
+          "keysym": "U21D0",
+          "kind": "unicode",
+          "display": "⇐",
+          "unicode": "⇐",
+          "codepoint": "U+21D0"
+        }
+      }
+    },
+    {
+      "bank": 3,
+      "channel": 8,
+      "original_logical_id": 92,
+      "physical_hid": "0x10",
+      "xmodmap_keycode": 58,
+      "levels": {
+        "1": {
+          "keysym": "m",
+          "kind": "unicode",
+          "display": "m",
+          "unicode": "m",
+          "codepoint": "U+006D"
+        },
+        "2": {
+          "keysym": "M",
+          "kind": "unicode",
+          "display": "M",
+          "unicode": "M",
+          "codepoint": "U+004D"
+        },
+        "3": {
+          "keysym": "percent",
+          "kind": "unicode",
+          "display": "%",
+          "unicode": "%",
+          "codepoint": "U+0025"
+        },
+        "4": {
+          "keysym": "KP_1",
+          "kind": "keypad_digit",
+          "display": "1",
+          "digit": 1
+        },
+        "5": {
+          "keysym": "Greek_mu",
+          "kind": "unicode",
+          "display": "μ",
+          "unicode": "μ",
+          "codepoint": "U+03BC"
+        },
+        "6": {
+          "keysym": "ifonlyif",
+          "kind": "unicode",
+          "display": "⇔",
+          "unicode": "⇔",
+          "codepoint": "U+21D4"
+        }
+      }
+    },
+    {
+      "bank": 3,
+      "channel": 9,
+      "original_logical_id": 93,
+      "physical_hid": "0x36",
+      "xmodmap_keycode": 59,
+      "levels": {
+        "1": {
+          "keysym": "comma",
+          "kind": "unicode",
+          "display": ",",
+          "unicode": ",",
+          "codepoint": "U+002C"
+        },
+        "2": {
+          "keysym": "endash",
+          "kind": "unicode",
+          "display": "–",
+          "unicode": "–",
+          "codepoint": "U+2013"
+        },
+        "3": {
+          "keysym": "quotedbl",
+          "kind": "unicode",
+          "display": "\"",
+          "unicode": "\"",
+          "codepoint": "U+0022"
+        },
+        "4": {
+          "keysym": "KP_2",
+          "kind": "keypad_digit",
+          "display": "2",
+          "digit": 2
+        },
+        "5": {
+          "keysym": "U03F1",
+          "kind": "unicode",
+          "display": "ϱ",
+          "unicode": "ϱ",
+          "codepoint": "U+03F1"
+        },
+        "6": {
+          "keysym": "U21D2",
+          "kind": "unicode",
+          "display": "⇒",
+          "unicode": "⇒",
+          "codepoint": "U+21D2"
+        }
+      }
+    },
+    {
+      "bank": 3,
+      "channel": 10,
+      "original_logical_id": 94,
+      "physical_hid": "0x37",
+      "xmodmap_keycode": 60,
+      "levels": {
+        "1": {
+          "keysym": "period",
+          "kind": "unicode",
+          "display": ".",
+          "unicode": ".",
+          "codepoint": "U+002E"
+        },
+        "2": {
+          "keysym": "enfilledcircbullet",
+          "kind": "unicode",
+          "display": "•",
+          "unicode": "•",
+          "codepoint": "U+2022"
+        },
+        "3": {
+          "keysym": "apostrophe",
+          "kind": "unicode",
+          "display": "'",
+          "unicode": "'",
+          "codepoint": "U+0027"
+        },
+        "4": {
+          "keysym": "KP_3",
+          "kind": "keypad_digit",
+          "display": "3",
+          "digit": 3
+        },
+        "5": {
+          "keysym": "U03D1",
+          "kind": "unicode",
+          "display": "ϑ",
+          "unicode": "ϑ",
+          "codepoint": "U+03D1"
+        },
+        "6": {
+          "keysym": "U21A6",
+          "kind": "unicode",
+          "display": "↦",
+          "unicode": "↦",
+          "codepoint": "U+21A6"
+        }
+      }
+    },
+    {
+      "bank": 4,
+      "channel": 0,
+      "original_logical_id": 105,
+      "physical_hid": "0xe0",
+      "role": "Control_left"
+    },
+    {
+      "bank": 4,
+      "channel": 1,
+      "original_logical_id": 106,
+      "physical_hid": "0xe3",
+      "role": "GUI_left"
+    },
+    {
+      "bank": 4,
+      "channel": 2,
+      "original_logical_id": 107,
+      "physical_hid": "0xe2",
+      "role": "Alt_left"
+    },
+    {
+      "bank": 4,
+      "channel": 3,
+      "original_logical_id": 111,
+      "physical_hid": "0x2c",
+      "xmodmap_keycode": 65,
+      "levels": {
+        "1": {
+          "keysym": "space",
+          "kind": "unicode",
+          "display": " ",
+          "unicode": " ",
+          "codepoint": "U+0020"
+        },
+        "2": {
+          "keysym": "space",
+          "kind": "unicode",
+          "display": " ",
+          "unicode": " ",
+          "codepoint": "U+0020"
+        },
+        "3": {
+          "keysym": "space",
+          "kind": "unicode",
+          "display": " ",
+          "unicode": " ",
+          "codepoint": "U+0020"
+        },
+        "4": {
+          "keysym": "KP_0",
+          "kind": "keypad_digit",
+          "display": "0",
+          "digit": 0
+        },
+        "5": {
+          "keysym": "nobreakspace",
+          "kind": "unicode",
+          "display": "⍽",
+          "unicode": " ",
+          "codepoint": "U+00A0"
+        },
+        "6": {
+          "keysym": "U202F",
+          "kind": "unicode",
+          "display": "¦",
+          "unicode": " ",
+          "codepoint": "U+202F"
+        }
+      }
+    },
+    {
+      "bank": 4,
+      "channel": 4,
+      "original_logical_id": 115,
+      "physical_hid": "0xe6",
+      "role": "Mod4_right"
+    },
+    {
+      "bank": 4,
+      "channel": 5,
+      "original_logical_id": 116,
+      "physical_hid": "0xff",
+      "role": "board_Fn1_preserved"
+    },
+    {
+      "bank": 4,
+      "channel": 6,
+      "original_logical_id": 117,
+      "physical_hid": "0xfe",
+      "role": "board_Fn2_preserved"
+    },
+    {
+      "bank": 4,
+      "channel": 7,
+      "original_logical_id": 118,
+      "physical_hid": "0xe4",
+      "role": "Control_right"
+    },
+    {
+      "bank": 4,
+      "channel": 8,
+      "original_logical_id": 95,
+      "physical_hid": "0x38",
+      "xmodmap_keycode": 61,
+      "levels": {
+        "1": {
+          "keysym": "j",
+          "kind": "unicode",
+          "display": "j",
+          "unicode": "j",
+          "codepoint": "U+006A"
+        },
+        "2": {
+          "keysym": "J",
+          "kind": "unicode",
+          "display": "J",
+          "unicode": "J",
+          "codepoint": "U+004A"
+        },
+        "3": {
+          "keysym": "semicolon",
+          "kind": "unicode",
+          "display": ";",
+          "unicode": ";",
+          "codepoint": "U+003B"
+        },
+        "4": {
+          "keysym": "semicolon",
+          "kind": "unicode",
+          "display": ";",
+          "unicode": ";",
+          "codepoint": "U+003B"
+        },
+        "5": {
+          "keysym": "Greek_theta",
+          "kind": "unicode",
+          "display": "θ",
+          "unicode": "θ",
+          "codepoint": "U+03B8"
+        },
+        "6": {
+          "keysym": "Greek_THETA",
+          "kind": "unicode",
+          "display": "Θ",
+          "unicode": "Θ",
+          "codepoint": "U+0398"
+        }
+      }
+    },
+    {
+      "bank": 4,
+      "channel": 10,
+      "original_logical_id": 97,
+      "physical_hid": "0xe5",
+      "role": "Shift_right"
+    },
+    {
+      "bank": 5,
+      "channel": 1,
+      "original_logical_id": 32,
+      "physical_hid": "0x2d",
+      "xmodmap_keycode": 20,
+      "levels": {
+        "1": {
+          "keysym": "minus",
+          "kind": "unicode",
+          "display": "-",
+          "unicode": "-",
+          "codepoint": "U+002D"
+        },
+        "2": {
+          "keysym": "emdash",
+          "kind": "unicode",
+          "display": "—",
+          "unicode": "—",
+          "codepoint": "U+2014"
+        },
+        "3": {
+          "keysym": "NoSymbol",
+          "kind": "unassigned",
+          "display": ""
+        },
+        "4": {
+          "keysym": "KP_Subtract",
+          "kind": "action",
+          "display": "-"
+        },
+        "5": {
+          "keysym": "U2011",
+          "kind": "unicode",
+          "display": "‑",
+          "unicode": "‑",
+          "codepoint": "U+2011"
+        },
+        "6": {
+          "keysym": "hyphen",
+          "kind": "unicode",
+          "display": "╌",
+          "unicode": "­",
+          "codepoint": "U+00AD"
+        }
+      }
+    },
+    {
+      "bank": 5,
+      "channel": 2,
+      "original_logical_id": 33,
+      "physical_hid": "0x2e",
+      "xmodmap_keycode": 21,
+      "levels": {
+        "1": {
+          "keysym": "dead_grave",
+          "kind": "dead_key",
+          "display": "`"
+        },
+        "2": {
+          "keysym": "dead_cedilla",
+          "kind": "dead_key",
+          "display": "¸"
+        },
+        "3": {
+          "keysym": "dead_abovering",
+          "kind": "dead_key",
+          "display": "˚"
+        },
+        "4": {
+          "keysym": "dead_diaeresis",
+          "kind": "dead_key",
+          "display": "¨"
+        },
+        "5": {
+          "keysym": "dead_dasia",
+          "kind": "dead_key",
+          "display": "῾"
+        },
+        "6": {
+          "keysym": "dead_macron",
+          "kind": "dead_key",
+          "display": "¯"
+        }
+      }
+    },
+    {
+      "bank": 5,
+      "channel": 3,
+      "original_logical_id": 34,
+      "physical_hid": "0x2a",
+      "role": "Backspace_preserved"
+    },
+    {
+      "bank": 5,
+      "channel": 4,
+      "original_logical_id": 53,
+      "physical_hid": "0x2f",
+      "xmodmap_keycode": 34,
+      "levels": {
+        "1": {
+          "keysym": "ssharp",
+          "kind": "unicode",
+          "display": "ß",
+          "unicode": "ß",
+          "codepoint": "U+00DF"
+        },
+        "2": {
+          "keysym": "U1E9E",
+          "kind": "unicode",
+          "display": "ẞ",
+          "unicode": "ẞ",
+          "codepoint": "U+1E9E"
+        },
+        "3": {
+          "keysym": "U017F",
+          "kind": "unicode",
+          "display": "ſ",
+          "unicode": "ſ",
+          "codepoint": "U+017F"
+        },
+        "4": {
+          "keysym": "U2212",
+          "kind": "unicode",
+          "display": "−",
+          "unicode": "−",
+          "codepoint": "U+2212"
+        },
+        "5": {
+          "keysym": "Greek_finalsmallsigma",
+          "kind": "unicode",
+          "display": "ς",
+          "unicode": "ς",
+          "codepoint": "U+03C2"
+        },
+        "6": {
+          "keysym": "jot",
+          "kind": "unicode",
+          "display": "∘",
+          "unicode": "∘",
+          "codepoint": "U+2218"
+        }
+      }
+    },
+    {
+      "bank": 5,
+      "channel": 5,
+      "original_logical_id": 54,
+      "physical_hid": "0x30",
+      "xmodmap_keycode": 35,
+      "levels": {
+        "1": {
+          "keysym": "dead_acute",
+          "kind": "dead_key",
+          "display": "´"
+        },
+        "2": {
+          "keysym": "dead_tilde",
+          "kind": "dead_key",
+          "display": "˜"
+        },
+        "3": {
+          "keysym": "dead_stroke",
+          "kind": "dead_key",
+          "display": "/"
+        },
+        "4": {
+          "keysym": "dead_doubleacute",
+          "kind": "dead_key",
+          "display": "˝"
+        },
+        "5": {
+          "keysym": "dead_psili",
+          "kind": "dead_key",
+          "display": "᾿"
+        },
+        "6": {
+          "keysym": "dead_breve",
+          "kind": "dead_key",
+          "display": "˘"
+        }
+      }
+    },
+    {
+      "bank": 5,
+      "channel": 7,
+      "original_logical_id": 74,
+      "physical_hid": "0x34",
+      "xmodmap_keycode": 48,
+      "levels": {
+        "1": {
+          "keysym": "y",
+          "kind": "unicode",
+          "display": "y",
+          "unicode": "y",
+          "codepoint": "U+0079"
+        },
+        "2": {
+          "keysym": "Y",
+          "kind": "unicode",
+          "display": "Y",
+          "unicode": "Y",
+          "codepoint": "U+0059"
+        },
+        "3": {
+          "keysym": "at",
+          "kind": "unicode",
+          "display": "@",
+          "unicode": "@",
+          "codepoint": "U+0040"
+        },
+        "4": {
+          "keysym": "period",
+          "kind": "unicode",
+          "display": ".",
+          "unicode": ".",
+          "codepoint": "U+002E"
+        },
+        "5": {
+          "keysym": "Greek_upsilon",
+          "kind": "unicode",
+          "display": "υ",
+          "unicode": "υ",
+          "codepoint": "U+03C5"
+        },
+        "6": {
+          "keysym": "nabla",
+          "kind": "unicode",
+          "display": "∇",
+          "unicode": "∇",
+          "codepoint": "U+2207"
+        }
+      }
+    },
+    {
+      "bank": 5,
+      "channel": 8,
+      "original_logical_id": 75,
+      "physical_hid": "0x32",
+      "role": "Mod3_right"
+    },
+    {
+      "bank": 5,
+      "channel": 9,
+      "original_logical_id": 76,
+      "physical_hid": "0x28",
+      "xmodmap_keycode": 36,
+      "levels": {
+        "1": {
+          "keysym": "Return",
+          "kind": "action",
+          "display": "⏎"
+        },
+        "2": {
+          "keysym": "Return",
+          "kind": "action",
+          "display": "⏎"
+        },
+        "3": {
+          "keysym": "Return",
+          "kind": "action",
+          "display": "⏎"
+        },
+        "4": {
+          "keysym": "KP_Enter",
+          "kind": "action",
+          "display": "⏎"
+        },
+        "5": {
+          "keysym": "Return",
+          "kind": "action",
+          "display": "⏎"
+        },
+        "6": {
+          "keysym": "Return",
+          "kind": "action",
+          "display": "⏎"
+        }
+      }
+    }
+  ],
+  "modifiers": {
+    "Mod3": [
+      [
+        2,
+        0
+      ],
+      [
+        5,
+        8
+      ]
+    ],
+    "Mod4": [
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "Shift": [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        10
+      ]
+    ]
+  },
+  "missing_physical_key": {
+    "xmodmap_keycode": 49,
+    "name": "T1 left of1",
+    "candidate_route": "Keep physical Esc; existing60%Fn+Esc route needs a separate policy."
+  },
+  "sources": [
+    {
+      "path": "A-REFERENZ-A/neo20.txt",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/A-REFERENZ-A/neo20.txt",
+      "sha256": "c1963a44fc8ffa12ed8467ece0e0fa2a215768f9f6db0015da85fdcaeadea3b5",
+      "bytes": 31304,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\A-REFERENZ-A__neo20.txt"
+    },
+    {
+      "path": "linux/xmodmap/neo_de.xmodmap",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/linux/xmodmap/neo_de.xmodmap",
+      "sha256": "be754e5ca507f591e828be1738689ad51a1a3d74fb010cedeb12dd715a87bff1",
+      "bytes": 14914,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\linux__xmodmap__neo_de.xmodmap"
+    },
+    {
+      "path": "yaml/parse_neo.py",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/yaml/parse_neo.py",
+      "sha256": "2ac6b334db6fbfeef473b7e1d37f2bff69b58762cae4b9558670fbeab6a21511",
+      "bytes": 11919,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\yaml__parse_neo.py"
+    },
+    {
+      "path": "COPYING",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/COPYING",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "bytes": 35147,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\COPYING"
+    },
+    {
+      "path": "grafik/_not_working/xmodmap2tastenaufkleber/keysymdef.h",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/grafik/_not_working/xmodmap2tastenaufkleber/keysymdef.h",
+      "sha256": "a5c27fdf527fdb526eb11b80af5cdaee99c5df54b5560ef68b597edee3cf0ce3",
+      "bytes": 167999,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\grafik___not_working__xmodmap2tastenaufkleber__keysymdef.h"
+    },
+    {
+      "path": "windows/kbdneo2/source/kbdneo2/kbdneo2.c",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/windows/kbdneo2/source/kbdneo2/kbdneo2.c",
+      "sha256": "106b6f5ca0f16508e488a844ae7410181237ecca58a8518347bf67dbf2aded13",
+      "bytes": 12614,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\windows__kbdneo2__source__kbdneo2__kbdneo2.c"
+    },
+    {
+      "path": "windows/kbdneo2/source/keysym4utf16.h",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/windows/kbdneo2/source/keysym4utf16.h",
+      "sha256": "5f2137f7d0d3c7f01f703804f9ea12fe1a2a02ac2bdaa369ae432984a0ee47d5",
+      "bytes": 48366,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\windows__kbdneo2__source__keysym4utf16.h"
+    },
+    {
+      "path": "yaml/neo_import.py",
+      "url": "https://git.neo-layout.org/neo/neo-layout/raw/commit/cf36e07ce5ff22c51149c3ad933c71fcd770f613/yaml/neo_import.py",
+      "sha256": "bdaa0d050b230fb912081cabc6eeeb7e54b07068402b997d6dc1c1a8491bfac5",
+      "bytes": 1285,
+      "saved_file": "qmk_port\\neo2\\layoutdata\\upstream\\yaml__neo_import.py"
+    }
+  ],
+  "license": {
+    "driver_data": "GPLv3 per Neo project policy; COPYING retained",
+    "reference_text": "CC-BY-SA3.0Germany per Neo project policy",
+    "keysym_header": "The Open Group/DEC permissive notices retained in downloaded header",
+    "policy_url": "https://www.neo-layout.org/Beitragen/Lizenzfragen/"
+  }
+}

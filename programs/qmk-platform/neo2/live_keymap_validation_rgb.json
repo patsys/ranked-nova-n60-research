@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "read_only": true,
+  "keymap_bytes": 396,
+  "layers": 3,
+  "elf_sha256": "1c63569e9e1dfbf343757fd425856a4891c08a53c4aae54345a465f0cabda88f",
+  "protocol": 13,
+  "keymap_sha256": "e0ff234d03e70f7cee6c6bc223b02a2266872efecfdf6fc27a6a30473a3d1e24",
+  "soak_seconds": 15,
+  "flash_writes": false,
+  "limitations": "Physical typing and Windows character rendering require user validation."
+}

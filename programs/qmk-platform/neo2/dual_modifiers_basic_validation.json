@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "elf_sha256": "f7cf06781476531f6069478efdff35af644364b2e699e836c37da048352a8d43",
+  "cases": [
+    {
+      "case": "dual_Mod3",
+      "report_hex": "4000240000000000",
+      "expected_modifiers": 64,
+      "expected_usage": 36,
+      "passed": true
+    },
+    {
+      "case": "dual_Mod4",
+      "report_hex": "0000500000000000",
+      "expected_modifiers": 0,
+      "expected_usage": 80,
+      "passed": true
+    }
+  ]
+}

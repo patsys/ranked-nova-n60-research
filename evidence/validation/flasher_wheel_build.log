@@ -1,0 +1,58 @@
+Building wheel...
+running egg_info
+writing src\ry72xx_flasher.egg-info\PKG-INFO
+writing dependency_links to src\ry72xx_flasher.egg-info\dependency_links.txt
+writing entry points to src\ry72xx_flasher.egg-info\entry_points.txt
+writing requirements to src\ry72xx_flasher.egg-info\requires.txt
+writing top-level names to src\ry72xx_flasher.egg-info\top_level.txt
+reading manifest file 'src\ry72xx_flasher.egg-info\SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src\ry72xx_flasher.egg-info\SOURCES.txt'
+running bdist_wheel
+running build
+running build_py
+copying src\ry72xx_flasher\cli.py -> build\lib\ry72xx_flasher
+copying src\ry72xx_flasher\session.py -> build\lib\ry72xx_flasher
+copying src\ry72xx_flasher\transport.py -> build\lib\ry72xx_flasher
+copying src\ry72xx_flasher\__init__.py -> build\lib\ry72xx_flasher
+running egg_info
+writing src\ry72xx_flasher.egg-info\PKG-INFO
+writing dependency_links to src\ry72xx_flasher.egg-info\dependency_links.txt
+writing entry points to src\ry72xx_flasher.egg-info\entry_points.txt
+writing requirements to src\ry72xx_flasher.egg-info\requires.txt
+writing top-level names to src\ry72xx_flasher.egg-info\top_level.txt
+reading manifest file 'src\ry72xx_flasher.egg-info\SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src\ry72xx_flasher.egg-info\SOURCES.txt'
+installing to build\bdist.win-amd64\wheel
+running install
+running install_lib
+creating build\bdist.win-amd64\wheel
+creating build\bdist.win-amd64\wheel\ry72xx_flasher
+copying build\lib\ry72xx_flasher\cli.py -> build\bdist.win-amd64\wheel\.\ry72xx_flasher
+copying build\lib\ry72xx_flasher\image.py -> build\bdist.win-amd64\wheel\.\ry72xx_flasher
+copying build\lib\ry72xx_flasher\loader.py -> build\bdist.win-amd64\wheel\.\ry72xx_flasher
+copying build\lib\ry72xx_flasher\session.py -> build\bdist.win-amd64\wheel\.\ry72xx_flasher
+copying build\lib\ry72xx_flasher\stubs.py -> build\bdist.win-amd64\wheel\.\ry72xx_flasher
+copying build\lib\ry72xx_flasher\transport.py -> build\bdist.win-amd64\wheel\.\ry72xx_flasher
+copying build\lib\ry72xx_flasher\__init__.py -> build\bdist.win-amd64\wheel\.\ry72xx_flasher
+running install_egg_info
+Copying src\ry72xx_flasher.egg-info to build\bdist.win-amd64\wheel\.\ry72xx_flasher-0.1.1-py3.12.egg-info
+running install_scripts
+creating build\bdist.win-amd64\wheel\ry72xx_flasher-0.1.1.dist-info\WHEEL
+creating '<LOCAL_USER>\\rynked\\.local-flasher\\dist\\.tmp-ueute2ur\\ry72xx_flasher-0.1.1-py3-none-any.whl' and adding 'build\\bdist.win-amd64\\wheel' to it
+adding 'ry72xx_flasher/__init__.py'
+adding 'ry72xx_flasher/cli.py'
+adding 'ry72xx_flasher/image.py'
+adding 'ry72xx_flasher/loader.py'
+adding 'ry72xx_flasher/session.py'
+adding 'ry72xx_flasher/stubs.py'
+adding 'ry72xx_flasher/transport.py'
+adding 'ry72xx_flasher-0.1.1.dist-info/licenses/LICENSE'
+adding 'ry72xx_flasher-0.1.1.dist-info/METADATA'
+adding 'ry72xx_flasher-0.1.1.dist-info/WHEEL'
+adding 'ry72xx_flasher-0.1.1.dist-info/entry_points.txt'
+adding 'ry72xx_flasher-0.1.1.dist-info/top_level.txt'
+adding 'ry72xx_flasher-0.1.1.dist-info/RECORD'
+removing build\bdist.win-amd64\wheel
+Successfully built .local-flasher\dist\ry72xx_flasher-0.1.1-py3-none-any.whl

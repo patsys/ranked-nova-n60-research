@@ -1,0 +1,3969 @@
+; CPU-visible bytes. Linear Thumb disassembly includes vectors, literal pools and data.
+; This is not recovered C source or a complete control-flow/function analysis.
+00000000  f00b       lsrs      r0, r6, #0xf
+00000002  0020       movs      r0, #0
+00000004  cd01       lsls      r5, r1, #7
+00000006  0000       movs      r0, r0
+00000008  df01       lsls      r7, r3, #7
+0000000a  0000       movs      r0, r0
+0000000c  df01       lsls      r7, r3, #7
+0000000e  0000       movs      r0, r0
+00000010  0000       movs      r0, r0
+00000012  0000       movs      r0, r0
+00000014  0000       movs      r0, r0
+00000016  0000       movs      r0, r0
+00000018  0000       movs      r0, r0
+0000001a  0000       movs      r0, r0
+0000001c  0000       movs      r0, r0
+0000001e  0000       movs      r0, r0
+00000020  0000       movs      r0, r0
+00000022  0000       movs      r0, r0
+00000024  0000       movs      r0, r0
+00000026  0000       movs      r0, r0
+00000028  0000       movs      r0, r0
+0000002a  0000       movs      r0, r0
+0000002c  df01       lsls      r7, r3, #7
+0000002e  0000       movs      r0, r0
+00000030  0000       movs      r0, r0
+00000032  0000       movs      r0, r0
+00000034  0000       movs      r0, r0
+00000036  0000       movs      r0, r0
+00000038  df01       lsls      r7, r3, #7
+0000003a  0000       movs      r0, r0
+0000003c  df01       lsls      r7, r3, #7
+0000003e  0000       movs      r0, r0
+00000040  df01       lsls      r7, r3, #7
+00000042  0000       movs      r0, r0
+00000044  df01       lsls      r7, r3, #7
+00000046  0000       movs      r0, r0
+00000048  df01       lsls      r7, r3, #7
+0000004a  0000       movs      r0, r0
+0000004c  df01       lsls      r7, r3, #7
+0000004e  0000       movs      r0, r0
+00000050  df01       lsls      r7, r3, #7
+00000052  0000       movs      r0, r0
+00000054  df01       lsls      r7, r3, #7
+00000056  0000       movs      r0, r0
+00000058  df01       lsls      r7, r3, #7
+0000005a  0000       movs      r0, r0
+0000005c  df01       lsls      r7, r3, #7
+0000005e  0000       movs      r0, r0
+00000060  df01       lsls      r7, r3, #7
+00000062  0000       movs      r0, r0
+00000064  df01       lsls      r7, r3, #7
+00000066  0000       movs      r0, r0
+00000068  df01       lsls      r7, r3, #7
+0000006a  0000       movs      r0, r0
+0000006c  df01       lsls      r7, r3, #7
+0000006e  0000       movs      r0, r0
+00000070  df01       lsls      r7, r3, #7
+00000072  0000       movs      r0, r0
+00000074  df01       lsls      r7, r3, #7
+00000076  0000       movs      r0, r0
+00000078  df01       lsls      r7, r3, #7
+0000007a  0000       movs      r0, r0
+0000007c  df01       lsls      r7, r3, #7
+0000007e  0000       movs      r0, r0
+00000080  df01       lsls      r7, r3, #7
+00000082  0000       movs      r0, r0
+00000084  df01       lsls      r7, r3, #7
+00000086  0000       movs      r0, r0
+00000088  df01       lsls      r7, r3, #7
+0000008a  0000       movs      r0, r0
+0000008c  df01       lsls      r7, r3, #7
+0000008e  0000       movs      r0, r0
+00000090  df01       lsls      r7, r3, #7
+00000092  0000       movs      r0, r0
+00000094  df01       lsls      r7, r3, #7
+00000096  0000       movs      r0, r0
+00000098  0000       movs      r0, r0
+0000009a  0000       movs      r0, r0
+0000009c  0000       movs      r0, r0
+0000009e  0000       movs      r0, r0
+000000a0  0000       movs      r0, r0
+000000a2  0000       movs      r0, r0
+000000a4  0000       movs      r0, r0
+000000a6  0000       movs      r0, r0
+000000a8  0000       movs      r0, r0
+000000aa  0000       movs      r0, r0
+000000ac  0000       movs      r0, r0
+000000ae  0000       movs      r0, r0
+000000b0  0000       movs      r0, r0
+000000b2  0000       movs      r0, r0
+000000b4  0000       movs      r0, r0
+000000b6  0000       movs      r0, r0
+000000b8  0000       movs      r0, r0
+000000ba  0000       movs      r0, r0
+000000bc  0000       movs      r0, r0
+000000be  0000       movs      r0, r0
+000000c0  7279       ldrb      r2, [r6, #5]
+000000c2  3732       adds      r2, #0x37
+000000c4  7878       ldrb      r0, [r7, #1]
+000000c6  5f62       str       r7, [r3, #0x24]
+000000c8  6f6f       ldr       r7, [r5, #0x74]
+000000ca  745f       ldrsh     r4, [r6, r5]
+000000cc  7573       strb      r5, [r6, #0xd]
+000000ce  625f       ldrsh     r2, [r4, r5]
+000000d0  7631       adds      r1, #0x76
+000000d2  2e30       adds      r0, #0x2e
+000000d4  2e35       adds      r5, #0x2e
+000000d6  0000       movs      r0, r0
+000000d8  0348       ldr       r0, [pc, #0xc]
+000000da  8546       mov       sp, r0
+000000dc  00f038f8   bl        #0x150
+000000e0  0048       ldr       r0, [pc, #0]
+000000e2  0047       bx        r0
+000000e4  0107       lsls      r1, r0, #0x1c
+000000e6  0000       movs      r0, r0
+000000e8  f00b       lsrs      r0, r6, #0xf
+000000ea  0020       movs      r0, #0
+000000ec  401e       subs      r0, r0, #1
+000000ee  00bf       nop       
+000000f0  00bf       nop       
+000000f2  00bf       nop       
+000000f4  00bf       nop       
+000000f6  00bf       nop       
+000000f8  00bf       nop       
+000000fa  00bf       nop       
+000000fc  00bf       nop       
+000000fe  00bf       nop       
+00000100  00bf       nop       
+00000102  00bf       nop       
+00000104  00bf       nop       
+00000106  00bf       nop       
+00000108  00bf       nop       
+0000010a  00bf       nop       
+0000010c  00bf       nop       
+0000010e  00bf       nop       
+00000110  00bf       nop       
+00000112  00bf       nop       
+00000114  00bf       nop       
+00000116  00bf       nop       
+00000118  00bf       nop       
+0000011a  00bf       nop       
+0000011c  00bf       nop       
+0000011e  00bf       nop       
+00000120  e4d1       bne       #0xec
+00000122  7047       bx        lr
+00000124  30b5       push      {r4, r5, lr}
+00000126  0b46       mov       r3, r1
+00000128  0146       mov       r1, r0
+0000012a  0020       movs      r0, #0
+0000012c  2022       movs      r2, #0x20
+0000012e  0124       movs      r4, #1
+00000130  09e0       b         #0x146
+00000132  0d46       mov       r5, r1
+00000134  d540       lsrs      r5, r2
+00000136  9d42       cmp       r5, r3
+00000138  05d3       blo       #0x146
+0000013a  1d46       mov       r5, r3
+0000013c  9540       lsls      r5, r2
+0000013e  491b       subs      r1, r1, r5
+00000140  2546       mov       r5, r4
+00000142  9540       lsls      r5, r2
+00000144  4019       adds      r0, r0, r5
+00000146  1546       mov       r5, r2
+00000148  521e       subs      r2, r2, #1
+0000014a  002d       cmp       r5, #0
+0000014c  f1dc       bgt       #0x132
+0000014e  30bd       pop       {r4, r5, pc}
+00000150  064c       ldr       r4, [pc, #0x18]
+00000152  0125       movs      r5, #1
+00000154  064e       ldr       r6, [pc, #0x18]
+00000156  05e0       b         #0x164
+00000158  e368       ldr       r3, [r4, #0xc]
+0000015a  07cc       ldm       r4!, {r0, r1, r2}
+0000015c  2b43       orrs      r3, r5
+0000015e  0c3c       subs      r4, #0xc
+00000160  9847       blx       r3
+00000162  1034       adds      r4, #0x10
+00000164  b442       cmp       r4, r6
+00000166  f7d3       blo       #0x158
+00000168  fff7baff   bl        #0xe0
+0000016c  1c15       asrs      r4, r3, #0x14
+0000016e  0000       movs      r0, r0
+00000170  4c15       asrs      r4, r1, #0x15
+00000172  0000       movs      r0, r0
+00000174  70b5       push      {r4, r5, r6, lr}
+00000176  8c18       adds      r4, r1, r2
+00000178  0578       ldrb      r5, [r0]
+0000017a  401c       adds      r0, r0, #1
+0000017c  6b07       lsls      r3, r5, #0x1d
+0000017e  5b0f       lsrs      r3, r3, #0x1d
+00000180  01d1       bne       #0x186
+00000182  0378       ldrb      r3, [r0]
+00000184  401c       adds      r0, r0, #1
+00000186  2a11       asrs      r2, r5, #4
+00000188  06d1       bne       #0x198
+0000018a  0278       ldrb      r2, [r0]
+0000018c  401c       adds      r0, r0, #1
+0000018e  03e0       b         #0x198
+00000190  0678       ldrb      r6, [r0]
+00000192  0e70       strb      r6, [r1]
+00000194  401c       adds      r0, r0, #1
+00000196  491c       adds      r1, r1, #1
+00000198  5b1e       subs      r3, r3, #1
+0000019a  f9d1       bne       #0x190
+0000019c  2b07       lsls      r3, r5, #0x1c
+0000019e  05d4       bmi       #0x1ac
+000001a0  0023       movs      r3, #0
+000001a2  521e       subs      r2, r2, #1
+000001a4  0dd4       bmi       #0x1c2
+000001a6  0b70       strb      r3, [r1]
+000001a8  491c       adds      r1, r1, #1
+000001aa  fae7       b         #0x1a2
+000001ac  0378       ldrb      r3, [r0]
+000001ae  401c       adds      r0, r0, #1
+000001b0  cb1a       subs      r3, r1, r3
+000001b2  921c       adds      r2, r2, #2
+000001b4  03e0       b         #0x1be
+000001b6  1d78       ldrb      r5, [r3]
+000001b8  0d70       strb      r5, [r1]
+000001ba  491c       adds      r1, r1, #1
+000001bc  5b1c       adds      r3, r3, #1
+000001be  521e       subs      r2, r2, #1
+000001c0  f9d5       bpl       #0x1b6
+000001c2  a142       cmp       r1, r4
+000001c4  d8d3       blo       #0x178
+000001c6  0020       movs      r0, #0
+000001c8  70bd       pop       {r4, r5, r6, pc}
+000001ca  0000       movs      r0, r0
+000001cc  0648       ldr       r0, [pc, #0x18]
+000001ce  0047       bx        r0
+000001d0  eff31080   mrs       r0, primask
+000001d4  72b6       cpsid     i
+000001d6  7047       bx        lr
+000001d8  80f31088   msr       primask, r0
+000001dc  7047       bx        lr
+000001de  0348       ldr       r0, [pc, #0xc]
+000001e0  0047       bx        r0
+000001e2  fee7       b         #0x1e2
+000001e4  00bf       nop       
+000001e6  0000       movs      r0, r0
+000001e8  d900       lsls      r1, r3, #3
+000001ea  0000       movs      r0, r0
+000001ec  ad03       lsls      r5, r5, #0xe
+000001ee  0000       movs      r0, r0
+000001f0  03b4       push      {r0, r1}
+000001f2  0148       ldr       r0, [pc, #4]
+000001f4  0190       str       r0, [sp, #4]
+000001f6  01bd       pop       {r0, pc}
+000001f8  0100       movs      r1, r0
+000001fa  0020       movs      r0, #0
+000001fc  03b4       push      {r0, r1}
+000001fe  0148       ldr       r0, [pc, #4]
+00000200  0190       str       r0, [sp, #4]
+00000202  01bd       pop       {r0, pc}
+00000204  db00       lsls      r3, r3, #3
+00000206  0020       movs      r0, #0
+00000208  03b4       push      {r0, r1}
+0000020a  0148       ldr       r0, [pc, #4]
+0000020c  0190       str       r0, [sp, #4]
+0000020e  01bd       pop       {r0, pc}
+00000210  fd00       lsls      r5, r7, #3
+00000212  0020       movs      r0, #0
+00000214  03b4       push      {r0, r1}
+00000216  0148       ldr       r0, [pc, #4]
+00000218  0190       str       r0, [sp, #4]
+0000021a  01bd       pop       {r0, pc}
+0000021c  2500       movs      r5, r4
+0000021e  0020       movs      r0, #0
+00000220  03b4       push      {r0, r1}
+00000222  0148       ldr       r0, [pc, #4]
+00000224  0190       str       r0, [sp, #4]
+00000226  01bd       pop       {r0, pc}
+00000228  6d00       lsls      r5, r5, #1
+0000022a  0020       movs      r0, #0
+0000022c  03b4       push      {r0, r1}
+0000022e  0148       ldr       r0, [pc, #4]
+00000230  0190       str       r0, [sp, #4]
+00000232  01bd       pop       {r0, pc}
+00000234  3b01       lsls      r3, r7, #4
+00000236  0020       movs      r0, #0
+00000238  c106       lsls      r1, r0, #0x1b
+0000023a  c90e       lsrs      r1, r1, #0x1b
+0000023c  0120       movs      r0, #1
+0000023e  8840       lsls      r0, r1
+00000240  0149       ldr       r1, [pc, #4]
+00000242  0860       str       r0, [r1]
+00000244  7047       bx        lr
+00000246  0000       movs      r0, r0
+00000248  80e1       b         #0x54c
+0000024a  00e0       b         #0x24e
+0000024c  bff34f8f   dsb       sy
+00000250  0349       ldr       r1, [pc, #0xc]
+00000252  0248       ldr       r0, [pc, #8]
+00000254  c860       str       r0, [r1, #0xc]
+00000256  bff34f8f   dsb       sy
+0000025a  fee7       b         #0x25a
+0000025c  0400       movs      r4, r0
+0000025e  fa05       lsls      r2, r7, #0x17
+00000260  00ed00e0   stc       p0, c14, [r0, #-0]
+00000264  30b4       push      {r4, r5}
+00000266  7446       mov       r4, lr
+00000268  641e       subs      r4, r4, #1
+0000026a  2578       ldrb      r5, [r4]
+0000026c  641c       adds      r4, r4, #1
+0000026e  ab42       cmp       r3, r5
+00000270  00d2       bhs       #0x274
+00000272  1d46       mov       r5, r3
+00000274  635d       ldrb      r3, [r4, r5]
+00000276  5b00       lsls      r3, r3, #1
+00000278  e318       adds      r3, r4, r3
+0000027a  30bc       pop       {r4, r5}
+0000027c  1847       bx        r3
+0000027e  02e0       b         #0x286
+00000280  08c8       ldm       r0!, {r3}
+00000282  121f       subs      r2, r2, #4
+00000284  08c1       stm       r1!, {r3}
+00000286  002a       cmp       r2, #0
+00000288  fad1       bne       #0x280
+0000028a  7047       bx        lr
+0000028c  7047       bx        lr
+0000028e  0020       movs      r0, #0
+00000290  01e0       b         #0x296
+00000292  01c1       stm       r1!, {r0}
+00000294  121f       subs      r2, r2, #4
+00000296  002a       cmp       r2, #0
+00000298  fbd1       bne       #0x292
+0000029a  7047       bx        lr
+0000029c  70b5       push      {r4, r5, r6, lr}
+0000029e  0346       mov       r3, r0
+000002a0  0e46       mov       r6, r1
+000002a2  0124       movs      r4, #1
+000002a4  2406       lsls      r4, r4, #0x18
+000002a6  1f4d       ldr       r5, [pc, #0x7c]
+000002a8  a868       ldr       r0, [r5, #8]
+000002aa  8342       cmp       r3, r0
+000002ac  03d0       beq       #0x2b6
+000002ae  1022       movs      r2, #0x10
+000002b0  1946       mov       r1, r3
+000002b2  00f02dfb   bl        #0x910
+000002b6  1c4a       ldr       r2, [pc, #0x70]
+000002b8  0120       movs      r0, #1
+000002ba  1060       str       r0, [r2]
+000002bc  1b48       ldr       r0, [pc, #0x6c]
+000002be  2968       ldr       r1, [r5]
+000002c0  0068       ldr       r0, [r0]
+000002c2  02e0       b         #0x2ca
+000002c4  641e       subs      r4, r4, #1
+000002c6  002c       cmp       r4, #0
+000002c8  04d0       beq       #0x2d4
+000002ca  0028       cmp       r0, #0
+000002cc  07d0       beq       #0x2de
+000002ce  0029       cmp       r1, #0
+000002d0  f8d0       beq       #0x2c4
+000002d2  04e0       b         #0x2de
+000002d4  0120       movs      r0, #1
+000002d6  70bd       pop       {r4, r5, r6, pc}
+000002d8  641e       subs      r4, r4, #1
+000002da  002c       cmp       r4, #0
+000002dc  02d0       beq       #0x2e4
+000002de  0028       cmp       r0, #0
+000002e0  02d0       beq       #0x2e8
+000002e2  07e0       b         #0x2f4
+000002e4  0220       movs      r0, #2
+000002e6  70bd       pop       {r4, r5, r6, pc}
+000002e8  9368       ldr       r3, [r2, #8]
+000002ea  002b       cmp       r3, #0
+000002ec  02d1       bne       #0x2f4
+000002ee  d368       ldr       r3, [r2, #0xc]
+000002f0  002b       cmp       r3, #0
+000002f2  f1d0       beq       #0x2d8
+000002f4  8907       lsls      r1, r1, #0x1e
+000002f6  0020       movs      r0, #0
+000002f8  0029       cmp       r1, #0
+000002fa  02db       blt       #0x302
+000002fc  d168       ldr       r1, [r2, #0xc]
+000002fe  0029       cmp       r1, #0
+00000300  04d0       beq       #0x30c
+00000302  9060       str       r0, [r2, #8]
+00000304  d060       str       r0, [r2, #0xc]
+00000306  2860       str       r0, [r5]
+00000308  0320       movs      r0, #3
+0000030a  70bd       pop       {r4, r5, r6, pc}
+0000030c  2860       str       r0, [r5]
+0000030e  9060       str       r0, [r2, #8]
+00000310  d060       str       r0, [r2, #0xc]
+00000312  e968       ldr       r1, [r5, #0xc]
+00000314  8e42       cmp       r6, r1
+00000316  03d0       beq       #0x320
+00000318  1022       movs      r2, #0x10
+0000031a  3046       mov       r0, r6
+0000031c  00f0f8fa   bl        #0x910
+00000320  0020       movs      r0, #0
+00000322  70bd       pop       {r4, r5, r6, pc}
+00000324  1403       lsls      r4, r2, #0xc
+00000326  0020       movs      r0, #0
+00000328  00d0       beq       #0x32c
+0000032a  0040       ands      r0, r0
+0000032c  b407       lsls      r4, r6, #0x1e
+0000032e  0020       movs      r0, #0
+00000330  f8b5       push      {r3, r4, r5, r6, r7, lr}
+00000332  0546       mov       r5, r0
+00000334  0720       movs      r0, #7
+00000336  fff77fff   bl        #0x238
+0000033a  0121       movs      r1, #1
+0000033c  8802       lsls      r0, r1, #0xa
+0000033e  00f02ffb   bl        #0x9a0
+00000342  1149       ldr       r1, [pc, #0x44]
+00000344  0f48       ldr       r0, [pc, #0x3c]
+00000346  4860       str       r0, [r1, #4]
+00000348  0246       mov       r2, r0
+0000034a  1032       adds      r2, #0x10
+0000034c  8a60       str       r2, [r1, #8]
+0000034e  1032       adds      r2, #0x10
+00000350  ca60       str       r2, [r1, #0xc]
+00000352  0e4c       ldr       r4, [pc, #0x38]
+00000354  a061       str       r0, [r4, #0x18]
+00000356  0120       movs      r0, #1
+00000358  6060       str       r0, [r4, #4]
+0000035a  1746       mov       r7, r2
+0000035c  0326       movs      r6, #3
+0000035e  2c3f       subs      r7, #0x2c
+00000360  002d       cmp       r5, #0
+00000362  07d0       beq       #0x374
+00000364  3d60       str       r5, [r7]
+00000366  2661       str       r6, [r4, #0x10]
+00000368  0949       ldr       r1, [pc, #0x24]
+0000036a  8020       movs      r0, #0x80
+0000036c  0860       str       r0, [r1]
+0000036e  0949       ldr       r1, [pc, #0x24]
+00000370  0860       str       r0, [r1]
+00000372  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+00000374  0720       movs      r0, #7
+00000376  fff75fff   bl        #0x238
+0000037a  6661       str       r6, [r4, #0x14]
+0000037c  0020       movs      r0, #0
+0000037e  3860       str       r0, [r7]
+00000380  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+00000382  0000       movs      r0, r0
+00000384  c007       lsls      r0, r0, #0x1f
+00000386  0020       movs      r0, #0
+00000388  1403       lsls      r4, r2, #0xc
+0000038a  0020       movs      r0, #0
+0000038c  00d0       beq       #0x390
+0000038e  0040       ands      r0, r0
+00000390  80e2       b         #0x894
+00000392  00e0       b         #0x396
+00000394  00e1       b         #0x598
+00000396  00e0       b         #0x39a
+00000398  10b5       push      {r4, lr}
+0000039a  0146       mov       r1, r0
+0000039c  0248       ldr       r0, [pc, #8]
+0000039e  1022       movs      r2, #0x10
+000003a0  4068       ldr       r0, [r0, #4]
+000003a2  00f0b5fa   bl        #0x910
+000003a6  10bd       pop       {r4, pc}
+000003a8  1403       lsls      r4, r2, #0xc
+000003aa  0020       movs      r0, #0
+000003ac  eff30580   mrs       r0, ipsr
+000003b0  0121       movs      r1, #1
+000003b2  8000       lsls      r0, r0, #2
+000003b4  4903       lsls      r1, r1, #0xd
+000003b6  4018       adds      r0, r0, r1
+000003b8  0068       ldr       r0, [r0]
+000003ba  0047       bx        r0
+000003bc  30b5       push      {r4, r5, lr}
+000003be  0023       movs      r3, #0
+000003c0  0028       cmp       r0, #0
+000003c2  01d0       beq       #0x3c8
+000003c4  0029       cmp       r1, #0
+000003c6  09d1       bne       #0x3dc
+000003c8  0020       movs      r0, #0
+000003ca  c043       mvns      r0, r0
+000003cc  30bd       pop       {r4, r5, pc}
+000003ce  0478       ldrb      r4, [r0]
+000003d0  0d78       ldrb      r5, [r1]
+000003d2  ac42       cmp       r4, r5
+000003d4  07d1       bne       #0x3e6
+000003d6  401c       adds      r0, r0, #1
+000003d8  491c       adds      r1, r1, #1
+000003da  5b1c       adds      r3, r3, #1
+000003dc  521e       subs      r2, r2, #1
+000003de  541c       adds      r4, r2, #1
+000003e0  f5d1       bne       #0x3ce
+000003e2  1846       mov       r0, r3
+000003e4  30bd       pop       {r4, r5, pc}
+000003e6  1846       mov       r0, r3
+000003e8  30bd       pop       {r4, r5, pc}
+000003ea  6020       movs      r0, #0x60
+000003ec  7047       bx        lr
+000003ee  70b5       push      {r4, r5, r6, lr}
+000003f0  0546       mov       r5, r0
+000003f2  0e46       mov       r6, r1
+000003f4  0024       movs      r4, #0
+000003f6  05e0       b         #0x404
+000003f8  01cd       ldm       r5!, {r0}
+000003fa  c0b2       uxtb      r0, r0
+000003fc  00f066fe   bl        #0x10cc
+00000400  641c       adds      r4, r4, #1
+00000402  e4b2       uxtb      r4, r4
+00000404  b442       cmp       r4, r6
+00000406  f7d3       blo       #0x3f8
+00000408  ff20       movs      r0, #0xff
+0000040a  70bd       pop       {r4, r5, r6, pc}
+0000040c  10b5       push      {r4, lr}
+0000040e  0346       mov       r3, r0
+00000410  0020       movs      r0, #0
+00000412  9a07       lsls      r2, r3, #0x1e
+00000414  05d1       bne       #0x422
+00000416  02e0       b         #0x41e
+00000418  9c58       ldr       r4, [r3, r2]
+0000041a  6040       eors      r0, r4
+0000041c  121d       adds      r2, r2, #4
+0000041e  8a42       cmp       r2, r1
+00000420  fad3       blo       #0x418
+00000422  10bd       pop       {r4, pc}
+00000424  00b5       push      {lr}
+00000426  0948       ldr       r0, [pc, #0x24]
+00000428  094a       ldr       r2, [pc, #0x24]
+0000042a  0168       ldr       r1, [r0]
+0000042c  9142       cmp       r1, r2
+0000042e  07d1       bne       #0x440
+00000430  4168       ldr       r1, [r0, #4]
+00000432  d243       mvns      r2, r2
+00000434  9142       cmp       r1, r2
+00000436  03d1       bne       #0x440
+00000438  8068       ldr       r0, [r0, #8]
+0000043a  0649       ldr       r1, [pc, #0x18]
+0000043c  8842       cmp       r0, r1
+0000043e  01d0       beq       #0x444
+00000440  0420       movs      r0, #4
+00000442  00bd       pop       {pc}
+00000444  fff7d4fe   bl        #0x1f0
+00000448  00bd       pop       {pc}
+0000044a  0000       movs      r0, r0
+0000044c  5407       lsls      r4, r2, #0x1d
+0000044e  0020       movs      r0, #0
+00000450  5a5a       ldrh      r2, [r3, r1]
+00000452  5a5a       ldrh      r2, [r3, r1]
+00000454  aaaa       add       r2, sp, #0x2a8
+00000456  5555       strb      r5, [r2, r5]
+00000458  0148       ldr       r0, [pc, #4]
+0000045a  4068       ldr       r0, [r0, #4]
+0000045c  7047       bx        lr
+0000045e  0000       movs      r0, r0
+00000460  dc02       lsls      r4, r3, #0xb
+00000462  0020       movs      r0, #0
+00000464  4206       lsls      r2, r0, #0x19
+00000466  920f       lsrs      r2, r2, #0x1e
+00000468  012a       cmp       r2, #1
+0000046a  0ad0       beq       #0x482
+0000046c  054a       ldr       r2, [pc, #0x14]
+0000046e  0901       lsls      r1, r1, #4
+00000470  1143       orrs      r1, r2
+00000472  6022       movs      r2, #0x60
+00000474  0240       ands      r2, r0
+00000476  044b       ldr       r3, [pc, #0x10]
+00000478  d208       lsrs      r2, r2, #3
+0000047a  9a58       ldr       r2, [r3, r2]
+0000047c  c006       lsls      r0, r0, #0x1b
+0000047e  400e       lsrs      r0, r0, #0x19
+00000480  1150       str       r1, [r2, r0]
+00000482  7047       bx        lr
+00000484  0208       lsrs      r2, r0, #0x20
+00000486  0000       movs      r0, r0
+00000488  0403       lsls      r4, r0, #0xc
+0000048a  0020       movs      r0, #0
+0000048c  6021       movs      r1, #0x60
+0000048e  0140       ands      r1, r0
+00000490  044a       ldr       r2, [pc, #0x10]
+00000492  c908       lsrs      r1, r1, #3
+00000494  8918       adds      r1, r1, r2
+00000496  096b       ldr       r1, [r1, #0x30]
+00000498  c006       lsls      r0, r0, #0x1b
+0000049a  c00e       lsrs      r0, r0, #0x1b
+0000049c  c140       lsrs      r1, r0
+0000049e  c807       lsls      r0, r1, #0x1f
+000004a0  c00f       lsrs      r0, r0, #0x1f
+000004a2  7047       bx        lr
+000004a4  0080       strh      r0, [r0]
+000004a6  0140       ands      r1, r0
+000004a8  30b5       push      {r4, r5, lr}
+000004aa  c509       lsrs      r5, r0, #7
+000004ac  4106       lsls      r1, r0, #0x19
+000004ae  104c       ldr       r4, [pc, #0x40]
+000004b0  0123       movs      r3, #1
+000004b2  490e       lsrs      r1, r1, #0x19
+000004b4  8b40       lsls      r3, r1
+000004b6  0f49       ldr       r1, [pc, #0x3c]
+000004b8  2469       ldr       r4, [r4, #0x10]
+000004ba  0e4a       ldr       r2, [pc, #0x38]
+000004bc  8031       adds      r1, #0x80
+000004be  6118       adds      r1, r4, r1
+000004c0  a218       adds      r2, r4, r2
+000004c2  002d       cmp       r5, #0
+000004c4  06d0       beq       #0x4d4
+000004c6  106b       ldr       r0, [r2, #0x30]
+000004c8  1843       orrs      r0, r3
+000004ca  1063       str       r0, [r2, #0x30]
+000004cc  886f       ldr       r0, [r1, #0x78]
+000004ce  1843       orrs      r0, r3
+000004d0  8867       str       r0, [r1, #0x78]
+000004d2  30bd       pop       {r4, r5, pc}
+000004d4  556b       ldr       r5, [r2, #0x34]
+000004d6  1d43       orrs      r5, r3
+000004d8  5563       str       r5, [r2, #0x34]
+000004da  ca6f       ldr       r2, [r1, #0x7c]
+000004dc  1a43       orrs      r2, r3
+000004de  ca67       str       r2, [r1, #0x7c]
+000004e0  0449       ldr       r1, [pc, #0x10]
+000004e2  c000       lsls      r0, r0, #3
+000004e4  0019       adds      r0, r0, r4
+000004e6  9431       adds      r1, #0x94
+000004e8  4018       adds      r0, r0, r1
+000004ea  ff21       movs      r1, #0xff
+000004ec  0160       str       r1, [r0]
+000004ee  30bd       pop       {r4, r5, pc}
+000004f0  3802       lsls      r0, r7, #8
+000004f2  0020       movs      r0, #0
+000004f4  807e       ldrb      r0, [r0, #0x1a]
+000004f6  0140       ands      r1, r0
+000004f8  f8b5       push      {r3, r4, r5, r6, r7, lr}
+000004fa  224e       ldr       r6, [pc, #0x88]
+000004fc  224d       ldr       r5, [pc, #0x88]
+000004fe  3069       ldr       r0, [r6, #0x10]
+00000500  4019       adds      r0, r0, r5
+00000502  816d       ldr       r1, [r0, #0x58]
+00000504  0824       movs      r4, #8
+00000506  2143       orrs      r1, r4
+00000508  8165       str       r1, [r0, #0x58]
+0000050a  0620       movs      r0, #6
+0000050c  00f056fa   bl        #0x9bc
+00000510  3269       ldr       r2, [r6, #0x10]
+00000512  5119       adds      r1, r2, r5
+00000514  886d       ldr       r0, [r1, #0x58]
+00000516  a043       bics      r0, r4
+00000518  8865       str       r0, [r1, #0x58]
+0000051a  1c4b       ldr       r3, [pc, #0x70]
+0000051c  0320       movs      r0, #3
+0000051e  d860       str       r0, [r3, #0xc]
+00000520  1948       ldr       r0, [pc, #0x64]
+00000522  1f23       movs      r3, #0x1f
+00000524  8038       subs      r0, #0x80
+00000526  1018       adds      r0, r2, r0
+00000528  8363       str       r3, [r0, #0x38]
+0000052a  0123       movs      r3, #1
+0000052c  0363       str       r3, [r0, #0x30]
+0000052e  3f25       movs      r5, #0x3f
+00000530  4562       str       r5, [r0, #0x24]
+00000532  4363       str       r3, [r0, #0x34]
+00000534  8562       str       r5, [r0, #0x28]
+00000536  1648       ldr       r0, [pc, #0x58]
+00000538  2025       movs      r5, #0x20
+0000053a  1018       adds      r0, r2, r0
+0000053c  4560       str       r5, [r0, #4]
+0000053e  4025       movs      r5, #0x40
+00000540  8560       str       r5, [r0, #8]
+00000542  6026       movs      r6, #0x60
+00000544  c660       str       r6, [r0, #0xc]
+00000546  8027       movs      r7, #0x80
+00000548  0761       str       r7, [r0, #0x10]
+0000054a  a025       movs      r5, #0xa0
+0000054c  4561       str       r5, [r0, #0x14]
+0000054e  c025       movs      r5, #0xc0
+00000550  0562       str       r5, [r0, #0x20]
+00000552  2025       movs      r5, #0x20
+00000554  4562       str       r5, [r0, #0x24]
+00000556  4025       movs      r5, #0x40
+00000558  8562       str       r5, [r0, #0x28]
+0000055a  c662       str       r6, [r0, #0x2c]
+0000055c  0763       str       r7, [r0, #0x30]
+0000055e  a025       movs      r5, #0xa0
+00000560  4563       str       r5, [r0, #0x34]
+00000562  0948       ldr       r0, [pc, #0x24]
+00000564  1825       movs      r5, #0x18
+00000566  8030       adds      r0, #0x80
+00000568  1018       adds      r0, r2, r0
+0000056a  8560       str       r5, [r0, #8]
+0000056c  0022       movs      r2, #0
+0000056e  0264       str       r2, [r0, #0x40]
+00000570  0466       str       r4, [r0, #0x60]
+00000572  0424       movs      r4, #4
+00000574  c460       str       r4, [r0, #0xc]
+00000576  8b67       str       r3, [r1, #0x78]
+00000578  cb67       str       r3, [r1, #0x7c]
+0000057a  0260       str       r2, [r0]
+0000057c  4260       str       r2, [r0, #4]
+0000057e  ff20       movs      r0, #0xff
+00000580  4861       str       r0, [r1, #0x14]
+00000582  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+00000584  3802       lsls      r0, r7, #8
+00000586  0020       movs      r0, #0
+00000588  007f       ldrb      r0, [r0, #0x1c]
+0000058a  0140       ands      r1, r0
+0000058c  0060       str       r0, [r0]
+0000058e  0140       ands      r1, r0
+00000590  007e       ldrb      r0, [r0, #0x18]
+00000592  0140       ands      r1, r0
+00000594  70b5       push      {r4, r5, r6, lr}
+00000596  4406       lsls      r4, r0, #0x19
+00000598  0a48       ldr       r0, [pc, #0x28]
+0000059a  640e       lsrs      r4, r4, #0x19
+0000059c  0068       ldr       r0, [r0]
+0000059e  6302       lsls      r3, r4, #9
+000005a0  094d       ldr       r5, [pc, #0x24]
+000005a2  c31a       subs      r3, r0, r3
+000005a4  5b19       adds      r3, r3, r5
+000005a6  e400       lsls      r4, r4, #3
+000005a8  2018       adds      r0, r4, r0
+000005aa  084c       ldr       r4, [pc, #0x20]
+000005ac  0419       adds      r4, r0, r4
+000005ae  0020       movs      r0, #0
+000005b0  04e0       b         #0x5bc
+000005b2  0d5c       ldrb      r5, [r1, r0]
+000005b4  8600       lsls      r6, r0, #2
+000005b6  9d51       str       r5, [r3, r6]
+000005b8  401c       adds      r0, r0, #1
+000005ba  c0b2       uxtb      r0, r0
+000005bc  9042       cmp       r0, r2
+000005be  f8d3       blo       #0x5b2
+000005c0  2260       str       r2, [r4]
+000005c2  70bd       pop       {r4, r5, r6, pc}
+000005c4  4802       lsls      r0, r1, #9
+000005c6  0020       movs      r0, #0
+000005c8  007c       ldrb      r0, [r0, #0x10]
+000005ca  0140       ands      r1, r0
+000005cc  d47e       ldrb      r4, [r2, #0x1b]
+000005ce  0140       ands      r1, r0
+000005d0  70b5       push      {r4, r5, r6, lr}
+000005d2  6424       movs      r4, #0x64
+000005d4  0146       mov       r1, r0
+000005d6  0120       movs      r0, #1
+000005d8  c004       lsls      r0, r0, #0x13
+000005da  0126       movs      r6, #1
+000005dc  0d4d       ldr       r5, [pc, #0x34]
+000005de  0029       cmp       r1, #0
+000005e0  0dd0       beq       #0x5fe
+000005e2  0121       movs      r1, #1
+000005e4  00f0dcf9   bl        #0x9a0
+000005e8  0a20       movs      r0, #0xa
+000005ea  00f0e7f9   bl        #0x9bc
+000005ee  2e60       str       r6, [r5]
+000005f0  a86b       ldr       r0, [r5, #0x38]
+000005f2  0028       cmp       r0, #0
+000005f4  02d1       bne       #0x5fc
+000005f6  641e       subs      r4, r4, #1
+000005f8  601c       adds      r0, r4, #1
+000005fa  f9d1       bne       #0x5f0
+000005fc  70bd       pop       {r4, r5, r6, pc}
+000005fe  6e60       str       r6, [r5, #4]
+00000600  a96b       ldr       r1, [r5, #0x38]
+00000602  0029       cmp       r1, #0
+00000604  02d0       beq       #0x60c
+00000606  641e       subs      r4, r4, #1
+00000608  611c       adds      r1, r4, #1
+0000060a  f9d1       bne       #0x600
+0000060c  0021       movs      r1, #0
+0000060e  00f0c7f9   bl        #0x9a0
+00000612  70bd       pop       {r4, r5, r6, pc}
+00000614  0050       str       r0, [r0, r0]
+00000616  0140       ands      r1, r0
+00000618  f8b5       push      {r3, r4, r5, r6, r7, lr}
+0000061a  354d       ldr       r5, [pc, #0xd4]
+0000061c  3548       ldr       r0, [pc, #0xd4]
+0000061e  2a69       ldr       r2, [r5, #0x10]
+00000620  1118       adds      r1, r2, r0
+00000622  086a       ldr       r0, [r1, #0x20]
+00000624  c3b2       uxtb      r3, r0
+00000626  2b70       strb      r3, [r5]
+00000628  3348       ldr       r0, [pc, #0xcc]
+0000062a  5e06       lsls      r6, r3, #0x19
+0000062c  b70f       lsrs      r7, r6, #0x1e
+0000062e  1124       movs      r4, #0x11
+00000630  1018       adds      r0, r2, r0
+00000632  002f       cmp       r7, #0
+00000634  04d0       beq       #0x640
+00000636  b50f       lsrs      r5, r6, #0x1e
+00000638  012d       cmp       r5, #1
+0000063a  4bd0       beq       #0x6d4
+0000063c  0465       str       r4, [r0, #0x50]
+0000063e  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+00000640  4f6a       ldr       r7, [r1, #0x24]
+00000642  2b4b       ldr       r3, [pc, #0xac]
+00000644  2d4a       ldr       r2, [pc, #0xb4]
+00000646  1b69       ldr       r3, [r3, #0x10]
+00000648  0126       movs      r6, #1
+0000064a  9a18       adds      r2, r3, r2
+0000064c  3b00       movs      r3, r7
+0000064e  fff709fe   bl        #0x264
+00000652  0b0a       lsrs      r3, r1, #8
+00000654  3f3f       subs      r7, #0x3f
+00000656  3f3f       subs      r7, #0x3f
+00000658  0d07       lsls      r5, r1, #0x1c
+0000065a  3f12       asrs      r7, r7, #8
+0000065c  243b       subs      r3, #0x24
+0000065e  3f00       movs      r7, r7
+00000660  00f08cfe   bl        #0x137c
+00000664  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+00000666  00f009ff   bl        #0x147c
+0000066a  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+0000066c  0320       movs      r0, #3
+0000066e  a871       strb      r0, [r5, #6]
+00000670  0020       movs      r0, #0
+00000672  2871       strb      r0, [r5, #4]
+00000674  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+00000676  a979       ldrb      r1, [r5, #6]
+00000678  0b00       movs      r3, r1
+0000067a  fff7f3fd   bl        #0x264
+0000067e  050c       lsrs      r5, r0, #0x10
+00000680  0c0c       lsrs      r4, r1, #0x10
+00000682  0408       lsrs      r4, r0, #0x20
+00000684  0c00       movs      r4, r1
+00000686  0021       movs      r1, #0
+00000688  1160       str       r1, [r2]
+0000068a  4665       str       r6, [r0, #0x54]
+0000068c  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+0000068e  2979       ldrb      r1, [r5, #4]
+00000690  1160       str       r1, [r2]
+00000692  4665       str       r6, [r0, #0x54]
+00000694  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+00000696  0465       str       r4, [r0, #0x50]
+00000698  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+0000069a  896a       ldr       r1, [r1, #0x28]
+0000069c  0029       cmp       r1, #0
+0000069e  03d0       beq       #0x6a8
+000006a0  0129       cmp       r1, #1
+000006a2  08d0       beq       #0x6b6
+000006a4  0465       str       r4, [r0, #0x50]
+000006a6  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+000006a8  0321       movs      r1, #3
+000006aa  a971       strb      r1, [r5, #6]
+000006ac  0021       movs      r1, #0
+000006ae  2971       strb      r1, [r5, #4]
+000006b0  0221       movs      r1, #2
+000006b2  0165       str       r1, [r0, #0x50]
+000006b4  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+000006b6  0421       movs      r1, #4
+000006b8  a971       strb      r1, [r5, #6]
+000006ba  e978       ldrb      r1, [r5, #3]
+000006bc  3143       orrs      r1, r6
+000006be  e970       strb      r1, [r5, #3]
+000006c0  2e71       strb      r6, [r5, #4]
+000006c2  0221       movs      r1, #2
+000006c4  0165       str       r1, [r0, #0x50]
+000006c6  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+000006c8  6979       ldrb      r1, [r5, #5]
+000006ca  1160       str       r1, [r2]
+000006cc  4665       str       r6, [r0, #0x54]
+000006ce  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+000006d0  0465       str       r4, [r0, #0x50]
+000006d2  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+000006d4  896b       ldr       r1, [r1, #0x38]
+000006d6  0029       cmp       r1, #0
+000006d8  07d0       beq       #0x6ea
+000006da  1906       lsls      r1, r3, #0x18
+000006dc  05d4       bmi       #0x6ea
+000006de  0549       ldr       r1, [pc, #0x14]
+000006e0  ff20       movs      r0, #0xff
+000006e2  8039       subs      r1, #0x80
+000006e4  5118       adds      r1, r2, r1
+000006e6  4861       str       r0, [r1, #0x14]
+000006e8  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+000006ea  0221       movs      r1, #2
+000006ec  0165       str       r1, [r0, #0x50]
+000006ee  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+000006f0  3802       lsls      r0, r7, #8
+000006f2  0020       movs      r0, #0
+000006f4  807f       ldrb      r0, [r0, #0x1e]
+000006f6  0140       ands      r1, r0
+000006f8  807e       ldrb      r0, [r0, #0x1a]
+000006fa  0140       ands      r1, r0
+000006fc  007c       ldrb      r0, [r0, #0x10]
+000006fe  0140       ands      r1, r0
+00000700  0a20       movs      r0, #0xa
+00000702  00f05bf9   bl        #0x9bc
+00000706  6f48       ldr       r0, [pc, #0x1bc]
+00000708  0468       ldr       r4, [r0]
+0000070a  0025       movs      r5, #0
+0000070c  6e4e       ldr       r6, [pc, #0x1b8]
+0000070e  704f       ldr       r7, [pc, #0x1c0]
+00000710  6e48       ldr       r0, [pc, #0x1b8]
+00000712  3861       str       r0, [r7, #0x10]
+00000714  0020       movs      r0, #0
+00000716  f860       str       r0, [r7, #0xc]
+00000718  0220       movs      r0, #2
+0000071a  3862       str       r0, [r7, #0x20]
+0000071c  0320       movs      r0, #3
+0000071e  00f04df9   bl        #0x9bc
+00000722  3969       ldr       r1, [r7, #0x10]
+00000724  6948       ldr       r0, [pc, #0x1a4]
+00000726  8142       cmp       r1, r0
+00000728  06d1       bne       #0x738
+0000072a  f968       ldr       r1, [r7, #0xc]
+0000072c  0029       cmp       r1, #0
+0000072e  03d1       bne       #0x738
+00000730  396a       ldr       r1, [r7, #0x20]
+00000732  3846       mov       r0, r7
+00000734  0229       cmp       r1, #2
+00000736  01d0       beq       #0x73c
+00000738  fff788fd   bl        #0x24c
+0000073c  614f       ldr       r7, [pc, #0x184]
+0000073e  f969       ldr       r1, [r7, #0x1c]
+00000740  491c       adds      r1, r1, #1
+00000742  01d0       beq       #0x748
+00000744  f969       ldr       r1, [r7, #0x1c]
+00000746  0161       str       r1, [r0, #0x10]
+00000748  b969       ldr       r1, [r7, #0x18]
+0000074a  491c       adds      r1, r1, #1
+0000074c  01d0       beq       #0x752
+0000074e  b969       ldr       r1, [r7, #0x18]
+00000750  c160       str       r1, [r0, #0xc]
+00000752  396a       ldr       r1, [r7, #0x20]
+00000754  491c       adds      r1, r1, #1
+00000756  01d0       beq       #0x75c
+00000758  396a       ldr       r1, [r7, #0x20]
+0000075a  0162       str       r1, [r0, #0x20]
+0000075c  0021       movs      r1, #0
+0000075e  0420       movs      r0, #4
+00000760  00f06cf9   bl        #0xa3c
+00000764  601c       adds      r0, r4, #1
+00000766  09d0       beq       #0x77c
+00000768  a006       lsls      r0, r4, #0x1a
+0000076a  800e       lsrs      r0, r0, #0x1a
+0000076c  0521       movs      r1, #5
+0000076e  fff779fe   bl        #0x464
+00000772  a004       lsls      r0, r4, #0x12
+00000774  800e       lsrs      r0, r0, #0x1a
+00000776  0521       movs      r1, #5
+00000778  fff774fe   bl        #0x464
+0000077c  5148       ldr       r0, [pc, #0x144]
+0000077e  4069       ldr       r0, [r0, #0x14]
+00000780  544f       ldr       r7, [pc, #0x150]
+00000782  401c       adds      r0, r0, #1
+00000784  04d0       beq       #0x790
+00000786  f968       ldr       r1, [r7, #0xc]
+00000788  4e48       ldr       r0, [pc, #0x138]
+0000078a  4069       ldr       r0, [r0, #0x14]
+0000078c  8142       cmp       r1, r0
+0000078e  07d0       beq       #0x7a0
+00000790  4c4a       ldr       r2, [pc, #0x130]
+00000792  5069       ldr       r0, [r2, #0x14]
+00000794  401c       adds      r0, r0, #1
+00000796  07d1       bne       #0x7a8
+00000798  f868       ldr       r0, [r7, #0xc]
+0000079a  4f49       ldr       r1, [pc, #0x13c]
+0000079c  8842       cmp       r0, r1
+0000079e  03d1       bne       #0x7a8
+000007a0  0225       movs      r5, #2
+000007a2  0020       movs      r0, #0
+000007a4  f860       str       r0, [r7, #0xc]
+000007a6  49e0       b         #0x83c
+000007a8  4648       ldr       r0, [pc, #0x118]
+000007aa  4030       adds      r0, #0x40
+000007ac  0069       ldr       r0, [r0, #0x10]
+000007ae  401c       adds      r0, r0, #1
+000007b0  17d0       beq       #0x7e2
+000007b2  0020       movs      r0, #0
+000007b4  494b       ldr       r3, [pc, #0x124]
+000007b6  c100       lsls      r1, r0, #3
+000007b8  8918       adds      r1, r1, r2
+000007ba  0c6d       ldr       r4, [r1, #0x50]
+000007bc  641c       adds      r4, r4, #1
+000007be  0cd0       beq       #0x7da
+000007c0  0e6d       ldr       r6, [r1, #0x50]
+000007c2  464c       ldr       r4, [pc, #0x118]
+000007c4  223c       subs      r4, #0x22
+000007c6  a642       cmp       r6, r4
+000007c8  05d9       bls       #0x7d6
+000007ca  0c6d       ldr       r4, [r1, #0x50]
+000007cc  9c42       cmp       r4, r3
+000007ce  02d2       bhs       #0x7d6
+000007d0  096d       ldr       r1, [r1, #0x50]
+000007d2  8907       lsls      r1, r1, #0x1e
+000007d4  01d0       beq       #0x7da
+000007d6  424d       ldr       r5, [pc, #0x108]
+000007d8  30e0       b         #0x83c
+000007da  401c       adds      r0, r0, #1
+000007dc  0828       cmp       r0, #8
+000007de  eadb       blt       #0x7b6
+000007e0  2ce0       b         #0x83c
+000007e2  601c       adds      r0, r4, #1
+000007e4  0bd0       beq       #0x7fe
+000007e6  a006       lsls      r0, r4, #0x1a
+000007e8  800e       lsrs      r0, r0, #0x1a
+000007ea  fff74ffe   bl        #0x48c
+000007ee  0028       cmp       r0, #0
+000007f0  05d1       bne       #0x7fe
+000007f2  a004       lsls      r0, r4, #0x12
+000007f4  800e       lsrs      r0, r0, #0x1a
+000007f6  fff749fe   bl        #0x48c
+000007fa  0028       cmp       r0, #0
+000007fc  11d0       beq       #0x822
+000007fe  f069       ldr       r0, [r6, #0x1c]
+00000800  0028       cmp       r0, #0
+00000802  0cd0       beq       #0x81e
+00000804  706a       ldr       r0, [r6, #0x24]
+00000806  0028       cmp       r0, #0
+00000808  09d0       beq       #0x81e
+0000080a  ff21       movs      r1, #0xff
+0000080c  fd31       adds      r1, #0xfd
+0000080e  3046       mov       r0, r6
+00000810  fff7fcfd   bl        #0x40c
+00000814  2b49       ldr       r1, [pc, #0xac]
+00000816  8031       adds      r1, #0x80
+00000818  c96f       ldr       r1, [r1, #0x7c]
+0000081a  8842       cmp       r0, r1
+0000081c  03d0       beq       #0x826
+0000081e  304d       ldr       r5, [pc, #0xc0]
+00000820  0ce0       b         #0x83c
+00000822  2f4d       ldr       r5, [pc, #0xbc]
+00000824  0ae0       b         #0x83c
+00000826  f069       ldr       r0, [r6, #0x1c]
+00000828  0128       cmp       r0, #1
+0000082a  06d1       bne       #0x83a
+0000082c  4003       lsls      r0, r0, #0xd
+0000082e  716a       ldr       r1, [r6, #0x24]
+00000830  fff7ecfd   bl        #0x40c
+00000834  b16a       ldr       r1, [r6, #0x28]
+00000836  8842       cmp       r0, r1
+00000838  00d0       beq       #0x83c
+0000083a  294d       ldr       r5, [pc, #0xa4]
+0000083c  2a4e       ldr       r6, [pc, #0xa8]
+0000083e  2948       ldr       r0, [pc, #0xa4]
+00000840  3060       str       r0, [r6]
+00000842  a8b2       uxth      r0, r5
+00000844  0228       cmp       r0, #2
+00000846  24d1       bne       #0x892
+00000848  1122       movs      r2, #0x11
+0000084a  5201       lsls      r2, r2, #5
+0000084c  0021       movs      r1, #0
+0000084e  2748       ldr       r0, [pc, #0x9c]
+00000850  00f06bf8   bl        #0x92a
+00000854  274c       ldr       r4, [pc, #0x9c]
+00000856  2648       ldr       r0, [pc, #0x98]
+00000858  e060       str       r0, [r4, #0xc]
+0000085a  2748       ldr       r0, [pc, #0x9c]
+0000085c  2061       str       r0, [r4, #0x10]
+0000085e  2748       ldr       r0, [pc, #0x9c]
+00000860  a060       str       r0, [r4, #8]
+00000862  2748       ldr       r0, [pc, #0x9c]
+00000864  a061       str       r0, [r4, #0x18]
+00000866  2748       ldr       r0, [pc, #0x9c]
+00000868  6061       str       r0, [r4, #0x14]
+0000086a  2748       ldr       r0, [pc, #0x9c]
+0000086c  e061       str       r0, [r4, #0x1c]
+0000086e  1f48       ldr       r0, [pc, #0x7c]
+00000870  00f052fc   bl        #0x1118
+00000874  e068       ldr       r0, [r4, #0xc]
+00000876  8047       blx       r0
+00000878  1c48       ldr       r0, [pc, #0x70]
+0000087a  00f0aff9   bl        #0xbdc
+0000087e  0021       movs      r1, #0
+00000880  3160       str       r1, [r6]
+00000882  7160       str       r1, [r6, #4]
+00000884  b160       str       r1, [r6, #8]
+00000886  0628       cmp       r0, #6
+00000888  02d0       beq       #0x890
+0000088a  f960       str       r1, [r7, #0xc]
+0000088c  fff7defc   bl        #0x24c
+00000890  f960       str       r1, [r7, #0xc]
+00000892  0c48       ldr       r0, [pc, #0x30]
+00000894  4030       adds      r0, #0x40
+00000896  0069       ldr       r0, [r0, #0x10]
+00000898  401c       adds      r0, r0, #1
+0000089a  0cd0       beq       #0x8b6
+0000089c  0020       movs      r0, #0
+0000089e  094a       ldr       r2, [pc, #0x24]
+000008a0  c100       lsls      r1, r0, #3
+000008a2  8918       adds      r1, r1, r2
+000008a4  0b6d       ldr       r3, [r1, #0x50]
+000008a6  5b1c       adds      r3, r3, #1
+000008a8  05d0       beq       #0x8b6
+000008aa  4b6d       ldr       r3, [r1, #0x54]
+000008ac  096d       ldr       r1, [r1, #0x50]
+000008ae  0b60       str       r3, [r1]
+000008b0  401c       adds      r0, r0, #1
+000008b2  0828       cmp       r0, #8
+000008b4  f4db       blt       #0x8a0
+000008b6  0120       movs      r0, #1
+000008b8  4003       lsls      r0, r0, #0xd
+000008ba  4068       ldr       r0, [r0, #4]
+000008bc  1349       ldr       r1, [pc, #0x4c]
+000008be  0860       str       r0, [r1]
+000008c0  8047       blx       r0
+000008c2  fee7       b         #0x8c2
+000008c4  0007       lsls      r0, r0, #0x1c
+000008c6  0010       asrs      r0, r0, #0x20
+000008c8  0006       lsls      r0, r0, #0x18
+000008ca  0010       asrs      r0, r0, #0x20
+000008cc  b1b1       cbz       r1, #0x8fc
+000008ce  0001       lsls      r0, r0, #4
+000008d0  4040       eors      r0, r0
+000008d2  0140       ands      r1, r0
+000008d4  0040       ands      r0, r0
+000008d6  0140       ands      r1, r0
+000008d8  c596       str       r6, [sp, #0x314]
+000008da  c35a       ldrh      r3, [r0, r3]
+000008dc  f030       adds      r0, #0xf0
+000008de  0140       ands      r1, r0
+000008e0  0200       movs      r2, r0
+000008e2  ffff       .byte     0xff, 0xff
+000008e4  5a5a       ldrh      r2, [r3, r1]
+000008e6  5a5a       ldrh      r2, [r3, r1]
+000008e8  5407       lsls      r4, r2, #0x1d
+000008ea  0020       movs      r0, #0
+000008ec  2403       lsls      r4, r4, #0xc
+000008ee  0020       movs      r0, #0
+000008f0  5911       asrs      r1, r3, #5
+000008f2  0000       movs      r0, r0
+000008f4  2405       lsls      r4, r4, #0x14
+000008f6  0020       movs      r0, #0
+000008f8  d111       asrs      r1, r2, #7
+000008fa  0000       movs      r0, r0
+000008fc  1911       asrs      r1, r3, #4
+000008fe  0000       movs      r0, r0
+00000900  e910       asrs      r1, r5, #3
+00000902  0000       movs      r0, r0
+00000904  2511       asrs      r5, r4, #4
+00000906  0000       movs      r0, r0
+00000908  010f       lsrs      r1, r0, #0x1c
+0000090a  0000       movs      r0, r0
+0000090c  e801       lsls      r0, r5, #7
+0000090e  0020       movs      r0, #0
+00000910  0028       cmp       r0, #0
+00000912  09d0       beq       #0x928
+00000914  0029       cmp       r1, #0
+00000916  07d0       beq       #0x928
+00000918  03e0       b         #0x922
+0000091a  0b78       ldrb      r3, [r1]
+0000091c  491c       adds      r1, r1, #1
+0000091e  0370       strb      r3, [r0]
+00000920  401c       adds      r0, r0, #1
+00000922  521e       subs      r2, r2, #1
+00000924  531c       adds      r3, r2, #1
+00000926  f8d1       bne       #0x91a
+00000928  7047       bx        lr
+0000092a  0028       cmp       r0, #0
+0000092c  05d0       beq       #0x93a
+0000092e  01e0       b         #0x934
+00000930  0170       strb      r1, [r0]
+00000932  401c       adds      r0, r0, #1
+00000934  521e       subs      r2, r2, #1
+00000936  531c       adds      r3, r2, #1
+00000938  fad1       bne       #0x930
+0000093a  7047       bx        lr
+0000093c  f0b5       push      {r4, r5, r6, r7, lr}
+0000093e  154e       ldr       r6, [pc, #0x54]
+00000940  b378       ldrb      r3, [r6, #2]
+00000942  002b       cmp       r3, #0
+00000944  07d0       beq       #0x956
+00000946  7278       ldrb      r2, [r6, #1]
+00000948  9342       cmp       r3, r2
+0000094a  00d2       bhs       #0x94e
+0000094c  1a46       mov       r2, r3
+0000094e  f169       ldr       r1, [r6, #0x1c]
+00000950  8c46       mov       ip, r1
+00000952  0020       movs      r0, #0
+00000954  11e0       b         #0x97a
+00000956  1048       ldr       r0, [pc, #0x40]
+00000958  3269       ldr       r2, [r6, #0x10]
+0000095a  0021       movs      r1, #0
+0000095c  1018       adds      r0, r2, r0
+0000095e  4165       str       r1, [r0, #0x54]
+00000960  0221       movs      r1, #2
+00000962  0165       str       r1, [r0, #0x50]
+00000964  f0bd       pop       {r4, r5, r6, r7, pc}
+00000966  3769       ldr       r7, [r6, #0x10]
+00000968  8400       lsls      r4, r0, #2
+0000096a  e719       adds      r7, r4, r7
+0000096c  0d78       ldrb      r5, [r1]
+0000096e  0b4c       ldr       r4, [pc, #0x2c]
+00000970  491c       adds      r1, r1, #1
+00000972  3c19       adds      r4, r7, r4
+00000974  2560       str       r5, [r4]
+00000976  401c       adds      r0, r0, #1
+00000978  c0b2       uxtb      r0, r0
+0000097a  9042       cmp       r0, r2
+0000097c  f3d3       blo       #0x966
+0000097e  0648       ldr       r0, [pc, #0x18]
+00000980  3169       ldr       r1, [r6, #0x10]
+00000982  0818       adds      r0, r1, r0
+00000984  4265       str       r2, [r0, #0x54]
+00000986  6046       mov       r0, ip
+00000988  8018       adds      r0, r0, r2
+0000098a  f061       str       r0, [r6, #0x1c]
+0000098c  981a       subs      r0, r3, r2
+0000098e  b070       strb      r0, [r6, #2]
+00000990  f0bd       pop       {r4, r5, r6, r7, pc}
+00000992  0000       movs      r0, r0
+00000994  3802       lsls      r0, r7, #8
+00000996  0020       movs      r0, #0
+00000998  807e       ldrb      r0, [r0, #0x1a]
+0000099a  0140       ands      r1, r0
+0000099c  007c       ldrb      r0, [r0, #0x10]
+0000099e  0140       ands      r1, r0
+000009a0  10b5       push      {r4, lr}
+000009a2  054a       ldr       r2, [pc, #0x14]
+000009a4  0029       cmp       r1, #0
+000009a6  01d0       beq       #0x9ac
+000009a8  d062       str       r0, [r2, #0x2c]
+000009aa  00e0       b         #0x9ae
+000009ac  1063       str       r0, [r2, #0x30]
+000009ae  0a20       movs      r0, #0xa
+000009b0  00f030f8   bl        #0xa14
+000009b4  0020       movs      r0, #0
+000009b6  10bd       pop       {r4, pc}
+000009b8  0040       ands      r0, r0
+000009ba  0140       ands      r1, r0
+000009bc  31b5       push      {r0, r4, r5, lr}
+000009be  0098       ldr       r0, [sp]
+000009c0  0028       cmp       r0, #0
+000009c2  13d0       beq       #0x9ec
+000009c4  fff748fd   bl        #0x458
+000009c8  1049       ldr       r1, [pc, #0x40]
+000009ca  114c       ldr       r4, [pc, #0x44]
+000009cc  8842       cmp       r0, r1
+000009ce  0ed1       bne       #0x9ee
+000009d0  0098       ldr       r0, [sp]
+000009d2  c001       lsls      r0, r0, #7
+000009d4  fff78afb   bl        #0xec
+000009d8  05e0       b         #0x9e6
+000009da  0099       ldr       r1, [sp]
+000009dc  491e       subs      r1, r1, #1
+000009de  0091       str       r1, [sp]
+000009e0  2046       mov       r0, r4
+000009e2  fff783fb   bl        #0xec
+000009e6  0099       ldr       r1, [sp]
+000009e8  0029       cmp       r1, #0
+000009ea  f6d1       bne       #0x9da
+000009ec  38bd       pop       {r3, r4, r5, pc}
+000009ee  0098       ldr       r0, [sp]
+000009f0  c001       lsls      r0, r0, #7
+000009f2  fff77bfb   bl        #0xec
+000009f6  05e0       b         #0xa04
+000009f8  0099       ldr       r1, [sp]
+000009fa  491e       subs      r1, r1, #1
+000009fc  0091       str       r1, [sp]
+000009fe  2046       mov       r0, r4
+00000a00  fff774fb   bl        #0xec
+00000a04  0099       ldr       r1, [sp]
+00000a06  0029       cmp       r1, #0
+00000a08  f6d1       bne       #0x9f8
+00000a0a  38bd       pop       {r3, r4, r5, pc}
+00000a0c  006c       ldr       r0, [r0, #0x40]
+00000a0e  dc02       lsls      r4, r3, #0xb
+00000a10  e703       lsls      r7, r4, #0xf
+00000a12  0000       movs      r0, r0
+00000a14  01b5       push      {r0, lr}
+00000a16  0098       ldr       r0, [sp]
+00000a18  0028       cmp       r0, #0
+00000a1a  07d0       beq       #0xa2c
+00000a1c  fff71cfd   bl        #0x458
+00000a20  0549       ldr       r1, [pc, #0x14]
+00000a22  8842       cmp       r0, r1
+00000a24  03d1       bne       #0xa2e
+00000a26  0098       ldr       r0, [sp]
+00000a28  fff760fb   bl        #0xec
+00000a2c  08bd       pop       {r3, pc}
+00000a2e  0098       ldr       r0, [sp]
+00000a30  fff75cfb   bl        #0xec
+00000a34  08bd       pop       {r3, pc}
+00000a36  0000       movs      r0, r0
+00000a38  006c       ldr       r0, [r0, #0x40]
+00000a3a  dc02       lsls      r4, r3, #0xb
+00000a3c  f8b5       push      {r3, r4, r5, r6, r7, lr}
+00000a3e  0d46       mov       r5, r1
+00000a40  1d4e       ldr       r6, [pc, #0x74]
+00000a42  1c49       ldr       r1, [pc, #0x70]
+00000a44  b160       str       r1, [r6, #8]
+00000a46  f160       str       r1, [r6, #0xc]
+00000a48  0428       cmp       r0, #4
+00000a4a  07d0       beq       #0xa5c
+00000a4c  0328       cmp       r0, #3
+00000a4e  05d0       beq       #0xa5c
+00000a50  0228       cmp       r0, #2
+00000a52  03d0       beq       #0xa5c
+00000a54  0128       cmp       r0, #1
+00000a56  01d0       beq       #0xa5c
+00000a58  0028       cmp       r0, #0
+00000a5a  2ad1       bne       #0xab2
+00000a5c  0f2d       cmp       r5, #0xf
+00000a5e  28d8       bhi       #0xab2
+00000a60  164c       ldr       r4, [pc, #0x58]
+00000a62  e168       ldr       r1, [r4, #0xc]
+00000a64  0722       movs      r2, #7
+00000a66  1202       lsls      r2, r2, #8
+00000a68  9143       bics      r1, r2
+00000a6a  8200       lsls      r2, r0, #2
+00000a6c  1448       ldr       r0, [pc, #0x50]
+00000a6e  1718       adds      r7, r2, r0
+00000a70  786a       ldr       r0, [r7, #0x24]
+00000a72  7022       movs      r2, #0x70
+00000a74  1040       ands      r0, r2
+00000a76  0001       lsls      r0, r0, #4
+00000a78  0143       orrs      r1, r0
+00000a7a  e160       str       r1, [r4, #0xc]
+00000a7c  0a20       movs      r0, #0xa
+00000a7e  fff7c9ff   bl        #0xa14
+00000a82  786a       ldr       r0, [r7, #0x24]
+00000a84  796a       ldr       r1, [r7, #0x24]
+00000a86  0002       lsls      r0, r0, #8
+00000a88  000e       lsrs      r0, r0, #0x18
+00000a8a  0f22       movs      r2, #0xf
+00000a8c  1206       lsls      r2, r2, #0x18
+00000a8e  1140       ands      r1, r2
+00000a90  090a       lsrs      r1, r1, #8
+00000a92  0843       orrs      r0, r1
+00000a94  2061       str       r0, [r4, #0x10]
+00000a96  0120       movs      r0, #1
+00000a98  fff790ff   bl        #0x9bc
+00000a9c  786a       ldr       r0, [r7, #0x24]
+00000a9e  0949       ldr       r1, [pc, #0x24]
+00000aa0  4006       lsls      r0, r0, #0x19
+00000aa2  400f       lsrs      r0, r0, #0x1d
+00000aa4  4843       muls      r0, r1, r0
+00000aa6  0849       ldr       r1, [pc, #0x20]
+00000aa8  4018       adds      r0, r0, r1
+00000aaa  3060       str       r0, [r6]
+00000aac  2846       mov       r0, r5
+00000aae  00f00df8   bl        #0xacc
+00000ab2  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+00000ab4  0000       movs      r0, r0
+00000ab6  0000       movs      r0, r0
+00000ab8  dc02       lsls      r4, r3, #0xb
+00000aba  0020       movs      r0, #0
+00000abc  0090       str       r0, [sp]
+00000abe  0140       ands      r1, r0
+00000ac0  0002       lsls      r0, r0, #8
+00000ac2  0010       asrs      r0, r0, #0x20
+00000ac4  0009       lsrs      r0, r0, #4
+00000ac6  3d00       movs      r5, r7
+00000ac8  0036       adds      r6, #0
+00000aca  6e01       lsls      r6, r5, #5
+00000acc  10b5       push      {r4, lr}
+00000ace  0449       ldr       r1, [pc, #0x10]
+00000ad0  8861       str       r0, [r1, #0x18]
+00000ad2  044c       ldr       r4, [pc, #0x10]
+00000ad4  411c       adds      r1, r0, #1
+00000ad6  2068       ldr       r0, [r4]
+00000ad8  fff724fb   bl        #0x124
+00000adc  6060       str       r0, [r4, #4]
+00000ade  10bd       pop       {r4, pc}
+00000ae0  0040       ands      r0, r0
+00000ae2  0140       ands      r1, r0
+00000ae4  dc02       lsls      r4, r3, #0xb
+00000ae6  0020       movs      r0, #0
+00000ae8  f0b5       push      {r4, r5, r6, r7, lr}
+00000aea  ffb0       sub       sp, #0x1fc
+00000aec  82b0       sub       sp, #8
+00000aee  0446       mov       r4, r0
+00000af0  3049       ldr       r1, [pc, #0xc0]
+00000af2  01a8       add       r0, sp, #4
+00000af4  ca14       asrs      r2, r1, #0x13
+00000af6  fff70bff   bl        #0x910
+00000afa  2f4a       ldr       r2, [pc, #0xbc]
+00000afc  ff21       movs      r1, #0xff
+00000afe  5069       ldr       r0, [r2, #0x14]
+00000b00  fd31       adds      r1, #0xfd
+00000b02  0126       movs      r6, #1
+00000b04  0028       cmp       r0, #0
+00000b06  02d0       beq       #0xb0e
+00000b08  0128       cmp       r0, #1
+00000b0a  11d0       beq       #0xb30
+00000b0c  49e0       b         #0xba2
+00000b0e  9068       ldr       r0, [r2, #8]
+00000b10  0590       str       r0, [sp, #0x14]
+00000b12  d068       ldr       r0, [r2, #0xc]
+00000b14  0690       str       r0, [sp, #0x18]
+00000b16  1069       ldr       r0, [r2, #0x10]
+00000b18  0790       str       r0, [sp, #0x1c]
+00000b1a  d069       ldr       r0, [r2, #0x1c]
+00000b1c  0490       str       r0, [sp, #0x10]
+00000b1e  0294       str       r4, [sp, #8]
+00000b20  9069       ldr       r0, [r2, #0x18]
+00000b22  0390       str       r0, [sp, #0xc]
+00000b24  0196       str       r6, [sp, #4]
+00000b26  01a8       add       r0, sp, #4
+00000b28  fff770fc   bl        #0x40c
+00000b2c  8090       str       r0, [sp, #0x200]
+00000b2e  38e0       b         #0xba2
+00000b30  9068       ldr       r0, [r2, #8]
+00000b32  0c90       str       r0, [sp, #0x30]
+00000b34  d068       ldr       r0, [r2, #0xc]
+00000b36  0d90       str       r0, [sp, #0x34]
+00000b38  1069       ldr       r0, [r2, #0x10]
+00000b3a  0e90       str       r0, [sp, #0x38]
+00000b3c  506a       ldr       r0, [r2, #0x24]
+00000b3e  0b90       str       r0, [sp, #0x2c]
+00000b40  0994       str       r4, [sp, #0x24]
+00000b42  106a       ldr       r0, [r2, #0x20]
+00000b44  0a90       str       r0, [sp, #0x28]
+00000b46  0896       str       r6, [sp, #0x20]
+00000b48  0a9a       ldr       r2, [sp, #0x28]
+00000b4a  0998       ldr       r0, [sp, #0x24]
+00000b4c  8018       adds      r0, r0, r2
+00000b4e  820b       lsrs      r2, r0, #0xe
+00000b50  8304       lsls      r3, r0, #0x12
+00000b52  db0e       lsrs      r3, r3, #0x1b
+00000b54  c005       lsls      r0, r0, #0x17
+00000b56  00d0       beq       #0xb5a
+00000b58  5b1c       adds      r3, r3, #1
+00000b5a  0020       movs      r0, #0
+00000b5c  01ac       add       r4, sp, #4
+00000b5e  0025       movs      r5, #0
+00000b60  03e0       b         #0xb6a
+00000b62  8700       lsls      r7, r0, #2
+00000b64  3f19       adds      r7, r7, r4
+00000b66  3d65       str       r5, [r7, #0x50]
+00000b68  401c       adds      r0, r0, #1
+00000b6a  9042       cmp       r0, r2
+00000b6c  f9d3       blo       #0xb62
+00000b6e  1046       mov       r0, r2
+00000b70  0025       movs      r5, #0
+00000b72  ed43       mvns      r5, r5
+00000b74  03e0       b         #0xb7e
+00000b76  8700       lsls      r7, r0, #2
+00000b78  3f19       adds      r7, r7, r4
+00000b7a  3d65       str       r5, [r7, #0x50]
+00000b7c  401c       adds      r0, r0, #1
+00000b7e  0828       cmp       r0, #8
+00000b80  f9d3       blo       #0xb76
+00000b82  0020       movs      r0, #0
+00000b84  9200       lsls      r2, r2, #2
+00000b86  1219       adds      r2, r2, r4
+00000b88  05e0       b         #0xb96
+00000b8a  3546       mov       r5, r6
+00000b8c  146d       ldr       r4, [r2, #0x50]
+00000b8e  8540       lsls      r5, r0
+00000b90  ac43       bics      r4, r5
+00000b92  1465       str       r4, [r2, #0x50]
+00000b94  401c       adds      r0, r0, #1
+00000b96  9842       cmp       r0, r3
+00000b98  f7d3       blo       #0xb8a
+00000b9a  01a8       add       r0, sp, #4
+00000b9c  fff736fc   bl        #0x40c
+00000ba0  8090       str       r0, [sp, #0x200]
+00000ba2  fff72bfb   bl        #0x1fc
+00000ba6  01a8       add       r0, sp, #4
+00000ba8  fff72efb   bl        #0x208
+00000bac  7fb0       add       sp, #0x1fc
+00000bae  0020       movs      r0, #0
+00000bb0  02b0       add       sp, #8
+00000bb2  f0bd       pop       {r4, r5, r6, r7, pc}
+00000bb4  0006       lsls      r0, r0, #0x18
+00000bb6  0010       asrs      r0, r0, #0x20
+00000bb8  ec01       lsls      r4, r5, #7
+00000bba  0020       movs      r0, #0
+00000bbc  10b5       push      {r4, lr}
+00000bbe  0028       cmp       r0, #0
+00000bc0  09d0       beq       #0xbd6
+00000bc2  0172       strb      r1, [r0, #8]
+00000bc4  0121       movs      r1, #1
+00000bc6  8180       strh      r1, [r0, #4]
+00000bc8  ff30       adds      r0, #0xff
+00000bca  ff30       adds      r0, #0xff
+00000bcc  0230       adds      r0, #2
+00000bce  4069       ldr       r0, [r0, #0x14]
+00000bd0  8047       blx       r0
+00000bd2  0020       movs      r0, #0
+00000bd4  10bd       pop       {r4, pc}
+00000bd6  0320       movs      r0, #3
+00000bd8  10bd       pop       {r4, pc}
+00000bda  0000       movs      r0, r0
+00000bdc  f0b5       push      {r4, r5, r6, r7, lr}
+00000bde  8bb0       sub       sp, #0x2c
+00000be0  0446       mov       r4, r0
+00000be2  0020       movs      r0, #0
+00000be4  0790       str       r0, [sp, #0x1c]
+00000be6  0690       str       r0, [sp, #0x18]
+00000be8  0590       str       r0, [sp, #0x14]
+00000bea  0490       str       r0, [sp, #0x10]
+00000bec  0026       movs      r6, #0
+00000bee  0025       movs      r5, #0
+00000bf0  0390       str       r0, [sp, #0xc]
+00000bf2  0290       str       r0, [sp, #8]
+00000bf4  0190       str       r0, [sp, #4]
+00000bf6  e01d       adds      r0, r4, #7
+00000bf8  ff30       adds      r0, #0xff
+00000bfa  fa30       adds      r0, #0xfa
+00000bfc  0a90       str       r0, [sp, #0x28]
+00000bfe  2046       mov       r0, r4
+00000c00  0830       adds      r0, #8
+00000c02  0990       str       r0, [sp, #0x24]
+00000c04  0798       ldr       r0, [sp, #0x1c]
+00000c06  0a28       cmp       r0, #0xa
+00000c08  02d9       bls       #0xc10
+00000c0a  0420       movs      r0, #4
+00000c0c  0bb0       add       sp, #0x2c
+00000c0e  f0bd       pop       {r4, r5, r6, r7, pc}
+00000c10  0a98       ldr       r0, [sp, #0x28]
+00000c12  8069       ldr       r0, [r0, #0x18]
+00000c14  8047       blx       r0
+00000c16  0028       cmp       r0, #0
+00000c18  10d0       beq       #0xc3c
+00000c1a  0020       movs      r0, #0
+00000c1c  0190       str       r0, [sp, #4]
+00000c1e  6178       ldrb      r1, [r4, #1]
+00000c20  0029       cmp       r1, #0
+00000c22  21d0       beq       #0xc68
+00000c24  701c       adds      r0, r6, #1
+00000c26  8142       cmp       r1, r0
+00000c28  1ed0       beq       #0xc68
+00000c2a  0798       ldr       r0, [sp, #0x1c]
+00000c2c  401c       adds      r0, r0, #1
+00000c2e  c0b2       uxtb      r0, r0
+00000c30  0790       str       r0, [sp, #0x1c]
+00000c32  0521       movs      r1, #5
+00000c34  2046       mov       r0, r4
+00000c36  fff7c1ff   bl        #0xbbc
+00000c3a  e3e7       b         #0xc04
+00000c3c  0198       ldr       r0, [sp, #4]
+00000c3e  401c       adds      r0, r0, #1
+00000c40  0190       str       r0, [sp, #4]
+00000c42  002e       cmp       r6, #0
+00000c44  06d0       beq       #0xc54
+00000c46  7d21       movs      r1, #0x7d
+00000c48  0198       ldr       r0, [sp, #4]
+00000c4a  c900       lsls      r1, r1, #3
+00000c4c  8842       cmp       r0, r1
+00000c4e  07d9       bls       #0xc60
+00000c50  0520       movs      r0, #5
+00000c52  dbe7       b         #0xc0c
+00000c54  a449       ldr       r1, [pc, #0x290]
+00000c56  0198       ldr       r0, [sp, #4]
+00000c58  8842       cmp       r0, r1
+00000c5a  01d9       bls       #0xc60
+00000c5c  0620       movs      r0, #6
+00000c5e  d5e7       b         #0xc0c
+00000c60  0120       movs      r0, #1
+00000c62  fff7abfe   bl        #0x9bc
+00000c66  cde7       b         #0xc04
+00000c68  2078       ldrb      r0, [r4]
+00000c6a  0028       cmp       r0, #0
+00000c6c  06d0       beq       #0xc7c
+00000c6e  0128       cmp       r0, #1
+00000c70  1bd0       beq       #0xcaa
+00000c72  0228       cmp       r0, #2
+00000c74  4ed0       beq       #0xd14
+00000c76  0328       cmp       r0, #3
+00000c78  12d1       bne       #0xca0
+00000c7a  00e1       b         #0xe7e
+00000c7c  0298       ldr       r0, [sp, #8]
+00000c7e  0028       cmp       r0, #0
+00000c80  05d0       beq       #0xc8e
+00000c82  0521       movs      r1, #5
+00000c84  2046       mov       r0, r4
+00000c86  fff799ff   bl        #0xbbc
+00000c8a  0420       movs      r0, #4
+00000c8c  bee7       b         #0xc0c
+00000c8e  0a98       ldr       r0, [sp, #0x28]
+00000c90  c069       ldr       r0, [r0, #0x1c]
+00000c92  8047       blx       r0
+00000c94  0028       cmp       r0, #0
+00000c96  04d0       beq       #0xca2
+00000c98  0521       movs      r1, #5
+00000c9a  2046       mov       r0, r4
+00000c9c  fff78eff   bl        #0xbbc
+00000ca0  e6e0       b         #0xe70
+00000ca2  9349       ldr       r1, [pc, #0x24c]
+00000ca4  9148       ldr       r0, [pc, #0x244]
+00000ca6  4860       str       r0, [r1, #4]
+00000ca8  e2e0       b         #0xe70
+00000caa  0298       ldr       r0, [sp, #8]
+00000cac  0028       cmp       r0, #0
+00000cae  05d0       beq       #0xcbc
+00000cb0  0521       movs      r1, #5
+00000cb2  2046       mov       r0, r4
+00000cb4  fff782ff   bl        #0xbbc
+00000cb8  0420       movs      r0, #4
+00000cba  a7e7       b         #0xc0c
+00000cbc  0a98       ldr       r0, [sp, #0x28]
+00000cbe  c069       ldr       r0, [r0, #0x1c]
+00000cc0  8047       blx       r0
+00000cc2  0028       cmp       r0, #0
+00000cc4  04d0       beq       #0xcd0
+00000cc6  0521       movs      r1, #5
+00000cc8  2046       mov       r0, r4
+00000cca  fff777ff   bl        #0xbbc
+00000cce  cfe0       b         #0xe70
+00000cd0  0120       movs      r0, #1
+00000cd2  0290       str       r0, [sp, #8]
+00000cd4  8749       ldr       r1, [pc, #0x21c]
+00000cd6  4869       ldr       r0, [r1, #0x14]
+00000cd8  0028       cmp       r0, #0
+00000cda  02d0       beq       #0xce2
+00000cdc  0128       cmp       r0, #1
+00000cde  03d0       beq       #0xce8
+00000ce0  12e0       b         #0xd08
+00000ce2  0020       movs      r0, #0
+00000ce4  c862       str       r0, [r1, #0x2c]
+00000ce6  06e0       b         #0xcf6
+00000ce8  8a69       ldr       r2, [r1, #0x18]
+00000cea  086a       ldr       r0, [r1, #0x20]
+00000cec  9042       cmp       r0, r2
+00000cee  0bd8       bhi       #0xd08
+00000cf0  0120       movs      r0, #1
+00000cf2  4003       lsls      r0, r0, #0xd
+00000cf4  c862       str       r0, [r1, #0x2c]
+00000cf6  0d68       ldr       r5, [r1]
+00000cf8  0421       movs      r1, #4
+00000cfa  2046       mov       r0, r4
+00000cfc  fff75eff   bl        #0xbbc
+00000d00  7b49       ldr       r1, [pc, #0x1ec]
+00000d02  7a48       ldr       r0, [pc, #0x1e8]
+00000d04  4860       str       r0, [r1, #4]
+00000d06  b3e0       b         #0xe70
+00000d08  0521       movs      r1, #5
+00000d0a  2046       mov       r0, r4
+00000d0c  fff756ff   bl        #0xbbc
+00000d10  0120       movs      r0, #1
+00000d12  7be7       b         #0xc0c
+00000d14  0298       ldr       r0, [sp, #8]
+00000d16  0128       cmp       r0, #1
+00000d18  03d1       bne       #0xd22
+00000d1a  701c       adds      r0, r6, #1
+00000d1c  0890       str       r0, [sp, #0x20]
+00000d1e  8142       cmp       r1, r0
+00000d20  05d0       beq       #0xd2e
+00000d22  0521       movs      r1, #5
+00000d24  2046       mov       r0, r4
+00000d26  fff749ff   bl        #0xbbc
+00000d2a  0220       movs      r0, #2
+00000d2c  6ee7       b         #0xc0c
+00000d2e  0020       movs      r0, #0
+00000d30  a188       ldrh      r1, [r4, #4]
+00000d32  05e0       b         #0xd40
+00000d34  2218       adds      r2, r4, r0
+00000d36  9268       ldr       r2, [r2, #8]
+00000d38  069b       ldr       r3, [sp, #0x18]
+00000d3a  5a40       eors      r2, r3
+00000d3c  0692       str       r2, [sp, #0x18]
+00000d3e  001d       adds      r0, r0, #4
+00000d40  8142       cmp       r1, r0
+00000d42  f7d8       bhi       #0xd34
+00000d44  6b48       ldr       r0, [pc, #0x1ac]
+00000d46  806a       ldr       r0, [r0, #0x28]
+00000d48  0028       cmp       r0, #0
+00000d4a  49d0       beq       #0xde0
+00000d4c  6948       ldr       r0, [pc, #0x1a4]
+00000d4e  3030       adds      r0, #0x30
+00000d50  fff722fb   bl        #0x398
+00000d54  0027       movs      r7, #0
+00000d56  0ee0       b         #0xd76
+00000d58  6748       ldr       r0, [pc, #0x19c]
+00000d5a  c119       adds      r1, r0, r7
+00000d5c  e019       adds      r0, r4, r7
+00000d5e  0830       adds      r0, #8
+00000d60  fff79cfa   bl        #0x29c
+00000d64  0028       cmp       r0, #0
+00000d66  05d0       beq       #0xd74
+00000d68  0521       movs      r1, #5
+00000d6a  2046       mov       r0, r4
+00000d6c  fff726ff   bl        #0xbbc
+00000d70  0220       movs      r0, #2
+00000d72  4be7       b         #0xc0c
+00000d74  1037       adds      r7, #0x10
+00000d76  a088       ldrh      r0, [r4, #4]
+00000d78  b842       cmp       r0, r7
+00000d7a  edd8       bhi       #0xd58
+00000d7c  a288       ldrh      r2, [r4, #4]
+00000d7e  5e49       ldr       r1, [pc, #0x178]
+00000d80  0998       ldr       r0, [sp, #0x24]
+00000d82  fff7c5fd   bl        #0x910
+00000d86  5c48       ldr       r0, [pc, #0x170]
+00000d88  1038       subs      r0, #0x10
+00000d8a  fff705fb   bl        #0x398
+00000d8e  0027       movs      r7, #0
+00000d90  0ee0       b         #0xdb0
+00000d92  5948       ldr       r0, [pc, #0x164]
+00000d94  c119       adds      r1, r0, r7
+00000d96  e019       adds      r0, r4, r7
+00000d98  0830       adds      r0, #8
+00000d9a  fff77ffa   bl        #0x29c
+00000d9e  0028       cmp       r0, #0
+00000da0  05d0       beq       #0xdae
+00000da2  0521       movs      r1, #5
+00000da4  2046       mov       r0, r4
+00000da6  fff709ff   bl        #0xbbc
+00000daa  0220       movs      r0, #2
+00000dac  2ee7       b         #0xc0c
+00000dae  1037       adds      r7, #0x10
+00000db0  a088       ldrh      r0, [r4, #4]
+00000db2  b842       cmp       r0, r7
+00000db4  edd8       bhi       #0xd92
+00000db6  a088       ldrh      r0, [r4, #4]
+00000db8  a842       cmp       r0, r5
+00000dba  03d8       bhi       #0xdc4
+00000dbc  2d1a       subs      r5, r5, r0
+00000dbe  002d       cmp       r5, #0
+00000dc0  06d0       beq       #0xdd0
+00000dc2  20e0       b         #0xe06
+00000dc4  0521       movs      r1, #5
+00000dc6  2046       mov       r0, r4
+00000dc8  fff7f8fe   bl        #0xbbc
+00000dcc  0220       movs      r0, #2
+00000dce  1de7       b         #0xc0c
+00000dd0  4848       ldr       r0, [pc, #0x120]
+00000dd2  8069       ldr       r0, [r0, #0x18]
+00000dd4  c105       lsls      r1, r0, #0x17
+00000dd6  16d0       beq       #0xe06
+00000dd8  c005       lsls      r0, r0, #0x17
+00000dda  c00d       lsrs      r0, r0, #0x17
+00000ddc  a080       strh      r0, [r4, #4]
+00000dde  12e0       b         #0xe06
+00000de0  a942       cmp       r1, r5
+00000de2  03d8       bhi       #0xdec
+00000de4  6d1a       subs      r5, r5, r1
+00000de6  002d       cmp       r5, #0
+00000de8  06d0       beq       #0xdf8
+00000dea  0ce0       b         #0xe06
+00000dec  0521       movs      r1, #5
+00000dee  2046       mov       r0, r4
+00000df0  fff7e4fe   bl        #0xbbc
+00000df4  0220       movs      r0, #2
+00000df6  09e7       b         #0xc0c
+00000df8  3e48       ldr       r0, [pc, #0xf8]
+00000dfa  8069       ldr       r0, [r0, #0x18]
+00000dfc  c105       lsls      r1, r0, #0x17
+00000dfe  02d0       beq       #0xe06
+00000e00  c005       lsls      r0, r0, #0x17
+00000e02  c00d       lsrs      r0, r0, #0x17
+00000e04  a080       strh      r0, [r4, #4]
+00000e06  3a48       ldr       r0, [pc, #0xe8]
+00000e08  3c49       ldr       r1, [pc, #0xf0]
+00000e0a  8160       str       r1, [r0, #8]
+00000e0c  394f       ldr       r7, [pc, #0xe4]
+00000e0e  f86a       ldr       r0, [r7, #0x2c]
+00000e10  400a       lsrs      r0, r0, #9
+00000e12  8019       adds      r0, r0, r6
+00000e14  fff7fef9   bl        #0x214
+00000e18  b86a       ldr       r0, [r7, #0x28]
+00000e1a  0028       cmp       r0, #0
+00000e1c  06d0       beq       #0xe2c
+00000e1e  f86a       ldr       r0, [r7, #0x2c]
+00000e20  3549       ldr       r1, [pc, #0xd4]
+00000e22  400a       lsrs      r0, r0, #9
+00000e24  8019       adds      r0, r0, r6
+00000e26  fff7fbf9   bl        #0x220
+00000e2a  05e0       b         #0xe38
+00000e2c  f86a       ldr       r0, [r7, #0x2c]
+00000e2e  0999       ldr       r1, [sp, #0x24]
+00000e30  400a       lsrs      r0, r0, #9
+00000e32  8019       adds      r0, r0, r6
+00000e34  fff7f4f9   bl        #0x220
+00000e38  0020       movs      r0, #0
+00000e3a  7102       lsls      r1, r6, #9
+00000e3c  fb6a       ldr       r3, [r7, #0x2c]
+00000e3e  a688       ldrh      r6, [r4, #4]
+00000e40  cb18       adds      r3, r1, r3
+00000e42  3a6a       ldr       r2, [r7, #0x20]
+00000e44  0ce0       b         #0xe60
+00000e46  1958       ldr       r1, [r3, r0]
+00000e48  059f       ldr       r7, [sp, #0x14]
+00000e4a  7940       eors      r1, r7
+00000e4c  0591       str       r1, [sp, #0x14]
+00000e4e  0399       ldr       r1, [sp, #0xc]
+00000e50  091d       adds      r1, r1, #4
+00000e52  0391       str       r1, [sp, #0xc]
+00000e54  0399       ldr       r1, [sp, #0xc]
+00000e56  9142       cmp       r1, r2
+00000e58  01d1       bne       #0xe5e
+00000e5a  0599       ldr       r1, [sp, #0x14]
+00000e5c  0491       str       r1, [sp, #0x10]
+00000e5e  001d       adds      r0, r0, #4
+00000e60  8642       cmp       r6, r0
+00000e62  f0d8       bhi       #0xe46
+00000e64  0421       movs      r1, #4
+00000e66  2046       mov       r0, r4
+00000e68  fff7a8fe   bl        #0xbbc
+00000e6c  0898       ldr       r0, [sp, #0x20]
+00000e6e  c6b2       uxtb      r6, r0
+00000e70  4122       movs      r2, #0x41
+00000e72  d200       lsls      r2, r2, #3
+00000e74  0021       movs      r1, #0
+00000e76  2046       mov       r0, r4
+00000e78  fff757fd   bl        #0x92a
+00000e7c  c2e6       b         #0xc04
+00000e7e  0298       ldr       r0, [sp, #8]
+00000e80  0128       cmp       r0, #1
+00000e82  05d0       beq       #0xe90
+00000e84  0521       movs      r1, #5
+00000e86  2046       mov       r0, r4
+00000e88  fff798fe   bl        #0xbbc
+00000e8c  0420       movs      r0, #4
+00000e8e  bde6       b         #0xc0c
+00000e90  1849       ldr       r1, [pc, #0x60]
+00000e92  a068       ldr       r0, [r4, #8]
+00000e94  4860       str       r0, [r1, #4]
+00000e96  6288       ldrh      r2, [r4, #2]
+00000e98  0b68       ldr       r3, [r1]
+00000e9a  9200       lsls      r2, r2, #2
+00000e9c  9a42       cmp       r2, r3
+00000e9e  0ad1       bne       #0xeb6
+00000ea0  069a       ldr       r2, [sp, #0x18]
+00000ea2  8242       cmp       r2, r0
+00000ea4  07d1       bne       #0xeb6
+00000ea6  0598       ldr       r0, [sp, #0x14]
+00000ea8  ca69       ldr       r2, [r1, #0x1c]
+00000eaa  9042       cmp       r0, r2
+00000eac  03d1       bne       #0xeb6
+00000eae  0498       ldr       r0, [sp, #0x10]
+00000eb0  4a6a       ldr       r2, [r1, #0x24]
+00000eb2  9042       cmp       r0, r2
+00000eb4  08d0       beq       #0xec8
+00000eb6  0521       movs      r1, #5
+00000eb8  2046       mov       r0, r4
+00000eba  fff77ffe   bl        #0xbbc
+00000ebe  1420       movs      r0, #0x14
+00000ec0  fff77cfd   bl        #0x9bc
+00000ec4  0320       movs      r0, #3
+00000ec6  a1e6       b         #0xc0c
+00000ec8  e068       ldr       r0, [r4, #0xc]
+00000eca  c860       str       r0, [r1, #0xc]
+00000ecc  2069       ldr       r0, [r4, #0x10]
+00000ece  0861       str       r0, [r1, #0x10]
+00000ed0  c86a       ldr       r0, [r1, #0x2c]
+00000ed2  fff709fe   bl        #0xae8
+00000ed6  0421       movs      r1, #4
+00000ed8  2046       mov       r0, r4
+00000eda  fff76ffe   bl        #0xbbc
+00000ede  1420       movs      r0, #0x14
+00000ee0  fff76cfd   bl        #0x9bc
+00000ee4  0020       movs      r0, #0
+00000ee6  91e6       b         #0xc0c
+00000ee8  3075       strb      r0, [r6, #0x14]
+00000eea  0000       movs      r0, r0
+00000eec  a5a5       adr       r5, #0x294
+00000eee  a5a5       adr       r5, #0x294
+00000ef0  5407       lsls      r4, r2, #0x1d
+00000ef2  0020       movs      r0, #0
+00000ef4  ec01       lsls      r4, r5, #7
+00000ef6  0020       movs      r0, #0
+00000ef8  5405       lsls      r4, r2, #0x15
+00000efa  0020       movs      r0, #0
+00000efc  aaaa       add       r2, sp, #0x2a8
+00000efe  5555       strb      r5, [r2, r5]
+00000f00  f0b5       push      {r4, r5, r6, r7, lr}
+00000f02  89b0       sub       sp, #0x24
+00000f04  624e       ldr       r6, [pc, #0x188]
+00000f06  6348       ldr       r0, [pc, #0x18c]
+00000f08  04ad       add       r5, sp, #0x10
+00000f0a  0146       mov       r1, r0
+00000f0c  1ec9       ldm       r1, {r1, r2, r3, r4}
+00000f0e  1ec5       stm       r5!, {r1, r2, r3, r4}
+00000f10  0369       ldr       r3, [r0, #0x10]
+00000f12  4269       ldr       r2, [r0, #0x14]
+00000f14  8169       ldr       r1, [r0, #0x18]
+00000f16  c069       ldr       r0, [r0, #0x1c]
+00000f18  0093       str       r3, [sp]
+00000f1a  0192       str       r2, [sp, #4]
+00000f1c  0291       str       r1, [sp, #8]
+00000f1e  0390       str       r0, [sp, #0xc]
+00000f20  5d48       ldr       r0, [pc, #0x174]
+00000f22  4468       ldr       r4, [r0, #4]
+00000f24  0025       movs      r5, #0
+00000f26  2078       ldrb      r0, [r4]
+00000f28  0128       cmp       r0, #1
+00000f2a  02d0       beq       #0xf32
+00000f2c  0028       cmp       r0, #0
+00000f2e  7ad0       beq       #0x1026
+00000f30  85e0       b         #0x103e
+00000f32  5a49       ldr       r1, [pc, #0x168]
+00000f34  a079       ldrb      r0, [r4, #6]
+00000f36  0860       str       r0, [r1]
+00000f38  594e       ldr       r6, [pc, #0x164]
+00000f3a  a068       ldr       r0, [r4, #8]
+00000f3c  3060       str       r0, [r6]
+00000f3e  594f       ldr       r7, [pc, #0x164]
+00000f40  e068       ldr       r0, [r4, #0xc]
+00000f42  3860       str       r0, [r7]
+00000f44  1022       movs      r2, #0x10
+00000f46  0021       movs      r1, #0
+00000f48  5748       ldr       r0, [pc, #0x15c]
+00000f4a  fff7eefc   bl        #0x92a
+00000f4e  2846       mov       r0, r5
+00000f50  564d       ldr       r5, [pc, #0x158]
+00000f52  2860       str       r0, [r5]
+00000f54  a088       ldrh      r0, [r4, #4]
+00000f56  0146       mov       r1, r0
+00000f58  ff39       subs      r1, #0xff
+00000f5a  e939       subs      r1, #0xe9
+00000f5c  02d0       beq       #0xf64
+00000f5e  0520       movs      r0, #5
+00000f60  09b0       add       sp, #0x24
+00000f62  f0bd       pop       {r4, r5, r6, r7, pc}
+00000f64  2146       mov       r1, r4
+00000f66  2031       adds      r1, #0x20
+00000f68  1022       movs      r2, #0x10
+00000f6a  4f48       ldr       r0, [pc, #0x13c]
+00000f6c  0891       str       r1, [sp, #0x20]
+00000f6e  fff725fa   bl        #0x3bc
+00000f72  1028       cmp       r0, #0x10
+00000f74  0ad0       beq       #0xf8c
+00000f76  4e48       ldr       r0, [pc, #0x138]
+00000f78  fff70efa   bl        #0x398
+00000f7c  4a49       ldr       r1, [pc, #0x128]
+00000f7e  0898       ldr       r0, [sp, #0x20]
+00000f80  fff78cf9   bl        #0x29c
+00000f84  0028       cmp       r0, #0
+00000f86  07d0       beq       #0xf98
+00000f88  0220       movs      r0, #2
+00000f8a  e9e7       b         #0xf60
+00000f8c  1022       movs      r2, #0x10
+00000f8e  a118       adds      r1, r4, r2
+00000f90  4848       ldr       r0, [pc, #0x120]
+00000f92  fff7bdfc   bl        #0x910
+00000f96  0ae0       b         #0xfae
+00000f98  2046       mov       r0, r4
+00000f9a  4649       ldr       r1, [pc, #0x118]
+00000f9c  1030       adds      r0, #0x10
+00000f9e  fff77df9   bl        #0x29c
+00000fa2  0028       cmp       r0, #0
+00000fa4  01d0       beq       #0xfaa
+00000fa6  0320       movs      r0, #3
+00000fa8  dae7       b         #0xf60
+00000faa  0120       movs      r0, #1
+00000fac  2860       str       r0, [r5]
+00000fae  4149       ldr       r1, [pc, #0x104]
+00000fb0  414a       ldr       r2, [pc, #0x104]
+00000fb2  0868       ldr       r0, [r1]
+00000fb4  1060       str       r0, [r2]
+00000fb6  414a       ldr       r2, [pc, #0x104]
+00000fb8  4868       ldr       r0, [r1, #4]
+00000fba  1060       str       r0, [r2]
+00000fbc  404a       ldr       r2, [pc, #0x100]
+00000fbe  8868       ldr       r0, [r1, #8]
+00000fc0  404d       ldr       r5, [pc, #0x100]
+00000fc2  030c       lsrs      r3, r0, #0x10
+00000fc4  9b00       lsls      r3, r3, #2
+00000fc6  2b60       str       r3, [r5]
+00000fc8  80b2       uxth      r0, r0
+00000fca  1060       str       r0, [r2]
+00000fcc  3e4a       ldr       r2, [pc, #0xf8]
+00000fce  c968       ldr       r1, [r1, #0xc]
+00000fd0  1160       str       r1, [r2]
+00000fd2  6188       ldrh      r1, [r4, #2]
+00000fd4  3268       ldr       r2, [r6]
+00000fd6  8900       lsls      r1, r1, #2
+00000fd8  9142       cmp       r1, r2
+00000fda  02d1       bne       #0xfe2
+00000fdc  3968       ldr       r1, [r7]
+00000fde  8142       cmp       r1, r0
+00000fe0  01d0       beq       #0xfe6
+00000fe2  0620       movs      r0, #6
+00000fe4  bce7       b         #0xf60
+00000fe6  ff25       movs      r5, #0xff
+00000fe8  206b       ldr       r0, [r4, #0x30]
+00000fea  b935       adds      r5, #0xb9
+00000fec  a842       cmp       r0, r5
+00000fee  18d1       bne       #0x1022
+00000ff0  0126       movs      r6, #1
+00000ff2  2146       mov       r1, r4
+00000ff4  7607       lsls      r6, r6, #0x1d
+00000ff6  2a46       mov       r2, r5
+00000ff8  3431       adds      r1, #0x34
+00000ffa  3046       mov       r0, r6
+00000ffc  fff788fc   bl        #0x910
+00001000  2946       mov       r1, r5
+00001002  3046       mov       r0, r6
+00001004  fff702fa   bl        #0x40c
+00001008  ff34       adds      r4, #0xff
+0000100a  8134       adds      r4, #0x81
+0000100c  e16e       ldr       r1, [r4, #0x6c]
+0000100e  8142       cmp       r1, r0
+00001010  02d0       beq       #0x1018
+00001012  0720       movs      r0, #7
+00001014  a4e7       b         #0xf60
+00001016  06e0       b         #0x1026
+00001018  fff71efa   bl        #0x458
+0000101c  fff706f9   bl        #0x22c
+00001020  33e0       b         #0x108a
+00001022  0820       movs      r0, #8
+00001024  9ce7       b         #0xf60
+00001026  a088       ldrh      r0, [r4, #4]
+00001028  0428       cmp       r0, #4
+0000102a  08d1       bne       #0x103e
+0000102c  2046       mov       r0, r4
+0000102e  0830       adds      r0, #8
+00001030  0422       movs      r2, #4
+00001032  04a9       add       r1, sp, #0x10
+00001034  0746       mov       r7, r0
+00001036  fff7c1f9   bl        #0x3bc
+0000103a  0428       cmp       r0, #4
+0000103c  01d0       beq       #0x1042
+0000103e  0720       movs      r0, #7
+00001040  8ee7       b         #0xf60
+00001042  3069       ldr       r0, [r6, #0x10]
+00001044  a021       movs      r1, #0xa0
+00001046  0028       cmp       r0, #0
+00001048  04d0       beq       #0x1054
+0000104a  030a       lsrs      r3, r0, #8
+0000104c  6a46       mov       r2, sp
+0000104e  1372       strb      r3, [r2, #8]
+00001050  5072       strb      r0, [r2, #9]
+00001052  02e0       b         #0x105a
+00001054  6846       mov       r0, sp
+00001056  0172       strb      r1, [r0, #8]
+00001058  4572       strb      r5, [r0, #9]
+0000105a  f06a       ldr       r0, [r6, #0x2c]
+0000105c  0028       cmp       r0, #0
+0000105e  04d0       beq       #0x106a
+00001060  010a       lsrs      r1, r0, #8
+00001062  6a46       mov       r2, sp
+00001064  1173       strb      r1, [r2, #0xc]
+00001066  5073       strb      r0, [r2, #0xd]
+00001068  02e0       b         #0x1070
+0000106a  6846       mov       r0, sp
+0000106c  0173       strb      r1, [r0, #0xc]
+0000106e  4573       strb      r5, [r0, #0xd]
+00001070  1022       movs      r2, #0x10
+00001072  6946       mov       r1, sp
+00001074  3846       mov       r0, r7
+00001076  fff74bfc   bl        #0x910
+0000107a  1020       movs      r0, #0x10
+0000107c  a080       strh      r0, [r4, #4]
+0000107e  6570       strb      r5, [r4, #1]
+00001080  4022       movs      r2, #0x40
+00001082  2146       mov       r1, r4
+00001084  8420       movs      r0, #0x84
+00001086  fff785fa   bl        #0x594
+0000108a  0020       movs      r0, #0
+0000108c  68e7       b         #0xf60
+0000108e  0000       movs      r0, r0
+00001090  0006       lsls      r0, r0, #0x18
+00001092  0010       asrs      r0, r0, #0x20
+00001094  fc14       asrs      r4, r7, #0x13
+00001096  0000       movs      r0, r0
+00001098  3002       lsls      r0, r6, #8
+0000109a  0020       movs      r0, #0
+0000109c  0002       lsls      r0, r0, #8
+0000109e  0020       movs      r0, #0
+000010a0  ec01       lsls      r4, r5, #7
+000010a2  0020       movs      r0, #0
+000010a4  f401       lsls      r4, r6, #7
+000010a6  0020       movs      r0, #0
+000010a8  4405       lsls      r4, r0, #0x15
+000010aa  0020       movs      r0, #0
+000010ac  1402       lsls      r4, r2, #8
+000010ae  0020       movs      r0, #0
+000010b0  1c02       lsls      r4, r3, #8
+000010b2  0020       movs      r0, #0
+000010b4  5405       lsls      r4, r2, #0x15
+000010b6  0020       movs      r0, #0
+000010b8  0402       lsls      r4, r0, #8
+000010ba  0020       movs      r0, #0
+000010bc  0802       lsls      r0, r1, #8
+000010be  0020       movs      r0, #0
+000010c0  2c02       lsls      r4, r5, #8
+000010c2  0020       movs      r0, #0
+000010c4  0c02       lsls      r4, r1, #8
+000010c6  0020       movs      r0, #0
+000010c8  1002       lsls      r0, r2, #8
+000010ca  0020       movs      r0, #0
+000010cc  054a       ldr       r2, [pc, #0x14]
+000010ce  4123       movs      r3, #0x41
+000010d0  1168       ldr       r1, [r2]
+000010d2  db00       lsls      r3, r3, #3
+000010d4  9942       cmp       r1, r3
+000010d6  04d2       bhs       #0x10e2
+000010d8  5368       ldr       r3, [r2, #4]
+000010da  5854       strb      r0, [r3, r1]
+000010dc  1068       ldr       r0, [r2]
+000010de  401c       adds      r0, r0, #1
+000010e0  1060       str       r0, [r2]
+000010e2  7047       bx        lr
+000010e4  3002       lsls      r0, r6, #8
+000010e6  0020       movs      r0, #0
+000010e8  70b5       push      {r4, r5, r6, lr}
+000010ea  0a4c       ldr       r4, [pc, #0x28]
+000010ec  6568       ldr       r5, [r4, #4]
+000010ee  4126       movs      r6, #0x41
+000010f0  f600       lsls      r6, r6, #3
+000010f2  a888       ldrh      r0, [r5, #4]
+000010f4  2268       ldr       r2, [r4]
+000010f6  0146       mov       r1, r0
+000010f8  0831       adds      r1, #8
+000010fa  8a42       cmp       r2, r1
+000010fc  03d3       blo       #0x1106
+000010fe  0830       adds      r0, #8
+00001100  0021       movs      r1, #0
+00001102  2160       str       r1, [r4]
+00001104  70bd       pop       {r4, r5, r6, pc}
+00001106  00f0b7f8   bl        #0x1278
+0000110a  0020       movs      r0, #0
+0000110c  2168       ldr       r1, [r4]
+0000110e  b142       cmp       r1, r6
+00001110  efd9       bls       #0x10f2
+00001112  70bd       pop       {r4, r5, r6, pc}
+00001114  3002       lsls      r0, r6, #8
+00001116  0020       movs      r0, #0
+00001118  0149       ldr       r1, [pc, #4]
+0000111a  4860       str       r0, [r1, #4]
+0000111c  7047       bx        lr
+0000111e  0000       movs      r0, r0
+00001120  3002       lsls      r0, r6, #8
+00001122  0020       movs      r0, #0
+00001124  10b5       push      {r4, lr}
+00001126  0b48       ldr       r0, [pc, #0x2c]
+00001128  4168       ldr       r1, [r0, #4]
+0000112a  0b46       mov       r3, r1
+0000112c  8a88       ldrh      r2, [r1, #4]
+0000112e  002a       cmp       r2, #0
+00001130  03d0       beq       #0x113a
+00001132  0832       adds      r2, #8
+00001134  1446       mov       r4, r2
+00001136  0020       movs      r0, #0
+00001138  03e0       b         #0x1142
+0000113a  0020       movs      r0, #0
+0000113c  10bd       pop       {r4, pc}
+0000113e  9854       strb      r0, [r3, r2]
+00001140  521c       adds      r2, r2, #1
+00001142  402a       cmp       r2, #0x40
+00001144  fbd3       blo       #0x113e
+00001146  4022       movs      r2, #0x40
+00001148  8420       movs      r0, #0x84
+0000114a  fff723fa   bl        #0x594
+0000114e  2046       mov       r0, r4
+00001150  10bd       pop       {r4, pc}
+00001152  0000       movs      r0, r0
+00001154  3002       lsls      r0, r6, #8
+00001156  0020       movs      r0, #0
+00001158  10b5       push      {r4, lr}
+0000115a  0020       movs      r0, #0
+0000115c  c043       mvns      r0, r0
+0000115e  fff737fa   bl        #0x5d0
+00001162  0020       movs      r0, #0
+00001164  fff7e4f8   bl        #0x330
+00001168  6420       movs      r0, #0x64
+0000116a  fff727fc   bl        #0x9bc
+0000116e  00f037f8   bl        #0x11e0
+00001172  144c       ldr       r4, [pc, #0x50]
+00001174  0420       movs      r0, #4
+00001176  a060       str       r0, [r4, #8]
+00001178  fff76ef9   bl        #0x458
+0000117c  7d21       movs      r1, #0x7d
+0000117e  c900       lsls      r1, r1, #3
+00001180  fef7d0ff   bl        #0x124
+00001184  6061       str       r0, [r4, #0x14]
+00001186  0020       movs      r0, #0
+00001188  a061       str       r0, [r4, #0x18]
+0000118a  0121       movs      r1, #1
+0000118c  a163       str       r1, [r4, #0x38]
+0000118e  6421       movs      r1, #0x64
+00001190  e163       str       r1, [r4, #0x3c]
+00001192  0c49       ldr       r1, [pc, #0x30]
+00001194  3222       movs      r2, #0x32
+00001196  4031       adds      r1, #0x40
+00001198  0a60       str       r2, [r1]
+0000119a  0f22       movs      r2, #0xf
+0000119c  1202       lsls      r2, r2, #8
+0000119e  4a60       str       r2, [r1, #4]
+000011a0  6060       str       r0, [r4, #4]
+000011a2  0321       movs      r1, #3
+000011a4  2160       str       r1, [r4]
+000011a6  084c       ldr       r4, [pc, #0x20]
+000011a8  2060       str       r0, [r4]
+000011aa  0849       ldr       r1, [pc, #0x20]
+000011ac  0860       str       r0, [r1]
+000011ae  2068       ldr       r0, [r4]
+000011b0  0028       cmp       r0, #0
+000011b2  03d0       beq       #0x11bc
+000011b4  00f00ef8   bl        #0x11d4
+000011b8  0428       cmp       r0, #4
+000011ba  02d0       beq       #0x11c2
+000011bc  00f05cf8   bl        #0x1278
+000011c0  f5e7       b         #0x11ae
+000011c2  10bd       pop       {r4, pc}
+000011c4  0090       str       r0, [sp]
+000011c6  0140       ands      r1, r0
+000011c8  4c02       lsls      r4, r1, #9
+000011ca  0020       movs      r0, #0
+000011cc  5002       lsls      r0, r2, #9
+000011ce  0020       movs      r0, #0
+000011d0  7047       bx        lr
+000011d2  0000       movs      r0, r0
+000011d4  0148       ldr       r0, [pc, #4]
+000011d6  8079       ldrb      r0, [r0, #6]
+000011d8  7047       bx        lr
+000011da  0000       movs      r0, r0
+000011dc  3802       lsls      r0, r7, #8
+000011de  0020       movs      r0, #0
+000011e0  70b5       push      {r4, r5, r6, lr}
+000011e2  0221       movs      r1, #2
+000011e4  1f48       ldr       r0, [pc, #0x7c]
+000011e6  0269       ldr       r2, [r0, #0x10]
+000011e8  8304       lsls      r3, r0, #0x12
+000011ea  1a43       orrs      r2, r3
+000011ec  0261       str       r2, [r0, #0x10]
+000011ee  c160       str       r1, [r0, #0xc]
+000011f0  0120       movs      r0, #1
+000011f2  fff7e3fb   bl        #0x9bc
+000011f6  0121       movs      r1, #1
+000011f8  c807       lsls      r0, r1, #0x1f
+000011fa  fff7d1fb   bl        #0x9a0
+000011fe  1948       ldr       r0, [pc, #0x64]
+00001200  c030       adds      r0, #0xc0
+00001202  016a       ldr       r1, [r0, #0x20]
+00001204  c907       lsls      r1, r1, #0x1f
+00001206  fcd0       beq       #0x1202
+00001208  0a20       movs      r0, #0xa
+0000120a  fff7d7fb   bl        #0x9bc
+0000120e  164d       ldr       r5, [pc, #0x58]
+00001210  2868       ldr       r0, [r5]
+00001212  8021       movs      r1, #0x80
+00001214  0843       orrs      r0, r1
+00001216  2860       str       r0, [r5]
+00001218  0120       movs      r0, #1
+0000121a  fff7cffb   bl        #0x9bc
+0000121e  0024       movs      r4, #0
+00001220  2c60       str       r4, [r5]
+00001222  0120       movs      r0, #1
+00001224  fff7cafb   bl        #0x9bc
+00001228  1048       ldr       r0, [pc, #0x40]
+0000122a  0221       movs      r1, #2
+0000122c  8171       strb      r1, [r0, #6]
+0000122e  c470       strb      r4, [r0, #3]
+00001230  0471       strb      r4, [r0, #4]
+00001232  4471       strb      r4, [r0, #5]
+00001234  fff760f9   bl        #0x4f8
+00001238  0420       movs      r0, #4
+0000123a  fff735f9   bl        #0x4a8
+0000123e  8420       movs      r0, #0x84
+00001240  fff732f9   bl        #0x4a8
+00001244  0a4a       ldr       r2, [pc, #0x28]
+00001246  1069       ldr       r0, [r2, #0x10]
+00001248  401c       adds      r0, r0, #1
+0000124a  09d0       beq       #0x1260
+0000124c  1069       ldr       r0, [r2, #0x10]
+0000124e  010c       lsrs      r1, r0, #0x10
+00001250  0848       ldr       r0, [pc, #0x20]
+00001252  0172       strb      r1, [r0, #8]
+00001254  090a       lsrs      r1, r1, #8
+00001256  4172       strb      r1, [r0, #9]
+00001258  1169       ldr       r1, [r2, #0x10]
+0000125a  8172       strb      r1, [r0, #0xa]
+0000125c  090a       lsrs      r1, r1, #8
+0000125e  c172       strb      r1, [r0, #0xb]
+00001260  70bd       pop       {r4, r5, r6, pc}
+00001262  0000       movs      r0, r0
+00001264  4040       eors      r0, r0
+00001266  0140       ands      r1, r0
+00001268  0060       str       r0, [r0]
+0000126a  0140       ands      r1, r0
+0000126c  3802       lsls      r0, r7, #8
+0000126e  0020       movs      r0, #0
+00001270  0007       lsls      r0, r0, #0x1c
+00001272  0010       asrs      r0, r0, #0x20
+00001274  a002       lsls      r0, r4, #0xa
+00001276  0020       movs      r0, #0
+00001278  f8b5       push      {r3, r4, r5, r6, r7, lr}
+0000127a  3b48       ldr       r0, [pc, #0xec]
+0000127c  8168       ldr       r1, [r0, #8]
+0000127e  0029       cmp       r1, #0
+00001280  22d0       beq       #0x12c8
+00001282  0022       movs      r2, #0
+00001284  8260       str       r2, [r0, #8]
+00001286  394e       ldr       r6, [pc, #0xe4]
+00001288  3948       ldr       r0, [pc, #0xe4]
+0000128a  3169       ldr       r1, [r6, #0x10]
+0000128c  0818       adds      r0, r1, r0
+0000128e  036a       ldr       r3, [r0, #0x20]
+00001290  0224       movs      r4, #2
+00001292  102b       cmp       r3, #0x10
+00001294  12d0       beq       #0x12bc
+00001296  036a       ldr       r3, [r0, #0x20]
+00001298  9d07       lsls      r5, r3, #0x1e
+0000129a  ad0f       lsrs      r5, r5, #0x1e
+0000129c  14d1       bne       #0x12c8
+0000129e  9f10       asrs      r7, r3, #2
+000012a0  0125       movs      r5, #1
+000012a2  3b00       movs      r3, r7
+000012a4  fef7deff   bl        #0x264
+000012a8  1211       asrs      r2, r2, #4
+000012aa  151a       subs      r5, r2, r0
+000012ac  2010       asrs      r0, r4, #0x20
+000012ae  1023       movs      r3, #0x10
+000012b0  2710       asrs      r7, r4, #0x20
+000012b2  4610       asrs      r6, r0, #1
+000012b4  4610       asrs      r6, r0, #1
+000012b6  462b       cmp       r3, #0x46
+000012b8  4610       asrs      r6, r0, #1
+000012ba  4610       asrs      r6, r0, #1
+000012bc  1021       movs      r1, #0x10
+000012be  c162       str       r1, [r0, #0x2c]
+000012c0  b471       strb      r4, [r6, #6]
+000012c2  3271       strb      r2, [r6, #4]
+000012c4  7271       strb      r2, [r6, #5]
+000012c6  f270       strb      r2, [r6, #3]
+000012c8  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+000012ca  c562       str       r5, [r0, #0x2c]
+000012cc  fff7a4f9   bl        #0x618
+000012d0  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+000012d2  f168       ldr       r1, [r6, #0xc]
+000012d4  491c       adds      r1, r1, #1
+000012d6  f160       str       r1, [r6, #0xc]
+000012d8  c462       str       r4, [r0, #0x2c]
+000012da  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+000012dc  0421       movs      r1, #4
+000012de  c162       str       r1, [r0, #0x2c]
+000012e0  f261       str       r2, [r6, #0x1c]
+000012e2  b270       strb      r2, [r6, #2]
+000012e4  7270       strb      r2, [r6, #1]
+000012e6  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+000012e8  0821       movs      r1, #8
+000012ea  c162       str       r1, [r0, #0x2c]
+000012ec  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+000012ee  4562       str       r5, [r0, #0x24]
+000012f0  fff724fb   bl        #0x93c
+000012f4  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+000012f6  8562       str       r5, [r0, #0x28]
+000012f8  b270       strb      r2, [r6, #2]
+000012fa  0465       str       r4, [r0, #0x50]
+000012fc  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+000012fe  026a       ldr       r2, [r0, #0x20]
+00001300  183a       subs      r2, #0x18
+00001302  d208       lsrs      r2, r2, #3
+00001304  9540       lsls      r5, r2
+00001306  4562       str       r5, [r0, #0x24]
+00001308  5206       lsls      r2, r2, #0x19
+0000130a  520e       lsrs      r2, r2, #0x19
+0000130c  501e       subs      r0, r2, #1
+0000130e  184b       ldr       r3, [pc, #0x60]
+00001310  c000       lsls      r0, r0, #3
+00001312  4018       adds      r0, r0, r1
+00001314  5833       adds      r3, #0x58
+00001316  c518       adds      r5, r0, r3
+00001318  5002       lsls      r0, r2, #9
+0000131a  164b       ldr       r3, [pc, #0x58]
+0000131c  081a       subs      r0, r1, r0
+0000131e  c018       adds      r0, r0, r3
+00001320  d200       lsls      r2, r2, #3
+00001322  5118       adds      r1, r2, r1
+00001324  124a       ldr       r2, [pc, #0x48]
+00001326  5432       adds      r2, #0x54
+00001328  8918       adds      r1, r1, r2
+0000132a  0968       ldr       r1, [r1]
+0000132c  fff75df8   bl        #0x3ea
+00001330  2c60       str       r4, [r5]
+00001332  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+00001334  026a       ldr       r2, [r0, #0x20]
+00001336  1c3a       subs      r2, #0x1c
+00001338  5205       lsls      r2, r2, #0x15
+0000133a  120e       lsrs      r2, r2, #0x18
+0000133c  9540       lsls      r5, r2
+0000133e  8562       str       r5, [r0, #0x28]
+00001340  5002       lsls      r0, r2, #9
+00001342  0d4b       ldr       r3, [pc, #0x34]
+00001344  081a       subs      r0, r1, r0
+00001346  c018       adds      r0, r0, r3
+00001348  d200       lsls      r2, r2, #3
+0000134a  5118       adds      r1, r2, r1
+0000134c  084a       ldr       r2, [pc, #0x20]
+0000134e  9432       adds      r2, #0x94
+00001350  8c18       adds      r4, r1, r2
+00001352  2168       ldr       r1, [r4]
+00001354  c9b2       uxtb      r1, r1
+00001356  fff74af8   bl        #0x3ee
+0000135a  0120       movs      r0, #1
+0000135c  fff72efb   bl        #0x9bc
+00001360  ff20       movs      r0, #0xff
+00001362  2060       str       r0, [r4]
+00001364  f8bd       pop       {r3, r4, r5, r6, r7, pc}
+00001366  0000       movs      r0, r0
+00001368  0060       str       r0, [r0]
+0000136a  0140       ands      r1, r0
+0000136c  3802       lsls      r0, r7, #8
+0000136e  0020       movs      r0, #0
+00001370  807e       ldrb      r0, [r0, #0x1a]
+00001372  0140       ands      r1, r0
+00001374  007c       ldrb      r0, [r0, #0x10]
+00001376  0140       ands      r1, r0
+00001378  007b       ldrb      r0, [r0, #0xc]
+0000137a  0140       ands      r1, r0
+0000137c  70b5       push      {r4, r5, r6, lr}
+0000137e  394c       ldr       r4, [pc, #0xe4]
+00001380  4020       movs      r0, #0x40
+00001382  6070       strb      r0, [r4, #1]
+00001384  3848       ldr       r0, [pc, #0xe0]
+00001386  2269       ldr       r2, [r4, #0x10]
+00001388  1018       adds      r0, r2, r0
+0000138a  c16a       ldr       r1, [r0, #0x2c]
+0000138c  374e       ldr       r6, [pc, #0xdc]
+0000138e  0125       movs      r5, #1
+00001390  1123       movs      r3, #0x11
+00001392  9219       adds      r2, r2, r6
+00001394  0529       cmp       r1, #5
+00001396  63d0       beq       #0x1460
+00001398  08dc       bgt       #0x13ac
+0000139a  0129       cmp       r1, #1
+0000139c  1dd0       beq       #0x13da
+0000139e  0229       cmp       r1, #2
+000013a0  27d0       beq       #0x13f2
+000013a2  0329       cmp       r1, #3
+000013a4  31d0       beq       #0x140a
+000013a6  0429       cmp       r1, #4
+000013a8  08d1       bne       #0x13bc
+000013aa  59e0       b         #0x1460
+000013ac  0629       cmp       r1, #6
+000013ae  57d0       beq       #0x1460
+000013b0  0729       cmp       r1, #7
+000013b2  55d0       beq       #0x1460
+000013b4  0829       cmp       r1, #8
+000013b6  53d0       beq       #0x1460
+000013b8  2229       cmp       r1, #0x22
+000013ba  01d0       beq       #0x13c0
+000013bc  1365       str       r3, [r2, #0x50]
+000013be  70bd       pop       {r4, r5, r6, pc}
+000013c0  2b49       ldr       r1, [pc, #0xac]
+000013c2  e161       str       r1, [r4, #0x1c]
+000013c4  816b       ldr       r1, [r0, #0x38]
+000013c6  1829       cmp       r1, #0x18
+000013c8  01d2       bhs       #0x13ce
+000013ca  806b       ldr       r0, [r0, #0x38]
+000013cc  00e0       b         #0x13d0
+000013ce  1820       movs      r0, #0x18
+000013d0  a070       strb      r0, [r4, #2]
+000013d2  fff7b3fa   bl        #0x93c
+000013d6  6561       str       r5, [r4, #0x14]
+000013d8  70bd       pop       {r4, r5, r6, pc}
+000013da  2649       ldr       r1, [pc, #0x98]
+000013dc  e161       str       r1, [r4, #0x1c]
+000013de  816b       ldr       r1, [r0, #0x38]
+000013e0  1229       cmp       r1, #0x12
+000013e2  01d2       bhs       #0x13e8
+000013e4  806b       ldr       r0, [r0, #0x38]
+000013e6  00e0       b         #0x13ea
+000013e8  1220       movs      r0, #0x12
+000013ea  a070       strb      r0, [r4, #2]
+000013ec  fff7a6fa   bl        #0x93c
+000013f0  70bd       pop       {r4, r5, r6, pc}
+000013f2  2149       ldr       r1, [pc, #0x84]
+000013f4  e161       str       r1, [r4, #0x1c]
+000013f6  816b       ldr       r1, [r0, #0x38]
+000013f8  2929       cmp       r1, #0x29
+000013fa  01d2       bhs       #0x1400
+000013fc  806b       ldr       r0, [r0, #0x38]
+000013fe  00e0       b         #0x1402
+00001400  2920       movs      r0, #0x29
+00001402  a070       strb      r0, [r4, #2]
+00001404  fff79afa   bl        #0x93c
+00001408  70bd       pop       {r4, r5, r6, pc}
+0000140a  816a       ldr       r1, [r0, #0x28]
+0000140c  0029       cmp       r1, #0
+0000140e  14d0       beq       #0x143a
+00001410  816a       ldr       r1, [r0, #0x28]
+00001412  491e       subs      r1, r1, #1
+00001414  0329       cmp       r1, #3
+00001416  21d2       bhs       #0x145c
+00001418  816a       ldr       r1, [r0, #0x28]
+0000141a  0129       cmp       r1, #1
+0000141c  1ad0       beq       #0x1454
+0000141e  1149       ldr       r1, [pc, #0x44]
+00001420  3231       adds      r1, #0x32
+00001422  e161       str       r1, [r4, #0x1c]
+00001424  a561       str       r5, [r4, #0x18]
+00001426  826b       ldr       r2, [r0, #0x38]
+00001428  e169       ldr       r1, [r4, #0x1c]
+0000142a  0978       ldrb      r1, [r1]
+0000142c  8a42       cmp       r2, r1
+0000142e  00d2       bhs       #0x1432
+00001430  816b       ldr       r1, [r0, #0x38]
+00001432  a170       strb      r1, [r4, #2]
+00001434  fff782fa   bl        #0x93c
+00001438  70bd       pop       {r4, r5, r6, pc}
+0000143a  0a49       ldr       r1, [pc, #0x28]
+0000143c  c91d       adds      r1, r1, #7
+0000143e  e161       str       r1, [r4, #0x1c]
+00001440  816b       ldr       r1, [r0, #0x38]
+00001442  0429       cmp       r1, #4
+00001444  01d2       bhs       #0x144a
+00001446  806b       ldr       r0, [r0, #0x38]
+00001448  00e0       b         #0x144c
+0000144a  0420       movs      r0, #4
+0000144c  a070       strb      r0, [r4, #2]
+0000144e  fff775fa   bl        #0x93c
+00001452  70bd       pop       {r4, r5, r6, pc}
+00001454  0349       ldr       r1, [pc, #0xc]
+00001456  2031       adds      r1, #0x20
+00001458  e161       str       r1, [r4, #0x1c]
+0000145a  e4e7       b         #0x1426
+0000145c  1365       str       r3, [r2, #0x50]
+0000145e  70bd       pop       {r4, r5, r6, pc}
+00001460  1365       str       r3, [r2, #0x50]
+00001462  70bd       pop       {r4, r5, r6, pc}
+00001464  3802       lsls      r0, r7, #8
+00001466  0020       movs      r0, #0
+00001468  807f       ldrb      r0, [r0, #0x1e]
+0000146a  0140       ands      r1, r0
+0000146c  807e       ldrb      r0, [r0, #0x1a]
+0000146e  0140       ands      r1, r0
+00001470  8802       lsls      r0, r1, #0xa
+00001472  0020       movs      r0, #0
+00001474  a002       lsls      r0, r4, #0xa
+00001476  0020       movs      r0, #0
+00001478  b202       lsls      r2, r6, #0xa
+0000147a  0020       movs      r0, #0
+0000147c  f0b5       push      {r4, r5, r6, r7, lr}
+0000147e  1b4e       ldr       r6, [pc, #0x6c]
+00001480  1b48       ldr       r0, [pc, #0x6c]
+00001482  3169       ldr       r1, [r6, #0x10]
+00001484  0022       movs      r2, #0
+00001486  0818       adds      r0, r1, r0
+00001488  4260       str       r2, [r0, #4]
+0000148a  0260       str       r2, [r0]
+0000148c  194a       ldr       r2, [pc, #0x64]
+0000148e  1a4d       ldr       r5, [pc, #0x68]
+00001490  b479       ldrb      r4, [r6, #6]
+00001492  8b18       adds      r3, r1, r2
+00001494  0222       movs      r2, #2
+00001496  4d19       adds      r5, r1, r5
+00001498  032c       cmp       r4, #3
+0000149a  02d1       bne       #0x14a2
+0000149c  1f6b       ldr       r7, [r3, #0x30]
+0000149e  002f       cmp       r7, #0
+000014a0  04d0       beq       #0x14ac
+000014a2  1127       movs      r7, #0x11
+000014a4  042c       cmp       r4, #4
+000014a6  03d0       beq       #0x14b0
+000014a8  2f65       str       r7, [r5, #0x50]
+000014aa  f0bd       pop       {r4, r5, r6, r7, pc}
+000014ac  6a65       str       r2, [r5, #0x54]
+000014ae  f0bd       pop       {r4, r5, r6, r7, pc}
+000014b0  3478       ldrb      r4, [r6]
+000014b2  802c       cmp       r4, #0x80
+000014b4  05d0       beq       #0x14c2
+000014b6  812c       cmp       r4, #0x81
+000014b8  09d0       beq       #0x14ce
+000014ba  822c       cmp       r4, #0x82
+000014bc  09d0       beq       #0x14d2
+000014be  2f65       str       r7, [r5, #0x50]
+000014c0  f0bd       pop       {r4, r5, r6, r7, pc}
+000014c2  f178       ldrb      r1, [r6, #3]
+000014c4  8907       lsls      r1, r1, #0x1e
+000014c6  00d5       bpl       #0x14ca
+000014c8  0260       str       r2, [r0]
+000014ca  6a65       str       r2, [r5, #0x54]
+000014cc  f0bd       pop       {r4, r5, r6, r7, pc}
+000014ce  6a65       str       r2, [r5, #0x54]
+000014d0  f0bd       pop       {r4, r5, r6, r7, pc}
+000014d2  1b6b       ldr       r3, [r3, #0x30]
+000014d4  1b06       lsls      r3, r3, #0x18
+000014d6  02d5       bpl       #0x14de
+000014d8  a96d       ldr       r1, [r5, #0x58]
+000014da  0160       str       r1, [r0]
+000014dc  04e0       b         #0x14e8
+000014de  054b       ldr       r3, [pc, #0x14]
+000014e0  803b       subs      r3, #0x80
+000014e2  c918       adds      r1, r1, r3
+000014e4  8969       ldr       r1, [r1, #0x18]
+000014e6  0160       str       r1, [r0]
+000014e8  6a65       str       r2, [r5, #0x54]
+000014ea  f0bd       pop       {r4, r5, r6, r7, pc}
+000014ec  3802       lsls      r0, r7, #8
+000014ee  0020       movs      r0, #0
+000014f0  007c       ldrb      r0, [r0, #0x10]
+000014f2  0140       ands      r1, r0
+000014f4  807f       ldrb      r0, [r0, #0x1e]
+000014f6  0140       ands      r1, r0
+000014f8  807e       ldrb      r0, [r0, #0x1a]
+000014fa  0140       ands      r1, r0
+000014fc  6765       str       r7, [r4, #0x54]
+000014fe  7476       strb      r4, [r6, #0x19]
+00001500  0000       movs      r0, r0
+00001502  0000       movs      r0, r0
+00001504  0000       movs      r0, r0
+00001506  0000       movs      r0, r0
+00001508  0000       movs      r0, r0
+0000150a  0000       movs      r0, r0
+0000150c  7665       str       r6, [r6, #0x54]
+0000150e  7273       strb      r2, [r6, #0xd]
+00001510  696f       ldr       r1, [r5, #0x74]
+00001512  6e3a       subs      r2, #0x6e
+00001514  0000       movs      r0, r0
+00001516  0000       movs      r0, r0
+00001518  0000       movs      r0, r0
+0000151a  0000       movs      r0, r0
+0000151c  4c15       asrs      r4, r1, #0x15
+0000151e  0000       movs      r0, r0
+00001520  0000       movs      r0, r0
+00001522  0020       movs      r0, #0
+00001524  e801       lsls      r0, r5, #7
+00001526  0000       movs      r0, r0
+00001528  7e02       lsls      r6, r7, #9
+0000152a  0000       movs      r0, r0
+0000152c  3417       asrs      r4, r6, #0x1c
+0000152e  0000       movs      r0, r0
+00001530  e801       lsls      r0, r5, #7
+00001532  0020       movs      r0, #0
+00001534  3c01       lsls      r4, r7, #4
+00001536  0000       movs      r0, r0
+00001538  7401       lsls      r4, r6, #5
+0000153a  0000       movs      r0, r0
+0000153c  ec17       asrs      r4, r5, #0x1f
+0000153e  0000       movs      r0, r0
+00001540  2403       lsls      r4, r4, #0xc
+00001542  0020       movs      r0, #0
+00001544  cc08       lsrs      r4, r1, #3
+00001546  0000       movs      r0, r0
+00001548  8e02       lsls      r6, r1, #0xa
+0000154a  0000       movs      r0, r0
+0000154c  ffff       .byte     0xff, 0xff
+0000154e  ffff       .byte     0xff, 0xff
+00001550  ffff       .byte     0xff, 0xff
+00001552  ffff       .byte     0xff, 0xff
+00001554  ffff       .byte     0xff, 0xff
+00001556  ffff       .byte     0xff, 0xff
+00001558  ffff       .byte     0xff, 0xff
+0000155a  ffff       .byte     0xff, 0xff
+0000155c  ffff       .byte     0xff, 0xff
+0000155e  ffff       .byte     0xff, 0xff
+00001560  ffff       .byte     0xff, 0xff
+00001562  ffff       .byte     0xff, 0xff
+00001564  ffff       .byte     0xff, 0xff
+00001566  ffff       .byte     0xff, 0xff
+00001568  ffff       .byte     0xff, 0xff
+0000156a  ffff       .byte     0xff, 0xff
+0000156c  ffff       .byte     0xff, 0xff
+0000156e  ffff       .byte     0xff, 0xff
+00001570  ffff       .byte     0xff, 0xff
+00001572  ffff       .byte     0xff, 0xff
+00001574  ffff       .byte     0xff, 0xff
+00001576  ffff       .byte     0xff, 0xff
+00001578  ffff       .byte     0xff, 0xff
+0000157a  ffff       .byte     0xff, 0xff
+0000157c  ffff       .byte     0xff, 0xff
+0000157e  ffff       .byte     0xff, 0xff
+00001580  ffff       .byte     0xff, 0xff
+00001582  ffff       .byte     0xff, 0xff
+00001584  ffff       .byte     0xff, 0xff
+00001586  ffff       .byte     0xff, 0xff
+00001588  ffff       .byte     0xff, 0xff
+0000158a  ffff       .byte     0xff, 0xff
+0000158c  ffff       .byte     0xff, 0xff
+0000158e  ffff       .byte     0xff, 0xff
+00001590  ffff       .byte     0xff, 0xff
+00001592  ffff       .byte     0xff, 0xff
+00001594  ffff       .byte     0xff, 0xff
+00001596  ffff       .byte     0xff, 0xff
+00001598  ffff       .byte     0xff, 0xff
+0000159a  ffff       .byte     0xff, 0xff
+0000159c  ffff       .byte     0xff, 0xff
+0000159e  ffff       .byte     0xff, 0xff
+000015a0  ffff       .byte     0xff, 0xff
+000015a2  ffff       .byte     0xff, 0xff
+000015a4  ffff       .byte     0xff, 0xff
+000015a6  ffff       .byte     0xff, 0xff
+000015a8  ffff       .byte     0xff, 0xff
+000015aa  ffff       .byte     0xff, 0xff
+000015ac  ffff       .byte     0xff, 0xff
+000015ae  ffff       .byte     0xff, 0xff
+000015b0  ffff       .byte     0xff, 0xff
+000015b2  ffff       .byte     0xff, 0xff
+000015b4  ffff       .byte     0xff, 0xff
+000015b6  ffff       .byte     0xff, 0xff
+000015b8  ffff       .byte     0xff, 0xff
+000015ba  ffff       .byte     0xff, 0xff
+000015bc  ffff       .byte     0xff, 0xff
+000015be  ffff       .byte     0xff, 0xff
+000015c0  ffff       .byte     0xff, 0xff
+000015c2  ffff       .byte     0xff, 0xff
+000015c4  ffff       .byte     0xff, 0xff
+000015c6  ffff       .byte     0xff, 0xff
+000015c8  ffff       .byte     0xff, 0xff
+000015ca  ffff       .byte     0xff, 0xff
+000015cc  ffff       .byte     0xff, 0xff
+000015ce  ffff       .byte     0xff, 0xff
+000015d0  ffff       .byte     0xff, 0xff
+000015d2  ffff       .byte     0xff, 0xff
+000015d4  ffff       .byte     0xff, 0xff
+000015d6  ffff       .byte     0xff, 0xff
+000015d8  ffff       .byte     0xff, 0xff
+000015da  ffff       .byte     0xff, 0xff
+000015dc  ffff       .byte     0xff, 0xff
+000015de  ffff       .byte     0xff, 0xff
+000015e0  ffff       .byte     0xff, 0xff
+000015e2  ffff       .byte     0xff, 0xff
+000015e4  ffff       .byte     0xff, 0xff
+000015e6  ffff       .byte     0xff, 0xff
+000015e8  ffff       .byte     0xff, 0xff
+000015ea  ffff       .byte     0xff, 0xff
+000015ec  ffff       .byte     0xff, 0xff
+000015ee  ffff       .byte     0xff, 0xff
+000015f0  ffff       .byte     0xff, 0xff
+000015f2  ffff       .byte     0xff, 0xff
+000015f4  ffff       .byte     0xff, 0xff
+000015f6  ffff       .byte     0xff, 0xff
+000015f8  ffff       .byte     0xff, 0xff
+000015fa  ffff       .byte     0xff, 0xff
+000015fc  ffff       .byte     0xff, 0xff
+000015fe  ffff       .byte     0xff, 0xff
+00001600  ffff       .byte     0xff, 0xff
+00001602  ffff       .byte     0xff, 0xff
+00001604  ffff       .byte     0xff, 0xff
+00001606  ffff       .byte     0xff, 0xff
+00001608  ffff       .byte     0xff, 0xff
+0000160a  ffff       .byte     0xff, 0xff
+0000160c  ffff       .byte     0xff, 0xff
+0000160e  ffff       .byte     0xff, 0xff
+00001610  ffff       .byte     0xff, 0xff
+00001612  ffff       .byte     0xff, 0xff
+00001614  ffff       .byte     0xff, 0xff
+00001616  ffff       .byte     0xff, 0xff
+00001618  ffff       .byte     0xff, 0xff
+0000161a  ffff       .byte     0xff, 0xff
+0000161c  ffff       .byte     0xff, 0xff
+0000161e  ffff       .byte     0xff, 0xff
+00001620  ffff       .byte     0xff, 0xff
+00001622  ffff       .byte     0xff, 0xff
+00001624  ffff       .byte     0xff, 0xff
+00001626  ffff       .byte     0xff, 0xff
+00001628  ffff       .byte     0xff, 0xff
+0000162a  ffff       .byte     0xff, 0xff
+0000162c  ffff       .byte     0xff, 0xff
+0000162e  ffff       .byte     0xff, 0xff
+00001630  ffff       .byte     0xff, 0xff
+00001632  ffff       .byte     0xff, 0xff
+00001634  ffff       .byte     0xff, 0xff
+00001636  ffff       .byte     0xff, 0xff
+00001638  ffff       .byte     0xff, 0xff
+0000163a  ffff       .byte     0xff, 0xff
+0000163c  ffff       .byte     0xff, 0xff
+0000163e  ffff       .byte     0xff, 0xff
+00001640  ffff       .byte     0xff, 0xff
+00001642  ffff       .byte     0xff, 0xff
+00001644  ffff       .byte     0xff, 0xff
+00001646  ffff       .byte     0xff, 0xff
+00001648  ffff       .byte     0xff, 0xff
+0000164a  ffff       .byte     0xff, 0xff
+0000164c  ffff       .byte     0xff, 0xff
+0000164e  ffff       .byte     0xff, 0xff
+00001650  ffff       .byte     0xff, 0xff
+00001652  ffff       .byte     0xff, 0xff
+00001654  ffff       .byte     0xff, 0xff
+00001656  ffff       .byte     0xff, 0xff
+00001658  ffff       .byte     0xff, 0xff
+0000165a  ffff       .byte     0xff, 0xff
+0000165c  ffff       .byte     0xff, 0xff
+0000165e  ffff       .byte     0xff, 0xff
+00001660  ffff       .byte     0xff, 0xff
+00001662  ffff       .byte     0xff, 0xff
+00001664  ffff       .byte     0xff, 0xff
+00001666  ffff       .byte     0xff, 0xff
+00001668  ffff       .byte     0xff, 0xff
+0000166a  ffff       .byte     0xff, 0xff
+0000166c  ffff       .byte     0xff, 0xff
+0000166e  ffff       .byte     0xff, 0xff
+00001670  ffff       .byte     0xff, 0xff
+00001672  ffff       .byte     0xff, 0xff
+00001674  ffff       .byte     0xff, 0xff
+00001676  ffff       .byte     0xff, 0xff
+00001678  ffff       .byte     0xff, 0xff
+0000167a  ffff       .byte     0xff, 0xff
+0000167c  ffff       .byte     0xff, 0xff
+0000167e  ffff       .byte     0xff, 0xff
+00001680  ffff       .byte     0xff, 0xff
+00001682  ffff       .byte     0xff, 0xff
+00001684  ffff       .byte     0xff, 0xff
+00001686  ffff       .byte     0xff, 0xff
+00001688  ffff       .byte     0xff, 0xff
+0000168a  ffff       .byte     0xff, 0xff
+0000168c  ffff       .byte     0xff, 0xff
+0000168e  ffff       .byte     0xff, 0xff
+00001690  ffff       .byte     0xff, 0xff
+00001692  ffff       .byte     0xff, 0xff
+00001694  ffff       .byte     0xff, 0xff
+00001696  ffff       .byte     0xff, 0xff
+00001698  ffff       .byte     0xff, 0xff
+0000169a  ffff       .byte     0xff, 0xff
+0000169c  ffff       .byte     0xff, 0xff
+0000169e  ffff       .byte     0xff, 0xff
+000016a0  ffff       .byte     0xff, 0xff
+000016a2  ffff       .byte     0xff, 0xff
+000016a4  ffff       .byte     0xff, 0xff
+000016a6  ffff       .byte     0xff, 0xff
+000016a8  ffff       .byte     0xff, 0xff
+000016aa  ffff       .byte     0xff, 0xff
+000016ac  ffff       .byte     0xff, 0xff
+000016ae  ffff       .byte     0xff, 0xff
+000016b0  ffff       .byte     0xff, 0xff
+000016b2  ffff       .byte     0xff, 0xff
+000016b4  ffff       .byte     0xff, 0xff
+000016b6  ffff       .byte     0xff, 0xff
+000016b8  ffff       .byte     0xff, 0xff
+000016ba  ffff       .byte     0xff, 0xff
+000016bc  ffff       .byte     0xff, 0xff
+000016be  ffff       .byte     0xff, 0xff
+000016c0  ffff       .byte     0xff, 0xff
+000016c2  ffff       .byte     0xff, 0xff
+000016c4  ffff       .byte     0xff, 0xff
+000016c6  ffff       .byte     0xff, 0xff
+000016c8  ffff       .byte     0xff, 0xff
+000016ca  ffff       .byte     0xff, 0xff
+000016cc  ffff       .byte     0xff, 0xff
+000016ce  ffff       .byte     0xff, 0xff
+000016d0  ffff       .byte     0xff, 0xff
+000016d2  ffff       .byte     0xff, 0xff
+000016d4  ffff       .byte     0xff, 0xff
+000016d6  ffff       .byte     0xff, 0xff
+000016d8  ffff       .byte     0xff, 0xff
+000016da  ffff       .byte     0xff, 0xff
+000016dc  ffff       .byte     0xff, 0xff
+000016de  ffff       .byte     0xff, 0xff
+000016e0  ffff       .byte     0xff, 0xff
+000016e2  ffff       .byte     0xff, 0xff
+000016e4  ffff       .byte     0xff, 0xff
+000016e6  ffff       .byte     0xff, 0xff
+000016e8  ffff       .byte     0xff, 0xff
+000016ea  ffff       .byte     0xff, 0xff
+000016ec  ffff       .byte     0xff, 0xff
+000016ee  ffff       .byte     0xff, 0xff
+000016f0  ffff       .byte     0xff, 0xff
+000016f2  ffff       .byte     0xff, 0xff
+000016f4  ffff       .byte     0xff, 0xff
+000016f6  ffff       .byte     0xff, 0xff
+000016f8  ffff       .byte     0xff, 0xff
+000016fa  ffff       .byte     0xff, 0xff
+000016fc  ffff       .byte     0xff, 0xff
+000016fe  ffff       .byte     0xff, 0xff
+00001700  ffff       .byte     0xff, 0xff
+00001702  ffff       .byte     0xff, 0xff
+00001704  03b4       push      {r0, r1}
+00001706  0148       ldr       r0, [pc, #4]
+00001708  0190       str       r0, [sp, #4]
+0000170a  01bd       pop       {r0, pc}
+0000170c  d101       lsls      r1, r2, #7
+0000170e  0000       movs      r0, r0
+00001710  03b4       push      {r0, r1}
+00001712  0148       ldr       r0, [pc, #4]
+00001714  0190       str       r0, [sp, #4]
+00001716  01bd       pop       {r0, pc}
+00001718  2504       lsls      r5, r4, #0x10
+0000171a  0000       movs      r0, r0
+0000171c  03b4       push      {r0, r1}
+0000171e  0148       ldr       r0, [pc, #4]
+00001720  0190       str       r0, [sp, #4]
+00001722  01bd       pop       {r0, pc}
+00001724  d901       lsls      r1, r3, #7
+00001726  0000       movs      r0, r0
+00001728  03b4       push      {r0, r1}
+0000172a  0148       ldr       r0, [pc, #4]
+0000172c  0190       str       r0, [sp, #4]
+0000172e  01bd       pop       {r0, pc}
+00001730  2501       lsls      r5, r4, #4
+00001732  0000       movs      r0, r0
+00001734  0118       adds      r1, r0, r0
+00001736  021b       subs      r2, r0, r4
+00001738  0100       movs      r1, r0
+0000173a  1113       asrs      r1, r2, #0xc
+0000173c  4c68       ldr       r4, [r1, #4]
+0000173e  3841       asrs      r0, r7
+00001740  39f574d8   bl        #0xff53a82c
+00001744  36bc       pop       {r1, r2, r4, r5}
+00001746  f34e       ldr       r6, [pc, #0x3cc]
+00001748  9dfb       .byte     0x9d, 0xfb
+0000174a  01bf       itttt     eq
+0000174c  0515       asreq     r5, r0, #0x14
+0000174e  0403       lsleq     r4, r0, #0xc
+00001750  0904       lsleq     r1, r1, #0x10
+00001752  1412       asreq     r4, r2, #8
+00001754  0320       movs      r0, #3
+00001756  c902       lsls      r1, r1, #0xb
+00001758  141e       subs      r4, r2, #0
+0000175a  0352       strh      r3, [r0, r0]
+0000175c  1a59       ldr       r2, [r3, r4]
+0000175e  0812       asrs      r0, r1, #8
+00001760  5512       asrs      r5, r2, #9
+00001762  531a       subs      r3, r2, r1
+00001764  4208       lsrs      r2, r0, #1
+00001766  1241       asrs      r2, r2
+00001768  1264       str       r2, [r2, #0x40]
+0000176a  1261       str       r2, [r2, #0x10]
+0000176c  1270       strb      r2, [r2]
+0000176e  1274       strb      r2, [r2, #0x10]
+00001770  1265       str       r2, [r2, #0x50]
+00001772  1272       strb      r2, [r2, #8]
+00001774  1206       lsls      r2, r2, #0x18
+00001776  13ff0914   vshl.u16  d1, d9, d3
+0000177a  a101       lsls      r1, r4, #6
+0000177c  1510       asrs      r5, r2, #0x20
+0000177e  0825       movs      r5, #8
+00001780  ff75       strb      r7, [r7, #0x17]
+00001782  0895       str       r5, [sp, #0x20]
+00001784  4009       lsrs      r0, r0, #5
+00001786  1481       strh      r4, [r2, #8]
+00001788  0209       lsrs      r2, r0, #4
+0000178a  2f91       str       r1, [sp, #0xbc]
+0000178c  02c0       stm       r0!, {r1}
+0000178e  1201       lsls      r2, r2, #4
+00001790  10a3       adr       r3, #0x40
+00001792  1640       ands      r6, r2
+00001794  2d35       adds      r5, #0x2d
+00001796  0111       asrs      r1, r0, #4
+00001798  1401       lsls      r4, r2, #4
+0000179a  0102       lsls      r1, r0, #8
+0000179c  1d01       lsls      r5, r3, #4
+0000179e  0902       lsls      r1, r1, #8
+000017a0  2909       lsrs      r1, r5, #4
+000017a2  112b       cmp       r3, #0x11
+000017a4  8032       adds      r2, #0x80
+000017a6  7a33       adds      r3, #0x7a
+000017a8  0203       lsls      r2, r0, #0xc
+000017aa  1509       lsrs      r5, r2, #4
+000017ac  2101       lsls      r1, r4, #4
+000017ae  1014       asrs      r0, r2, #0x10
+000017b0  0122       movs      r2, #1
+000017b2  1816       asrs      r0, r3, #0x18
+000017b4  0705       lsls      r7, r0, #0x14
+000017b6  8403       lsls      r4, r0, #0xe
+000017b8  402d       cmp       r5, #0x40
+000017ba  0107       lsls      r1, r0, #0x1c
+000017bc  0504       lsls      r5, r0, #0x10
+000017be  0721       movs      r1, #7
+000017c0  3c6c       ldr       r4, [r7, #0x40]
+000017c2  dc02       lsls      r4, r3, #0xb
+000017c4  0471       strb      r4, [r0, #4]
+000017c6  8011       asrs      r0, r0, #6
+000017c8  4e6f       ldr       r6, [r1, #0x74]
+000017ca  2042       tst       r0, r4
+000017cc  6f6f       ldr       r7, [r5, #0x74]
+000017ce  7420       movs      r0, #0x74
+000017d0  5375       strb      r3, [r2, #0x15]
+000017d2  7070       strb      r0, [r6, #1]
+000017d4  6f72       strb      r7, [r5, #9]
+000017d6  7421       movs      r1, #0x74
+000017d8  180a       lsrs      r0, r3, #8
+000017da  9080       strh      r0, [r2, #4]
+000017dc  0140       ands      r1, r0
+000017de  4881       strh      r0, [r1, #0xa]
+000017e0  0140       ands      r1, r0
+000017e2  0c04       lsls      r4, r1, #0x10
+000017e4  1a2c       cmp       r4, #0x1a
+000017e6  0401       lsls      r4, r0, #4
+000017e8  1000       movs      r0, r2
+000017ea  0000       movs      r0, r0
+000017ec  ffff       .byte     0xff, 0xff
+000017ee  ffff       .byte     0xff, 0xff
+000017f0  ffff       .byte     0xff, 0xff
+000017f2  ffff       .byte     0xff, 0xff
+000017f4  ffff       .byte     0xff, 0xff
+000017f6  ffff       .byte     0xff, 0xff
+000017f8  ffff       .byte     0xff, 0xff
+000017fa  ffff       .byte     0xff, 0xff
+000017fc  ffff       .byte     0xff, 0xff
+000017fe  ffff       .byte     0xff, 0xff
+00001800  ffff       .byte     0xff, 0xff
+00001802  ffff       .byte     0xff, 0xff
+00001804  ffff       .byte     0xff, 0xff
+00001806  ffff       .byte     0xff, 0xff
+00001808  ffff       .byte     0xff, 0xff
+0000180a  ffff       .byte     0xff, 0xff
+0000180c  ffff       .byte     0xff, 0xff
+0000180e  ffff       .byte     0xff, 0xff
+00001810  ffff       .byte     0xff, 0xff
+00001812  ffff       .byte     0xff, 0xff
+00001814  ffff       .byte     0xff, 0xff
+00001816  ffff       .byte     0xff, 0xff
+00001818  ffff       .byte     0xff, 0xff
+0000181a  ffff       .byte     0xff, 0xff
+0000181c  ffff       .byte     0xff, 0xff
+0000181e  ffff       .byte     0xff, 0xff
+00001820  ffff       .byte     0xff, 0xff
+00001822  ffff       .byte     0xff, 0xff
+00001824  ffff       .byte     0xff, 0xff
+00001826  ffff       .byte     0xff, 0xff
+00001828  ffff       .byte     0xff, 0xff
+0000182a  ffff       .byte     0xff, 0xff
+0000182c  ffff       .byte     0xff, 0xff
+0000182e  ffff       .byte     0xff, 0xff
+00001830  ffff       .byte     0xff, 0xff
+00001832  ffff       .byte     0xff, 0xff
+00001834  ffff       .byte     0xff, 0xff
+00001836  ffff       .byte     0xff, 0xff
+00001838  ffff       .byte     0xff, 0xff
+0000183a  ffff       .byte     0xff, 0xff
+0000183c  ffff       .byte     0xff, 0xff
+0000183e  ffff       .byte     0xff, 0xff
+00001840  ffff       .byte     0xff, 0xff
+00001842  ffff       .byte     0xff, 0xff
+00001844  ffff       .byte     0xff, 0xff
+00001846  ffff       .byte     0xff, 0xff
+00001848  ffff       .byte     0xff, 0xff
+0000184a  ffff       .byte     0xff, 0xff
+0000184c  ffff       .byte     0xff, 0xff
+0000184e  ffff       .byte     0xff, 0xff
+00001850  ffff       .byte     0xff, 0xff
+00001852  ffff       .byte     0xff, 0xff
+00001854  ffff       .byte     0xff, 0xff
+00001856  ffff       .byte     0xff, 0xff
+00001858  ffff       .byte     0xff, 0xff
+0000185a  ffff       .byte     0xff, 0xff
+0000185c  ffff       .byte     0xff, 0xff
+0000185e  ffff       .byte     0xff, 0xff
+00001860  ffff       .byte     0xff, 0xff
+00001862  ffff       .byte     0xff, 0xff
+00001864  ffff       .byte     0xff, 0xff
+00001866  ffff       .byte     0xff, 0xff
+00001868  ffff       .byte     0xff, 0xff
+0000186a  ffff       .byte     0xff, 0xff
+0000186c  ffff       .byte     0xff, 0xff
+0000186e  ffff       .byte     0xff, 0xff
+00001870  ffff       .byte     0xff, 0xff
+00001872  ffff       .byte     0xff, 0xff
+00001874  ffff       .byte     0xff, 0xff
+00001876  ffff       .byte     0xff, 0xff
+00001878  ffff       .byte     0xff, 0xff
+0000187a  ffff       .byte     0xff, 0xff
+0000187c  ffff       .byte     0xff, 0xff
+0000187e  ffff       .byte     0xff, 0xff
+00001880  ffff       .byte     0xff, 0xff
+00001882  ffff       .byte     0xff, 0xff
+00001884  ffff       .byte     0xff, 0xff
+00001886  ffff       .byte     0xff, 0xff
+00001888  ffff       .byte     0xff, 0xff
+0000188a  ffff       .byte     0xff, 0xff
+0000188c  ffff       .byte     0xff, 0xff
+0000188e  ffff       .byte     0xff, 0xff
+00001890  ffff       .byte     0xff, 0xff
+00001892  ffff       .byte     0xff, 0xff
+00001894  ffff       .byte     0xff, 0xff
+00001896  ffff       .byte     0xff, 0xff
+00001898  ffff       .byte     0xff, 0xff
+0000189a  ffff       .byte     0xff, 0xff
+0000189c  ffff       .byte     0xff, 0xff
+0000189e  ffff       .byte     0xff, 0xff
+000018a0  ffff       .byte     0xff, 0xff
+000018a2  ffff       .byte     0xff, 0xff
+000018a4  ffff       .byte     0xff, 0xff
+000018a6  ffff       .byte     0xff, 0xff
+000018a8  ffff       .byte     0xff, 0xff
+000018aa  ffff       .byte     0xff, 0xff
+000018ac  ffff       .byte     0xff, 0xff
+000018ae  ffff       .byte     0xff, 0xff
+000018b0  ffff       .byte     0xff, 0xff
+000018b2  ffff       .byte     0xff, 0xff
+000018b4  ffff       .byte     0xff, 0xff
+000018b6  ffff       .byte     0xff, 0xff
+000018b8  ffff       .byte     0xff, 0xff
+000018ba  ffff       .byte     0xff, 0xff
+000018bc  ffff       .byte     0xff, 0xff
+000018be  ffff       .byte     0xff, 0xff
+000018c0  ffff       .byte     0xff, 0xff
+000018c2  ffff       .byte     0xff, 0xff
+000018c4  ffff       .byte     0xff, 0xff
+000018c6  ffff       .byte     0xff, 0xff
+000018c8  ffff       .byte     0xff, 0xff
+000018ca  ffff       .byte     0xff, 0xff
+000018cc  ffff       .byte     0xff, 0xff
+000018ce  ffff       .byte     0xff, 0xff
+000018d0  ffff       .byte     0xff, 0xff
+000018d2  ffff       .byte     0xff, 0xff
+000018d4  ffff       .byte     0xff, 0xff
+000018d6  ffff       .byte     0xff, 0xff
+000018d8  ffff       .byte     0xff, 0xff
+000018da  ffff       .byte     0xff, 0xff
+000018dc  ffff       .byte     0xff, 0xff
+000018de  ffff       .byte     0xff, 0xff
+000018e0  ffff       .byte     0xff, 0xff
+000018e2  ffff       .byte     0xff, 0xff
+000018e4  ffff       .byte     0xff, 0xff
+000018e6  ffff       .byte     0xff, 0xff
+000018e8  ffff       .byte     0xff, 0xff
+000018ea  ffff       .byte     0xff, 0xff
+000018ec  ffff       .byte     0xff, 0xff
+000018ee  ffff       .byte     0xff, 0xff
+000018f0  ffff       .byte     0xff, 0xff
+000018f2  ffff       .byte     0xff, 0xff
+000018f4  ffff       .byte     0xff, 0xff
+000018f6  ffff       .byte     0xff, 0xff
+000018f8  ffff       .byte     0xff, 0xff
+000018fa  ffff       .byte     0xff, 0xff
+000018fc  ffff       .byte     0xff, 0xff
+000018fe  ffff       .byte     0xff, 0xff
+00001900  ffff       .byte     0xff, 0xff
+00001902  ffff       .byte     0xff, 0xff
+00001904  ffff       .byte     0xff, 0xff
+00001906  ffff       .byte     0xff, 0xff
+00001908  ffff       .byte     0xff, 0xff
+0000190a  ffff       .byte     0xff, 0xff
+0000190c  ffff       .byte     0xff, 0xff
+0000190e  ffff       .byte     0xff, 0xff
+00001910  ffff       .byte     0xff, 0xff
+00001912  ffff       .byte     0xff, 0xff
+00001914  ffff       .byte     0xff, 0xff
+00001916  ffff       .byte     0xff, 0xff
+00001918  ffff       .byte     0xff, 0xff
+0000191a  ffff       .byte     0xff, 0xff
+0000191c  ffff       .byte     0xff, 0xff
+0000191e  ffff       .byte     0xff, 0xff
+00001920  ffff       .byte     0xff, 0xff
+00001922  ffff       .byte     0xff, 0xff
+00001924  ffff       .byte     0xff, 0xff
+00001926  ffff       .byte     0xff, 0xff
+00001928  ffff       .byte     0xff, 0xff
+0000192a  ffff       .byte     0xff, 0xff
+0000192c  ffff       .byte     0xff, 0xff
+0000192e  ffff       .byte     0xff, 0xff
+00001930  ffff       .byte     0xff, 0xff
+00001932  ffff       .byte     0xff, 0xff
+00001934  ffff       .byte     0xff, 0xff
+00001936  ffff       .byte     0xff, 0xff
+00001938  ffff       .byte     0xff, 0xff
+0000193a  ffff       .byte     0xff, 0xff
+0000193c  ffff       .byte     0xff, 0xff
+0000193e  ffff       .byte     0xff, 0xff
+00001940  ffff       .byte     0xff, 0xff
+00001942  ffff       .byte     0xff, 0xff
+00001944  ffff       .byte     0xff, 0xff
+00001946  ffff       .byte     0xff, 0xff
+00001948  ffff       .byte     0xff, 0xff
+0000194a  ffff       .byte     0xff, 0xff
+0000194c  ffff       .byte     0xff, 0xff
+0000194e  ffff       .byte     0xff, 0xff
+00001950  ffff       .byte     0xff, 0xff
+00001952  ffff       .byte     0xff, 0xff
+00001954  ffff       .byte     0xff, 0xff
+00001956  ffff       .byte     0xff, 0xff
+00001958  ffff       .byte     0xff, 0xff
+0000195a  ffff       .byte     0xff, 0xff
+0000195c  ffff       .byte     0xff, 0xff
+0000195e  ffff       .byte     0xff, 0xff
+00001960  ffff       .byte     0xff, 0xff
+00001962  ffff       .byte     0xff, 0xff
+00001964  ffff       .byte     0xff, 0xff
+00001966  ffff       .byte     0xff, 0xff
+00001968  ffff       .byte     0xff, 0xff
+0000196a  ffff       .byte     0xff, 0xff
+0000196c  ffff       .byte     0xff, 0xff
+0000196e  ffff       .byte     0xff, 0xff
+00001970  ffff       .byte     0xff, 0xff
+00001972  ffff       .byte     0xff, 0xff
+00001974  ffff       .byte     0xff, 0xff
+00001976  ffff       .byte     0xff, 0xff
+00001978  ffff       .byte     0xff, 0xff
+0000197a  ffff       .byte     0xff, 0xff
+0000197c  ffff       .byte     0xff, 0xff
+0000197e  ffff       .byte     0xff, 0xff
+00001980  ffff       .byte     0xff, 0xff
+00001982  ffff       .byte     0xff, 0xff
+00001984  ffff       .byte     0xff, 0xff
+00001986  ffff       .byte     0xff, 0xff
+00001988  ffff       .byte     0xff, 0xff
+0000198a  ffff       .byte     0xff, 0xff
+0000198c  ffff       .byte     0xff, 0xff
+0000198e  ffff       .byte     0xff, 0xff
+00001990  ffff       .byte     0xff, 0xff
+00001992  ffff       .byte     0xff, 0xff
+00001994  ffff       .byte     0xff, 0xff
+00001996  ffff       .byte     0xff, 0xff
+00001998  ffff       .byte     0xff, 0xff
+0000199a  ffff       .byte     0xff, 0xff
+0000199c  ffff       .byte     0xff, 0xff
+0000199e  ffff       .byte     0xff, 0xff
+000019a0  ffff       .byte     0xff, 0xff
+000019a2  ffff       .byte     0xff, 0xff
+000019a4  ffff       .byte     0xff, 0xff
+000019a6  ffff       .byte     0xff, 0xff
+000019a8  ffff       .byte     0xff, 0xff
+000019aa  ffff       .byte     0xff, 0xff
+000019ac  ffff       .byte     0xff, 0xff
+000019ae  ffff       .byte     0xff, 0xff
+000019b0  ffff       .byte     0xff, 0xff
+000019b2  ffff       .byte     0xff, 0xff
+000019b4  ffff       .byte     0xff, 0xff
+000019b6  ffff       .byte     0xff, 0xff
+000019b8  ffff       .byte     0xff, 0xff
+000019ba  ffff       .byte     0xff, 0xff
+000019bc  ffff       .byte     0xff, 0xff
+000019be  ffff       .byte     0xff, 0xff
+000019c0  ffff       .byte     0xff, 0xff
+000019c2  ffff       .byte     0xff, 0xff
+000019c4  ffff       .byte     0xff, 0xff
+000019c6  ffff       .byte     0xff, 0xff
+000019c8  ffff       .byte     0xff, 0xff
+000019ca  ffff       .byte     0xff, 0xff
+000019cc  ffff       .byte     0xff, 0xff
+000019ce  ffff       .byte     0xff, 0xff
+000019d0  ffff       .byte     0xff, 0xff
+000019d2  ffff       .byte     0xff, 0xff
+000019d4  ffff       .byte     0xff, 0xff
+000019d6  ffff       .byte     0xff, 0xff
+000019d8  ffff       .byte     0xff, 0xff
+000019da  ffff       .byte     0xff, 0xff
+000019dc  ffff       .byte     0xff, 0xff
+000019de  ffff       .byte     0xff, 0xff
+000019e0  ffff       .byte     0xff, 0xff
+000019e2  ffff       .byte     0xff, 0xff
+000019e4  ffff       .byte     0xff, 0xff
+000019e6  ffff       .byte     0xff, 0xff
+000019e8  ffff       .byte     0xff, 0xff
+000019ea  ffff       .byte     0xff, 0xff
+000019ec  ffff       .byte     0xff, 0xff
+000019ee  ffff       .byte     0xff, 0xff
+000019f0  ffff       .byte     0xff, 0xff
+000019f2  ffff       .byte     0xff, 0xff
+000019f4  ffff       .byte     0xff, 0xff
+000019f6  ffff       .byte     0xff, 0xff
+000019f8  ffff       .byte     0xff, 0xff
+000019fa  ffff       .byte     0xff, 0xff
+000019fc  ffff       .byte     0xff, 0xff
+000019fe  ffff       .byte     0xff, 0xff
+00001a00  ffff       .byte     0xff, 0xff
+00001a02  ffff       .byte     0xff, 0xff
+00001a04  ffff       .byte     0xff, 0xff
+00001a06  ffff       .byte     0xff, 0xff
+00001a08  ffff       .byte     0xff, 0xff
+00001a0a  ffff       .byte     0xff, 0xff
+00001a0c  ffff       .byte     0xff, 0xff
+00001a0e  ffff       .byte     0xff, 0xff
+00001a10  ffff       .byte     0xff, 0xff
+00001a12  ffff       .byte     0xff, 0xff
+00001a14  ffff       .byte     0xff, 0xff
+00001a16  ffff       .byte     0xff, 0xff
+00001a18  ffff       .byte     0xff, 0xff
+00001a1a  ffff       .byte     0xff, 0xff
+00001a1c  ffff       .byte     0xff, 0xff
+00001a1e  ffff       .byte     0xff, 0xff
+00001a20  ffff       .byte     0xff, 0xff
+00001a22  ffff       .byte     0xff, 0xff
+00001a24  ffff       .byte     0xff, 0xff
+00001a26  ffff       .byte     0xff, 0xff
+00001a28  ffff       .byte     0xff, 0xff
+00001a2a  ffff       .byte     0xff, 0xff
+00001a2c  ffff       .byte     0xff, 0xff
+00001a2e  ffff       .byte     0xff, 0xff
+00001a30  ffff       .byte     0xff, 0xff
+00001a32  ffff       .byte     0xff, 0xff
+00001a34  ffff       .byte     0xff, 0xff
+00001a36  ffff       .byte     0xff, 0xff
+00001a38  ffff       .byte     0xff, 0xff
+00001a3a  ffff       .byte     0xff, 0xff
+00001a3c  ffff       .byte     0xff, 0xff
+00001a3e  ffff       .byte     0xff, 0xff
+00001a40  ffff       .byte     0xff, 0xff
+00001a42  ffff       .byte     0xff, 0xff
+00001a44  ffff       .byte     0xff, 0xff
+00001a46  ffff       .byte     0xff, 0xff
+00001a48  ffff       .byte     0xff, 0xff
+00001a4a  ffff       .byte     0xff, 0xff
+00001a4c  ffff       .byte     0xff, 0xff
+00001a4e  ffff       .byte     0xff, 0xff
+00001a50  ffff       .byte     0xff, 0xff
+00001a52  ffff       .byte     0xff, 0xff
+00001a54  ffff       .byte     0xff, 0xff
+00001a56  ffff       .byte     0xff, 0xff
+00001a58  ffff       .byte     0xff, 0xff
+00001a5a  ffff       .byte     0xff, 0xff
+00001a5c  ffff       .byte     0xff, 0xff
+00001a5e  ffff       .byte     0xff, 0xff
+00001a60  ffff       .byte     0xff, 0xff
+00001a62  ffff       .byte     0xff, 0xff
+00001a64  ffff       .byte     0xff, 0xff
+00001a66  ffff       .byte     0xff, 0xff
+00001a68  ffff       .byte     0xff, 0xff
+00001a6a  ffff       .byte     0xff, 0xff
+00001a6c  ffff       .byte     0xff, 0xff
+00001a6e  ffff       .byte     0xff, 0xff
+00001a70  ffff       .byte     0xff, 0xff
+00001a72  ffff       .byte     0xff, 0xff
+00001a74  ffff       .byte     0xff, 0xff
+00001a76  ffff       .byte     0xff, 0xff
+00001a78  ffff       .byte     0xff, 0xff
+00001a7a  ffff       .byte     0xff, 0xff
+00001a7c  ffff       .byte     0xff, 0xff
+00001a7e  ffff       .byte     0xff, 0xff
+00001a80  ffff       .byte     0xff, 0xff
+00001a82  ffff       .byte     0xff, 0xff
+00001a84  ffff       .byte     0xff, 0xff
+00001a86  ffff       .byte     0xff, 0xff
+00001a88  ffff       .byte     0xff, 0xff
+00001a8a  ffff       .byte     0xff, 0xff
+00001a8c  ffff       .byte     0xff, 0xff
+00001a8e  ffff       .byte     0xff, 0xff
+00001a90  ffff       .byte     0xff, 0xff
+00001a92  ffff       .byte     0xff, 0xff
+00001a94  ffff       .byte     0xff, 0xff
+00001a96  ffff       .byte     0xff, 0xff
+00001a98  ffff       .byte     0xff, 0xff
+00001a9a  ffff       .byte     0xff, 0xff
+00001a9c  ffff       .byte     0xff, 0xff
+00001a9e  ffff       .byte     0xff, 0xff
+00001aa0  ffff       .byte     0xff, 0xff
+00001aa2  ffff       .byte     0xff, 0xff
+00001aa4  ffff       .byte     0xff, 0xff
+00001aa6  ffff       .byte     0xff, 0xff
+00001aa8  ffff       .byte     0xff, 0xff
+00001aaa  ffff       .byte     0xff, 0xff
+00001aac  ffff       .byte     0xff, 0xff
+00001aae  ffff       .byte     0xff, 0xff
+00001ab0  ffff       .byte     0xff, 0xff
+00001ab2  ffff       .byte     0xff, 0xff
+00001ab4  ffff       .byte     0xff, 0xff
+00001ab6  ffff       .byte     0xff, 0xff
+00001ab8  ffff       .byte     0xff, 0xff
+00001aba  ffff       .byte     0xff, 0xff
+00001abc  ffff       .byte     0xff, 0xff
+00001abe  ffff       .byte     0xff, 0xff
+00001ac0  ffff       .byte     0xff, 0xff
+00001ac2  ffff       .byte     0xff, 0xff
+00001ac4  ffff       .byte     0xff, 0xff
+00001ac6  ffff       .byte     0xff, 0xff
+00001ac8  ffff       .byte     0xff, 0xff
+00001aca  ffff       .byte     0xff, 0xff
+00001acc  ffff       .byte     0xff, 0xff
+00001ace  ffff       .byte     0xff, 0xff
+00001ad0  ffff       .byte     0xff, 0xff
+00001ad2  ffff       .byte     0xff, 0xff
+00001ad4  ffff       .byte     0xff, 0xff
+00001ad6  ffff       .byte     0xff, 0xff
+00001ad8  ffff       .byte     0xff, 0xff
+00001ada  ffff       .byte     0xff, 0xff
+00001adc  ffff       .byte     0xff, 0xff
+00001ade  ffff       .byte     0xff, 0xff
+00001ae0  ffff       .byte     0xff, 0xff
+00001ae2  ffff       .byte     0xff, 0xff
+00001ae4  ffff       .byte     0xff, 0xff
+00001ae6  ffff       .byte     0xff, 0xff
+00001ae8  ffff       .byte     0xff, 0xff
+00001aea  ffff       .byte     0xff, 0xff
+00001aec  ffff       .byte     0xff, 0xff
+00001aee  ffff       .byte     0xff, 0xff
+00001af0  ffff       .byte     0xff, 0xff
+00001af2  ffff       .byte     0xff, 0xff
+00001af4  ffff       .byte     0xff, 0xff
+00001af6  ffff       .byte     0xff, 0xff
+00001af8  ffff       .byte     0xff, 0xff
+00001afa  ffff       .byte     0xff, 0xff
+00001afc  ffff       .byte     0xff, 0xff
+00001afe  ffff       .byte     0xff, 0xff
+00001b00  ffff       .byte     0xff, 0xff
+00001b02  ffff       .byte     0xff, 0xff
+00001b04  ffff       .byte     0xff, 0xff
+00001b06  ffff       .byte     0xff, 0xff
+00001b08  ffff       .byte     0xff, 0xff
+00001b0a  ffff       .byte     0xff, 0xff
+00001b0c  ffff       .byte     0xff, 0xff
+00001b0e  ffff       .byte     0xff, 0xff
+00001b10  ffff       .byte     0xff, 0xff
+00001b12  ffff       .byte     0xff, 0xff
+00001b14  ffff       .byte     0xff, 0xff
+00001b16  ffff       .byte     0xff, 0xff
+00001b18  ffff       .byte     0xff, 0xff
+00001b1a  ffff       .byte     0xff, 0xff
+00001b1c  ffff       .byte     0xff, 0xff
+00001b1e  ffff       .byte     0xff, 0xff
+00001b20  ffff       .byte     0xff, 0xff
+00001b22  ffff       .byte     0xff, 0xff
+00001b24  ffff       .byte     0xff, 0xff
+00001b26  ffff       .byte     0xff, 0xff
+00001b28  ffff       .byte     0xff, 0xff
+00001b2a  ffff       .byte     0xff, 0xff
+00001b2c  ffff       .byte     0xff, 0xff
+00001b2e  ffff       .byte     0xff, 0xff
+00001b30  ffff       .byte     0xff, 0xff
+00001b32  ffff       .byte     0xff, 0xff
+00001b34  ffff       .byte     0xff, 0xff
+00001b36  ffff       .byte     0xff, 0xff
+00001b38  ffff       .byte     0xff, 0xff
+00001b3a  ffff       .byte     0xff, 0xff
+00001b3c  ffff       .byte     0xff, 0xff
+00001b3e  ffff       .byte     0xff, 0xff
+00001b40  ffff       .byte     0xff, 0xff
+00001b42  ffff       .byte     0xff, 0xff
+00001b44  ffff       .byte     0xff, 0xff
+00001b46  ffff       .byte     0xff, 0xff
+00001b48  ffff       .byte     0xff, 0xff
+00001b4a  ffff       .byte     0xff, 0xff
+00001b4c  ffff       .byte     0xff, 0xff
+00001b4e  ffff       .byte     0xff, 0xff
+00001b50  ffff       .byte     0xff, 0xff
+00001b52  ffff       .byte     0xff, 0xff
+00001b54  ffff       .byte     0xff, 0xff
+00001b56  ffff       .byte     0xff, 0xff
+00001b58  ffff       .byte     0xff, 0xff
+00001b5a  ffff       .byte     0xff, 0xff
+00001b5c  ffff       .byte     0xff, 0xff
+00001b5e  ffff       .byte     0xff, 0xff
+00001b60  ffff       .byte     0xff, 0xff
+00001b62  ffff       .byte     0xff, 0xff
+00001b64  ffff       .byte     0xff, 0xff
+00001b66  ffff       .byte     0xff, 0xff
+00001b68  ffff       .byte     0xff, 0xff
+00001b6a  ffff       .byte     0xff, 0xff
+00001b6c  ffff       .byte     0xff, 0xff
+00001b6e  ffff       .byte     0xff, 0xff
+00001b70  ffff       .byte     0xff, 0xff
+00001b72  ffff       .byte     0xff, 0xff
+00001b74  ffff       .byte     0xff, 0xff
+00001b76  ffff       .byte     0xff, 0xff
+00001b78  ffff       .byte     0xff, 0xff
+00001b7a  ffff       .byte     0xff, 0xff
+00001b7c  ffff       .byte     0xff, 0xff
+00001b7e  ffff       .byte     0xff, 0xff
+00001b80  ffff       .byte     0xff, 0xff
+00001b82  ffff       .byte     0xff, 0xff
+00001b84  ffff       .byte     0xff, 0xff
+00001b86  ffff       .byte     0xff, 0xff
+00001b88  ffff       .byte     0xff, 0xff
+00001b8a  ffff       .byte     0xff, 0xff
+00001b8c  ffff       .byte     0xff, 0xff
+00001b8e  ffff       .byte     0xff, 0xff
+00001b90  ffff       .byte     0xff, 0xff
+00001b92  ffff       .byte     0xff, 0xff
+00001b94  ffff       .byte     0xff, 0xff
+00001b96  ffff       .byte     0xff, 0xff
+00001b98  ffff       .byte     0xff, 0xff
+00001b9a  ffff       .byte     0xff, 0xff
+00001b9c  ffff       .byte     0xff, 0xff
+00001b9e  ffff       .byte     0xff, 0xff
+00001ba0  ffff       .byte     0xff, 0xff
+00001ba2  ffff       .byte     0xff, 0xff
+00001ba4  ffff       .byte     0xff, 0xff
+00001ba6  ffff       .byte     0xff, 0xff
+00001ba8  ffff       .byte     0xff, 0xff
+00001baa  ffff       .byte     0xff, 0xff
+00001bac  ffff       .byte     0xff, 0xff
+00001bae  ffff       .byte     0xff, 0xff
+00001bb0  ffff       .byte     0xff, 0xff
+00001bb2  ffff       .byte     0xff, 0xff
+00001bb4  ffff       .byte     0xff, 0xff
+00001bb6  ffff       .byte     0xff, 0xff
+00001bb8  ffff       .byte     0xff, 0xff
+00001bba  ffff       .byte     0xff, 0xff
+00001bbc  ffff       .byte     0xff, 0xff
+00001bbe  ffff       .byte     0xff, 0xff
+00001bc0  ffff       .byte     0xff, 0xff
+00001bc2  ffff       .byte     0xff, 0xff
+00001bc4  ffff       .byte     0xff, 0xff
+00001bc6  ffff       .byte     0xff, 0xff
+00001bc8  ffff       .byte     0xff, 0xff
+00001bca  ffff       .byte     0xff, 0xff
+00001bcc  ffff       .byte     0xff, 0xff
+00001bce  ffff       .byte     0xff, 0xff
+00001bd0  ffff       .byte     0xff, 0xff
+00001bd2  ffff       .byte     0xff, 0xff
+00001bd4  ffff       .byte     0xff, 0xff
+00001bd6  ffff       .byte     0xff, 0xff
+00001bd8  ffff       .byte     0xff, 0xff
+00001bda  ffff       .byte     0xff, 0xff
+00001bdc  ffff       .byte     0xff, 0xff
+00001bde  ffff       .byte     0xff, 0xff
+00001be0  ffff       .byte     0xff, 0xff
+00001be2  ffff       .byte     0xff, 0xff
+00001be4  ffff       .byte     0xff, 0xff
+00001be6  ffff       .byte     0xff, 0xff
+00001be8  ffff       .byte     0xff, 0xff
+00001bea  ffff       .byte     0xff, 0xff
+00001bec  ffff       .byte     0xff, 0xff
+00001bee  ffff       .byte     0xff, 0xff
+00001bf0  ffff       .byte     0xff, 0xff
+00001bf2  ffff       .byte     0xff, 0xff
+00001bf4  ffff       .byte     0xff, 0xff
+00001bf6  ffff       .byte     0xff, 0xff
+00001bf8  ffff       .byte     0xff, 0xff
+00001bfa  ffff       .byte     0xff, 0xff
+00001bfc  ffff       .byte     0xff, 0xff
+00001bfe  ffff       .byte     0xff, 0xff
+00001c00  ffff       .byte     0xff, 0xff
+00001c02  ffff       .byte     0xff, 0xff
+00001c04  ffff       .byte     0xff, 0xff
+00001c06  ffff       .byte     0xff, 0xff
+00001c08  ffff       .byte     0xff, 0xff
+00001c0a  ffff       .byte     0xff, 0xff
+00001c0c  ffff       .byte     0xff, 0xff
+00001c0e  ffff       .byte     0xff, 0xff
+00001c10  ffff       .byte     0xff, 0xff
+00001c12  ffff       .byte     0xff, 0xff
+00001c14  ffff       .byte     0xff, 0xff
+00001c16  ffff       .byte     0xff, 0xff
+00001c18  ffff       .byte     0xff, 0xff
+00001c1a  ffff       .byte     0xff, 0xff
+00001c1c  ffff       .byte     0xff, 0xff
+00001c1e  ffff       .byte     0xff, 0xff
+00001c20  ffff       .byte     0xff, 0xff
+00001c22  ffff       .byte     0xff, 0xff
+00001c24  ffff       .byte     0xff, 0xff
+00001c26  ffff       .byte     0xff, 0xff
+00001c28  ffff       .byte     0xff, 0xff
+00001c2a  ffff       .byte     0xff, 0xff
+00001c2c  ffff       .byte     0xff, 0xff
+00001c2e  ffff       .byte     0xff, 0xff
+00001c30  ffff       .byte     0xff, 0xff
+00001c32  ffff       .byte     0xff, 0xff
+00001c34  ffff       .byte     0xff, 0xff
+00001c36  ffff       .byte     0xff, 0xff
+00001c38  ffff       .byte     0xff, 0xff
+00001c3a  ffff       .byte     0xff, 0xff
+00001c3c  ffff       .byte     0xff, 0xff
+00001c3e  ffff       .byte     0xff, 0xff
+00001c40  ffff       .byte     0xff, 0xff
+00001c42  ffff       .byte     0xff, 0xff
+00001c44  ffff       .byte     0xff, 0xff
+00001c46  ffff       .byte     0xff, 0xff
+00001c48  ffff       .byte     0xff, 0xff
+00001c4a  ffff       .byte     0xff, 0xff
+00001c4c  ffff       .byte     0xff, 0xff
+00001c4e  ffff       .byte     0xff, 0xff
+00001c50  ffff       .byte     0xff, 0xff
+00001c52  ffff       .byte     0xff, 0xff
+00001c54  ffff       .byte     0xff, 0xff
+00001c56  ffff       .byte     0xff, 0xff
+00001c58  ffff       .byte     0xff, 0xff
+00001c5a  ffff       .byte     0xff, 0xff
+00001c5c  ffff       .byte     0xff, 0xff
+00001c5e  ffff       .byte     0xff, 0xff
+00001c60  ffff       .byte     0xff, 0xff
+00001c62  ffff       .byte     0xff, 0xff
+00001c64  ffff       .byte     0xff, 0xff
+00001c66  ffff       .byte     0xff, 0xff
+00001c68  ffff       .byte     0xff, 0xff
+00001c6a  ffff       .byte     0xff, 0xff
+00001c6c  ffff       .byte     0xff, 0xff
+00001c6e  ffff       .byte     0xff, 0xff
+00001c70  ffff       .byte     0xff, 0xff
+00001c72  ffff       .byte     0xff, 0xff
+00001c74  ffff       .byte     0xff, 0xff
+00001c76  ffff       .byte     0xff, 0xff
+00001c78  ffff       .byte     0xff, 0xff
+00001c7a  ffff       .byte     0xff, 0xff
+00001c7c  ffff       .byte     0xff, 0xff
+00001c7e  ffff       .byte     0xff, 0xff
+00001c80  ffff       .byte     0xff, 0xff
+00001c82  ffff       .byte     0xff, 0xff
+00001c84  ffff       .byte     0xff, 0xff
+00001c86  ffff       .byte     0xff, 0xff
+00001c88  ffff       .byte     0xff, 0xff
+00001c8a  ffff       .byte     0xff, 0xff
+00001c8c  ffff       .byte     0xff, 0xff
+00001c8e  ffff       .byte     0xff, 0xff
+00001c90  ffff       .byte     0xff, 0xff
+00001c92  ffff       .byte     0xff, 0xff
+00001c94  ffff       .byte     0xff, 0xff
+00001c96  ffff       .byte     0xff, 0xff
+00001c98  ffff       .byte     0xff, 0xff
+00001c9a  ffff       .byte     0xff, 0xff
+00001c9c  ffff       .byte     0xff, 0xff
+00001c9e  ffff       .byte     0xff, 0xff
+00001ca0  ffff       .byte     0xff, 0xff
+00001ca2  ffff       .byte     0xff, 0xff
+00001ca4  ffff       .byte     0xff, 0xff
+00001ca6  ffff       .byte     0xff, 0xff
+00001ca8  ffff       .byte     0xff, 0xff
+00001caa  ffff       .byte     0xff, 0xff
+00001cac  ffff       .byte     0xff, 0xff
+00001cae  ffff       .byte     0xff, 0xff
+00001cb0  ffff       .byte     0xff, 0xff
+00001cb2  ffff       .byte     0xff, 0xff
+00001cb4  ffff       .byte     0xff, 0xff
+00001cb6  ffff       .byte     0xff, 0xff
+00001cb8  ffff       .byte     0xff, 0xff
+00001cba  ffff       .byte     0xff, 0xff
+00001cbc  ffff       .byte     0xff, 0xff
+00001cbe  ffff       .byte     0xff, 0xff
+00001cc0  ffff       .byte     0xff, 0xff
+00001cc2  ffff       .byte     0xff, 0xff
+00001cc4  ffff       .byte     0xff, 0xff
+00001cc6  ffff       .byte     0xff, 0xff
+00001cc8  ffff       .byte     0xff, 0xff
+00001cca  ffff       .byte     0xff, 0xff
+00001ccc  ffff       .byte     0xff, 0xff
+00001cce  ffff       .byte     0xff, 0xff
+00001cd0  ffff       .byte     0xff, 0xff
+00001cd2  ffff       .byte     0xff, 0xff
+00001cd4  ffff       .byte     0xff, 0xff
+00001cd6  ffff       .byte     0xff, 0xff
+00001cd8  ffff       .byte     0xff, 0xff
+00001cda  ffff       .byte     0xff, 0xff
+00001cdc  ffff       .byte     0xff, 0xff
+00001cde  ffff       .byte     0xff, 0xff
+00001ce0  ffff       .byte     0xff, 0xff
+00001ce2  ffff       .byte     0xff, 0xff
+00001ce4  ffff       .byte     0xff, 0xff
+00001ce6  ffff       .byte     0xff, 0xff
+00001ce8  ffff       .byte     0xff, 0xff
+00001cea  ffff       .byte     0xff, 0xff
+00001cec  ffff       .byte     0xff, 0xff
+00001cee  ffff       .byte     0xff, 0xff
+00001cf0  ffff       .byte     0xff, 0xff
+00001cf2  ffff       .byte     0xff, 0xff
+00001cf4  ffff       .byte     0xff, 0xff
+00001cf6  ffff       .byte     0xff, 0xff
+00001cf8  ffff       .byte     0xff, 0xff
+00001cfa  ffff       .byte     0xff, 0xff
+00001cfc  ffff       .byte     0xff, 0xff
+00001cfe  ffff       .byte     0xff, 0xff
+00001d00  ffff       .byte     0xff, 0xff
+00001d02  ffff       .byte     0xff, 0xff
+00001d04  ffff       .byte     0xff, 0xff
+00001d06  ffff       .byte     0xff, 0xff
+00001d08  ffff       .byte     0xff, 0xff
+00001d0a  ffff       .byte     0xff, 0xff
+00001d0c  ffff       .byte     0xff, 0xff
+00001d0e  ffff       .byte     0xff, 0xff
+00001d10  ffff       .byte     0xff, 0xff
+00001d12  ffff       .byte     0xff, 0xff
+00001d14  ffff       .byte     0xff, 0xff
+00001d16  ffff       .byte     0xff, 0xff
+00001d18  ffff       .byte     0xff, 0xff
+00001d1a  ffff       .byte     0xff, 0xff
+00001d1c  ffff       .byte     0xff, 0xff
+00001d1e  ffff       .byte     0xff, 0xff
+00001d20  ffff       .byte     0xff, 0xff
+00001d22  ffff       .byte     0xff, 0xff
+00001d24  ffff       .byte     0xff, 0xff
+00001d26  ffff       .byte     0xff, 0xff
+00001d28  ffff       .byte     0xff, 0xff
+00001d2a  ffff       .byte     0xff, 0xff
+00001d2c  ffff       .byte     0xff, 0xff
+00001d2e  ffff       .byte     0xff, 0xff
+00001d30  ffff       .byte     0xff, 0xff
+00001d32  ffff       .byte     0xff, 0xff
+00001d34  ffff       .byte     0xff, 0xff
+00001d36  ffff       .byte     0xff, 0xff
+00001d38  ffff       .byte     0xff, 0xff
+00001d3a  ffff       .byte     0xff, 0xff
+00001d3c  ffff       .byte     0xff, 0xff
+00001d3e  ffff       .byte     0xff, 0xff
+00001d40  ffff       .byte     0xff, 0xff
+00001d42  ffff       .byte     0xff, 0xff
+00001d44  ffff       .byte     0xff, 0xff
+00001d46  ffff       .byte     0xff, 0xff
+00001d48  ffff       .byte     0xff, 0xff
+00001d4a  ffff       .byte     0xff, 0xff
+00001d4c  ffff       .byte     0xff, 0xff
+00001d4e  ffff       .byte     0xff, 0xff
+00001d50  ffff       .byte     0xff, 0xff
+00001d52  ffff       .byte     0xff, 0xff
+00001d54  ffff       .byte     0xff, 0xff
+00001d56  ffff       .byte     0xff, 0xff
+00001d58  ffff       .byte     0xff, 0xff
+00001d5a  ffff       .byte     0xff, 0xff
+00001d5c  ffff       .byte     0xff, 0xff
+00001d5e  ffff       .byte     0xff, 0xff
+00001d60  ffff       .byte     0xff, 0xff
+00001d62  ffff       .byte     0xff, 0xff
+00001d64  ffff       .byte     0xff, 0xff
+00001d66  ffff       .byte     0xff, 0xff
+00001d68  ffff       .byte     0xff, 0xff
+00001d6a  ffff       .byte     0xff, 0xff
+00001d6c  ffff       .byte     0xff, 0xff
+00001d6e  ffff       .byte     0xff, 0xff
+00001d70  ffff       .byte     0xff, 0xff
+00001d72  ffff       .byte     0xff, 0xff
+00001d74  ffff       .byte     0xff, 0xff
+00001d76  ffff       .byte     0xff, 0xff
+00001d78  ffff       .byte     0xff, 0xff
+00001d7a  ffff       .byte     0xff, 0xff
+00001d7c  ffff       .byte     0xff, 0xff
+00001d7e  ffff       .byte     0xff, 0xff
+00001d80  ffff       .byte     0xff, 0xff
+00001d82  ffff       .byte     0xff, 0xff
+00001d84  ffff       .byte     0xff, 0xff
+00001d86  ffff       .byte     0xff, 0xff
+00001d88  ffff       .byte     0xff, 0xff
+00001d8a  ffff       .byte     0xff, 0xff
+00001d8c  ffff       .byte     0xff, 0xff
+00001d8e  ffff       .byte     0xff, 0xff
+00001d90  ffff       .byte     0xff, 0xff
+00001d92  ffff       .byte     0xff, 0xff
+00001d94  ffff       .byte     0xff, 0xff
+00001d96  ffff       .byte     0xff, 0xff
+00001d98  ffff       .byte     0xff, 0xff
+00001d9a  ffff       .byte     0xff, 0xff
+00001d9c  ffff       .byte     0xff, 0xff
+00001d9e  ffff       .byte     0xff, 0xff
+00001da0  ffff       .byte     0xff, 0xff
+00001da2  ffff       .byte     0xff, 0xff
+00001da4  ffff       .byte     0xff, 0xff
+00001da6  ffff       .byte     0xff, 0xff
+00001da8  ffff       .byte     0xff, 0xff
+00001daa  ffff       .byte     0xff, 0xff
+00001dac  ffff       .byte     0xff, 0xff
+00001dae  ffff       .byte     0xff, 0xff
+00001db0  ffff       .byte     0xff, 0xff
+00001db2  ffff       .byte     0xff, 0xff
+00001db4  ffff       .byte     0xff, 0xff
+00001db6  ffff       .byte     0xff, 0xff
+00001db8  ffff       .byte     0xff, 0xff
+00001dba  ffff       .byte     0xff, 0xff
+00001dbc  ffff       .byte     0xff, 0xff
+00001dbe  ffff       .byte     0xff, 0xff
+00001dc0  ffff       .byte     0xff, 0xff
+00001dc2  ffff       .byte     0xff, 0xff
+00001dc4  ffff       .byte     0xff, 0xff
+00001dc6  ffff       .byte     0xff, 0xff
+00001dc8  ffff       .byte     0xff, 0xff
+00001dca  ffff       .byte     0xff, 0xff
+00001dcc  ffff       .byte     0xff, 0xff
+00001dce  ffff       .byte     0xff, 0xff
+00001dd0  ffff       .byte     0xff, 0xff
+00001dd2  ffff       .byte     0xff, 0xff
+00001dd4  ffff       .byte     0xff, 0xff
+00001dd6  ffff       .byte     0xff, 0xff
+00001dd8  ffff       .byte     0xff, 0xff
+00001dda  ffff       .byte     0xff, 0xff
+00001ddc  ffff       .byte     0xff, 0xff
+00001dde  ffff       .byte     0xff, 0xff
+00001de0  ffff       .byte     0xff, 0xff
+00001de2  ffff       .byte     0xff, 0xff
+00001de4  ffff       .byte     0xff, 0xff
+00001de6  ffff       .byte     0xff, 0xff
+00001de8  ffff       .byte     0xff, 0xff
+00001dea  ffff       .byte     0xff, 0xff
+00001dec  ffff       .byte     0xff, 0xff
+00001dee  ffff       .byte     0xff, 0xff
+00001df0  ffff       .byte     0xff, 0xff
+00001df2  ffff       .byte     0xff, 0xff
+00001df4  ffff       .byte     0xff, 0xff
+00001df6  ffff       .byte     0xff, 0xff
+00001df8  ffff       .byte     0xff, 0xff
+00001dfa  ffff       .byte     0xff, 0xff
+00001dfc  ffff       .byte     0xff, 0xff
+00001dfe  ffff       .byte     0xff, 0xff
+00001e00  ffff       .byte     0xff, 0xff
+00001e02  ffff       .byte     0xff, 0xff
+00001e04  ffff       .byte     0xff, 0xff
+00001e06  ffff       .byte     0xff, 0xff
+00001e08  ffff       .byte     0xff, 0xff
+00001e0a  ffff       .byte     0xff, 0xff
+00001e0c  ffff       .byte     0xff, 0xff
+00001e0e  ffff       .byte     0xff, 0xff
+00001e10  ffff       .byte     0xff, 0xff
+00001e12  ffff       .byte     0xff, 0xff
+00001e14  ffff       .byte     0xff, 0xff
+00001e16  ffff       .byte     0xff, 0xff
+00001e18  ffff       .byte     0xff, 0xff
+00001e1a  ffff       .byte     0xff, 0xff
+00001e1c  ffff       .byte     0xff, 0xff
+00001e1e  ffff       .byte     0xff, 0xff
+00001e20  ffff       .byte     0xff, 0xff
+00001e22  ffff       .byte     0xff, 0xff
+00001e24  ffff       .byte     0xff, 0xff
+00001e26  ffff       .byte     0xff, 0xff
+00001e28  ffff       .byte     0xff, 0xff
+00001e2a  ffff       .byte     0xff, 0xff
+00001e2c  ffff       .byte     0xff, 0xff
+00001e2e  ffff       .byte     0xff, 0xff
+00001e30  ffff       .byte     0xff, 0xff
+00001e32  ffff       .byte     0xff, 0xff
+00001e34  ffff       .byte     0xff, 0xff
+00001e36  ffff       .byte     0xff, 0xff
+00001e38  ffff       .byte     0xff, 0xff
+00001e3a  ffff       .byte     0xff, 0xff
+00001e3c  ffff       .byte     0xff, 0xff
+00001e3e  ffff       .byte     0xff, 0xff
+00001e40  ffff       .byte     0xff, 0xff
+00001e42  ffff       .byte     0xff, 0xff
+00001e44  ffff       .byte     0xff, 0xff
+00001e46  ffff       .byte     0xff, 0xff
+00001e48  ffff       .byte     0xff, 0xff
+00001e4a  ffff       .byte     0xff, 0xff
+00001e4c  ffff       .byte     0xff, 0xff
+00001e4e  ffff       .byte     0xff, 0xff
+00001e50  ffff       .byte     0xff, 0xff
+00001e52  ffff       .byte     0xff, 0xff
+00001e54  ffff       .byte     0xff, 0xff
+00001e56  ffff       .byte     0xff, 0xff
+00001e58  ffff       .byte     0xff, 0xff
+00001e5a  ffff       .byte     0xff, 0xff
+00001e5c  ffff       .byte     0xff, 0xff
+00001e5e  ffff       .byte     0xff, 0xff
+00001e60  ffff       .byte     0xff, 0xff
+00001e62  ffff       .byte     0xff, 0xff
+00001e64  ffff       .byte     0xff, 0xff
+00001e66  ffff       .byte     0xff, 0xff
+00001e68  ffff       .byte     0xff, 0xff
+00001e6a  ffff       .byte     0xff, 0xff
+00001e6c  ffff       .byte     0xff, 0xff
+00001e6e  ffff       .byte     0xff, 0xff
+00001e70  ffff       .byte     0xff, 0xff
+00001e72  ffff       .byte     0xff, 0xff
+00001e74  ffff       .byte     0xff, 0xff
+00001e76  ffff       .byte     0xff, 0xff
+00001e78  ffff       .byte     0xff, 0xff
+00001e7a  ffff       .byte     0xff, 0xff
+00001e7c  ffff       .byte     0xff, 0xff
+00001e7e  ffff       .byte     0xff, 0xff
+00001e80  ffff       .byte     0xff, 0xff
+00001e82  ffff       .byte     0xff, 0xff
+00001e84  ffff       .byte     0xff, 0xff
+00001e86  ffff       .byte     0xff, 0xff
+00001e88  ffff       .byte     0xff, 0xff
+00001e8a  ffff       .byte     0xff, 0xff
+00001e8c  ffff       .byte     0xff, 0xff
+00001e8e  ffff       .byte     0xff, 0xff
+00001e90  ffff       .byte     0xff, 0xff
+00001e92  ffff       .byte     0xff, 0xff
+00001e94  ffff       .byte     0xff, 0xff
+00001e96  ffff       .byte     0xff, 0xff
+00001e98  ffff       .byte     0xff, 0xff
+00001e9a  ffff       .byte     0xff, 0xff
+00001e9c  ffff       .byte     0xff, 0xff
+00001e9e  ffff       .byte     0xff, 0xff
+00001ea0  ffff       .byte     0xff, 0xff
+00001ea2  ffff       .byte     0xff, 0xff
+00001ea4  ffff       .byte     0xff, 0xff
+00001ea6  ffff       .byte     0xff, 0xff
+00001ea8  ffff       .byte     0xff, 0xff
+00001eaa  ffff       .byte     0xff, 0xff
+00001eac  ffff       .byte     0xff, 0xff
+00001eae  ffff       .byte     0xff, 0xff
+00001eb0  ffff       .byte     0xff, 0xff
+00001eb2  ffff       .byte     0xff, 0xff
+00001eb4  ffff       .byte     0xff, 0xff
+00001eb6  ffff       .byte     0xff, 0xff
+00001eb8  ffff       .byte     0xff, 0xff
+00001eba  ffff       .byte     0xff, 0xff
+00001ebc  ffff       .byte     0xff, 0xff
+00001ebe  ffff       .byte     0xff, 0xff
+00001ec0  ffff       .byte     0xff, 0xff
+00001ec2  ffff       .byte     0xff, 0xff
+00001ec4  ffff       .byte     0xff, 0xff
+00001ec6  ffff       .byte     0xff, 0xff
+00001ec8  ffff       .byte     0xff, 0xff
+00001eca  ffff       .byte     0xff, 0xff
+00001ecc  ffff       .byte     0xff, 0xff
+00001ece  ffff       .byte     0xff, 0xff
+00001ed0  ffff       .byte     0xff, 0xff
+00001ed2  ffff       .byte     0xff, 0xff
+00001ed4  ffff       .byte     0xff, 0xff
+00001ed6  ffff       .byte     0xff, 0xff
+00001ed8  ffff       .byte     0xff, 0xff
+00001eda  ffff       .byte     0xff, 0xff
+00001edc  ffff       .byte     0xff, 0xff
+00001ede  ffff       .byte     0xff, 0xff
+00001ee0  ffff       .byte     0xff, 0xff
+00001ee2  ffff       .byte     0xff, 0xff
+00001ee4  ffff       .byte     0xff, 0xff
+00001ee6  ffff       .byte     0xff, 0xff
+00001ee8  ffff       .byte     0xff, 0xff
+00001eea  ffff       .byte     0xff, 0xff
+00001eec  ffff       .byte     0xff, 0xff
+00001eee  ffff       .byte     0xff, 0xff
+00001ef0  ffff       .byte     0xff, 0xff
+00001ef2  ffff       .byte     0xff, 0xff
+00001ef4  ffff       .byte     0xff, 0xff
+00001ef6  ffff       .byte     0xff, 0xff
+00001ef8  ffff       .byte     0xff, 0xff
+00001efa  ffff       .byte     0xff, 0xff
+00001efc  ffff       .byte     0xff, 0xff
+00001efe  ffff       .byte     0xff, 0xff
+00001f00  ffff       .byte     0xff, 0xff
+00001f02  ffff       .byte     0xff, 0xff
+00001f04  ffff       .byte     0xff, 0xff
+00001f06  ffff       .byte     0xff, 0xff
+00001f08  ffff       .byte     0xff, 0xff
+00001f0a  ffff       .byte     0xff, 0xff
+00001f0c  ffff       .byte     0xff, 0xff
+00001f0e  ffff       .byte     0xff, 0xff
+00001f10  ffff       .byte     0xff, 0xff
+00001f12  ffff       .byte     0xff, 0xff
+00001f14  ffff       .byte     0xff, 0xff
+00001f16  ffff       .byte     0xff, 0xff
+00001f18  ffff       .byte     0xff, 0xff
+00001f1a  ffff       .byte     0xff, 0xff
+00001f1c  ffff       .byte     0xff, 0xff
+00001f1e  ffff       .byte     0xff, 0xff
+00001f20  ffff       .byte     0xff, 0xff
+00001f22  ffff       .byte     0xff, 0xff
+00001f24  ffff       .byte     0xff, 0xff
+00001f26  ffff       .byte     0xff, 0xff
+00001f28  ffff       .byte     0xff, 0xff
+00001f2a  ffff       .byte     0xff, 0xff
+00001f2c  ffff       .byte     0xff, 0xff
+00001f2e  ffff       .byte     0xff, 0xff
+00001f30  ffff       .byte     0xff, 0xff
+00001f32  ffff       .byte     0xff, 0xff
+00001f34  ffff       .byte     0xff, 0xff
+00001f36  ffff       .byte     0xff, 0xff
+00001f38  ffff       .byte     0xff, 0xff
+00001f3a  ffff       .byte     0xff, 0xff
+00001f3c  ffff       .byte     0xff, 0xff
+00001f3e  ffff       .byte     0xff, 0xff
+00001f40  ffff       .byte     0xff, 0xff
+00001f42  ffff       .byte     0xff, 0xff
+00001f44  ffff       .byte     0xff, 0xff
+00001f46  ffff       .byte     0xff, 0xff
+00001f48  ffff       .byte     0xff, 0xff
+00001f4a  ffff       .byte     0xff, 0xff
+00001f4c  ffff       .byte     0xff, 0xff
+00001f4e  ffff       .byte     0xff, 0xff
+00001f50  ffff       .byte     0xff, 0xff
+00001f52  ffff       .byte     0xff, 0xff
+00001f54  ffff       .byte     0xff, 0xff
+00001f56  ffff       .byte     0xff, 0xff
+00001f58  ffff       .byte     0xff, 0xff
+00001f5a  ffff       .byte     0xff, 0xff
+00001f5c  ffff       .byte     0xff, 0xff
+00001f5e  ffff       .byte     0xff, 0xff
+00001f60  ffff       .byte     0xff, 0xff
+00001f62  ffff       .byte     0xff, 0xff
+00001f64  ffff       .byte     0xff, 0xff
+00001f66  ffff       .byte     0xff, 0xff
+00001f68  ffff       .byte     0xff, 0xff
+00001f6a  ffff       .byte     0xff, 0xff
+00001f6c  ffff       .byte     0xff, 0xff
+00001f6e  ffff       .byte     0xff, 0xff
+00001f70  ffff       .byte     0xff, 0xff
+00001f72  ffff       .byte     0xff, 0xff
+00001f74  ffff       .byte     0xff, 0xff
+00001f76  ffff       .byte     0xff, 0xff
+00001f78  ffff       .byte     0xff, 0xff
+00001f7a  ffff       .byte     0xff, 0xff
+00001f7c  ffff       .byte     0xff, 0xff
+00001f7e  ffff       .byte     0xff, 0xff
+00001f80  ffff       .byte     0xff, 0xff
+00001f82  ffff       .byte     0xff, 0xff
+00001f84  ffff       .byte     0xff, 0xff
+00001f86  ffff       .byte     0xff, 0xff
+00001f88  ffff       .byte     0xff, 0xff
+00001f8a  ffff       .byte     0xff, 0xff
+00001f8c  ffff       .byte     0xff, 0xff
+00001f8e  ffff       .byte     0xff, 0xff
+00001f90  ffff       .byte     0xff, 0xff
+00001f92  ffff       .byte     0xff, 0xff
+00001f94  ffff       .byte     0xff, 0xff
+00001f96  ffff       .byte     0xff, 0xff
+00001f98  ffff       .byte     0xff, 0xff
+00001f9a  ffff       .byte     0xff, 0xff
+00001f9c  ffff       .byte     0xff, 0xff
+00001f9e  ffff       .byte     0xff, 0xff
+00001fa0  ffff       .byte     0xff, 0xff
+00001fa2  ffff       .byte     0xff, 0xff
+00001fa4  ffff       .byte     0xff, 0xff
+00001fa6  ffff       .byte     0xff, 0xff
+00001fa8  ffff       .byte     0xff, 0xff
+00001faa  ffff       .byte     0xff, 0xff
+00001fac  ffff       .byte     0xff, 0xff
+00001fae  ffff       .byte     0xff, 0xff
+00001fb0  ffff       .byte     0xff, 0xff
+00001fb2  ffff       .byte     0xff, 0xff
+00001fb4  ffff       .byte     0xff, 0xff
+00001fb6  ffff       .byte     0xff, 0xff
+00001fb8  ffff       .byte     0xff, 0xff
+00001fba  ffff       .byte     0xff, 0xff
+00001fbc  ffff       .byte     0xff, 0xff
+00001fbe  ffff       .byte     0xff, 0xff
+00001fc0  ffff       .byte     0xff, 0xff
+00001fc2  ffff       .byte     0xff, 0xff
+00001fc4  ffff       .byte     0xff, 0xff
+00001fc6  ffff       .byte     0xff, 0xff
+00001fc8  ffff       .byte     0xff, 0xff
+00001fca  ffff       .byte     0xff, 0xff
+00001fcc  ffff       .byte     0xff, 0xff
+00001fce  ffff       .byte     0xff, 0xff
+00001fd0  ffff       .byte     0xff, 0xff
+00001fd2  ffff       .byte     0xff, 0xff
+00001fd4  ffff       .byte     0xff, 0xff
+00001fd6  ffff       .byte     0xff, 0xff
+00001fd8  ffff       .byte     0xff, 0xff
+00001fda  ffff       .byte     0xff, 0xff
+00001fdc  ffff       .byte     0xff, 0xff
+00001fde  ffff       .byte     0xff, 0xff
+00001fe0  ffff       .byte     0xff, 0xff
+00001fe2  ffff       .byte     0xff, 0xff
+00001fe4  ffff       .byte     0xff, 0xff
+00001fe6  ffff       .byte     0xff, 0xff
+00001fe8  ffff       .byte     0xff, 0xff
+00001fea  ffff       .byte     0xff, 0xff
+00001fec  ffff       .byte     0xff, 0xff
+00001fee  ffff       .byte     0xff, 0xff
+00001ff0  ffff       .byte     0xff, 0xff
+00001ff2  ffff       .byte     0xff, 0xff
+00001ff4  ffff       .byte     0xff, 0xff
+00001ff6  ffff       .byte     0xff, 0xff
+00001ff8  ffff       .byte     0xff, 0xff
+00001ffa  ffff       .byte     0xff, 0xff
+00001ffc  ffff       .byte     0xff, 0xff
+00001ffe  ffff       .byte     0xff, 0xff
