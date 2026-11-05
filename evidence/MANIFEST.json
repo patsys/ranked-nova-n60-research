@@ -13,6 +13,11 @@
       "sha256": "74bc3fe6d7423e443ac4cf174b06119f519b39d3e3b80bdd973be51464657f68"
     },
     {
+      "path": "docs/DRUNKDEER_COMPARISON.md",
+      "bytes": 3582,
+      "sha256": "ac2ecca1eb93b6d4ff0998ed40d85bfe2a34006fb8d3e0858cd27039c95023e9"
+    },
+    {
       "path": "docs/EXPERIMENT_LOG.md",
       "bytes": 8661,
       "sha256": "baceba29d24954d491993ff20654b8a98fb4089014f8320107a468756bc921c0"
@@ -296,6 +301,11 @@
       "path": "evidence/captures/vendor_stub.bin",
       "bytes": 440,
       "sha256": "fbf8d711262615c1fcfa7abad885e124032be8990da9af01f6e31a20da762ae8"
+    },
+    {
+      "path": "evidence/drunkdeer_compatibility_result.json",
+      "bytes": 2573,
+      "sha256": "49dfc53c1058e2137d19b62265cd602fcb7f98a8ceb4b8f3f0cf2b4d84f05577"
     },
     {
       "path": "evidence/experiment-results/20261103T052626Z/flash_pass1.bin",
@@ -1321,6 +1331,11 @@
       "path": "programs/crypto/captured_update_plaintext.bin",
       "bytes": 117760,
       "sha256": "c3b065a937670b745c2a2a59b57b6e3e2a099e694ed10fa1a540d6559774249c"
+    },
+    {
+      "path": "programs/crypto/check_vendor_key_compat.py",
+      "bytes": 2500,
+      "sha256": "5508f3bb658a859b2fbb120211285f6526ec0065edf7d14ed85e5afb869ea49c"
     },
     {
       "path": "programs/crypto/configuration_candidate.bin",
@@ -6204,8 +6219,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3335,
-      "sha256": "40674f967d122624513297023c91cc0c76953e0c2668a33d067e451073b5fffc"
+      "bytes": 3471,
+      "sha256": "4337c2149e62c2120fbfe8801d83fd5ea31c8d387b3c334c8a764dc627c1720f"
     }
   ]
 }

@@ -9,8 +9,9 @@ A reproducible, evidence-led record of reverse engineering the Ranked Nova N60 k
 1. [Experiment log](docs/EXPERIMENT_LOG.md) — chronological attempts, failures, corrections, and lessons.
 2. [Technical findings](docs/TECHNICAL_FINDINGS.md) — what the evidence supports and its confidence.
 3. [Current status and next steps](docs/STATUS.md) — known-good behavior and open blockers.
-4. [Reproducing the tools](docs/REPRODUCING.md) — source layout, dependencies, and offline checks.
-5. [Safety and evidence notes](docs/SAFETY_AND_PROVENANCE.md) — what each artifact represents and how hardware operations are bounded.
+4. [DrunkDeer comparison](docs/DRUNKDEER_COMPARISON.md) — tested the Nova master-key profile against public DrunkDeer updater images.
+5. [Reproducing the tools](docs/REPRODUCING.md) — source layout, dependencies, and offline checks.
+6. [Safety and evidence notes](docs/SAFETY_AND_PROVENANCE.md) — what each artifact represents and how hardware operations are bounded.
 
 ## Repository map
 
