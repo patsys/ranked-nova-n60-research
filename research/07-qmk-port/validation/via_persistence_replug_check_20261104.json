@@ -1,0 +1,24 @@
+{
+ "phase": "check",
+ "protocol": "01000d",
+ "diag_start": {
+  "stage": 0,
+  "flags": 1,
+  "addr": 0,
+  "page": 0,
+  "gate": 0,
+  "status": 0,
+  "word": 0
+ },
+ "mismatch": {},
+ "persisted": true,
+ "diag_end": {
+  "stage": 0,
+  "flags": 1,
+  "addr": 0,
+  "page": 0,
+  "gate": 0,
+  "status": 0,
+  "word": 0
+ }
+}

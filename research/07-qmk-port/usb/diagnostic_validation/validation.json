@@ -1,0 +1,37 @@
+{
+  "hardware_access": false,
+  "variants": [
+    {
+      "via": false,
+      "default_executable_sections_unchanged": true,
+      "diagnostic_hooks": [
+        "nova_usb_diagnostic_irq",
+        "nova_usb_diagnostic_status",
+        "nova_usb_diagnostic_event",
+        "nova_usb_diagnostic_configured",
+        "nova_usb_diagnostic_aux"
+      ],
+      "objects": [
+        "qmk_port\\usb\\diagnostic_validation\\basic_before.o",
+        "qmk_port\\usb\\diagnostic_validation\\basic_default.o",
+        "qmk_port\\usb\\diagnostic_validation\\basic_diagnostic.o"
+      ]
+    },
+    {
+      "via": true,
+      "default_executable_sections_unchanged": true,
+      "diagnostic_hooks": [
+        "nova_usb_diagnostic_irq",
+        "nova_usb_diagnostic_status",
+        "nova_usb_diagnostic_event",
+        "nova_usb_diagnostic_configured",
+        "nova_usb_diagnostic_aux"
+      ],
+      "objects": [
+        "qmk_port\\usb\\diagnostic_validation\\via_before.o",
+        "qmk_port\\usb\\diagnostic_validation\\via_default.o",
+        "qmk_port\\usb\\diagnostic_validation\\via_diagnostic.o"
+      ]
+    }
+  ]
+}

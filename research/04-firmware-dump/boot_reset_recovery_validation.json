@@ -1,0 +1,139 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "ordinary reset, request0",
+      "initial_request": "0x0",
+      "initial_ram_pattern": "0x0",
+      "clock_readback_matches": true,
+      "result": "0x2170",
+      "main_guard_words": [
+        0,
+        0,
+        0
+      ],
+      "request_read_count": 1,
+      "request_after": "0x0",
+      "pre_main_external_reads": [],
+      "passed": true
+    },
+    {
+      "case": "ordinary reset with retained RAM pattern",
+      "initial_request": "0x0",
+      "initial_ram_pattern": "0xa5",
+      "clock_readback_matches": true,
+      "result": "0x2170",
+      "main_guard_words": [
+        0,
+        0,
+        0
+      ],
+      "request_read_count": 1,
+      "request_after": "0x0",
+      "pre_main_external_reads": [],
+      "passed": true
+    },
+    {
+      "case": "second tap RAM pattern, no request",
+      "initial_request": "0x0",
+      "initial_ram_pattern": "0x5a",
+      "clock_readback_matches": true,
+      "result": "0x2170",
+      "main_guard_words": [
+        0,
+        0,
+        0
+      ],
+      "request_read_count": 1,
+      "request_after": "0x0",
+      "pre_main_external_reads": [],
+      "passed": true
+    },
+    {
+      "case": "explicit original boot request",
+      "initial_request": "0x5ac396c5",
+      "initial_ram_pattern": "0xa5",
+      "clock_readback_matches": true,
+      "result": "0x848",
+      "main_guard_words": [
+        0,
+        0,
+        0
+      ],
+      "request_read_count": 1,
+      "request_after": "0x0",
+      "pre_main_external_reads": [],
+      "passed": true
+    },
+    {
+      "case": "near-magic value does not select USB",
+      "initial_request": "0x5ac396c4",
+      "initial_ram_pattern": "0xa5",
+      "clock_readback_matches": true,
+      "result": "0x2170",
+      "main_guard_words": [
+        0,
+        0,
+        0
+      ],
+      "request_read_count": 1,
+      "request_after": "0x5ac396c4",
+      "pre_main_external_reads": [],
+      "passed": true
+    },
+    {
+      "case": "erased request does not select USB",
+      "initial_request": "0xffffffff",
+      "initial_ram_pattern": "0xa5",
+      "clock_readback_matches": true,
+      "result": "0x2170",
+      "main_guard_words": [
+        0,
+        0,
+        0
+      ],
+      "request_read_count": 1,
+      "request_after": "0xffffffff",
+      "pre_main_external_reads": [],
+      "passed": true
+    },
+    {
+      "case": "boot clock verification fails, request0",
+      "initial_request": "0x0",
+      "initial_ram_pattern": "0xa5",
+      "clock_readback_matches": false,
+      "result": "0x24c",
+      "main_guard_words": [
+        0,
+        0,
+        0
+      ],
+      "request_read_count": 0,
+      "request_after": "0x0",
+      "pre_main_external_reads": [],
+      "passed": true
+    },
+    {
+      "case": "boot clock verification fails before request check",
+      "initial_request": "0x5ac396c5",
+      "initial_ram_pattern": "0xa5",
+      "clock_readback_matches": false,
+      "result": "0x24c",
+      "main_guard_words": [
+        0,
+        0,
+        0
+      ],
+      "request_read_count": 0,
+      "request_after": "0x5ac396c5",
+      "pre_main_external_reads": [],
+      "passed": true
+    }
+  ],
+  "case_count": 8,
+  "hardware_access": false,
+  "body_sha256": "071ee8e608a2332b6462a12191260572319706cbc67a96df2d405276848a92ef",
+  "metadata_sha256": "3bce58cb1e15aa6adfb8120c12b6911466a8d1f611a3efeefcb72c6bd7ca4d49",
+  "fixtures": "Actual recovered reset/startup/main, current prepared QMK body/captured information block; originaldelay9bc bypassed, RAM-like MMIO; clock-mismatch fixture alters readback.",
+  "limitations": "Does not model silicon power/reset retention, oscillator behavior, physical straps, or physical sensor state. RAM patterns are fixtures, not a claim that power removal preserves RAM."
+}

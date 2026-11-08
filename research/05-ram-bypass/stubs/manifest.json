@@ -1,0 +1,16 @@
+{
+  "0": {
+    "file": "readonly_stub\\ram_bypass\\ram_crypto_mode_0.bin",
+    "sha256": "2f55694fc7c118846c0385cecde6060bd3279dbdba034bd66eaf1521da2255a0",
+    "emulated_cases": 25,
+    "program_bytes": 104,
+    "init_bytes": 40
+  },
+  "1": {
+    "file": "readonly_stub\\ram_bypass\\ram_crypto_mode_1.bin",
+    "sha256": "569543ab55766b0e04c86a8f81dda6e4969295c4fc3291a1b0f1a9c147528f68",
+    "emulated_cases": 25,
+    "program_bytes": 104,
+    "init_bytes": 40
+  }
+}

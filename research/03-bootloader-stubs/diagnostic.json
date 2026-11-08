@@ -1,0 +1,15 @@
+{
+  "load_address": "0x20000000",
+  "bytes": 440,
+  "sha256": "7bf78ed9a7c88d9e862532c2dd38466b723600dc9417d54cd75f64def4ff5bc8",
+  "probe_offset": 0,
+  "info_offset": 320,
+  "denied_offsets": [
+    36,
+    108,
+    218,
+    252,
+    314
+  ],
+  "validation": "7 emulated entry calls passed; no hardware test"
+}

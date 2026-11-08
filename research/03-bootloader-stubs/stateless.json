@@ -1,0 +1,18 @@
+{
+  "bytes": 440,
+  "sha256": "dd26bd7751addc883a196b2a16b5893f0c3fe3e8a5ee3d4cacee18cb4fda8ee5",
+  "return_code": 3,
+  "entries": [
+    0,
+    36,
+    108,
+    218,
+    252,
+    314
+  ],
+  "emulated_entries": 220,
+  "instructions": [
+    "movs r0, #3",
+    "bx lr"
+  ]
+}

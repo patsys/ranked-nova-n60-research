@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "elf_sha256": "b1bee92981784933aaa0279d6afc4a70ff078d58331b7a914d564e9122061551",
+  "flash_result": ".local-flasher\\live_qmk_usb_power_20261103_01\\result.json",
+  "pages": 117,
+  "full_readback_verified": true,
+  "protected_data_unchanged": true,
+  "via_protocol": 13,
+  "layers": 3,
+  "keymap_sha256": "e0ff234d03e70f7cee6c6bc223b02a2266872efecfdf6fc27a6a30473a3d1e24",
+  "rgb_mode": 4,
+  "saturation": 255,
+  "physical_sleep_test": "user confirmed lights off during sleep; typing and lighting returned after wake",
+  "post_wake_via_protocol": 13,
+  "post_wake_via_layers": 3,
+  "physical_current_measured": false
+}

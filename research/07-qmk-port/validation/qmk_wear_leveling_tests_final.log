@@ -1,0 +1,76 @@
+INFO Compiling tests with gmake test:wear_leveling_general test:wear_leveling_4byte SKIP_GIT=yes QMK_USERSPACE=/c/Users/patrick/rynked/contributions/qmk_userspace
+Making test [1mwear_leveling_general[0m
+
+gcc.exe (x86_64-posix-seh, Built by strawberryperl.com project) 8.3.0
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compiling: lib/fnv/qmk_fnv_type_validation.c                                                        [32;01m[OK][0m
+Compiling: lib/fnv/hash_32a.c                                                                       [32;01m[OK][0m
+Compiling: lib/fnv/hash_64a.c                                                                       [32;01m[OK][0m
+Compiling: quantum/wear_leveling/wear_leveling.c                                                    [32;01m[OK][0m
+Compiling: quantum/wear_leveling/tests/backing_mocks.cpp                                            [32;01m[OK][0m
+Compiling: quantum/wear_leveling/tests/wear_leveling_general.cpp                                    [32;01m[OK][0m
+Compiling: tests/test_common/main.cpp                                                               [32;01m[OK][0m
+Compiling: quantum/logging/print.c                                                                  [32;01m[OK][0m
+Linking: .build/test/wear_leveling_general.elf                                                      [32;01m[OK][0m
+Testing [1mwear_leveling_general[0m
+[0;32m[==========] [mRunning 10 tests from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m10 tests from WearLevelingGeneral
+[0;32m[ RUN      ] [mWearLevelingGeneral.InvalidChecksum_ConsolidatedDataIgnored
+[0;32m[       OK ] [mWearLevelingGeneral.InvalidChecksum_ConsolidatedDataIgnored (0 ms)
+[0;32m[ RUN      ] [mWearLevelingGeneral.SameValue_SingleBackingWrite
+[0;32m[       OK ] [mWearLevelingGeneral.SameValue_SingleBackingWrite (0 ms)
+[0;32m[ RUN      ] [mWearLevelingGeneral.InitFailure
+[0;32m[       OK ] [mWearLevelingGeneral.InitFailure (0 ms)
+[0;32m[ RUN      ] [mWearLevelingGeneral.WriteFailure_OOB
+[0;32m[       OK ] [mWearLevelingGeneral.WriteFailure_OOB (0 ms)
+[0;32m[ RUN      ] [mWearLevelingGeneral.WriteSuccess_BoundaryOK
+[0;32m[       OK ] [mWearLevelingGeneral.WriteSuccess_BoundaryOK (0 ms)
+[0;32m[ RUN      ] [mWearLevelingGeneral.WriteFailure_BoundaryOverflow
+[0;32m[       OK ] [mWearLevelingGeneral.WriteFailure_BoundaryOverflow (0 ms)
+[0;32m[ RUN      ] [mWearLevelingGeneral.ReadFailure_OOB
+[0;32m[       OK ] [mWearLevelingGeneral.ReadFailure_OOB (0 ms)
+[0;32m[ RUN      ] [mWearLevelingGeneral.UnlockFailure_NoWrite
+[0;32m[       OK ] [mWearLevelingGeneral.UnlockFailure_NoWrite (0 ms)
+[0;32m[ RUN      ] [mWearLevelingGeneral.UnlockFailure_NoErase
+[0;32m[       OK ] [mWearLevelingGeneral.UnlockFailure_NoErase (0 ms)
+[0;32m[ RUN      ] [mWearLevelingGeneral.WriteFailure_NoSubsequentWrites
+[0;32m[       OK ] [mWearLevelingGeneral.WriteFailure_NoSubsequentWrites (0 ms)
+[0;32m[----------] [m10 tests from WearLevelingGeneral (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m10 tests from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m10 tests.
+
+Making test [1mwear_leveling_4byte[0m
+
+gcc.exe (x86_64-posix-seh, Built by strawberryperl.com project) 8.3.0
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compiling: tests/test_common/main.cpp                                                               [32;01m[OK][0m
+Linking: .build/test/wear_leveling_4byte.elf                                                        [32;01m[OK][0m
+Testing [1mwear_leveling_4byte[0m
+[0;32m[==========] [mRunning 5 tests from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m5 tests from WearLeveling4Byte
+[0;32m[ RUN      ] [mWearLeveling4Byte.FirstWriteOccursAfterHash
+[0;32m[       OK ] [mWearLeveling4Byte.FirstWriteOccursAfterHash (0 ms)
+[0;32m[ RUN      ] [mWearLeveling4Byte.FirstWriteOccursAfterHash_AfterErase
+[0;32m[       OK ] [mWearLeveling4Byte.FirstWriteOccursAfterHash_AfterErase (0 ms)
+[0;32m[ RUN      ] [mWearLeveling4Byte.MultibyteBackingStoreWriteCounts
+[0;32m[       OK ] [mWearLeveling4Byte.MultibyteBackingStoreWriteCounts (0 ms)
+[0;32m[ RUN      ] [mWearLeveling4Byte.ConsolidationOverflow
+[0;32m[       OK ] [mWearLeveling4Byte.ConsolidationOverflow (0 ms)
+[0;32m[ RUN      ] [mWearLeveling4Byte.PlaybackReadbackMultibyte_OOB
+[0;32m[       OK ] [mWearLeveling4Byte.PlaybackReadbackMultibyte_OOB (0 ms)
+[0;32m[----------] [m5 tests from WearLeveling4Byte (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m5 tests from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m5 tests.
+

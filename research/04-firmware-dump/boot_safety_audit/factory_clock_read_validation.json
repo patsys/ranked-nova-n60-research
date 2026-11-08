@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "sha256": "c90b3463a201acb7944fc56e2e92cb5e8359696d53858d41533243f823e2f95f",
+  "address": "0x10000234",
+  "bytes": 4,
+  "cases": [
+    {
+      "fixture": "0x0",
+      "reads": [
+        {
+          "address": "0x10000234",
+          "bytes": 4
+        }
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "0xffffffff",
+      "reads": [
+        {
+          "address": "0x10000234",
+          "bytes": 4
+        }
+      ],
+      "passed": true
+    },
+    {
+      "fixture": "0xdab37f60",
+      "reads": [
+        {
+          "address": "0x10000234",
+          "bytes": 4
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "hardware_access": false
+}

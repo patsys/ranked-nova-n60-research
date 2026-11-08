@@ -1,0 +1,7 @@
+{
+  "maximum_simultaneous_target_keys": 8,
+  "all_target_keys_observed": true,
+  "all_eight_simultaneous": true,
+  "all_released_after_chord": true,
+  "limitation": "Windows aggregate key state; other keyboards must remain untouched. Proves the tested chord only."
+}

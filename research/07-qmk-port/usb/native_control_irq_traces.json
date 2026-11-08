@@ -1,0 +1,344 @@
+[
+  {
+    "name": "set_address7",
+    "setup": "0005070000000000",
+    "stages": [
+      {
+        "event": 0,
+        "writes": [
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 2
+          },
+          {
+            "pc": "0xf28e",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 2
+          },
+          {
+            "pc": "0xec72",
+            "address": "0x40017eac",
+            "size": 4,
+            "value": 1
+          },
+          {
+            "pc": "0x2cca",
+            "address": "0x40017ed4",
+            "size": 4,
+            "value": 0
+          },
+          {
+            "pc": "0xd5a8",
+            "address": "0x40017f14",
+            "size": 4,
+            "value": 127
+          },
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 0
+          },
+          {
+            "pc": "0xf28e",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 2
+          }
+        ],
+        "control_context": "0005070000000000060000000000000000000000000000000000000000000000",
+        "usb_state": "04010000003000002000000000000000"
+      },
+      {
+        "event": 6,
+        "writes": [
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 2
+          },
+          {
+            "pc": "0xed92",
+            "address": "0x40017ea4",
+            "size": 4,
+            "value": 1
+          },
+          {
+            "pc": "0xd5a8",
+            "address": "0x40017f14",
+            "size": 4,
+            "value": 127
+          },
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 1
+          }
+        ],
+        "control_context": "0005070000000000080000000000000000000000000000000000000000000000",
+        "usb_state": "04010000001000001000000000000000"
+      }
+    ],
+    "delay_helpers_skipped": []
+  },
+  {
+    "name": "set_config1",
+    "setup": "0009010000000000",
+    "stages": [
+      {
+        "event": 0,
+        "writes": [
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 2
+          },
+          {
+            "pc": "0xf28e",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 2
+          },
+          {
+            "pc": "0xec72",
+            "address": "0x40017eac",
+            "size": 4,
+            "value": 1
+          },
+          {
+            "pc": "0x2cca",
+            "address": "0x40017ed4",
+            "size": 4,
+            "value": 0
+          },
+          {
+            "pc": "0xd5a8",
+            "address": "0x40017f14",
+            "size": 4,
+            "value": 127
+          },
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 0
+          },
+          {
+            "pc": "0xf28e",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 2
+          }
+        ],
+        "control_context": "0009010000000000060001000000000000000000000000000000000000000000",
+        "usb_state": "05010000003000002000000001000000"
+      },
+      {
+        "event": 6,
+        "writes": [
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 2
+          },
+          {
+            "pc": "0xed92",
+            "address": "0x40017ea4",
+            "size": 4,
+            "value": 1
+          },
+          {
+            "pc": "0xd5a8",
+            "address": "0x40017f14",
+            "size": 4,
+            "value": 127
+          },
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 1
+          }
+        ],
+        "control_context": "0009010000000000080001000000000000000000000000000000000000000000",
+        "usb_state": "05010000001000001000000001000000"
+      }
+    ],
+    "delay_helpers_skipped": []
+  },
+  {
+    "name": "set_config0",
+    "setup": "0009000000000000",
+    "stages": [
+      {
+        "event": 0,
+        "writes": [
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 2
+          },
+          {
+            "pc": "0xf28e",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 2
+          },
+          {
+            "pc": "0xec72",
+            "address": "0x40017eac",
+            "size": 4,
+            "value": 1
+          },
+          {
+            "pc": "0x2cca",
+            "address": "0x40017ed4",
+            "size": 4,
+            "value": 0
+          },
+          {
+            "pc": "0xd5a8",
+            "address": "0x40017f14",
+            "size": 4,
+            "value": 127
+          },
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 0
+          },
+          {
+            "pc": "0xf28e",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 2
+          }
+        ],
+        "control_context": "0009000000000000060000000000000000000000000000000000000000000000",
+        "usb_state": "00010000003000002000000001000000"
+      },
+      {
+        "event": 6,
+        "writes": [
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 2
+          },
+          {
+            "pc": "0xed92",
+            "address": "0x40017ea4",
+            "size": 4,
+            "value": 1
+          },
+          {
+            "pc": "0xd5a8",
+            "address": "0x40017f14",
+            "size": 4,
+            "value": 127
+          },
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 1
+          }
+        ],
+        "control_context": "0009000000000000080000000000000000000000000000000000000000000000",
+        "usb_state": "00010000001000001000000001000000"
+      }
+    ],
+    "delay_helpers_skipped": []
+  },
+  {
+    "name": "bad_address128",
+    "setup": "0005800000000000",
+    "stages": [
+      {
+        "event": 0,
+        "writes": [
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 2
+          },
+          {
+            "pc": "0xf28e",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 2
+          },
+          {
+            "pc": "0xec72",
+            "address": "0x40017eac",
+            "size": 4,
+            "value": 1
+          },
+          {
+            "pc": "0xd5a8",
+            "address": "0x40017f14",
+            "size": 4,
+            "value": 127
+          },
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 1
+          },
+          {
+            "pc": "0xf28e",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 1
+          }
+        ],
+        "control_context": "0005800000000000080000000000000000000000000000000000000000000000",
+        "usb_state": "00010000001000001000000000000000"
+      },
+      {
+        "event": 6,
+        "writes": [
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 2
+          },
+          {
+            "pc": "0xed92",
+            "address": "0x40017ea4",
+            "size": 4,
+            "value": 1
+          },
+          {
+            "pc": "0xd5a8",
+            "address": "0x40017f14",
+            "size": 4,
+            "value": 127
+          },
+          {
+            "pc": "0xf1de",
+            "address": "0x40017ed0",
+            "size": 4,
+            "value": 1
+          }
+        ],
+        "control_context": "0005800000000000080000000000000000000000000000000000000000000000",
+        "usb_state": "00010000001000001000000000000000"
+      }
+    ],
+    "delay_helpers_skipped": []
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "plaintext_sha256": "814535da3efb45c2d5c225da304875e3de8a887b31ff916cd04a10bb5710c026",
+  "trials": [
+    {
+      "crypto_mode": 1,
+      "stub_sha256": "569543ab55766b0e04c86a8f81dda6e4969295c4fc3291a1b0f1a9c147528f68",
+      "transactions": [
+        {
+          "sequence": 1,
+          "request_sha256": "92d9fac699abc54427744224f985edc205b424e6fb6b2aa17cfba06c0797c851",
+          "replies": [
+            "02010073380001773f08887cf77dec05ac48a9eebc08f3f43af0e14399d7995a4a47d0225a90d8d1e5f6f1d0b1a2fb034e66e27b758d5e69bc829a6bf831ba57",
+            ""
+          ]
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 16.6712,
+        "post_write_ms": 2.132,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "cleanup": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      }
+    }
+  ],
+  "no_COMPLETE": true,
+  "error": "{'sequence': 1, 'request_sha256': '92d9fac699abc54427744224f985edc205b424e6fb6b2aa17cfba06c0797c851', 'replies': ['02010073380001773f08887cf77dec05ac48a9eebc08f3f43af0e14399d7995a4a47d0225a90d8d1e5f6f1d0b1a2fb034e66e27b758d5e69bc829a6bf831ba57', '']}"
+}

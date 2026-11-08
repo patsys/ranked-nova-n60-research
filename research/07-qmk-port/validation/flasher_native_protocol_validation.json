@@ -1,0 +1,818 @@
+{
+  "passed_native_protocol_audit": true,
+  "requested_in_place_reader_transition_works": true,
+  "reason": "After117pagesandthreecorrectreaders, guardedrelease restores87F; GETVreturns4through87Etonativereset24Cwithrestoredstack/registers. NoadditionalFMCcommandsorCOMPLETE.",
+  "stub_sha256": "e4c466571f03c5ece7ae4417c281dd9be3787d659945633acec7cfb92dae3a8c",
+  "bounded_START_header_first52_unchanged": true,
+  "clear_image_length": "0x1cc00",
+  "crypto_model": "Only originalSTART0x29c acceptedmetadata modeled as1cc00/E908/A104; DATAusesrealplaintextflagclearedbyboundedstub.",
+  "body_sha256": "e99862620c6068fa8808b712dd008f78cf53591e3470aefffcb913c60e309039",
+  "first_page": 16,
+  "last_page": 132,
+  "no_COMPLETE": true,
+  "final_native_return": 4,
+  "reader_START_reply": {
+    "packet": "GETV",
+    "status": 5,
+    "length": 1,
+    "payload_hex": "05"
+  },
+  "start_callbacks": [
+    "bounded_START",
+    "reader_START",
+    "second_reader_START",
+    "metadata_START",
+    "release_START"
+  ],
+  "remaining_state_last": {
+    "packet": "GETV",
+    "active": 1,
+    "r5_remaining": 117760
+  },
+  "acks": [
+    {
+      "packet": "bounded_START",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_1",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_2",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_3",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_4",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_5",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_6",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_7",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_8",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_9",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_10",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_11",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_12",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_13",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_14",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_15",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_16",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_17",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_18",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_19",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_20",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_21",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_22",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_23",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_24",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_25",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_26",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_27",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_28",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_29",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_30",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_31",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_32",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_33",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_34",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_35",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_36",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_37",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_38",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_39",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_40",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_41",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_42",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_43",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_44",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_45",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_46",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_47",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_48",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_49",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_50",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_51",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_52",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_53",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_54",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_55",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_56",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_57",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_58",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_59",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_60",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_61",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_62",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_63",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_64",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_65",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_66",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_67",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_68",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_69",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_70",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_71",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_72",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_73",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_74",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_75",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_76",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_77",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_78",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_79",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_80",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_81",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_82",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_83",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_84",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_85",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_86",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_87",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_88",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_89",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_90",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_91",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_92",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_93",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_94",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_95",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_96",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_97",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_98",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_99",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_100",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_101",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_102",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_103",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_104",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_105",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_106",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_107",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_108",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_109",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_110",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_111",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_112",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_113",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_114",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_115",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_116",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "DATA_117",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "reader_START",
+      "status": 240,
+      "length": 56,
+      "payload_hex": "f00b0020cd010000df010000df01000000000000000000000000000000000000000000000000000000000000df0100000000000000000000"
+    },
+    {
+      "packet": "second_reader_START",
+      "status": 0,
+      "length": 56,
+      "payload_hex": "0002002071210000732100007321000073210000732100007321000073210000732100007321000073210000732100007321000073210000"
+    },
+    {
+      "packet": "metadata_START",
+      "status": 1,
+      "length": 56,
+      "payload_hex": "0100000000000000ec17000065f019a105a100000d07e6070f2b1400010000000020000008e9000084f0a42504a10000020bea0712150e00"
+    },
+    {
+      "packet": "release_START",
+      "status": 4,
+      "length": 1,
+      "payload_hex": "04"
+    },
+    {
+      "packet": "GETV",
+      "status": 5,
+      "length": 1,
+      "payload_hex": "05"
+    }
+  ],
+  "model": "Originalnativeouterhandler,target117actual512-bytepayloads,boundedstubandnativeABIhelpers;modeledFMCupdatesemulatedCPUflashonly.No physicalflashupdated.",
+  "hardware_access": false,
+  "release_checked": true,
+  "release_stub_sha256": "57332cb094949feeba32c44fa829bb57069eaef61d92bceab161601737af4323",
+  "release_then_GETV_no_extra_START": true,
+  "native_cleanup": [
+    {
+      "address": "0x87e",
+      "sp": "0x2000f000",
+      "r4_r7": [
+        "0x20000524",
+        "0x2",
+        "0x20000754",
+        "0x40014000"
+      ],
+      "native_return": 4
+    },
+    {
+      "address": "0x24c",
+      "sp": "0x2000f000",
+      "r4_r7": [
+        "0x20000524",
+        "0x2",
+        "0x20000754",
+        "0x40014000"
+      ],
+      "native_return": 4
+    }
+  ],
+  "final_saved_return_write": {
+    "packet": "release_START",
+    "value": "0x87f",
+    "pc": "0x200000ae"
+  },
+  "only_original_117_pages_controller_commands": true,
+  "metadata_window_unchanged": true,
+  "packaged_start_data_and_probe_generators": true,
+  "passed": true,
+  "all_program_words_match_body": true,
+  "emulated_readback_matches_body": true,
+  "primask_initial": 1,
+  "primask_final": 1,
+  "mask_checks": 297289,
+  "controller_storage_model": "RAM-likeFMCcommandsupdateemulatedCPUflash;thisisnotphysicalprogrammingproof",
+  "body_file": ".local-flasher\\new_qmk_application.bin",
+  "pages_programmed_in_model": 117
+}

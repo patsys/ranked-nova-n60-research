@@ -1,0 +1,220 @@
+{
+  "cases_passed": 24,
+  "metadata_sha256": "3bce58cb1e15aa6adfb8120c12b6911466a8d1f611a3efeefcb72c6bd7ca4d49",
+  "cases": [
+    {
+      "configuration": "captured",
+      "synthetic_gpio_bits": 0,
+      "erased_app": false,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "captured",
+      "synthetic_gpio_bits": 0,
+      "erased_app": true,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "captured",
+      "synthetic_gpio_bits": 1,
+      "erased_app": false,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "captured",
+      "synthetic_gpio_bits": 1,
+      "erased_app": true,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "captured",
+      "synthetic_gpio_bits": 2,
+      "erased_app": false,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "captured",
+      "synthetic_gpio_bits": 2,
+      "erased_app": true,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "captured",
+      "synthetic_gpio_bits": 3,
+      "erased_app": false,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "captured",
+      "synthetic_gpio_bits": 3,
+      "erased_app": true,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "pins_only",
+      "synthetic_gpio_bits": 0,
+      "erased_app": false,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "pins_only",
+      "synthetic_gpio_bits": 0,
+      "erased_app": true,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "pins_only",
+      "synthetic_gpio_bits": 1,
+      "erased_app": false,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "pins_only",
+      "synthetic_gpio_bits": 1,
+      "erased_app": true,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "pins_only",
+      "synthetic_gpio_bits": 2,
+      "erased_app": false,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "pins_only",
+      "synthetic_gpio_bits": 2,
+      "erased_app": true,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "pins_only",
+      "synthetic_gpio_bits": 3,
+      "erased_app": false,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "pins_only",
+      "synthetic_gpio_bits": 3,
+      "erased_app": true,
+      "decision": "application_call",
+      "gpio_register_reads": [],
+      "passed": true
+    },
+    {
+      "configuration": "pins_and_no_patch_list",
+      "synthetic_gpio_bits": 0,
+      "erased_app": false,
+      "decision": "USB_bootstrap",
+      "gpio_register_reads": [
+        "0x40018030",
+        "0x40018030"
+      ],
+      "passed": true
+    },
+    {
+      "configuration": "pins_and_no_patch_list",
+      "synthetic_gpio_bits": 0,
+      "erased_app": true,
+      "decision": "USB_bootstrap",
+      "gpio_register_reads": [
+        "0x40018030",
+        "0x40018030"
+      ],
+      "passed": true
+    },
+    {
+      "configuration": "pins_and_no_patch_list",
+      "synthetic_gpio_bits": 1,
+      "erased_app": false,
+      "decision": "application_call",
+      "gpio_register_reads": [
+        "0x40018030"
+      ],
+      "passed": true
+    },
+    {
+      "configuration": "pins_and_no_patch_list",
+      "synthetic_gpio_bits": 1,
+      "erased_app": true,
+      "decision": "USB_bootstrap",
+      "gpio_register_reads": [
+        "0x40018030"
+      ],
+      "passed": true
+    },
+    {
+      "configuration": "pins_and_no_patch_list",
+      "synthetic_gpio_bits": 2,
+      "erased_app": false,
+      "decision": "application_call",
+      "gpio_register_reads": [
+        "0x40018030",
+        "0x40018030"
+      ],
+      "passed": true
+    },
+    {
+      "configuration": "pins_and_no_patch_list",
+      "synthetic_gpio_bits": 2,
+      "erased_app": true,
+      "decision": "USB_bootstrap",
+      "gpio_register_reads": [
+        "0x40018030",
+        "0x40018030"
+      ],
+      "passed": true
+    },
+    {
+      "configuration": "pins_and_no_patch_list",
+      "synthetic_gpio_bits": 3,
+      "erased_app": false,
+      "decision": "application_call",
+      "gpio_register_reads": [
+        "0x40018030"
+      ],
+      "passed": true
+    },
+    {
+      "configuration": "pins_and_no_patch_list",
+      "synthetic_gpio_bits": 3,
+      "erased_app": true,
+      "decision": "USB_bootstrap",
+      "gpio_register_reads": [
+        "0x40018030"
+      ],
+      "passed": true
+    }
+  ],
+  "critical_result": "Changing only pinword does NOT enable recovery with captured valid patch list; GPIO check is bypassed. Removing patch list exposes GPIO/checksum path in model, but also removes existing flash-controller setup.",
+  "limitations": "Synthetic encodedpins0/1 are not selected physical pins. Removingpatchlist has unverified hardwareeffects. No hardwareaccess/persistentwrites/erase, and no live electricalrecovery proof."
+}

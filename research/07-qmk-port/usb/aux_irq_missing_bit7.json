@@ -1,0 +1,46 @@
+{
+  "hardware_access": false,
+  "native_function": "0xf310",
+  "native_functions_skipped": [],
+  "cases": [
+    {
+      "flags": "0x0",
+      "native_writes": [],
+      "pre_fix_c_writes": [],
+      "equal": true
+    },
+    {
+      "flags": "0x80",
+      "native_writes": [
+        [
+          "0x40017f58",
+          128
+        ]
+      ],
+      "pre_fix_c_writes": [],
+      "equal": false
+    },
+    {
+      "flags": "0x81",
+      "native_writes": [
+        [
+          "0x40017f58",
+          128
+        ]
+      ],
+      "pre_fix_c_writes": [],
+      "equal": false
+    },
+    {
+      "flags": "0x88",
+      "native_writes": [
+        [
+          "0x40017f58",
+          128
+        ]
+      ],
+      "pre_fix_c_writes": [],
+      "equal": false
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+Making [1mranked/nova_n60[0m with keymap [1mneo2_via[0m
+
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+arm-none-eabi-gcc.exe (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Size before:
+   text	   data	    bss	    dec	    hex	filename
+      0	  28204	      0	  28204	   6e2c	ranked_nova_n60_neo2_via.hex
+
+Generating: .build/obj_ranked_nova_n60_neo2_via/src/default_keyboard.c                              [32;01m[OK][0m
+Generating: .build/obj_ranked_nova_n60_neo2_via/src/default_keyboard.h                              [32;01m[OK][0m
+Compiling: quantum/via.c                                                                            [32;01m[OK][0m
+Compiling: platforms/ry72xx/platform.c                                                              [32;01m[OK][0m
+Compiling: platforms/ry72xx/runtime/usb_keyboard.c                                                  [32;01m[OK][0m
+Compiling: platforms/ry72xx/usb/ranked_usb_device.c                                                 [32;01m[OK][0m
+Linking: .build/ranked_nova_n60_neo2_via.elf                                                        [32;01m[OK][0m
+Creating load file for flashing: .build/ranked_nova_n60_neo2_via.hex                                [32;01m[OK][0m
+Copying ranked_nova_n60_neo2_via.hex to qmk_firmware folder                                         [32;01m[OK][0m
+Copying ranked_nova_n60_neo2_via.hex to userspace folder                                            [32;01m[OK][0m
+Making [1mranked/nova_n60[0m with keymap [1mdefault[0m
+
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+arm-none-eabi-gcc.exe (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Size before:
+   text	   data	    bss	    dec	    hex	filename
+      0	  22804	      0	  22804	   5914	ranked_nova_n60_default.hex
+
+Generating: .build/obj_ranked_nova_n60_default/src/default_keyboard.c                               [32;01m[OK][0m
+Generating: .build/obj_ranked_nova_n60_default/src/default_keyboard.h                               [32;01m[OK][0m
+Compiling: platforms/ry72xx/platform.c                                                              [32;01m[OK][0m
+Compiling: platforms/ry72xx/runtime/usb_keyboard.c                                                  [32;01m[OK][0m
+Compiling: platforms/ry72xx/usb/ranked_usb_device.c                                                 [32;01m[OK][0m
+Linking: .build/ranked_nova_n60_default.elf                                                         [32;01m[OK][0m
+Creating load file for flashing: .build/ranked_nova_n60_default.hex                                 [32;01m[OK][0m
+Copying ranked_nova_n60_default.hex to qmk_firmware folder                                          [32;01m[OK][0m
+Copying ranked_nova_n60_default.hex to userspace folder                                             [32;01m[OK][0m
+WARNING handwired/onekey/ry7203: Feature extrakey is specified in both info.json ({'bootmagic': False, 'extrakey': True, 'mousekey': False, 'nkro': False}) and rules.mk (False). The rules.mk value wins.
+Making [1mhandwired/onekey/ry7203[0m with keymap [1mdefault[0m
+
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+WARNING handwired/onekey/ry7203: Feature extrakey is specified in both info.json ({'bootmagic': False, 'extrakey': True, 'mousekey': False, 'nkro': False}) and rules.mk (False). The rules.mk value wins.
+WARNING handwired/onekey/ry7203: Feature extrakey is specified in both info.json ({'bootmagic': False, 'extrakey': True, 'mousekey': False, 'nkro': False}) and rules.mk (False). The rules.mk value wins.
+arm-none-eabi-gcc.exe (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Size before:
+   text	   data	    bss	    dec	    hex	filename
+      0	  16612	      0	  16612	   40e4	handwired_onekey_ry7203_default.hex
+
+Generating: .build/obj_handwired_onekey_ry7203_default/src/default_keyboard.h                       [33;01m[WARNINGS][0m
+ | 
+ | WARNING handwired/onekey/ry7203: Feature extrakey is specified in both info.json ({'bootmagic': False, 'extrakey': True, 'mousekey': False, 'nkro': False}) and rules.mk (False). The rules.mk value wins.
+ | 
+Compiling: platforms/ry72xx/platform.c                                                              [32;01m[OK][0m
+Compiling: platforms/ry72xx/runtime/usb_keyboard.c                                                  [32;01m[OK][0m
+Compiling: platforms/ry72xx/usb/ranked_usb_device.c                                                 [32;01m[OK][0m
+Linking: .build/handwired_onekey_ry7203_default.elf                                                 [32;01m[OK][0m
+Creating load file for flashing: .build/handwired_onekey_ry7203_default.hex                         [32;01m[OK][0m
+Copying handwired_onekey_ry7203_default.hex to qmk_firmware folder                                  [32;01m[OK][0m
+Copying handwired_onekey_ry7203_default.hex to userspace folder                                     [32;01m[OK][0m

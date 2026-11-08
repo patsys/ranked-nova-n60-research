@@ -1,0 +1,6 @@
+{
+  "sha256": "9801c5c141c641337588beb70186f4d8ec415eb5e547a4e657a4099cf385a0f6",
+  "bytes": 440,
+  "checks": 36,
+  "operation": "No-store handler returns 2+(RAM[source]&1); inferred vendor ABI"
+}

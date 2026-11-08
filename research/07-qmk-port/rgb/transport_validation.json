@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "case_count": 12,
+  "cases": [
+    "exact native SPI initializer write/delay trace",
+    "exact native269-byte RGB frame",
+    "exact native DMA request/start trace",
+    "busy transfer cannot mutate DMA-owned TX",
+    "timeout retains busy DMA buffer ownership",
+    "idle after timeout permits reuse",
+    "A5 reply completes transfer",
+    "controller error",
+    "bad controller reply",
+    "unsigned10ms timeout across timer wrap",
+    "busy initializer fails without blocking",
+    "null inputs rejected without access"
+  ],
+  "hardware_access": false,
+  "flash_or_fmc_writes": false,
+  "elf_sha256": "f8991e1384559042f6c756bc115de5b703624bf207b08643c6ed072bbd58d5c9",
+  "sources": {
+    "nova_rgb_transport.c": "e1ff223900ebc5b10577f346063e6652536697e49d0423f11e6d81a0c8b99bdd",
+    "nova_rgb_transport.h": "82992c10c9ee1576a7c18ba9f3cd6a96d04af2f11f7e12e445749957f95ba20b"
+  },
+  "limitation": "OriginalSPI register storage modeled; real LED controller response, color order, timing/current and USB coexistence remain physical tests."
+}

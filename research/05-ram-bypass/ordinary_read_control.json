@@ -1,0 +1,36 @@
+{
+  "operation": "ordinary read-only bootloader control: no DATA, no crypto-flag change",
+  "version": {
+    "request_hex": "000000000400000167657476",
+    "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "round_trip_ms": 16.0,
+    "version_words_hex": [
+      "a1050000",
+      "a1040000"
+    ]
+  },
+  "changed_offsets": [
+    "0x1a308",
+    "0x1a309",
+    "0x1a30a",
+    "0x1a30b",
+    "0x1a30c",
+    "0x1a30d",
+    "0x1a30e",
+    "0x1a30f"
+  ],
+  "new_records_hex": "0100050900000f5a",
+  "byte_count_changed": 8,
+  "cleanup": {
+    "normal_START": {
+      "total_ms": 17.2397,
+      "post_write_ms": 1.7925,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "final_state": {
+      "exit_query_error": "read error",
+      "application_collections": 6,
+      "bootloader_interfaces": 0
+    }
+  }
+}

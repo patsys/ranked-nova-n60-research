@@ -1,0 +1,105 @@
+{
+  "method": "direct one-byte USB reply per bounded code-byte request",
+  "blocks": [
+    {
+      "address": "0x0000101c",
+      "hex": "fff706f933e0"
+    }
+  ],
+  "version": {
+    "request_hex": "000000000400000167657476",
+    "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "round_trip_ms": 0.0,
+    "version_words_hex": [
+      "a1050000",
+      "a1040000"
+    ]
+  },
+  "verified": true,
+  "transactions": [
+    {
+      "spec": {
+        "address": "0x0000101c",
+        "sha256": "d194381f2d08c76ecbbfb8d761d923e54b16fbde5ec11e9272f9b7b3b3b9a494",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "0100007301000177ff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "d194381f2d08c76ecbbfb8d761d923e54b16fbde5ec11e9272f9b7b3b3b9a494",
+        "number": 255
+      }
+    },
+    {
+      "spec": {
+        "address": "0x0000101d",
+        "sha256": "bc086e7e2e5ccffc7fd23ff489b7f30e16da18ad36753bddfd48b356f78dba68",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "0100007301000177f700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "bc086e7e2e5ccffc7fd23ff489b7f30e16da18ad36753bddfd48b356f78dba68",
+        "number": 247
+      }
+    },
+    {
+      "spec": {
+        "address": "0x0000101e",
+        "sha256": "27dd6e9b2b2bb3df2721f921653eaede98c73cdc145577fa5a145ad34d282140",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001770600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "27dd6e9b2b2bb3df2721f921653eaede98c73cdc145577fa5a145ad34d282140",
+        "number": 6
+      }
+    },
+    {
+      "spec": {
+        "address": "0x0000101f",
+        "sha256": "258e2b5774a8dd3492fcfb14a31d4ee6356fda16b5a71fb29167b4a05fffa373",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "0100007301000177f900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "258e2b5774a8dd3492fcfb14a31d4ee6356fda16b5a71fb29167b4a05fffa373",
+        "number": 249
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00001020",
+        "sha256": "9b0ae96cf38de19aca6d27b07b8a6a4f4852a6eb6ff9b52683da74507b359600",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "01000073010001773300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "9b0ae96cf38de19aca6d27b07b8a6a4f4852a6eb6ff9b52683da74507b359600",
+        "number": 51
+      }
+    },
+    {
+      "spec": {
+        "address": "0x00001021",
+        "sha256": "96c98de913d14b8be1e99c48118d04ebe7905bf63125b03939bc49c05b419aba",
+        "mocked_reply_helper_emulation_passed": true
+      },
+      "reply": {
+        "hex": "0100007301000177e000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "stub_sha256": "96c98de913d14b8be1e99c48118d04ebe7905bf63125b03939bc49c05b419aba",
+        "number": 224
+      }
+    }
+  ],
+  "cleanup": {
+    "normal_START": {
+      "total_ms": 17.074,
+      "post_write_ms": 2.1721,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "final_state": {
+      "exit_query_error": "read error",
+      "application_collections": 6,
+      "bootloader_interfaces": 0
+    }
+  }
+}

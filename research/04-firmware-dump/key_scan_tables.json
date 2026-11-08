@@ -1,0 +1,138 @@
+{
+  "source_sha256": "5adca278d90a0672e05dfe5ad47d1635242f9ec0ff78827d83d9f28d6ccd8b49",
+  "method": "Offline original scatter decompressor execution and literal table extraction; no hardware access",
+  "scan_routine": "0x4cb0",
+  "bank_pins_encoded": [
+    24,
+    23,
+    22,
+    21,
+    20,
+    19
+  ],
+  "analog_pin_codes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "result_channels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "pin_config_bases": [
+    "0x40018090",
+    "0x40018148",
+    "0x4001810c",
+    "0x4001812c"
+  ],
+  "logical_key_ids_by_channel_then_bank": [
+    [
+      21,
+      42,
+      63,
+      84,
+      105,
+      1
+    ],
+    [
+      22,
+      43,
+      64,
+      85,
+      106,
+      32
+    ],
+    [
+      23,
+      44,
+      65,
+      86,
+      107,
+      33
+    ],
+    [
+      24,
+      45,
+      66,
+      87,
+      111,
+      34
+    ],
+    [
+      25,
+      46,
+      67,
+      88,
+      115,
+      53
+    ],
+    [
+      26,
+      47,
+      68,
+      89,
+      116,
+      54
+    ],
+    [
+      27,
+      48,
+      69,
+      90,
+      117,
+      1
+    ],
+    [
+      28,
+      49,
+      70,
+      91,
+      118,
+      74
+    ],
+    [
+      29,
+      50,
+      71,
+      92,
+      95,
+      75
+    ],
+    [
+      30,
+      51,
+      72,
+      93,
+      1,
+      76
+    ],
+    [
+      31,
+      52,
+      73,
+      94,
+      97,
+      1
+    ]
+  ],
+  "skip_id": 1,
+  "populated_positions": 62,
+  "caveat": "Encoded GPIO identifiers are not package pin numbers; register names and electrical polarity require further verification."
+}

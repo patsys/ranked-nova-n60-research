@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "case_count": 17,
+  "cases": [
+    "QMK default effect enabled with configured white HSV",
+    "all62 populated positions white; absent positions black; aligned bounded DMA",
+    "standard VIA HSV update renders red",
+    "standard VIA disable sends black frame",
+    "standard VIA effect mode 2",
+    "standard VIA effect mode 3",
+    "standard VIA effect mode 4",
+    "standard VIA effect mode 5",
+    "standard VIA effect mode 6",
+    "reenable white without persistent writes",
+    "invalid LED indices do not mutate buffer",
+    "moving spatial effect 4 varies across keys and time",
+    "moving spatial effect 5 varies across keys and time",
+    "moving spatial effect 6 varies across keys and time",
+    "oversized VIA buffer request rejected",
+    "runtime suspend bridge completes an RGB black frame",
+    "runtime resume bridge restores the previous RGB configuration"
+  ],
+  "elf_sha256": "47dd2ad858d5c2552217eb9603fe98a4a885b35cda14da0d0a61b95bda842fed",
+  "minimum_process_stack": "0x20000550",
+  "frame_count": 34,
+  "flash_or_fmc_writes": false,
+  "hardware_access": false,
+  "limitation": "Modeled SPI completion/A5 reply; physical USB/RGB and new platform startup still require validation. Bootmagic wait modeled as elapsed milliseconds."
+}

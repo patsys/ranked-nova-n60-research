@@ -1,0 +1,1477 @@
+{
+  "source": "verified 128KiB CPU dump; offline only",
+  "caveat": "Linear-disassembly candidate references can include literal/data false positives; confirm control flow before naming a peripheral or pin.",
+  "candidate_direct_call_targets": 373,
+  "peripheral_literals": [
+    {
+      "value": "0x40000040",
+      "references": [
+        {
+          "instruction": "0x000029fe",
+          "literal_address": "0x00002a14",
+          "assembly": "ldr r1, [pc, #0x14]"
+        }
+      ]
+    },
+    {
+      "value": "0x40001000",
+      "references": [
+        {
+          "instruction": "0x00002a1c",
+          "literal_address": "0x00002a3c",
+          "assembly": "ldr r0, [pc, #0x1c]"
+        },
+        {
+          "instruction": "0x00002a22",
+          "literal_address": "0x00002a3c",
+          "assembly": "ldr r2, [pc, #0x18]"
+        }
+      ]
+    },
+    {
+      "value": "0x40002040",
+      "references": [
+        {
+          "instruction": "0x000030fc",
+          "literal_address": "0x00003124",
+          "assembly": "ldr r0, [pc, #0x24]"
+        }
+      ]
+    },
+    {
+      "value": "0x40004000",
+      "references": [
+        {
+          "instruction": "0x00002d28",
+          "literal_address": "0x00002d3c",
+          "assembly": "ldr r1, [pc, #0x10]"
+        },
+        {
+          "instruction": "0x00004154",
+          "literal_address": "0x00004188",
+          "assembly": "ldr r1, [pc, #0x30]"
+        },
+        {
+          "instruction": "0x0000db06",
+          "literal_address": "0x0000db48",
+          "assembly": "ldr r1, [pc, #0x40]"
+        }
+      ]
+    },
+    {
+      "value": "0x40005000",
+      "references": [
+        {
+          "instruction": "0x0000e4d0",
+          "literal_address": "0x0000e4f4",
+          "assembly": "ldr r2, [pc, #0x20]"
+        },
+        {
+          "instruction": "0x0000e4da",
+          "literal_address": "0x0000e4f4",
+          "assembly": "ldr r0, [pc, #0x18]"
+        },
+        {
+          "instruction": "0x0000e4f8",
+          "literal_address": "0x0000e508",
+          "assembly": "ldr r0, [pc, #0xc]"
+        },
+        {
+          "instruction": "0x0000e5e2",
+          "literal_address": "0x0000e608",
+          "assembly": "ldr r3, [pc, #0x24]"
+        },
+        {
+          "instruction": "0x0000e6ac",
+          "literal_address": "0x0000e6bc",
+          "assembly": "ldr r2, [pc, #0xc]"
+        },
+        {
+          "instruction": "0x0000e6c0",
+          "literal_address": "0x0000e6d0",
+          "assembly": "ldr r2, [pc, #0xc]"
+        }
+      ]
+    },
+    {
+      "value": "0x40005040",
+      "references": [
+        {
+          "instruction": "0x00003090",
+          "literal_address": "0x000030b0",
+          "assembly": "ldr r0, [pc, #0x1c]"
+        },
+        {
+          "instruction": "0x00003094",
+          "literal_address": "0x000030b0",
+          "assembly": "ldr r1, [pc, #0x18]"
+        },
+        {
+          "instruction": "0x0000e518",
+          "literal_address": "0x0000e528",
+          "assembly": "ldr r0, [pc, #0xc]"
+        },
+        {
+          "instruction": "0x0000e55c",
+          "literal_address": "0x0000e590",
+          "assembly": "ldr r1, [pc, #0x30]"
+        },
+        {
+          "instruction": "0x0000e626",
+          "literal_address": "0x0000e6a4",
+          "assembly": "ldr r5, [pc, #0x7c]"
+        },
+        {
+          "instruction": "0x0000e62e",
+          "literal_address": "0x0000e6a4",
+          "assembly": "ldr r4, [pc, #0x74]"
+        }
+      ]
+    },
+    {
+      "value": "0x40006040",
+      "references": [
+        {
+          "instruction": "0x000030b8",
+          "literal_address": "0x000030d8",
+          "assembly": "ldr r0, [pc, #0x1c]"
+        },
+        {
+          "instruction": "0x000030bc",
+          "literal_address": "0x000030d8",
+          "assembly": "ldr r1, [pc, #0x18]"
+        }
+      ]
+    },
+    {
+      "value": "0x4000d000",
+      "references": [
+        {
+          "instruction": "0x000002b6",
+          "literal_address": "0x00000328",
+          "assembly": "ldr r2, [pc, #0x70]"
+        },
+        {
+          "instruction": "0x00000352",
+          "literal_address": "0x0000038c",
+          "assembly": "ldr r4, [pc, #0x38]"
+        }
+      ]
+    },
+    {
+      "value": "0x4000e000",
+      "references": [
+        {
+          "instruction": "0x00002302",
+          "literal_address": "0x00002348",
+          "assembly": "ldr r0, [pc, #0x44]"
+        },
+        {
+          "instruction": "0x0000230e",
+          "literal_address": "0x00002348",
+          "assembly": "ldr r1, [pc, #0x38]"
+        },
+        {
+          "instruction": "0x000031c2",
+          "literal_address": "0x000031f4",
+          "assembly": "ldr r1, [pc, #0x30]"
+        },
+        {
+          "instruction": "0x000031da",
+          "literal_address": "0x000031f4",
+          "assembly": "ldr r0, [pc, #0x18]"
+        },
+        {
+          "instruction": "0x00004cc2",
+          "literal_address": "0x00004d94",
+          "assembly": "ldr r0, [pc, #0xd0]"
+        },
+        {
+          "instruction": "0x00004cf0",
+          "literal_address": "0x00004d94",
+          "assembly": "ldr r0, [pc, #0xa0]"
+        },
+        {
+          "instruction": "0x00004d22",
+          "literal_address": "0x00004d94",
+          "assembly": "ldr r3, [pc, #0x70]"
+        },
+        {
+          "instruction": "0x00004d7e",
+          "literal_address": "0x00004d94",
+          "assembly": "ldr r1, [pc, #0x14]"
+        }
+      ]
+    },
+    {
+      "value": "0x40010000",
+      "references": [
+        {
+          "instruction": "0x0000315c",
+          "literal_address": "0x00003170",
+          "assembly": "ldr r1, [pc, #0x10]"
+        },
+        {
+          "instruction": "0x0000f43a",
+          "literal_address": "0x0000f478",
+          "assembly": "ldr r0, [pc, #0x3c]"
+        },
+        {
+          "instruction": "0x0000f48e",
+          "literal_address": "0x0000f4a4",
+          "assembly": "ldr r1, [pc, #0x14]"
+        },
+        {
+          "instruction": "0x0000f4a8",
+          "literal_address": "0x0000f4c8",
+          "assembly": "ldr r1, [pc, #0x1c]"
+        }
+      ]
+    },
+    {
+      "value": "0x40011000",
+      "references": [
+        {
+          "instruction": "0x00002dd0",
+          "literal_address": "0x00002f18",
+          "assembly": "ldr r0, [pc, #0x144]"
+        },
+        {
+          "instruction": "0x00002de4",
+          "literal_address": "0x00002f18",
+          "assembly": "ldr r0, [pc, #0x130]"
+        },
+        {
+          "instruction": "0x00002de8",
+          "literal_address": "0x00002f18",
+          "assembly": "ldr r4, [pc, #0x12c]"
+        },
+        {
+          "instruction": "0x00002df2",
+          "literal_address": "0x00002f18",
+          "assembly": "ldr r0, [pc, #0x124]"
+        },
+        {
+          "instruction": "0x00002e2a",
+          "literal_address": "0x00002f18",
+          "assembly": "ldr r0, [pc, #0xec]"
+        },
+        {
+          "instruction": "0x00002e32",
+          "literal_address": "0x00002f18",
+          "assembly": "ldr r0, [pc, #0xe4]"
+        },
+        {
+          "instruction": "0x00002e6a",
+          "literal_address": "0x00002f18",
+          "assembly": "ldr r0, [pc, #0xac]"
+        },
+        {
+          "instruction": "0x00002e72",
+          "literal_address": "0x00002f18",
+          "assembly": "ldr r0, [pc, #0xa4]"
+        },
+        {
+          "instruction": "0x00002eaa",
+          "literal_address": "0x00002f18",
+          "assembly": "ldr r0, [pc, #0x6c]"
+        },
+        {
+          "instruction": "0x00002eb2",
+          "literal_address": "0x00002f18",
+          "assembly": "ldr r0, [pc, #0x64]"
+        },
+        {
+          "instruction": "0x00002eea",
+          "literal_address": "0x00002f18",
+          "assembly": "ldr r0, [pc, #0x2c]"
+        },
+        {
+          "instruction": "0x0000dc7a",
+          "literal_address": "0x0000dcc4",
+          "assembly": "ldr r4, [pc, #0x48]"
+        },
+        {
+          "instruction": "0x0000dcd4",
+          "literal_address": "0x0000dce8",
+          "assembly": "ldr r0, [pc, #0x10]"
+        },
+        {
+          "instruction": "0x0000dcf6",
+          "literal_address": "0x0000dd38",
+          "assembly": "ldr r4, [pc, #0x40]"
+        },
+        {
+          "instruction": "0x0000dd50",
+          "literal_address": "0x0000dd5c",
+          "assembly": "ldr r0, [pc, #8]"
+        },
+        {
+          "instruction": "0x0000dd68",
+          "literal_address": "0x0000dd7c",
+          "assembly": "ldr r0, [pc, #0x10]"
+        }
+      ]
+    },
+    {
+      "value": "0x40012000",
+      "references": [
+        {
+          "instruction": "0x00002f28",
+          "literal_address": "0x00003070",
+          "assembly": "ldr r0, [pc, #0x144]"
+        },
+        {
+          "instruction": "0x00002f3c",
+          "literal_address": "0x00003070",
+          "assembly": "ldr r0, [pc, #0x130]"
+        },
+        {
+          "instruction": "0x00002f40",
+          "literal_address": "0x00003070",
+          "assembly": "ldr r4, [pc, #0x12c]"
+        },
+        {
+          "instruction": "0x00002f4a",
+          "literal_address": "0x00003070",
+          "assembly": "ldr r0, [pc, #0x124]"
+        },
+        {
+          "instruction": "0x00002f82",
+          "literal_address": "0x00003070",
+          "assembly": "ldr r0, [pc, #0xec]"
+        },
+        {
+          "instruction": "0x00002f8a",
+          "literal_address": "0x00003070",
+          "assembly": "ldr r0, [pc, #0xe4]"
+        },
+        {
+          "instruction": "0x00002fc2",
+          "literal_address": "0x00003070",
+          "assembly": "ldr r0, [pc, #0xac]"
+        },
+        {
+          "instruction": "0x00002fca",
+          "literal_address": "0x00003070",
+          "assembly": "ldr r0, [pc, #0xa4]"
+        },
+        {
+          "instruction": "0x00003002",
+          "literal_address": "0x00003070",
+          "assembly": "ldr r0, [pc, #0x6c]"
+        },
+        {
+          "instruction": "0x0000300a",
+          "literal_address": "0x00003070",
+          "assembly": "ldr r0, [pc, #0x64]"
+        },
+        {
+          "instruction": "0x00003042",
+          "literal_address": "0x00003070",
+          "assembly": "ldr r0, [pc, #0x2c]"
+        },
+        {
+          "instruction": "0x0000dc32",
+          "literal_address": "0x0000dc3c",
+          "assembly": "ldr r1, [pc, #8]"
+        },
+        {
+          "instruction": "0x0000dc48",
+          "literal_address": "0x0000dc50",
+          "assembly": "ldr r1, [pc, #4]"
+        },
+        {
+          "instruction": "0x0000dc76",
+          "literal_address": "0x0000dcc0",
+          "assembly": "ldr r4, [pc, #0x48]"
+        },
+        {
+          "instruction": "0x0000dcd0",
+          "literal_address": "0x0000dce4",
+          "assembly": "ldr r0, [pc, #0x10]"
+        },
+        {
+          "instruction": "0x0000dcf2",
+          "literal_address": "0x0000dd34",
+          "assembly": "ldr r4, [pc, #0x40]"
+        },
+        {
+          "instruction": "0x0000dd4c",
+          "literal_address": "0x0000dd58",
+          "assembly": "ldr r0, [pc, #8]"
+        },
+        {
+          "instruction": "0x0000dd64",
+          "literal_address": "0x0000dd78",
+          "assembly": "ldr r0, [pc, #0x10]"
+        }
+      ]
+    },
+    {
+      "value": "0x40012040",
+      "references": [
+        {
+          "instruction": "0x0000db9a",
+          "literal_address": "0x0000dbf0",
+          "assembly": "ldr r2, [pc, #0x54]"
+        },
+        {
+          "instruction": "0x0000dc58",
+          "literal_address": "0x0000dc68",
+          "assembly": "ldr r1, [pc, #0xc]"
+        }
+      ]
+    },
+    {
+      "value": "0x40013000",
+      "references": [
+        {
+          "instruction": "0x0000379e",
+          "literal_address": "0x00003804",
+          "assembly": "ldr r1, [pc, #0x64]"
+        },
+        {
+          "instruction": "0x000037be",
+          "literal_address": "0x00003804",
+          "assembly": "ldr r1, [pc, #0x44]"
+        },
+        {
+          "instruction": "0x000037da",
+          "literal_address": "0x00003804",
+          "assembly": "ldr r1, [pc, #0x28]"
+        },
+        {
+          "instruction": "0x000037ea",
+          "literal_address": "0x00003804",
+          "assembly": "ldr r1, [pc, #0x18]"
+        },
+        {
+          "instruction": "0x00003f96",
+          "literal_address": "0x00003fcc",
+          "assembly": "ldr r0, [pc, #0x34]"
+        },
+        {
+          "instruction": "0x00003f9c",
+          "literal_address": "0x00003fcc",
+          "assembly": "ldr r2, [pc, #0x2c]"
+        },
+        {
+          "instruction": "0x00003fa8",
+          "literal_address": "0x00003fcc",
+          "assembly": "ldr r2, [pc, #0x20]"
+        },
+        {
+          "instruction": "0x00003fbc",
+          "literal_address": "0x00003fcc",
+          "assembly": "ldr r0, [pc, #0xc]"
+        }
+      ]
+    },
+    {
+      "value": "0x400130d0",
+      "references": [
+        {
+          "instruction": "0x00003860",
+          "literal_address": "0x0000387c",
+          "assembly": "ldr r0, [pc, #0x18]"
+        },
+        {
+          "instruction": "0x000038ae",
+          "literal_address": "0x000038ec",
+          "assembly": "ldr r0, [pc, #0x3c]"
+        },
+        {
+          "instruction": "0x000038cc",
+          "literal_address": "0x000038ec",
+          "assembly": "ldr r1, [pc, #0x1c]"
+        },
+        {
+          "instruction": "0x00003948",
+          "literal_address": "0x000039b8",
+          "assembly": "ldr r0, [pc, #0x6c]"
+        },
+        {
+          "instruction": "0x0000396a",
+          "literal_address": "0x000039b8",
+          "assembly": "ldr r1, [pc, #0x4c]"
+        },
+        {
+          "instruction": "0x0000397a",
+          "literal_address": "0x000039b8",
+          "assembly": "ldr r0, [pc, #0x3c]"
+        },
+        {
+          "instruction": "0x00003982",
+          "literal_address": "0x000039b8",
+          "assembly": "ldr r1, [pc, #0x34]"
+        },
+        {
+          "instruction": "0x000039fa",
+          "literal_address": "0x00003a60",
+          "assembly": "ldr r0, [pc, #0x64]"
+        },
+        {
+          "instruction": "0x00003a26",
+          "literal_address": "0x00003a60",
+          "assembly": "ldr r1, [pc, #0x38]"
+        }
+      ]
+    },
+    {
+      "value": "0x400130f0",
+      "references": [
+        {
+          "instruction": "0x000007b4",
+          "literal_address": "0x000008dc",
+          "assembly": "ldr r3, [pc, #0x124]"
+        },
+        {
+          "instruction": "0x000007c2",
+          "literal_address": "0x000008dc",
+          "assembly": "ldr r4, [pc, #0x118]"
+        }
+      ]
+    },
+    {
+      "value": "0x40014000",
+      "references": [
+        {
+          "instruction": "0x00000780",
+          "literal_address": "0x000008d4",
+          "assembly": "ldr r7, [pc, #0x150]"
+        },
+        {
+          "instruction": "0x000009a2",
+          "literal_address": "0x000009b8",
+          "assembly": "ldr r2, [pc, #0x14]"
+        },
+        {
+          "instruction": "0x00000ace",
+          "literal_address": "0x00000ae0",
+          "assembly": "ldr r1, [pc, #0x10]"
+        },
+        {
+          "instruction": "0x00003ed8",
+          "literal_address": "0x00003ef4",
+          "assembly": "ldr r1, [pc, #0x18]"
+        },
+        {
+          "instruction": "0x0000470a",
+          "literal_address": "0x000047d4",
+          "assembly": "ldr r1, [pc, #0xc8]"
+        },
+        {
+          "instruction": "0x0000d500",
+          "literal_address": "0x0000d514",
+          "assembly": "ldr r1, [pc, #0x10]"
+        },
+        {
+          "instruction": "0x0000d526",
+          "literal_address": "0x0000d53c",
+          "assembly": "ldr r2, [pc, #0x14]"
+        },
+        {
+          "instruction": "0x0000d5f0",
+          "literal_address": "0x0000d654",
+          "assembly": "ldr r0, [pc, #0x60]"
+        },
+        {
+          "instruction": "0x0000d5f6",
+          "literal_address": "0x0000d654",
+          "assembly": "ldr r0, [pc, #0x5c]"
+        },
+        {
+          "instruction": "0x0000eab6",
+          "literal_address": "0x0000eac8",
+          "assembly": "ldr r1, [pc, #0x10]"
+        }
+      ]
+    },
+    {
+      "value": "0x40014040",
+      "references": [
+        {
+          "instruction": "0x0000070e",
+          "literal_address": "0x000008d0",
+          "assembly": "ldr r7, [pc, #0x1c0]"
+        },
+        {
+          "instruction": "0x000011e4",
+          "literal_address": "0x00001264",
+          "assembly": "ldr r0, [pc, #0x7c]"
+        },
+        {
+          "instruction": "0x000011fe",
+          "literal_address": "0x00001264",
+          "assembly": "ldr r0, [pc, #0x64]"
+        },
+        {
+          "instruction": "0x0000d57c",
+          "literal_address": "0x0000d58c",
+          "assembly": "ldr r1, [pc, #0xc]"
+        },
+        {
+          "instruction": "0x0000d590",
+          "literal_address": "0x0000d5a0",
+          "assembly": "ldr r1, [pc, #0xc]"
+        }
+      ]
+    },
+    {
+      "value": "0x40014100",
+      "references": [
+        {
+          "instruction": "0x00002cfc",
+          "literal_address": "0x00002d14",
+          "assembly": "ldr r1, [pc, #0x14]"
+        },
+        {
+          "instruction": "0x000036d4",
+          "literal_address": "0x0000376c",
+          "assembly": "ldr r1, [pc, #0x94]"
+        },
+        {
+          "instruction": "0x0000f0ec",
+          "literal_address": "0x0000f100",
+          "assembly": "ldr r0, [pc, #0x10]"
+        }
+      ]
+    },
+    {
+      "value": "0x40015000",
+      "references": [
+        {
+          "instruction": "0x000005dc",
+          "literal_address": "0x00000614",
+          "assembly": "ldr r5, [pc, #0x34]"
+        },
+        {
+          "instruction": "0x00002a44",
+          "literal_address": "0x00002a64",
+          "assembly": "ldr r0, [pc, #0x1c]"
+        },
+        {
+          "instruction": "0x00004aa8",
+          "literal_address": "0x00004adc",
+          "assembly": "ldr r5, [pc, #0x30]"
+        }
+      ]
+    },
+    {
+      "value": "0x40015040",
+      "references": [
+        {
+          "instruction": "0x000049e2",
+          "literal_address": "0x00004a88",
+          "assembly": "ldr r2, [pc, #0xa4]"
+        },
+        {
+          "instruction": "0x000049f8",
+          "literal_address": "0x00004a88",
+          "assembly": "ldr r4, [pc, #0x8c]"
+        }
+      ]
+    },
+    {
+      "value": "0x40016000",
+      "references": [
+        {
+          "instruction": "0x0000051a",
+          "literal_address": "0x0000058c",
+          "assembly": "ldr r3, [pc, #0x70]"
+        },
+        {
+          "instruction": "0x0000120e",
+          "literal_address": "0x00001268",
+          "assembly": "ldr r5, [pc, #0x58]"
+        },
+        {
+          "instruction": "0x0000127a",
+          "literal_address": "0x00001368",
+          "assembly": "ldr r0, [pc, #0xec]"
+        },
+        {
+          "instruction": "0x0000312e",
+          "literal_address": "0x00003158",
+          "assembly": "ldr r4, [pc, #0x28]"
+        },
+        {
+          "instruction": "0x0000471c",
+          "literal_address": "0x000047d8",
+          "assembly": "ldr r0, [pc, #0xb8]"
+        },
+        {
+          "instruction": "0x0000ebf2",
+          "literal_address": "0x0000ee70",
+          "assembly": "ldr r0, [pc, #0x27c]"
+        },
+        {
+          "instruction": "0x0000eeb6",
+          "literal_address": "0x0000eed0",
+          "assembly": "ldr r0, [pc, #0x18]"
+        },
+        {
+          "instruction": "0x0000f0b6",
+          "literal_address": "0x0000f0d8",
+          "assembly": "ldr r1, [pc, #0x20]"
+        },
+        {
+          "instruction": "0x0000f174",
+          "literal_address": "0x0000f17c",
+          "assembly": "ldr r1, [pc, #4]"
+        }
+      ]
+    },
+    {
+      "value": "0x40017500",
+      "references": [
+        {
+          "instruction": "0x00002880",
+          "literal_address": "0x000028b0",
+          "assembly": "ldr r1, [pc, #0x2c]"
+        }
+      ]
+    },
+    {
+      "value": "0x40017b00",
+      "references": [
+        {
+          "instruction": "0x00001342",
+          "literal_address": "0x00001378",
+          "assembly": "ldr r3, [pc, #0x34]"
+        },
+        {
+          "instruction": "0x0000260c",
+          "literal_address": "0x00002660",
+          "assembly": "ldr r1, [pc, #0x50]"
+        }
+      ]
+    },
+    {
+      "value": "0x40017c00",
+      "references": [
+        {
+          "instruction": "0x000005a0",
+          "literal_address": "0x000005c8",
+          "assembly": "ldr r5, [pc, #0x24]"
+        },
+        {
+          "instruction": "0x00000644",
+          "literal_address": "0x000006fc",
+          "assembly": "ldr r2, [pc, #0xb4]"
+        },
+        {
+          "instruction": "0x0000096e",
+          "literal_address": "0x0000099c",
+          "assembly": "ldr r4, [pc, #0x2c]"
+        },
+        {
+          "instruction": "0x0000131a",
+          "literal_address": "0x00001374",
+          "assembly": "ldr r3, [pc, #0x58]"
+        },
+        {
+          "instruction": "0x00001480",
+          "literal_address": "0x000014f0",
+          "assembly": "ldr r0, [pc, #0x6c]"
+        },
+        {
+          "instruction": "0x0000258c",
+          "literal_address": "0x000025d4",
+          "assembly": "ldr r1, [pc, #0x44]"
+        },
+        {
+          "instruction": "0x0000f142",
+          "literal_address": "0x0000f168",
+          "assembly": "ldr r1, [pc, #0x24]"
+        }
+      ]
+    },
+    {
+      "value": "0x40017e00",
+      "references": [
+        {
+          "instruction": "0x00000536",
+          "literal_address": "0x00000590",
+          "assembly": "ldr r0, [pc, #0x58]"
+        },
+        {
+          "instruction": "0x0000f182",
+          "literal_address": "0x0000f190",
+          "assembly": "ldr r2, [pc, #0xc]"
+        },
+        {
+          "instruction": "0x0000f222",
+          "literal_address": "0x0000f230",
+          "assembly": "ldr r2, [pc, #0xc]"
+        }
+      ]
+    },
+    {
+      "value": "0x40017e80",
+      "references": [
+        {
+          "instruction": "0x000004b6",
+          "literal_address": "0x000004f4",
+          "assembly": "ldr r1, [pc, #0x3c]"
+        },
+        {
+          "instruction": "0x000004ba",
+          "literal_address": "0x000004f4",
+          "assembly": "ldr r2, [pc, #0x38]"
+        },
+        {
+          "instruction": "0x000004e0",
+          "literal_address": "0x000004f4",
+          "assembly": "ldr r1, [pc, #0x10]"
+        },
+        {
+          "instruction": "0x00000628",
+          "literal_address": "0x000006f8",
+          "assembly": "ldr r0, [pc, #0xcc]"
+        },
+        {
+          "instruction": "0x00000956",
+          "literal_address": "0x00000998",
+          "assembly": "ldr r0, [pc, #0x40]"
+        },
+        {
+          "instruction": "0x0000097e",
+          "literal_address": "0x00000998",
+          "assembly": "ldr r0, [pc, #0x18]"
+        },
+        {
+          "instruction": "0x00001288",
+          "literal_address": "0x00001370",
+          "assembly": "ldr r0, [pc, #0xe4]"
+        },
+        {
+          "instruction": "0x0000130e",
+          "literal_address": "0x00001370",
+          "assembly": "ldr r3, [pc, #0x60]"
+        },
+        {
+          "instruction": "0x00001324",
+          "literal_address": "0x00001370",
+          "assembly": "ldr r2, [pc, #0x48]"
+        },
+        {
+          "instruction": "0x0000134c",
+          "literal_address": "0x00001370",
+          "assembly": "ldr r2, [pc, #0x20]"
+        },
+        {
+          "instruction": "0x0000138c",
+          "literal_address": "0x0000146c",
+          "assembly": "ldr r6, [pc, #0xdc]"
+        },
+        {
+          "instruction": "0x0000148e",
+          "literal_address": "0x000014f8",
+          "assembly": "ldr r5, [pc, #0x68]"
+        },
+        {
+          "instruction": "0x00004726",
+          "literal_address": "0x000047dc",
+          "assembly": "ldr r0, [pc, #0xb4]"
+        },
+        {
+          "instruction": "0x00004760",
+          "literal_address": "0x000047dc",
+          "assembly": "ldr r1, [pc, #0x78]"
+        },
+        {
+          "instruction": "0x000047b0",
+          "literal_address": "0x000047dc",
+          "assembly": "ldr r0, [pc, #0x28]"
+        },
+        {
+          "instruction": "0x00004860",
+          "literal_address": "0x000048b8",
+          "assembly": "ldr r4, [pc, #0x54]"
+        },
+        {
+          "instruction": "0x00004884",
+          "literal_address": "0x000048b8",
+          "assembly": "ldr r1, [pc, #0x30]"
+        },
+        {
+          "instruction": "0x00004894",
+          "literal_address": "0x000048b8",
+          "assembly": "ldr r1, [pc, #0x20]"
+        },
+        {
+          "instruction": "0x0000ebfe",
+          "literal_address": "0x0000ee74",
+          "assembly": "ldr r5, [pc, #0x274]"
+        },
+        {
+          "instruction": "0x0000ecc2",
+          "literal_address": "0x0000ee74",
+          "assembly": "ldr r1, [pc, #0x1b0]"
+        },
+        {
+          "instruction": "0x0000ed14",
+          "literal_address": "0x0000ee74",
+          "assembly": "ldr r0, [pc, #0x15c]"
+        },
+        {
+          "instruction": "0x0000f152",
+          "literal_address": "0x0000f16c",
+          "assembly": "ldr r2, [pc, #0x18]"
+        }
+      ]
+    },
+    {
+      "value": "0x40017ec0",
+      "references": [
+        {
+          "instruction": "0x0000256a",
+          "literal_address": "0x000025d0",
+          "assembly": "ldr r2, [pc, #0x64]"
+        },
+        {
+          "instruction": "0x00002598",
+          "literal_address": "0x000025d0",
+          "assembly": "ldr r0, [pc, #0x34]"
+        },
+        {
+          "instruction": "0x00002622",
+          "literal_address": "0x00002668",
+          "assembly": "ldr r0, [pc, #0x44]"
+        },
+        {
+          "instruction": "0x0000264c",
+          "literal_address": "0x00002668",
+          "assembly": "ldr r0, [pc, #0x18]"
+        },
+        {
+          "instruction": "0x00002cc6",
+          "literal_address": "0x00002cec",
+          "assembly": "ldr r2, [pc, #0x24]"
+        },
+        {
+          "instruction": "0x0000f196",
+          "literal_address": "0x0000f1fc",
+          "assembly": "ldr r2, [pc, #0x64]"
+        },
+        {
+          "instruction": "0x0000f1a2",
+          "literal_address": "0x0000f1fc",
+          "assembly": "ldr r6, [pc, #0x58]"
+        },
+        {
+          "instruction": "0x0000f236",
+          "literal_address": "0x0000f2b4",
+          "assembly": "ldr r3, [pc, #0x7c]"
+        },
+        {
+          "instruction": "0x0000f23e",
+          "literal_address": "0x0000f2b4",
+          "assembly": "ldr r2, [pc, #0x74]"
+        }
+      ]
+    },
+    {
+      "value": "0x40017ed4",
+      "references": [
+        {
+          "instruction": "0x000005aa",
+          "literal_address": "0x000005cc",
+          "assembly": "ldr r4, [pc, #0x20]"
+        }
+      ]
+    },
+    {
+      "value": "0x40017f00",
+      "references": [
+        {
+          "instruction": "0x000004fc",
+          "literal_address": "0x00000588",
+          "assembly": "ldr r5, [pc, #0x88]"
+        },
+        {
+          "instruction": "0x00000520",
+          "literal_address": "0x00000588",
+          "assembly": "ldr r0, [pc, #0x64]"
+        },
+        {
+          "instruction": "0x00000562",
+          "literal_address": "0x00000588",
+          "assembly": "ldr r0, [pc, #0x24]"
+        },
+        {
+          "instruction": "0x0000d5a4",
+          "literal_address": "0x0000d5dc",
+          "assembly": "ldr r1, [pc, #0x34]"
+        }
+      ]
+    },
+    {
+      "value": "0x40017f18",
+      "references": [
+        {
+          "instruction": "0x0000287e",
+          "literal_address": "0x000028ac",
+          "assembly": "ldr r0, [pc, #0x2c]"
+        }
+      ]
+    },
+    {
+      "value": "0x40017f40",
+      "references": [
+        {
+          "instruction": "0x0000ee94",
+          "literal_address": "0x0000eea4",
+          "assembly": "ldr r1, [pc, #0xc]"
+        },
+        {
+          "instruction": "0x0000eed6",
+          "literal_address": "0x0000eeec",
+          "assembly": "ldr r1, [pc, #0x14]"
+        },
+        {
+          "instruction": "0x0000ef14",
+          "literal_address": "0x0000ef6c",
+          "assembly": "ldr r4, [pc, #0x54]"
+        },
+        {
+          "instruction": "0x0000ef20",
+          "literal_address": "0x0000ef6c",
+          "assembly": "ldr r6, [pc, #0x48]"
+        },
+        {
+          "instruction": "0x0000ef32",
+          "literal_address": "0x0000ef6c",
+          "assembly": "ldr r1, [pc, #0x38]"
+        },
+        {
+          "instruction": "0x0000ef52",
+          "literal_address": "0x0000ef6c",
+          "assembly": "ldr r1, [pc, #0x18]"
+        },
+        {
+          "instruction": "0x0000ef76",
+          "literal_address": "0x0000efcc",
+          "assembly": "ldr r2, [pc, #0x54]"
+        },
+        {
+          "instruction": "0x0000ef80",
+          "literal_address": "0x0000efcc",
+          "assembly": "ldr r4, [pc, #0x48]"
+        },
+        {
+          "instruction": "0x0000ef92",
+          "literal_address": "0x0000efcc",
+          "assembly": "ldr r1, [pc, #0x38]"
+        },
+        {
+          "instruction": "0x0000efb2",
+          "literal_address": "0x0000efcc",
+          "assembly": "ldr r1, [pc, #0x18]"
+        },
+        {
+          "instruction": "0x0000eff8",
+          "literal_address": "0x0000f000",
+          "assembly": "ldr r0, [pc, #4]"
+        },
+        {
+          "instruction": "0x0000f204",
+          "literal_address": "0x0000f21c",
+          "assembly": "ldr r0, [pc, #0x14]"
+        },
+        {
+          "instruction": "0x0000f31c",
+          "literal_address": "0x0000f39c",
+          "assembly": "ldr r5, [pc, #0x7c]"
+        }
+      ]
+    },
+    {
+      "value": "0x40017f80",
+      "references": [
+        {
+          "instruction": "0x0000061c",
+          "literal_address": "0x000006f4",
+          "assembly": "ldr r0, [pc, #0xd4]"
+        },
+        {
+          "instruction": "0x000006de",
+          "literal_address": "0x000006f4",
+          "assembly": "ldr r1, [pc, #0x14]"
+        },
+        {
+          "instruction": "0x00001384",
+          "literal_address": "0x00001468",
+          "assembly": "ldr r0, [pc, #0xe0]"
+        },
+        {
+          "instruction": "0x0000148c",
+          "literal_address": "0x000014f4",
+          "assembly": "ldr r2, [pc, #0x64]"
+        },
+        {
+          "instruction": "0x000014de",
+          "literal_address": "0x000014f4",
+          "assembly": "ldr r3, [pc, #0x14]"
+        },
+        {
+          "instruction": "0x00004790",
+          "literal_address": "0x000047e0",
+          "assembly": "ldr r0, [pc, #0x4c]"
+        },
+        {
+          "instruction": "0x00004796",
+          "literal_address": "0x000047e0",
+          "assembly": "ldr r1, [pc, #0x48]"
+        },
+        {
+          "instruction": "0x000047a4",
+          "literal_address": "0x000047e0",
+          "assembly": "ldr r1, [pc, #0x38]"
+        },
+        {
+          "instruction": "0x0000ed0c",
+          "literal_address": "0x0000ee8c",
+          "assembly": "ldr r0, [pc, #0x17c]"
+        }
+      ]
+    },
+    {
+      "value": "0x40017fa0",
+      "references": [
+        {
+          "instruction": "0x0000df94",
+          "literal_address": "0x0000dff8",
+          "assembly": "ldr r1, [pc, #0x60]"
+        },
+        {
+          "instruction": "0x0000dfa2",
+          "literal_address": "0x0000dff8",
+          "assembly": "ldr r1, [pc, #0x54]"
+        },
+        {
+          "instruction": "0x0000dfaa",
+          "literal_address": "0x0000dff8",
+          "assembly": "ldr r1, [pc, #0x4c]"
+        },
+        {
+          "instruction": "0x0000dfb2",
+          "literal_address": "0x0000dff8",
+          "assembly": "ldr r1, [pc, #0x44]"
+        },
+        {
+          "instruction": "0x0000dfba",
+          "literal_address": "0x0000dff8",
+          "assembly": "ldr r1, [pc, #0x3c]"
+        },
+        {
+          "instruction": "0x0000dfc2",
+          "literal_address": "0x0000dff8",
+          "assembly": "ldr r1, [pc, #0x34]"
+        },
+        {
+          "instruction": "0x0000dfca",
+          "literal_address": "0x0000dff8",
+          "assembly": "ldr r1, [pc, #0x2c]"
+        },
+        {
+          "instruction": "0x0000dfd2",
+          "literal_address": "0x0000dff8",
+          "assembly": "ldr r1, [pc, #0x24]"
+        }
+      ]
+    },
+    {
+      "value": "0x40018000",
+      "references": [
+        {
+          "instruction": "0x00000490",
+          "literal_address": "0x000004a4",
+          "assembly": "ldr r2, [pc, #0x10]"
+        },
+        {
+          "instruction": "0x000044ca",
+          "literal_address": "0x000044d4",
+          "assembly": "ldr r2, [pc, #8]"
+        },
+        {
+          "instruction": "0x000044e6",
+          "literal_address": "0x000044f0",
+          "assembly": "ldr r2, [pc, #8]"
+        },
+        {
+          "instruction": "0x00004ce4",
+          "literal_address": "0x00004da0",
+          "assembly": "ldr r2, [pc, #0xb8]"
+        },
+        {
+          "instruction": "0x00004d0a",
+          "literal_address": "0x00004da0",
+          "assembly": "ldr r2, [pc, #0x94]"
+        }
+      ]
+    },
+    {
+      "value": "0x40018080",
+      "references": [
+        {
+          "instruction": "0x000028f4",
+          "literal_address": "0x00002938",
+          "assembly": "ldr r4, [pc, #0x40]"
+        }
+      ]
+    },
+    {
+      "value": "0x40019000",
+      "references": [
+        {
+          "instruction": "0x00000a60",
+          "literal_address": "0x00000abc",
+          "assembly": "ldr r4, [pc, #0x58]"
+        },
+        {
+          "instruction": "0x00001172",
+          "literal_address": "0x000011c4",
+          "assembly": "ldr r4, [pc, #0x50]"
+        },
+        {
+          "instruction": "0x00001192",
+          "literal_address": "0x000011c4",
+          "assembly": "ldr r1, [pc, #0x30]"
+        },
+        {
+          "instruction": "0x00004ae2",
+          "literal_address": "0x00004b18",
+          "assembly": "ldr r4, [pc, #0x34]"
+        },
+        {
+          "instruction": "0x00004b02",
+          "literal_address": "0x00004b18",
+          "assembly": "ldr r1, [pc, #0x14]"
+        },
+        {
+          "instruction": "0x0000ea44",
+          "literal_address": "0x0000eaa4",
+          "assembly": "ldr r5, [pc, #0x5c]"
+        }
+      ]
+    },
+    {
+      "value": "0xe000e000",
+      "references": [
+        {
+          "instruction": "0x0000eafe",
+          "literal_address": "0x0000eb14",
+          "assembly": "ldr r1, [pc, #0x14]"
+        },
+        {
+          "instruction": "0x0000eb1e",
+          "literal_address": "0x0000eb34",
+          "assembly": "ldr r0, [pc, #0x14]"
+        },
+        {
+          "instruction": "0x0000f2d2",
+          "literal_address": "0x0000f2e8",
+          "assembly": "ldr r0, [pc, #0x14]"
+        }
+      ]
+    },
+    {
+      "value": "0xe000e100",
+      "references": [
+        {
+          "instruction": "0x0000036e",
+          "literal_address": "0x00000394",
+          "assembly": "ldr r1, [pc, #0x24]"
+        },
+        {
+          "instruction": "0x000036da",
+          "literal_address": "0x00003770",
+          "assembly": "ldr r1, [pc, #0x94]"
+        },
+        {
+          "instruction": "0x000036e2",
+          "literal_address": "0x00003770",
+          "assembly": "ldr r3, [pc, #0x8c]"
+        },
+        {
+          "instruction": "0x000049f4",
+          "literal_address": "0x00004a94",
+          "assembly": "ldr r1, [pc, #0x9c]"
+        },
+        {
+          "instruction": "0x00004a1e",
+          "literal_address": "0x00004a94",
+          "assembly": "ldr r3, [pc, #0x74]"
+        },
+        {
+          "instruction": "0x0000d55e",
+          "literal_address": "0x0000d578",
+          "assembly": "ldr r0, [pc, #0x18]"
+        },
+        {
+          "instruction": "0x0000d564",
+          "literal_address": "0x0000d578",
+          "assembly": "ldr r0, [pc, #0x10]"
+        },
+        {
+          "instruction": "0x0000dd1c",
+          "literal_address": "0x0000dd44",
+          "assembly": "ldr r0, [pc, #0x24]"
+        },
+        {
+          "instruction": "0x0000dd22",
+          "literal_address": "0x0000dd44",
+          "assembly": "ldr r0, [pc, #0x20]"
+        },
+        {
+          "instruction": "0x0000e5f2",
+          "literal_address": "0x0000e614",
+          "assembly": "ldr r0, [pc, #0x20]"
+        },
+        {
+          "instruction": "0x0000e5f8",
+          "literal_address": "0x0000e614",
+          "assembly": "ldr r1, [pc, #0x18]"
+        },
+        {
+          "instruction": "0x0000f038",
+          "literal_address": "0x0000f040",
+          "assembly": "ldr r1, [pc, #4]"
+        }
+      ]
+    },
+    {
+      "value": "0xe000e180",
+      "references": [
+        {
+          "instruction": "0x00000240",
+          "literal_address": "0x00000248",
+          "assembly": "ldr r1, [pc, #4]"
+        },
+        {
+          "instruction": "0x00002b9c",
+          "literal_address": "0x00002ba4",
+          "assembly": "ldr r1, [pc, #4]"
+        },
+        {
+          "instruction": "0x0000dc88",
+          "literal_address": "0x0000dcc8",
+          "assembly": "ldr r1, [pc, #0x3c]"
+        },
+        {
+          "instruction": "0x0000e620",
+          "literal_address": "0x0000e6a0",
+          "assembly": "ldr r0, [pc, #0x7c]"
+        },
+        {
+          "instruction": "0x0000f428",
+          "literal_address": "0x0000f474",
+          "assembly": "ldr r7, [pc, #0x48]"
+        },
+        {
+          "instruction": "0x0000f456",
+          "literal_address": "0x0000f474",
+          "assembly": "ldr r1, [pc, #0x1c]"
+        },
+        {
+          "instruction": "0x0000f486",
+          "literal_address": "0x0000f4a0",
+          "assembly": "ldr r1, [pc, #0x18]"
+        }
+      ]
+    },
+    {
+      "value": "0xe000e280",
+      "references": [
+        {
+          "instruction": "0x00000368",
+          "literal_address": "0x00000390",
+          "assembly": "ldr r1, [pc, #0x24]"
+        },
+        {
+          "instruction": "0x000049f0",
+          "literal_address": "0x00004a90",
+          "assembly": "ldr r1, [pc, #0x9c]"
+        },
+        {
+          "instruction": "0x0000d55a",
+          "literal_address": "0x0000d574",
+          "assembly": "ldr r0, [pc, #0x18]"
+        },
+        {
+          "instruction": "0x0000dd16",
+          "literal_address": "0x0000dd40",
+          "assembly": "ldr r0, [pc, #0x28]"
+        },
+        {
+          "instruction": "0x0000e5ec",
+          "literal_address": "0x0000e610",
+          "assembly": "ldr r0, [pc, #0x20]"
+        },
+        {
+          "instruction": "0x0000f02c",
+          "literal_address": "0x0000f034",
+          "assembly": "ldr r1, [pc, #4]"
+        },
+        {
+          "instruction": "0x0000f452",
+          "literal_address": "0x0000f480",
+          "assembly": "ldr r1, [pc, #0x2c]"
+        }
+      ]
+    },
+    {
+      "value": "0xe000e400",
+      "references": [
+        {
+          "instruction": "0x00002bd4",
+          "literal_address": "0x00002be8",
+          "assembly": "ldr r0, [pc, #0x10]"
+        }
+      ]
+    },
+    {
+      "value": "0xe000e410",
+      "references": [
+        {
+          "instruction": "0x0000d54e",
+          "literal_address": "0x0000d570",
+          "assembly": "ldr r2, [pc, #0x20]"
+        }
+      ]
+    },
+    {
+      "value": "0xe000ed00",
+      "references": [
+        {
+          "instruction": "0x00000250",
+          "literal_address": "0x00000260",
+          "assembly": "ldr r1, [pc, #0xc]"
+        },
+        {
+          "instruction": "0x000029e0",
+          "literal_address": "0x000029f0",
+          "assembly": "ldr r1, [pc, #0xc]"
+        },
+        {
+          "instruction": "0x00002bc2",
+          "literal_address": "0x00002be4",
+          "assembly": "ldr r0, [pc, #0x20]"
+        },
+        {
+          "instruction": "0x000036e8",
+          "literal_address": "0x00003778",
+          "assembly": "ldr r3, [pc, #0x8c]"
+        },
+        {
+          "instruction": "0x00003ee2",
+          "literal_address": "0x00003efc",
+          "assembly": "ldr r1, [pc, #0x18]"
+        }
+      ]
+    }
+  ]
+}

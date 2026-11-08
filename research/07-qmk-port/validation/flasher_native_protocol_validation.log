@@ -1,0 +1,78 @@
+{
+  "passed_native_protocol_audit": true,
+  "requested_in_place_reader_transition_works": true,
+  "reason": "After117pagesandthreecorrectreaders, guardedrelease restores87F; GETVreturns4through87Etonativereset24Cwithrestoredstack/registers. NoadditionalFMCcommandsorCOMPLETE.",
+  "stub_sha256": "e4c466571f03c5ece7ae4417c281dd9be3787d659945633acec7cfb92dae3a8c",
+  "bounded_START_header_first52_unchanged": true,
+  "clear_image_length": "0x1cc00",
+  "crypto_model": "Only originalSTART0x29c acceptedmetadata modeled as1cc00/E908/A104; DATAusesrealplaintextflagclearedbyboundedstub.",
+  "body_sha256": "e99862620c6068fa8808b712dd008f78cf53591e3470aefffcb913c60e309039",
+  "first_page": 16,
+  "last_page": 132,
+  "no_COMPLETE": true,
+  "final_native_return": 4,
+  "reader_START_reply": {
+    "packet": "GETV",
+    "status": 5,
+    "length": 1,
+    "payload_hex": "05"
+  },
+  "start_callbacks": [
+    "bounded_START",
+    "reader_START",
+    "second_reader_START",
+    "metadata_START",
+    "release_START"
+  ],
+  "remaining_state_last": {
+    "packet": "GETV",
+    "active": 1,
+    "r5_remaining": 117760
+  },
+  "model": "Originalnativeouterhandler,target117actual512-bytepayloads,boundedstubandnativeABIhelpers;modeledFMCupdatesemulatedCPUflashonly.No physicalflashupdated.",
+  "hardware_access": false,
+  "release_checked": true,
+  "release_stub_sha256": "57332cb094949feeba32c44fa829bb57069eaef61d92bceab161601737af4323",
+  "release_then_GETV_no_extra_START": true,
+  "native_cleanup": [
+    {
+      "address": "0x87e",
+      "sp": "0x2000f000",
+      "r4_r7": [
+        "0x20000524",
+        "0x2",
+        "0x20000754",
+        "0x40014000"
+      ],
+      "native_return": 4
+    },
+    {
+      "address": "0x24c",
+      "sp": "0x2000f000",
+      "r4_r7": [
+        "0x20000524",
+        "0x2",
+        "0x20000754",
+        "0x40014000"
+      ],
+      "native_return": 4
+    }
+  ],
+  "final_saved_return_write": {
+    "packet": "release_START",
+    "value": "0x87f",
+    "pc": "0x200000ae"
+  },
+  "only_original_117_pages_controller_commands": true,
+  "metadata_window_unchanged": true,
+  "packaged_start_data_and_probe_generators": true,
+  "passed": true,
+  "all_program_words_match_body": true,
+  "emulated_readback_matches_body": true,
+  "primask_initial": 1,
+  "primask_final": 1,
+  "mask_checks": 297289,
+  "controller_storage_model": "RAM-likeFMCcommandsupdateemulatedCPUflash;thisisnotphysicalprogrammingproof",
+  "body_file": ".local-flasher\\new_qmk_application.bin",
+  "pages_programmed_in_model": 117
+}

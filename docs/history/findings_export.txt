@@ -1,0 +1,96 @@
+### [1] firmware-encryption
+The .enc firmware files are genuinely encrypted with a proprietary 128-bit (16-byte) block cipher in ECB mode. Entropy ~7.1 bits/byte; 52% of 16-byte blocks repeat; two dominant blocks correspond to blank-flash regions (the ECB tell). Not AES/SM4/TEA/XTEA (no matching S-boxes, T-tables, Rcon, or delta constants).
+
+### [2] key-location
+The decryption key is NOT present in the PC software. UsbHid_v1.0.6.dll performs no encryption/decryption of the firmware payload. The keyboard bootloader decrypts internally using an on-chip key.
+
+### [3] update-flow
+appUpdateFirmware (0x10005be0) reads update_config.ini; if program_type=USB it calls FUN_10003360 (connect/query chip), checks (status & 0xf000)==0xa000, then FUN_10004e40 performs the update.
+
+### [4] update-routine
+FUN_10004e40 (0x10004e40) opens the .enc file (fopen rb), verifies an XOR-of-dwords checksum against DAT_101cd608, computes payload size = filesize-0x20, then runs a state machine (states 1..5) that reads the file in 0x200-byte chunks and sends them UNCHANGED. Packet command byte: 1=start, 2=data, 3=end.
+
+### [5] sender
+FUN_10004d20 (0x10004d20) frames a packet and splits it into 64-byte HID reports, writing each via FUN_10002d20 (WriteFile) and reading the ack via FUN_10002e50 (ReadFile). No payload transformation.
+
+### [6] hid-io
+FUN_10002d20 = raw HID WriteFile (0x41=65 bytes: report id + 64 data). FUN_10002e50 = raw HID ReadFile (0x41). FUN_100032f0 copies a static 440-byte (0x1b8) header block from DAT_101a6b40 and appends an XOR checksum.
+
+### [7] bootloader
+Firmware update reboots keyboard into a bootloader at USB VID 352D PID 1101; the update device enumerates as VID 1928 PID 0078 (from update_config.ini).
+
+### [8] device
+Keyboard: Ranked Nova 60% (Nova n60). Runtime USB VID 3532 PID A0A3 = DE (German) layout. Settings go over vendor HID interface MI_01 Col03 (usage page 0xFF00, 64-byte in/out reports).
+
+### [9] conclusion
+To recover plaintext firmware you must extract the key/plaintext from the chip (hardware: SWD/JTAG flash dump or fault injection). It cannot be obtained from the PC-side software alone.
+
+### [10] xor-is-checksum
+The XOR loop in FUN_10004e40 is a CHECKSUM, not decryption. Proof: (1) it folds each 512-byte block into a single 32-bit accumulator (local_474/uVar15) stored separately - a cipher preserves length, this is 512 bytes in -> 4 bytes out and is non-invertible; (2) the file data buffer passed to the sender FUN_10004d20 is never modified, so raw .enc bytes go to the device unchanged; (3) XOR-with-16-byte-key against the file does not collapse blank-flash regions to zero, so simple XOR cannot explain the measured ECB block structure.
+
+### [11] usb-control-protocol
+Vendor HID control protocol decoded from OemDrv.exe: 64-byte OUT reports [0x04][cmd][args] on interface MI_01 Col03 (usage 0xFF00). Commands: A0 matrix/remap, A5 enter-bootloader, A7 macro-alloc, A8 macro, AE LED/RGB, B1 music, B6 rapid-trigger (resp B7). Device echoes cmd id in response[0]; large payloads chunked to 63 bytes. See usb_commands and usb_protocol_notes tables.
+
+### [12] dynamic-confirmation
+Live USBPcap capture of a real firmware re-flash confirms both static findings. The captured enter-bootloader HID report is 04 A5 01 (matches FUN_0046b230). All 7360 .enc payload 16-byte blocks appear verbatim in the bootloader traffic (100%% coverage) - the PC sends the encrypted firmware unchanged; the chip decrypts. See dynamic_capture table.
+
+### [13] key-remap-protocol
+SetMatrix (0xA0) remap decoded live: report [04 A0 02 04 page 0E layer] + 4-byte key entries [matrix_index][0xFC][00][HID usage], 4 layers x 14 pages, trailer A5 00 00, device echoes as ack. Entry mapping verified against Dev.ini (idx 0x15=Esc 0x29, 0x16=1 0x1E, etc.). See setmatrix_format and remap_capture tables.
+
+### [14] cipher-clarification
+Firmware uses a 128-bit (16-byte) BLOCK cipher in ECB mode - NOT AES (no AES tables/Rcon). 16 bytes is the block size, not key size. AES has no 160-bit variant.
+
+### [15] ecb-leaks-structure-only
+ECB leaks structure only: v1.0.4 = 7362 blocks, ~3659 blank-flash (2 dominant blocks 2416+1243), ~3703 (~59KB) real code/data. This maps layout but does NOT reveal plaintext.
+
+### [16] per-file-keying
+Per-file keying confirmed: v1.0.3 and v1.0.4 share 0 of 7266 blocks; A0A3 vs A0A2 (same version, diff layout) share 0 blocks. Each .enc uses a different key or salt, so no cross-file codebook/known-plaintext reuse is possible. Static decryption is infeasible without the on-chip key.
+
+### [17] per-layout-firmware
+Each hardware/layout variant has its OWN firmware file. 31 .enc files total: RD61 61-key (A0A1,A0B1), RD61 62-key (A0A2-A0A7,A0B2-A0B7 = 12 variants), RD68 68-key-US (A0C1). Every file has a distinct MD5 AND shares ZERO 16-byte ECB blocks with any other variant (per-variant key/salt). Distinct-block counts are near-identical within a key-count (62-key v1.0.3=3493 each, 61-key=3421), so the base firmware is the same per key-count; the per-variant difference is almost certainly a small layout/region table re-encrypted with a different key. See firmware_variants table.
+
+### [18] filename-xor-checksum
+Filename hex suffix = 32-bit XOR checksum of the whole .enc (every 4 bytes XOR-folded). Verified: 53CD5F3C,AF41E851,57DBAB41,86EEA5CF all equal xor32 of their file. This is the integrity tag the DLL checks against DAT_101cd608 before flashing - an INDICATION sent with the firmware, but not a key.
+
+### [19] key-indication-mechanism
+Key-selection mechanism. Within one file the cipher behaves as ECB: identical plaintext blocks map to identical ciphertext, dominant blocks repeat thousands of times. Across files (same chip, different version) ZERO blocks match, so the key varies PER FILE, not just per chip. The only per-file-varying data shipped with the file is the random 32-byte header (2 blocks, excluded from the body scan). Conclusion: key = KDF(chip-stored secret, header salt/nonce). The salt (header) IS sent; the key itself is NOT. This rules out CBC/CTR/XTS, which would destroy the within-file repeats. Per-variant selection needs nothing sent because the chip already knows its own variant.
+
+### [20] decryption-infeasible-software
+Ciphertext-only decryption with the files alone is NOT possible - tested, not assumed. (1) Repeating-XOR ruled out: the two dominant blocks XORed = 31c894775edbdf7d5f5fcb426cc16e45, not all-FF, so no known-plaintext keystream recovery. (2) Byte distribution of the body is flat: all 256 values present, 0xFF appears only 261x and 0x00 only 225x (plaintext firmware would show tens of thousands) = strong-cipher signature. Entropy 7.16 bits/byte, below 8 only because of the repeated blank-flash blocks (the ECB tell), not plaintext structure. (3) Two files use DIFFERENT per-file keys, so they do not combine - two files buy nothing over one. (4) ECB codebook only recovers repeated filler blocks (already identified as blank flash); the ~3700 unique code blocks each appear once and cannot be recovered without their plaintext. Conclusion: the only routes to plaintext need hardware - SWD/JTAG flash dump (gives decrypted image directly), glitch past read protection, or dump chip RAM mid-update for the derived key.
+
+### [21] flash-memory-map
+Empirical flash memory map from ECB structure (no decryption). A0A3 v1.0.4 image = 0x1CC00 (117760 B body). Layout: 0x00-0xC0 header/vector; 0xC0-0xE910 main code ~59.6 KB contiguous; 0xE910-0x18000 one 38 KB erased run ending exactly on the 96 KB (0x18000) boundary; 0x18000-0x1CC00 ~19 KB high data partition that is almost entirely zero-fill (1213/1216 blocks) with only 3 content blocks. See fw_memory_map table.
+
+### [22] structural-version-diff
+Structural version diff v1.0.3 -> v1.0.4 (A0A3). Real CODE region is the SAME size (~59.6 KB, +/-2 blocks). The entire file-size increase (+1536 B = +96 blocks) is the zero-filled high data partition growing from 1120 to 1216 blocks (zero blocks 1117 -> 1213). So the update is almost entirely a data-partition/layout change, not a code change - only a couple of 16-byte code blocks differ in extent. This is recoverable from ECB structure even though per-file keys make the ciphertext bytes incomparable.
+
+### [23] firmware-identity
+Firmware = application image for the Ranked Nova 60% (ODM white-label, not QMK/VIA). App USB VID 0x3532 PID 0xA0A3 (composite boot-kbd + vendor-HID); HID-class bootloader VID 0x352D PID 0x1101. MCU: ARM Cortex-M0-class, ~128 KB flash (bootloader + 96 KB app + data). Exact part UNDETERMINED from software (VIDs unregistered, no chip string anywhere) - candidates Westberry WB32 / Sonix SN32F2xx; confirm via PCB marking or SWD IDCODE. Features: 4 layers, per-key RGB + ~20 effects, macros, key-trigger, audio visualizer. See firmware_identity table.
+
+### [24] no-open-identification
+No-open identification pushed as far as USB allows. Passive USB strings only give brand (Ranked / Nova 60% Keyboard / serial rankednova = hardcoded literal, no chip UID). TechPowerUp teardown states the USB microcontroller is NOT easily identifiable even with the board open (unmarked/obscured), and confirms a 32-bit ARM MCU. Reviews note theoretical QMK/VIA support -> raises likelihood the MCU is Westberry WB32 (the STM32F072-clone QMK added for exactly these budget boards), though unconfirmed. Remaining no-tool routes: (1) query the HID bootloader (VID 352D) over USB via getv for chip-ID/flash range - reversible but puts kbd in flash mode; (2) bottom-label/FCC - no FCC filing found. Opening the case likely would NOT reveal the chip per the teardown.
+
+### [25] flash-stub-no-decrypt
+Firmware-update capture contains a PLAINTEXT ARM Thumb flash stub (embedded in UsbHid_v1.0.6.dll @ file 0x1A5140), uploaded to RAM 0x20000000 in the start phase before the encrypted stream. Decompiled (Ghidra): it is a PURE FLASH PROGRAMMER, not a decryptor. Functions: unlock+busywait (0x00), sector-erase (0x24: addr=sector<<7, CR=2), page-program (0x6c/0xfc: 0x80 words=512B/page, code does ldr r1,[src]; str r1,[flashbase+8] - data written VERBATIM, no XOR/cipher/key), flash-timing config (0x13a, muls by pool consts 0x10180/0x34bc0/0x15f900). Flash controller base=0x40013000, regs CR@0 ADDR@4 DATA@8 status@0x10, 512-byte pages (NOT STM32 which is 0x40022000/2KB). CONCLUSION: the encrypted firmware is written to flash UNCHANGED; decryption is a HARDWARE feature of the MCU (transparent XIP flash-decrypt engine with on-chip/OTP key). Consequence: even a raw SWD flash dump yields CIPHERTEXT - plaintext exists only on the CPU side of the crypto engine, so a dump must be read THROUGH the CPU/crypto path with readout protection defeated. Strengthens findings 19,20,24.
+
+### [26] key-provisioning-model
+Key-provisioning model (white-label board). Per-unit unique keys are RULED OUT: one .enc per variant flashes ALL units of that variant, so the decrypt key is SHARED across units, not per-device. Within Ranked alone, every variant (A0A2 vs A0A3 ...) and every version has zero shared ECB blocks = different effective key per product/version. Most consistent with key = KDF(base secret in MCU OTP, product/variant id + per-file salt from the 32-byte header). Whether the base secret is platform-wide (same silicon key for ALL brands on this ODM reference board) or burned per-OEM cannot be decided from Ranked files alone. Decisive test: obtain another brand built on the same RD61 ODM board and compare same-version/variant dominant blank-flash blocks - if they match, the key is platform-wide (OEMs do NOT have their own); if they differ, per-OEM keying. Industry norm for budget ODM platforms: obfuscation-grade shared/ODM-assigned key via the chip vendor SDK, not strong per-customer isolation.
+
+### [27] odm-royuan-mcu-candidates
+Platform & MCU identification (more info). ODM/firmware SDK = Royuan (RY): the DLL PDB path (Ry_Online_Update, pc_sdk_tool) matches the Royuan updater that MonsGeek/Akko ship as royuan_tool.exe / ry_upgrade.exe. So the Ranked Nova is a Royuan-platform board shared across multiple brands - confirms the relabeled-standard-board thesis. MCU = 32-bit ARM Cortex-M0 from a Chinese vendor; best-evidenced candidates for this proprietary-firmware class are Vision VS11K15A (TechPowerUp found it in Akko boards) and Westberry WB32FQ95 (Akko/MonsGeek QMK editions, matches the theoretical-QMK note). DLL carries exactly ONE flash stub / ONE controller base (0x40013000) = single target chip, no multi-chip table. Consequence for the key question: since MonsGeek/Akko share the Royuan updater, obtaining a MonsGeek/Akko .enc for the same chip enables the shared-vs-per-OEM key test. Exact part still needs the physical chip marking or SWD IDCODE.
+
+### [28] ecosystem-two-generations
+Community RE of the Royuan ecosystem (via MonsGeek driver assets + GitHub). The platform spans multiple chips: RY5088=Artery AT32F405 (magnetic boards), Yichip YC500/YC3121/YC300 (wired/HE), Beken BK100 (wireless). KEY REFRAME: the open-source projects (dot-agi/ry5088-flasher, monsgeek-akko-linux, keylume) cover the AT32F405/RY5088 boards, and those are a DIFFERENT, NEWER, UNENCRYPTED generation: firmware is a plain .bin from the RongYuan cloud (api2.rongyuan.tech), no cipher, only SHA256/additive checksum; bootloader VID 0x3151:0x502A, 0xBA/0x7F protocol, EFC@0x40023C00, FAP=0xA5 (readout protection OFF, SWD-dumpable). OUR Ranked Nova is NOT that platform: it has encrypted .enc (ECB), bootloader VID 0x352D:0x1101, getv protocol, flash ctrl 0x40013000, a RAM-uploaded flash stub = an OLDER Royuan/Yichip generation (likely YC500). So the community has NOT cracked our board; it cracked a sibling platform that simply has no encryption. Corrects earlier WB32/Vision guesses -> Yichip family. See ecosystem_chips table.
+
+### [29] yc500-deadend-software-exhausted
+YC500 deep-dive: dead-end publicly. Yichip (YICHIP Microelectronics, Hangzhou) YC500 is used on wired boards (ICE75, M1, M1 Pro, M1W) but is UNDOCUMENTED - no datasheet, no public RE, keylume groups yc500+yc3121 as 843 models/192 brands with protocol unverified. Yichip public USB VID = 0x3151; OUR board = 0x3532/0x352D, so our exact silicon cannot even be firmly pinned to YC500 - it is a Royuan-platform ARM Cortex-M0 (flash ctrl 0x40013000, uploaded stub, encrypted .enc) of UNCONFIRMED exact part. MonsGeek driver confirms the chip-to-model map but exposes no crypto for our board (JS .enc/encrypt tokens were false positives: adm-zip encripted, asn1 encoders). CONCLUSION: software/non-invasive avenues are exhausted for exact-MCU id and for decryption. Remaining unknowns (exact chip, the key, plaintext firmware) are all gated behind physical access: read the PCB chip marking, or probe SWD for the IDCODE - and even then the flash is encrypted and possibly readout-protected.
+
+### [30] qmk-not-feasible-this-board
+QMK feasibility on THIS board: effectively impossible. Three independent blockers: (1) No QMK port exists for the MCU - it is an obscure Yichip/Royuan ARM Cortex-M0 (likely YC500 class), not a QMK-supported chip (QMK supports STM32/GD32/RP2040/WB32/AT32/AVR/Kinetis, none of which this is); porting would require the undocumented chip datasheet. (2) The bootloader only accepts the vendor encrypted .enc format with its XOR checksum; an unsigned/plain QMK image is rejected, and the on-chip hardware decryption would scramble it anyway. (3) No public toolchain/dump/readout path. The box/marketing QMK claim applies to the WB32/AT32 QMK-edition SKUs of this platform, not to this proprietary-firmware unit (reviewers noted Ranked ships no QMK firmware, no flashing instructions, and no way back). QMK-capable route = a board built on WB32 or AT32F405, not this one.
+
+### [31] bootloader-recon-getv-only
+Live bootloader (VID 352D:1101) reconnaissance, non-destructive. Established reliable 2-way HID comms (65-byte reports, overlapped ReadFile). getv command framing = report [00][00 00 00 00][len=04][00 00][01][ASCII getv]; response = [00 00 00 00][10][00 00][01]version: + a1 05 00 00 + a1 04 00 00 (hw-id a1, versions). Probed 14 other read/info ASCII commands (geti,getc,getf,gets,getm,getd,info,chip,read,vers,idn,guid,size,conf) in the SAME safe format: all returned EMPTY - bootloader silently ignores unknown commands (no erase, keyboard unharmed). CONCLUSION: the only recognized command in the safe query channel is getv; there is NO read/dump/info primitive to extract memory safely. Any memory extraction requires the transfer channel (START 0x01 / DATA 0x02 format with s/w magic 0x73/0x77) which erases the app partition = the erase-risking custom-stub route. Bootloader is robust to unknown query commands.
+
+### [32] phase2-risk-downgrade-readonly-stub
+Risk re-assessment (erase is stub-side, not forced). The erase routine (FUN_20000024, CR=2 sector erase) is a function INSIDE the uploaded stub - not something the bootloader ROM forces. Empirical proof it is not done on bootloader entry: we entered the bootloader several times for getv probes and the app kept working each time (each later script successfully sent 04 A5 01 to the running APP, i.e. the keyboard rebooted back to a functioning app after every bootloader session). Therefore a CUSTOM read-only stub that never calls erase/program would leave the app partition intact = likely NO wipe and NO reflash needed. Worst case of a buggy stub is a hang, recoverable by replug (app intact, reboots normally). This downgrades the earlier will-likely-wipe framing. Remaining unknowns unchanged: (1) does the ROM authenticate the stub before running it, (2) the ROM-to-stub calling/exfil convention (must be found black-box), (3) whether key/decrypted-flash is CPU-readable.
+

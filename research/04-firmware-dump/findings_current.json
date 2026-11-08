@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "topic": "firmware-encryption",
+    "finding": "The .enc firmware files are genuinely encrypted with a proprietary 128-bit (16-byte) block cipher in ECB mode. Entropy ~7.1 bits/byte; 52% of 16-byte blocks repeat; two dominant blocks correspond to blank-flash regions (the ECB tell). Not AES/SM4/TEA/XTEA (no matching S-boxes, T-tables, Rcon, or delta constants)."
+  },
+  {
+    "id": 2,
+    "topic": "key-location",
+    "finding": "The decryption key is NOT present in the PC software. UsbHid_v1.0.6.dll performs no encryption/decryption of the firmware payload. The keyboard bootloader decrypts internally using an on-chip key."
+  },
+  {
+    "id": 3,
+    "topic": "update-flow",
+    "finding": "appUpdateFirmware (0x10005be0) reads update_config.ini; if program_type=USB it calls FUN_10003360 (connect/query chip), checks (status & 0xf000)==0xa000, then FUN_10004e40 performs the update."
+  },
+  {
+    "id": 4,
+    "topic": "update-routine",
+    "finding": "FUN_10004e40 (0x10004e40) opens the .enc file (fopen rb), verifies an XOR-of-dwords checksum against DAT_101cd608, computes payload size = filesize-0x20, then runs a state machine (states 1..5) that reads the file in 0x200-byte chunks and sends them UNCHANGED. Packet command byte: 1=start, 2=data, 3=end."
+  },
+  {
+    "id": 5,
+    "topic": "sender",
+    "finding": "FUN_10004d20 (0x10004d20) frames a packet and splits it into 64-byte HID reports, writing each via FUN_10002d20 (WriteFile) and reading the ack via FUN_10002e50 (ReadFile). No payload transformation."
+  },
+  {
+    "id": 6,
+    "topic": "hid-io",
+    "finding": "FUN_10002d20 = raw HID WriteFile (0x41=65 bytes: report id + 64 data). FUN_10002e50 = raw HID ReadFile (0x41). FUN_100032f0 copies a static 440-byte (0x1b8) header block from DAT_101a6b40 and appends an XOR checksum."
+  },
+  {
+    "id": 7,
+    "topic": "bootloader",
+    "finding": "Firmware update reboots keyboard into a bootloader at USB VID 352D PID 1101; the update device enumerates as VID 1928 PID 0078 (from update_config.ini)."
+  },
+  {
+    "id": 8,
+    "topic": "device",
+    "finding": "Keyboard: Ranked Nova 60% (Nova n60). Runtime USB VID 3532 PID A0A3 = DE (German) layout. Settings go over vendor HID interface MI_01 Col03 (usage page 0xFF00, 64-byte in/out reports)."
+  },
+  {
+    "id": 9,
+    "topic": "conclusion",
+    "finding": "To recover plaintext firmware you must extract the key/plaintext from the chip (hardware: SWD/JTAG flash dump or fault injection). It cannot be obtained from the PC-side software alone."
+  },
+  {
+    "id": 10,
+    "topic": "xor-is-checksum",
+    "finding": "The XOR loop in FUN_10004e40 is a CHECKSUM, not decryption. Proof: (1) it folds each 512-byte block into a single 32-bit accumulator (local_474/uVar15) stored separately - a cipher preserves length, this is 512 bytes in -> 4 bytes out and is non-invertible; (2) the file data buffer passed to the sender FUN_10004d20 is never modified, so raw .enc bytes go to the device unchanged; (3) XOR-with-16-byte-key against the file does not collapse blank-flash regions to zero, so simple XOR cannot explain the measured ECB block structure."
+  },
+  {
+    "id": 11,
+    "topic": "usb-control-protocol",
+    "finding": "Vendor HID control protocol decoded from OemDrv.exe: 64-byte OUT reports [0x04][cmd][args] on interface MI_01 Col03 (usage 0xFF00). Commands: A0 matrix/remap, A5 enter-bootloader, A7 macro-alloc, A8 macro, AE LED/RGB, B1 music, B6 rapid-trigger (resp B7). Device echoes cmd id in response[0]; large payloads chunked to 63 bytes. See usb_commands and usb_protocol_notes tables."
+  },
+  {
+    "id": 12,
+    "topic": "dynamic-confirmation",
+    "finding": "Live USBPcap capture of a real firmware re-flash confirms both static findings. The captured enter-bootloader HID report is 04 A5 01 (matches FUN_0046b230). All 7360 .enc payload 16-byte blocks appear verbatim in the bootloader traffic (100%% coverage) - the PC sends the encrypted firmware unchanged; the chip decrypts. See dynamic_capture table."
+  },
+  {
+    "id": 13,
+    "topic": "key-remap-protocol",
+    "finding": "SetMatrix (0xA0) remap decoded live: report [04 A0 02 04 page 0E layer] + 4-byte key entries [matrix_index][0xFC][00][HID usage], 4 layers x 14 pages, trailer A5 00 00, device echoes as ack. Entry mapping verified against Dev.ini (idx 0x15=Esc 0x29, 0x16=1 0x1E, etc.). See setmatrix_format and remap_capture tables."
+  },
+  {
+    "id": 14,
+    "topic": "cipher-clarification",
+    "finding": "Firmware uses a 128-bit (16-byte) BLOCK cipher in ECB mode - NOT AES (no AES tables/Rcon). 16 bytes is the block size, not key size. AES has no 160-bit variant."
+  },
+  {
+    "id": 15,
+    "topic": "ecb-leaks-structure-only",
+    "finding": "ECB leaks structure only: v1.0.4 = 7362 blocks, ~3659 blank-flash (2 dominant blocks 2416+1243), ~3703 (~59KB) real code/data. This maps layout but does NOT reveal plaintext."
+  },
+  {
+    "id": 16,
+    "topic": "per-file-keying",
+    "finding": "Per-file keying confirmed: v1.0.3 and v1.0.4 share 0 of 7266 blocks; A0A3 vs A0A2 (same version, diff layout) share 0 blocks. Each .enc uses a different key or salt, so no cross-file codebook/known-plaintext reuse is possible. Static decryption is infeasible without the on-chip key."
+  },
+  {
+    "id": 17,
+    "topic": "per-layout-firmware",
+    "finding": "Each hardware/layout variant has its OWN firmware file. 31 .enc files total: RD61 61-key (A0A1,A0B1), RD61 62-key (A0A2-A0A7,A0B2-A0B7 = 12 variants), RD68 68-key-US (A0C1). Every file has a distinct MD5 AND shares ZERO 16-byte ECB blocks with any other variant (per-variant key/salt). Distinct-block counts are near-identical within a key-count (62-key v1.0.3=3493 each, 61-key=3421), so the base firmware is the same per key-count; the per-variant difference is almost certainly a small layout/region table re-encrypted with a different key. See firmware_variants table."
+  },
+  {
+    "id": 18,
+    "topic": "filename-xor-checksum",
+    "finding": "Filename hex suffix = 32-bit XOR checksum of the whole .enc (every 4 bytes XOR-folded). Verified: 53CD5F3C,AF41E851,57DBAB41,86EEA5CF all equal xor32 of their file. This is the integrity tag the DLL checks against DAT_101cd608 before flashing - an INDICATION sent with the firmware, but not a key."
+  },
+  {
+    "id": 19,
+    "topic": "key-indication-mechanism",
+    "finding": "Key-selection mechanism. Within one file the cipher behaves as ECB: identical plaintext blocks map to identical ciphertext, dominant blocks repeat thousands of times. Across files (same chip, different version) ZERO blocks match, so the key varies PER FILE, not just per chip. The only per-file-varying data shipped with the file is the random 32-byte header (2 blocks, excluded from the body scan). Conclusion: key = KDF(chip-stored secret, header salt/nonce). The salt (header) IS sent; the key itself is NOT. This rules out CBC/CTR/XTS, which would destroy the within-file repeats. Per-variant selection needs nothing sent because the chip already knows its own variant."
+  },
+  {
+    "id": 20,
+    "topic": "decryption-infeasible-software",
+    "finding": "Ciphertext-only decryption with the files alone is NOT possible - tested, not assumed. (1) Repeating-XOR ruled out: the two dominant blocks XORed = 31c894775edbdf7d5f5fcb426cc16e45, not all-FF, so no known-plaintext keystream recovery. (2) Byte distribution of the body is flat: all 256 values present, 0xFF appears only 261x and 0x00 only 225x (plaintext firmware would show tens of thousands) = strong-cipher signature. Entropy 7.16 bits/byte, below 8 only because of the repeated blank-flash blocks (the ECB tell), not plaintext structure. (3) Two files use DIFFERENT per-file keys, so they do not combine - two files buy nothing over one. (4) ECB codebook only recovers repeated filler blocks (already identified as blank flash); the ~3700 unique code blocks each appear once and cannot be recovered without their plaintext. Conclusion: the only routes to plaintext need hardware - SWD/JTAG flash dump (gives decrypted image directly), glitch past read protection, or dump chip RAM mid-update for the derived key."
+  },
+  {
+    "id": 21,
+    "topic": "flash-memory-map",
+    "finding": "Empirical flash memory map from ECB structure (no decryption). A0A3 v1.0.4 image = 0x1CC00 (117760 B body). Layout: 0x00-0xC0 header/vector; 0xC0-0xE910 main code ~59.6 KB contiguous; 0xE910-0x18000 one 38 KB erased run ending exactly on the 96 KB (0x18000) boundary; 0x18000-0x1CC00 ~19 KB high data partition that is almost entirely zero-fill (1213/1216 blocks) with only 3 content blocks. See fw_memory_map table."
+  },
+  {
+    "id": 22,
+    "topic": "structural-version-diff",
+    "finding": "Structural version diff v1.0.3 -> v1.0.4 (A0A3). Real CODE region is the SAME size (~59.6 KB, +/-2 blocks). The entire file-size increase (+1536 B = +96 blocks) is the zero-filled high data partition growing from 1120 to 1216 blocks (zero blocks 1117 -> 1213). So the update is almost entirely a data-partition/layout change, not a code change - only a couple of 16-byte code blocks differ in extent. This is recoverable from ECB structure even though per-file keys make the ciphertext bytes incomparable."
+  },
+  {
+    "id": 23,
+    "topic": "firmware-identity",
+    "finding": "Firmware = application image for the Ranked Nova 60% (ODM white-label, not QMK/VIA). App USB VID 0x3532 PID 0xA0A3 (composite boot-kbd + vendor-HID); HID-class bootloader VID 0x352D PID 0x1101. MCU: ARM Cortex-M0-class, ~128 KB flash (bootloader + 96 KB app + data). Exact part UNDETERMINED from software (VIDs unregistered, no chip string anywhere) - candidates Westberry WB32 / Sonix SN32F2xx; confirm via PCB marking or SWD IDCODE. Features: 4 layers, per-key RGB + ~20 effects, macros, key-trigger, audio visualizer. See firmware_identity table."
+  },
+  {
+    "id": 24,
+    "topic": "no-open-identification",
+    "finding": "No-open identification pushed as far as USB allows. Passive USB strings only give brand (Ranked / Nova 60% Keyboard / serial rankednova = hardcoded literal, no chip UID). TechPowerUp teardown states the USB microcontroller is NOT easily identifiable even with the board open (unmarked/obscured), and confirms a 32-bit ARM MCU. Reviews note theoretical QMK/VIA support -> raises likelihood the MCU is Westberry WB32 (the STM32F072-clone QMK added for exactly these budget boards), though unconfirmed. Remaining no-tool routes: (1) query the HID bootloader (VID 352D) over USB via getv for chip-ID/flash range - reversible but puts kbd in flash mode; (2) bottom-label/FCC - no FCC filing found. Opening the case likely would NOT reveal the chip per the teardown."
+  },
+  {
+    "id": 25,
+    "topic": "flash-stub-no-decrypt",
+    "finding": "Firmware-update capture contains a PLAINTEXT ARM Thumb flash stub (embedded in UsbHid_v1.0.6.dll @ file 0x1A5140), uploaded to RAM 0x20000000 in the start phase before the encrypted stream. Decompiled (Ghidra): it is a PURE FLASH PROGRAMMER, not a decryptor. Functions: unlock+busywait (0x00), sector-erase (0x24: addr=sector<<7, CR=2), page-program (0x6c/0xfc: 0x80 words=512B/page, code does ldr r1,[src]; str r1,[flashbase+8] - data written VERBATIM, no XOR/cipher/key), flash-timing config (0x13a, muls by pool consts 0x10180/0x34bc0/0x15f900). Flash controller base=0x40013000, regs CR@0 ADDR@4 DATA@8 status@0x10, 512-byte pages (NOT STM32 which is 0x40022000/2KB). CONCLUSION: the encrypted firmware is written to flash UNCHANGED; decryption is a HARDWARE feature of the MCU (transparent XIP flash-decrypt engine with on-chip/OTP key). Consequence: even a raw SWD flash dump yields CIPHERTEXT - plaintext exists only on the CPU side of the crypto engine, so a dump must be read THROUGH the CPU/crypto path with readout protection defeated. Strengthens findings 19,20,24."
+  },
+  {
+    "id": 26,
+    "topic": "key-provisioning-model",
+    "finding": "Key-provisioning model (white-label board). Per-unit unique keys are RULED OUT: one .enc per variant flashes ALL units of that variant, so the decrypt key is SHARED across units, not per-device. Within Ranked alone, every variant (A0A2 vs A0A3 ...) and every version has zero shared ECB blocks = different effective key per product/version. Most consistent with key = KDF(base secret in MCU OTP, product/variant id + per-file salt from the 32-byte header). Whether the base secret is platform-wide (same silicon key for ALL brands on this ODM reference board) or burned per-OEM cannot be decided from Ranked files alone. Decisive test: obtain another brand built on the same RD61 ODM board and compare same-version/variant dominant blank-flash blocks - if they match, the key is platform-wide (OEMs do NOT have their own); if they differ, per-OEM keying. Industry norm for budget ODM platforms: obfuscation-grade shared/ODM-assigned key via the chip vendor SDK, not strong per-customer isolation."
+  },
+  {
+    "id": 27,
+    "topic": "odm-royuan-mcu-candidates",
+    "finding": "Platform & MCU identification (more info). ODM/firmware SDK = Royuan (RY): the DLL PDB path (Ry_Online_Update, pc_sdk_tool) matches the Royuan updater that MonsGeek/Akko ship as royuan_tool.exe / ry_upgrade.exe. So the Ranked Nova is a Royuan-platform board shared across multiple brands - confirms the relabeled-standard-board thesis. MCU = 32-bit ARM Cortex-M0 from a Chinese vendor; best-evidenced candidates for this proprietary-firmware class are Vision VS11K15A (TechPowerUp found it in Akko boards) and Westberry WB32FQ95 (Akko/MonsGeek QMK editions, matches the theoretical-QMK note). DLL carries exactly ONE flash stub / ONE controller base (0x40013000) = single target chip, no multi-chip table. Consequence for the key question: since MonsGeek/Akko share the Royuan updater, obtaining a MonsGeek/Akko .enc for the same chip enables the shared-vs-per-OEM key test. Exact part still needs the physical chip marking or SWD IDCODE."
+  },
+  {
+    "id": 28,
+    "topic": "ecosystem-two-generations",
+    "finding": "Community RE of the Royuan ecosystem (via MonsGeek driver assets + GitHub). The platform spans multiple chips: RY5088=Artery AT32F405 (magnetic boards), Yichip YC500/YC3121/YC300 (wired/HE), Beken BK100 (wireless). KEY REFRAME: the open-source projects (dot-agi/ry5088-flasher, monsgeek-akko-linux, keylume) cover the AT32F405/RY5088 boards, and those are a DIFFERENT, NEWER, UNENCRYPTED generation: firmware is a plain .bin from the RongYuan cloud (api2.rongyuan.tech), no cipher, only SHA256/additive checksum; bootloader VID 0x3151:0x502A, 0xBA/0x7F protocol, EFC@0x40023C00, FAP=0xA5 (readout protection OFF, SWD-dumpable). OUR Ranked Nova is NOT that platform: it has encrypted .enc (ECB), bootloader VID 0x352D:0x1101, getv protocol, flash ctrl 0x40013000, a RAM-uploaded flash stub = an OLDER Royuan/Yichip generation (likely YC500). So the community has NOT cracked our board; it cracked a sibling platform that simply has no encryption. Corrects earlier WB32/Vision guesses -> Yichip family. See ecosystem_chips table."
+  },
+  {
+    "id": 29,
+    "topic": "yc500-deadend-software-exhausted",
+    "finding": "YC500 deep-dive: dead-end publicly. Yichip (YICHIP Microelectronics, Hangzhou) YC500 is used on wired boards (ICE75, M1, M1 Pro, M1W) but is UNDOCUMENTED - no datasheet, no public RE, keylume groups yc500+yc3121 as 843 models/192 brands with protocol unverified. Yichip public USB VID = 0x3151; OUR board = 0x3532/0x352D, so our exact silicon cannot even be firmly pinned to YC500 - it is a Royuan-platform ARM Cortex-M0 (flash ctrl 0x40013000, uploaded stub, encrypted .enc) of UNCONFIRMED exact part. MonsGeek driver confirms the chip-to-model map but exposes no crypto for our board (JS .enc/encrypt tokens were false positives: adm-zip encripted, asn1 encoders). CONCLUSION: software/non-invasive avenues are exhausted for exact-MCU id and for decryption. Remaining unknowns (exact chip, the key, plaintext firmware) are all gated behind physical access: read the PCB chip marking, or probe SWD for the IDCODE - and even then the flash is encrypted and possibly readout-protected."
+  },
+  {
+    "id": 30,
+    "topic": "qmk-not-feasible-this-board",
+    "finding": "QMK feasibility on THIS board: effectively impossible. Three independent blockers: (1) No QMK port exists for the MCU - it is an obscure Yichip/Royuan ARM Cortex-M0 (likely YC500 class), not a QMK-supported chip (QMK supports STM32/GD32/RP2040/WB32/AT32/AVR/Kinetis, none of which this is); porting would require the undocumented chip datasheet. (2) The bootloader only accepts the vendor encrypted .enc format with its XOR checksum; an unsigned/plain QMK image is rejected, and the on-chip hardware decryption would scramble it anyway. (3) No public toolchain/dump/readout path. The box/marketing QMK claim applies to the WB32/AT32 QMK-edition SKUs of this platform, not to this proprietary-firmware unit (reviewers noted Ranked ships no QMK firmware, no flashing instructions, and no way back). QMK-capable route = a board built on WB32 or AT32F405, not this one."
+  },
+  {
+    "id": 31,
+    "topic": "bootloader-recon-getv-only",
+    "finding": "Live bootloader (VID 352D:1101) reconnaissance, non-destructive. Established reliable 2-way HID comms (65-byte reports, overlapped ReadFile). getv command framing = report [00][00 00 00 00][len=04][00 00][01][ASCII getv]; response = [00 00 00 00][10][00 00][01]version: + a1 05 00 00 + a1 04 00 00 (hw-id a1, versions). Probed 14 other read/info ASCII commands (geti,getc,getf,gets,getm,getd,info,chip,read,vers,idn,guid,size,conf) in the SAME safe format: all returned EMPTY - bootloader silently ignores unknown commands (no erase, keyboard unharmed). CONCLUSION: the only recognized command in the safe query channel is getv; there is NO read/dump/info primitive to extract memory safely. Any memory extraction requires the transfer channel (START 0x01 / DATA 0x02 format with s/w magic 0x73/0x77) which erases the app partition = the erase-risking custom-stub route. Bootloader is robust to unknown query commands."
+  },
+  {
+    "id": 32,
+    "topic": "phase2-risk-downgrade-readonly-stub",
+    "finding": "Risk re-assessment (erase is stub-side, not forced). The erase routine (FUN_20000024, CR=2 sector erase) is a function INSIDE the uploaded stub - not something the bootloader ROM forces. Empirical proof it is not done on bootloader entry: we entered the bootloader several times for getv probes and the app kept working each time (each later script successfully sent 04 A5 01 to the running APP, i.e. the keyboard rebooted back to a functioning app after every bootloader session). Therefore a CUSTOM read-only stub that never calls erase/program would leave the app partition intact = likely NO wipe and NO reflash needed. Worst case of a buggy stub is a hang, recoverable by replug (app intact, reboots normally). This downgrades the earlier will-likely-wipe framing. Remaining unknowns unchanged: (1) does the ROM authenticate the stub before running it, (2) the ROM-to-stub calling/exfil convention (must be found black-box), (3) whether key/decrypted-flash is CPU-readable."
+  },
+  {
+    "id": 33,
+    "topic": "custom-stub-execution-timing",
+    "finding": "Argument-independent no-store Thumb stubs were compared twice. Immediate START/DATA ms: 16.931/19.975 and 16.948/19.968. A 262144-iteration register loop at each inferred vendor entry changed START/DATA to 38.951/63.933 and 39.080/64.157 ms. Strong repeatable evidence of custom stub execution before COMPLETE; latency consistent with one delay invocation at START and two at DATA, exact entries/arguments still unknown. All ACKs 04. Only synthetic zero DATA, no COMPLETE. Final app re-enumerated with six HID collections after each session. See execution_probe_live.json and readonly_stub/EXECUTION_TEST.md."
+  },
+  {
+    "id": 34,
+    "topic": "custom-stub-number-timing-readback",
+    "finding": "Register-only custom stub computed 0x12 XOR 0x15 = 7 and encoded it in countdown duration. Calibration zero/one and target post-write START ACK times were 2.0036/24.0226/155.0121 ms. Decoded (155.0121-2.0036)/(24.0226-2.0036)=6.948930469, rounded to 7, residual 0.0511 units below preset 0.25 threshold. This is a timing output channel for a known test number, not USB payload readback or a device memory dump. Eighteen offline call checks passed. Only START sent, no DATA or COMPLETE. Application re-enumerated with six HID collections after each session. Raw evidence number_readback_live.json."
+  },
+  {
+    "id": 35,
+    "topic": "public-bootloader-sources",
+    "finding": "# Public bootloader research \u00e2\u20ac\u201d checked 2026-11-02\n\n## Closest match\n\nhttps://github.com/svumo/DrunkDeer-Control/blob/main/docs/firmware-flash-research.md\n\nAuthor's reverse engineering and capture: DrunkDeer A75 Pro has bootloader\n352D:1101, enters with 04 A5 01, and uses getv over interrupt endpoints 04/84.\nIts updater uses UsbHid_v1.2.7.dll and Ry_Online_Update branding. The captured\nvariant has a longer version reply and different operational framing than\nours. This strongly suggests shared updater lineage, not identical ROM or\ninterchangeable commands. It does not document our stub's USB-send API.\n\n## Related, different protocols\n\nhttps://github.com/dot-agi/ry5088-flasher/blob/main/docs/protocol.md\n\nRY5088/AT32F405: bootloader 3151:502A and HID Feature reports. Different from\nour observed 352D:1101 interrupt transport; not a direct implementation guide.\n\nhttps://github.com/dniminenn/sharkfin/blob/master/docs/PROTOCOL.md\n\nDocuments a related YC-family bootloader extracted from a firmware image,\nbut its BA C0 / BA C2 protocol differs from our getv and s/w framing. Relevant\nas comparative research, not evidence of our device's MCU or ROM layout.\n\nNo exact public reference for our 440-byte stub ABI, ROM USB transmit routine,\nor 40013000 flash-controller implementation was located in this search.\nThis is a search result, not proof that such material does not exist.\n\nExisting MCU identification remains provisional. Public sibling documentation\ndoes not justify assigning a specific chip model to the Nova keyboard.\n"
+  },
+  {
+    "id": 36,
+    "topic": "custom-stub-incoming-lr-readback",
+    "finding": "Read incoming LR during START using register-only timing nibble probes: 0x00001021, return point 0x00001020 after clearing Thumb bit. Low-to-high nibbles 1,2,0,1,0,0,0,0. Repeated nibbles 0 and 4 matched; independent LR nibble XOR was 2 and matched reconstruction. Initial/final delay unit 21.891575/21.8840875 ms; timing ambiguity and calibration drift checks passed. 66 offline emulated calls validated selection, return, LR preservation and no writes. Only START frames, no DATA/COMPLETE, no data-memory access in stubs. Final app enumeration six collections after each session. This identifies a return point, not USB-send routine or chip model. Raw lr_readback_live.json; readonly_stub/LR_READBACK.md."
+  },
+  {
+    "id": 37,
+    "topic": "custom-stub-caller-code-readback",
+    "finding": "# Caller trace and feasibility check\n\nLive nibble timing probes recovered these CPU-readable bytes:\n\n```text\n0000101c: ff f7 06 f9   bl  0x0000022c\n00001020: 33 e0         b   0x0000108a\n```\n\nThe call ends at exactly the return address measured independently as\nLR = 0x00001021 (Thumb bit included). This corroborates the LR readback and\nshows that the timing channel can recover code bytes, not only register\nconstants. Two reads of the first byte of each source block matched, every\nnibble passed the timing ambiguity bound, and before/after calibration passed.\nOnly START was sent; no DATA or COMPLETE operation was used. Uploaded stubs\nperform one bounded byte read from the selected code address and have no\ndata-memory stores, stack operations, or peripheral accesses.\n\nEvidence: `../caller_readback_live.json` (101e\u00e2\u20ac\u201c1021),\n`../caller_0000101c_2_live.json` (101c\u00e2\u20ac\u201c101d), and `../caller_101c_6.bin`.\nThe next code target being examined is 0x0000022c, obtained from the decoded\nBL instruction. The USB transmit function remains unidentified.\n\nRepeated START messages in a single HID session are not established as a\nusable read mechanism: a trial disconnected on the second START. Current\nreads use a fresh bootloader session for each nibble. This is slow but bounded\nand resumable; it does not assume a new protocol command exists.\n"
+  },
+  {
+    "id": 38,
+    "topic": "custom-stub-start-entry-confirmed",
+    "finding": "Recovered trampoline at 0x22c: push {r0,r1}; ldr r0,[pc,#4]; str r0,[sp,#4]; pop {r0,pc}. Literal at 0x234 is 0x2000013b. Together with caller BL at 0x101c and LR0x1021, this identifies START as calling uploaded code at 0x2000013a in Thumb mode, preserving incoming R0. Exit at 0x108a is movs r0,#0 followed by B 0xf60. It is not an R5 packet read; earlier provisional commentary was wrong. No USB-send API established yet. Raw caller_0000022c_8_live.json and trace_followup_live.json; calibration checks passed."
+  },
+  {
+    "id": 39,
+    "topic": "custom-stub-outer-caller",
+    "finding": "Handler epilogue at 0xf60 is add sp,#0x24; pop {r4,r5,r6,r7,pc}. Register/stack timing probes at SP+52 recovered 0x00000cc3, return point 0x00000cc2. Repeated nibbles and XOR check passed, calibration stable. No transmit API yet. Evidence saved_lr_readback_live.json and caller_00000f60_8_live.json."
+  },
+  {
+    "id": 40,
+    "topic": "custom-stub-source-buffer-marker-test",
+    "finding": "# Source-buffer and outer-caller investigation\n\nThe handler exit at 0xf60 decoded as `add sp,#0x24; pop {r4,r5,r6,r7,pc}`.\nReading its saved return word at SP+52 during our START entry produced\n`0x00000cc3`, giving a return point of `0x00000cc2`. Repeated nibbles, an\nindependent nibble XOR, and calibration checks passed. This is another caller\nlocation; it is not yet a verified USB transmit function.\n\nEvidence: `../caller_00000f60_8_live.json` and\n`../saved_lr_readback_live.json`.\n\n## DATA entry and synthetic source markers\n\nAn isolated delay at uploaded offset 0x6c changed each DATA acknowledgement\nby about 175 ms for an eight-unit delay. Other inferred entries returned\nimmediately. This verifies that the programming entry at 0x6c executes during\nDATA, independently of the START initialization entry at 0x13a.\n\nThe original 0x6c routine treats R1 as its source pointer. A no-store replacement\nread the low nibble of the first byte at R1. Two synthetic chunks started with\nA5 and 5A (expected low nibbles 5 and 10). Measured source nibbles were 13 and\n3, respectively. Timing estimates were 12.9663 and 3.0194 units, within the\n0.25-unit decoding bound. ACK payloads remained status 04.\n\nThis establishes a changing value at the inferred source pointer, but it does\nnot yet establish the source's layout or transformation. Possible explanations\ninclude ROM-side decryption/processing or a buffer interpretation difference.\nDo not claim plaintext recovery from this test alone. Earlier conclusions\nthat a simple programmer necessarily means ciphertext is written to flash\nwere too strong: the ROM could transform data before calling the programmer.\n\nThe uploaded replacement has no stores, stack accesses, or peripheral accesses.\nOnly synthetic DATA chunks were used in this marker experiment, and no\nCOMPLETE was sent. The application re-enumerated after every session. Raw\nevidence: `../chunk_buffer_live.json`. Next test compares the source buffer\nagainst the captured vendor ciphertext page and repeats the first observed\nbyte, using the same no-store programming replacement.\n"
+  },
+  {
+    "id": 41,
+    "topic": "programmer-source-is-transformed",
+    "finding": "# Source-buffer and outer-caller investigation\n\nThe handler exit at 0xf60 decoded as `add sp,#0x24; pop {r4,r5,r6,r7,pc}`.\nReading its saved return word at SP+52 during our START entry produced\n`0x00000cc3`, giving a return point of `0x00000cc2`. Repeated nibbles, an\nindependent nibble XOR, and calibration checks passed. This is another caller\nlocation; it is not yet a verified USB transmit function.\n\nEvidence: `../caller_00000f60_8_live.json` and\n`../saved_lr_readback_live.json`.\n\n## DATA entry and synthetic source markers\n\nAn isolated delay at uploaded offset 0x6c changed each DATA acknowledgement\nby about 175 ms for an eight-unit delay. Other inferred entries returned\nimmediately. This verifies that the programming entry at 0x6c executes during\nDATA, independently of the START initialization entry at 0x13a.\n\nThe original 0x6c routine treats R1 as its source pointer. A no-store replacement\nread the low nibble of the first byte at R1. Two synthetic chunks started with\nA5 and 5A (expected low nibbles 5 and 10). Measured source nibbles were 13 and\n3, respectively. Timing estimates were 12.9663 and 3.0194 units, within the\n0.25-unit decoding bound. ACK payloads remained status 04.\n\nThis establishes a changing value at the inferred source pointer, but it does\nnot yet establish the source's layout or transformation. Possible explanations\ninclude ROM-side decryption/processing or a buffer interpretation difference.\nDo not claim plaintext recovery from this test alone. Earlier conclusions\nthat a simple programmer necessarily means ciphertext is written to flash\nwere too strong: the ROM could transform data before calling the programmer.\n\nThe uploaded replacement has no stores, stack accesses, or peripheral accesses.\nOnly synthetic DATA chunks were used in this marker experiment, and no\nCOMPLETE was sent. The application re-enumerated after every session. Raw\nevidence: `../chunk_buffer_live.json`. Next test compares the source buffer\nagainst the captured vendor ciphertext page and repeats the first observed\nbyte, using the same no-store programming replacement.\n\n## Captured-page source word \u00e2\u20ac\u201d later result\n\nThe first DATA page reconstructed from the original USBPcap starts with\nciphertext `f0 6d 17 be`. Sending that page to our no-store stub, twice per\nsession, yielded source bytes `50 1c 00 20` at R1 in both sequences. All four\nbytes were read by nibble timing probes across sessions. The first byte was\nindependently repeated and matched. Calibration and ambiguity checks passed.\nEvidence: `../source_word_live.json` and `../captured_first_page.bin`.\n\nThe source word is `0x20001c50`, consistent with an ARM initial stack pointer.\nThis directly establishes that the programmer's CPU-visible source is not\nthe raw ciphertext page. It strongly supports bootloader-side decryption\nbefore programming. It does not identify the cipher, recover a key, or\nestablish a full plaintext dump. More vector-table bytes would provide\nfurther corroboration.\n\nThe earlier claim that unchanged USB ciphertext plus a verbatim programmer\nproves transparent XIP encryption is invalid: the ROM can transform the\nsource first. What SWD returns cannot be inferred from that earlier claim.\nThe uploaded replacement has no stores, no COMPLETE was sent, and application\nUSB enumeration returned after each session. No flash readback was performed.\n"
+  },
+  {
+    "id": 42,
+    "topic": "native-usb-status-builder",
+    "finding": "Caller at 0xcbe loads handler from object+0x1c and BLX at 0xcc0. Handler saved LR0xcc3 is corroborated. Nonzero result path sets R1=5, R0=R4, calls0xbbc, branches0xe70. Function0xbbc stores R1 byte at context+8 and sets u16 payload length1 at context+4. Calibrated full-byte timing reads validated against known0x33 at0x1020; first byte repeated and final calibration passed. Raw fast_code_00000cbe_12_live.json, fast_code_00000cca_14_live.json, fast_code_00000bbc_16_live.json."
+  },
+  {
+    "id": 43,
+    "topic": "custom-stub-direct-usb-byte-verified",
+    "finding": "# Real USB byte reply \u00e2\u20ac\u201d verified\n\nThe own stub returned decimal **42** as the actual one-byte USB reply payload:\n\n```text\n01 00 00 73 01 00 01 77 2a 00 00 00 ...\n```\n\nThis is direct USB data, not a timing measurement. Raw evidence:\n`../usb_number_live.json`. Only START was sent; no DATA or COMPLETE.\n\n## Observed native reply path\n\nCode read through the timing channel established:\n\n```text\n00000cbe: ldr r0,[r0,#0x1c]\n00000cc0: blx r0                 ; enclosing handler call\n00000cc2: cmp r0,#0\n00000cc4: beq 0x00000cd0\n00000cc6: movs r1,#5\n00000cc8: mov r0,r4\n00000cca: bl 0x00000bbc\n00000cce: b 0x00000e70\n\n00000bbc: push {r4,lr}\n00000bbe: cmp r0,#0\n00000bc0: beq 0x00000bd6\n00000bc2: strb r1,[r0,#8]        ; reply payload byte\n00000bc4: movs r1,#1\n00000bc6: strh r1,[r0,#4]        ; payload length = 1\n```\n\nThe complete transmit implementation has not been recovered, but this native\npath has now produced a custom byte on the wire.\n\n## Own probe behavior\n\nThe START entry at offset 0x13a checks incoming LR equals 0x1021 and the\nenclosing handler's saved return word at SP+52 equals 0xcc3. If both match,\nit replaces that RAM stack word with 0xcc9 and sets R1 to 42. Otherwise it\nreturns zero without changing the stack. The native handler's verified exit\nrestores the caller registers and jumps to 0xcc8, allowing the native reply\nbuilder to use the proper context and custom byte through its ordinary path.\n\nUnlike earlier no-store probes, this payload writes **one word on the RAM\nstack**. It has no flash/controller access, erase, or program operation.\nOffline emulation uses the actual recovered control-flow bytes, mocks only\nthe reply function body, and verifies the native call receives the expected\ncontext/number. Guard-failure tests confirm no stack modification on mismatch.\nPhysical USB capture confirms the number independently of that emulator mock.\n\nAfter the custom reply, getv still worked. The device remained in bootloader\nmode, so application restoration is a separate final cleanup step. Do not\ndescribe the original number test as already having returned to application.\n"
+  },
+  {
+    "id": 44,
+    "topic": "custom-stub-repeated-usb-requests",
+    "finding": "Repeated guarded START requests in one HID session returned actual USB bytes 43,42,43, proving the changing own stubs load and execute without reboot per byte. Raw usb_repeated_live.json. The custom native error-reply route leaves getv functional in bootloader idle; ordinary START-only probes did not support this repeated behavior."
+  },
+  {
+    "id": 45,
+    "topic": "custom-stub-bounded-usb-code-read",
+    "finding": "# Verified two-way USB read channel\n\nThe own RAM stub now returns real USB data. Verified milestones:\n\n- Fixed number 42 returned as payload byte `2a`.\n- Changing probes returned 43, 42, 43 over repeated START requests in one HID\n  session. This establishes that the new code is loaded and executed each time.\n- Six code bytes at 0x101c returned `ff f7 06 f9 33 e0`, exactly matching\n  independent timing reads. They decode to `BL 0x22c; B 0x108a`.\n- A 32-byte USB read at 0xbbc matched the first 16 timing-read bytes and\n  recovered the remainder of the native reply builder.\n\nEvidence: `../usb_number_live.json`, `../usb_repeated_live.json`, and\n`../usb_code_read_live.json`. These are USB payload bytes, not timing estimates.\n\n## Tool\n\n`../usb_read_channel.py` provides `Reader.open()`, `Reader.read(address,length)`,\nand `Reader.close()`. Example from the workspace:\n\n```powershell\n& '<LOCAL_USER>\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' usb_read_channel.py --address 0x101c --length 6\n```\n\nWithout arguments it runs the independent-code comparison and native-builder\nread described above. With arguments it prints the requested hex bytes and\nsaves a request-specific JSON log. Parameters are embedded in a generated\nread-only ARM request stub; one byte is returned per START. It is not a\npermanently installed service or a replacement firmware.\n\nReads are restricted to the inspected code windows 0x200\u00e2\u20ac\u201c0x2ff,\n0xb00\u00e2\u20ac\u201c0xcff, and 0xf00\u00e2\u20ac\u201c0x10ff, with a maximum of 256 bytes per command.\nThe live version reply must match the observed `a1050000 / a1040000` pair.\nThe payload checks LR 0x1021 and saved LR 0xcc3 before modifying the one\ncaller-stack return word at SP+52. It then reads the selected code byte and\nroutes through the native one-byte reply builder. Earlier guard-failure tests\nconfirmed no stack modification when those identities mismatch.\n\n## Writes and limits\n\nThis is read-only with respect to flash. The payload modifies one verified\nreturn word on the **RAM stack**, and the native reply routine writes its\nRAM output buffer and operates USB. No flash controller access, erase/program\nroutine, firmware DATA, or COMPLETE packet is used by this read tool.\nOffline emulation verifies the exact recovered control flow and bounded stack\nwrites; it mocks the reply helper body. Real USB data independently verifies\nthe end-to-end operation.\n\nApplication restoration uses the previously verified ordinary no-op START,\nthen getv/disconnect transition. The demonstration finished with six\napplication HID collections and zero bootloader interfaces. This confirms\napplication USB enumeration; a full flash integrity/keyboard functional test\nwas not performed.\n\nThe current interface is one output byte per request, limited to this\nbootloader build and inspected code windows. A full plaintext firmware dump,\narbitrary-address service, key extraction, and a general replacement firmware\nhave not been implemented or claimed.\n"
+  },
+  {
+    "id": 46,
+    "topic": "custom-stub-multi-byte-usb-read",
+    "finding": "Verified native USB transmit callback is stored at packet context+0x214, per complete observed reply builder. Own guarded START entry redirects enclosing handler return into own RAM tail after native register restoration, copies up to56 CPU-read bytes into context+8, sets u16 length at context+4, calls the existing callback and continues at0xe70. Offline exact-flow emulation bounds writes to RAM stack and reply buffer. Live6-byte read0x101c matched independent timing read and56-byte read0x2000 exposed coherent vectors. No DATA/COMPLETE or flash controller operations. Evidence usb_block_reader_live.json."
+  },
+  {
+    "id": 47,
+    "topic": "verified-cpu-firmware-flash-dump",
+    "finding": "# Verified firmware read \u2014 2026-11-02\n\nThe CPU-visible 128 KiB range 0x00000000\u20130x0001ffff was read twice through\nour guarded own RAM stub and native USB transmit callback. Both reads matched\nbyte-for-byte. This is a live memory dump, not an offline guess at the cipher.\n\n- Full CPU flash snapshot: `flash_cpu_pass1.bin` (131,072 bytes).\n- Independent verification pass: `flash_cpu_pass2.bin`.\n- Bootloader region: `bootloader_0x0000.bin` (8,192 bytes, base 0).\n- Application region: `application_plaintext_0x2000.bin` (117,760 bytes,\n  base 0x2000, sliced to the captured image extent 0x1cc00).\n- Initial stack pointer: 0x20001c50; reset vector: 0x00002211.\n- The reset stub branches through a literal to 0x20d9 in Thumb mode.\n\nFull SHA256: `5adca278d90a0672e05dfe5ad47d1635242f9ec0ff78827d83d9f28d6ccd8b49`.\nApplication SHA256: `24c9420a5cd1df4bc06472aad07965b360f7341815f234da109971246ed964c0`.\nBootloader SHA256: `e46c6d9300a13f4d2eea7c16584d24ea6e4e1b83815e5f84f389d4aeb0915f62`.\n\n`application_thumb_linear.txt` and `bootloader_thumb_linear.txt` provide raw\nlinear ARM Thumb disassembly. They include vector tables, literal pools and\ndata interpreted by the disassembler; they are not recovered C source or a\ncomplete function reconstruction. `startup_thumb.txt` is a focused listing\nat the reset-selected startup entry. Import the binaries as little-endian\nARM/Thumb with the load bases above for further analysis.\n\nThe application extent is inferred from the captured image size. Its code and\nvector base are verified; an exact byte-for-byte mapping of every vendor data\npartition into flash has not been independently reconstructed. The full flash\nsnapshot remains the authoritative read of the selected CPU address range.\nThis does not establish whether physical flash cells or SWD reads expose the\nsame representation, identify the cipher/key, or identify the exact MCU part.\n\nThe reader returns up to 56 data bytes per START using the native transmit\ncallback at context+0x214. The own payload modifies a guarded RAM-stack return\nword and writes the native RAM reply buffer; it has no flash controller,\nerase/program or peripheral access. No firmware DATA or COMPLETE packet was\nsent during these dumps. A callback-body mock is used only in offline bounded-\nwrite emulation; physical USB replies and the two matching passes validate\nthe live output independently.\n\nThe normal START/getv cleanup returned the device to six application HID\ncollections and zero bootloader interfaces. Application USB enumeration is\nverified; a complete keyboard functional or separate flash-integrity test was\nnot performed. Raw request/reply evidence is in `usb_transactions.json` and\nthe two-pass metadata is in `manifest.json`.\n"
+  },
+  {
+    "id": 48,
+    "topic": "boot-crypto-hardware-driver-and-plaintext-loading",
+    "finding": "# Bootloader crypto path and QMK feasibility update\n\nThe verified bootloader contains the control code for firmware transformation.\nStatic disassembly shows the encrypted DATA path runs two loops in 16-byte\nsteps, calling 0x029c at 0x0d60 and 0x0d9a before dispatching erase/program\nthrough 0x0214 and 0x0220. The programming buffer was independently observed\nas plaintext-like vector data, and the full application CPU view is now read.\n\nRelevant functions and literals:\n\n- 0x029c: 16-byte input/output operation, using descriptor 0x20000314 and\n  peripheral base 0x4000d000, triggering and checking peripheral status.\n- 0x0330: initializes that descriptor's buffer pointers and the peripheral.\n- 0x0398: copies 16 bytes into the descriptor's configuration/key buffer.\n- 0x0d4c\u00e2\u20ac\u201c0x0db4: selects the two configurations and processes DATA blocks.\n- 0x0e14 / 0x0e26: dispatches the uploaded erase/program functions afterward.\n\nThis supports hardware-assisted block processing driven by bootloader code.\nIt does not yet identify the hardware cipher, exact key derivation, key source,\nor all boot-time validity checks. Absence of common S-box/TEA constants does\nnot rule out those algorithms when hardware performs the primitive.\n\nThe original programming routine consumes a CPU-visible RAM buffer, so an\nalternative programmer could in principle consume plaintext directly. Sending\nplaintext through the unmodified encrypted vendor DATA path is not equivalent:\nthat path would still apply its transformations. Any installation method\nmust deliberately bypass or account for that processing and satisfy boot\nvalidity requirements. No installation/erase/program experiment was done.\n\n## QMK\n\nThe old blanket infeasibility conclusion is superseded: custom code execution\nand plaintext firmware access are demonstrated. This does not establish an\nexisting compatible QMK build. The exact MCU and peripherals still need to\nbe identified, followed by clock/USB/GPIO/timer support and matrix mapping.\nThe initial stack pointer alone is not a reliable measurement of total SRAM.\n\nOfficial QMK Arm guidance uses ChibiOS/ChibiOS-Contrib support; a new MCU\nfamily entails a platform port, beyond adding a keyboard definition:\nhttps://docs.qmk.fm/platformdev_selecting_arm_mcu\nhttps://docs.qmk.fm/porting_your_keyboard_to_qmk\n\nSonixQMK documents support for certain Sonix/eVision rebrands. That becomes\nrelevant only if this board's exact silicon is confirmed to match; the earlier\nYichip guess and a shared Royuan updater do not establish that:\nhttps://sonixqmk.github.io/SonixDocs/\n\nThe useful sequence is MCU identification, recovery/boot-check analysis,\nminimal RAM-only clock/USB/GPIO experiments, matrix reconstruction, then a\nmatching QMK platform/board build. A stock plaintext backup is available;\na verified restore writer is still a separate, unperformed requirement.\n"
+  },
+  {
+    "id": 49,
+    "topic": "recovered-artifact-bundle-and-coverage",
+    "finding": "Prepared complete recovered-evidence bundle. Coverage is verified CPU-visible0x00000000..0x0001ffff (128KiB), not proof that all physical RAM/OTP/fuses/key material has been obtained. Bundle includes both matching flash passes, bootloader/application regions, disassembly, USB evidence, scripts, captures, and consistent current SQLite backup. Current unknowns are firmware_dump/COVERAGE.md. Archive is analysis evidence, not an installable image."
+  }
+]

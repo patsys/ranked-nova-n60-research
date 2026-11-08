@@ -1,0 +1,458 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "no keys",
+      "decision": false,
+      "scans": 100,
+      "sample_reads": 6200,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "Esc held",
+      "decision": true,
+      "scans": 3,
+      "sample_reads": 186,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "other populated key held",
+      "decision": true,
+      "scans": 3,
+      "sample_reads": 186,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "absent matrix position ignored",
+      "decision": false,
+      "scans": 100,
+      "sample_reads": 6200,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "released after first scan",
+      "decision": false,
+      "scans": 100,
+      "sample_reads": 6200,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "different keys do not count as one hold",
+      "decision": false,
+      "scans": 100,
+      "sample_reads": 6200,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "initial empty batch then Esc",
+      "decision": true,
+      "scans": 4,
+      "sample_reads": 248,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "late held key in readiness window",
+      "decision": true,
+      "scans": 53,
+      "sample_reads": 3286,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "one shared held key across changes",
+      "decision": true,
+      "scans": 3,
+      "sample_reads": 186,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "Esc-only accepts Esc",
+      "decision": true,
+      "scans": 3,
+      "sample_reads": 186,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "Esc-only ignores other key",
+      "decision": false,
+      "scans": 100,
+      "sample_reads": 6200,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "disabled ignores held key",
+      "decision": false,
+      "scans": 0,
+      "sample_reads": 0,
+      "stack_used": 136
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "main held key enters boot before USB",
+      "events": [
+        "reset_requested"
+      ],
+      "reset_writes": [
+        [
+          "0x4001400c",
+          "0x5ac396c5"
+        ],
+        [
+          "0xe000ed0c",
+          "0x5fa0004"
+        ]
+      ],
+      "failure_reason": 0
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "main no key proceeds to USB",
+      "events": [
+        "usb_init"
+      ],
+      "reset_writes": [],
+      "failure_reason": 0
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "matrix initialization failure requests boot",
+      "events": [
+        "reset_requested"
+      ],
+      "reset_writes": [
+        [
+          "0x4001400c",
+          "0x5ac396c5"
+        ],
+        [
+          "0xe000ed0c",
+          "0x5fa0004"
+        ]
+      ],
+      "failure_reason": 1
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "USB initialization failure requests boot",
+      "events": [
+        "usb_init",
+        "reset_requested"
+      ],
+      "reset_writes": [
+        [
+          "0x4001400c",
+          "0x5ac396c5"
+        ],
+        [
+          "0xe000ed0c",
+          "0x5fa0004"
+        ]
+      ],
+      "failure_reason": 2
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "clock calibration failure requests boot",
+      "events": [
+        "reset_requested"
+      ],
+      "reset_writes": [
+        [
+          "0x4001400c",
+          "0x5ac396c5"
+        ],
+        [
+          "0xe000ed0c",
+          "0x5fa0004"
+        ]
+      ],
+      "failure_reason": 3
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "unsupported clock requests boot",
+      "events": [
+        "reset_requested"
+      ],
+      "reset_writes": [
+        [
+          "0x4001400c",
+          "0x5ac396c5"
+        ],
+        [
+          "0xe000ed0c",
+          "0x5fa0004"
+        ]
+      ],
+      "failure_reason": 4
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "mcu_reset",
+      "reset_writes": [
+        [
+          "0xe000ed0c",
+          "0x5fa0004"
+        ]
+      ]
+    },
+    {
+      "build": "firmware_diagnostic_neo2",
+      "case": "bootloader_jump",
+      "reset_writes": [
+        [
+          "0x4001400c",
+          "0x5ac396c5"
+        ],
+        [
+          "0xe000ed0c",
+          "0x5fa0004"
+        ]
+      ]
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "no keys",
+      "decision": false,
+      "scans": 100,
+      "sample_reads": 6200,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "Esc held",
+      "decision": true,
+      "scans": 3,
+      "sample_reads": 186,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "other populated key held",
+      "decision": true,
+      "scans": 3,
+      "sample_reads": 186,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "absent matrix position ignored",
+      "decision": false,
+      "scans": 100,
+      "sample_reads": 6200,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "released after first scan",
+      "decision": false,
+      "scans": 100,
+      "sample_reads": 6200,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "different keys do not count as one hold",
+      "decision": false,
+      "scans": 100,
+      "sample_reads": 6200,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "initial empty batch then Esc",
+      "decision": true,
+      "scans": 4,
+      "sample_reads": 248,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "late held key in readiness window",
+      "decision": true,
+      "scans": 53,
+      "sample_reads": 3286,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "one shared held key across changes",
+      "decision": true,
+      "scans": 3,
+      "sample_reads": 186,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "Esc-only accepts Esc",
+      "decision": true,
+      "scans": 3,
+      "sample_reads": 186,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "Esc-only ignores other key",
+      "decision": false,
+      "scans": 100,
+      "sample_reads": 6200,
+      "stack_used": 184
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "disabled ignores held key",
+      "decision": false,
+      "scans": 0,
+      "sample_reads": 0,
+      "stack_used": 176
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "main held key enters boot before USB",
+      "events": [
+        "reset_requested"
+      ],
+      "reset_writes": [
+        [
+          "0x4001400c",
+          "0x5ac396c5"
+        ],
+        [
+          "0xe000ed0c",
+          "0x5fa0004"
+        ]
+      ],
+      "failure_reason": 0
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "main no key proceeds to USB",
+      "events": [
+        "usb_init"
+      ],
+      "reset_writes": [],
+      "failure_reason": 0
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "matrix initialization failure requests boot",
+      "events": [
+        "reset_requested"
+      ],
+      "reset_writes": [
+        [
+          "0x4001400c",
+          "0x5ac396c5"
+        ],
+        [
+          "0xe000ed0c",
+          "0x5fa0004"
+        ]
+      ],
+      "failure_reason": 1
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "USB initialization failure requests boot",
+      "events": [
+        "usb_init",
+        "reset_requested"
+      ],
+      "reset_writes": [
+        [
+          "0x4001400c",
+          "0x5ac396c5"
+        ],
+        [
+          "0xe000ed0c",
+          "0x5fa0004"
+        ]
+      ],
+      "failure_reason": 2
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "clock calibration failure requests boot",
+      "events": [
+        "reset_requested"
+      ],
+      "reset_writes": [
+        [
+          "0x4001400c",
+          "0x5ac396c5"
+        ],
+        [
+          "0xe000ed0c",
+          "0x5fa0004"
+        ]
+      ],
+      "failure_reason": 3
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "unsupported clock requests boot",
+      "events": [
+        "reset_requested"
+      ],
+      "reset_writes": [
+        [
+          "0x4001400c",
+          "0x5ac396c5"
+        ],
+        [
+          "0xe000ed0c",
+          "0x5fa0004"
+        ]
+      ],
+      "failure_reason": 4
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "mcu_reset",
+      "reset_writes": [
+        [
+          "0xe000ed0c",
+          "0x5fa0004"
+        ]
+      ]
+    },
+    {
+      "build": "firmware_via_diagnostic_neo2",
+      "case": "bootloader_jump",
+      "reset_writes": [
+        [
+          "0x4001400c",
+          "0x5ac396c5"
+        ],
+        [
+          "0xe000ed0c",
+          "0x5fa0004"
+        ]
+      ]
+    },
+    {
+      "case": "compiled boot request consumed by original bootloader",
+      "usb_boot_server_entry": "0x848",
+      "request_cleared": true
+    }
+  ],
+  "case_count": 41,
+  "completion_boundaries_checked": true,
+  "elf_sha256": {
+    "firmware_diagnostic_neo2": "ee2e3578880e4bbd8d0366e901246181017cbbcb3df07ad16dec4853540e815e",
+    "firmware_via_diagnostic_neo2": "8fbed3bc051b69ae5005ae2293566ffaeb2c4b91fbf36e7c53c0539bc700c711"
+  },
+  "fixtures": "Actual linked C/ARM acquisition/hold/reset and original boot code; modeled0/100 analog samples, captured factory word0x06a20060, ready-bit, no real delays. Failure paths injected at initialization boundary.",
+  "limitations": "No physical key calibration, cold-power timing or SYSRESET retention hardware test. Captured factory word is replayed offline. Cannot recover before main/clock checks execute. Power removal does not preserve the request."
+}

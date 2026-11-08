@@ -1,0 +1,270 @@
+{
+ "page": "0xa0",
+ "bootloader": "v1.0.7",
+ "experiments": [
+  {
+   "name": "erase",
+   "word": 0,
+   "flags": 4,
+   "values": [
+    "0x0",
+    "0x0"
+   ],
+   "result": {
+    "op0": {
+     "status_after_start": "0x1",
+     "busy_polls": 24355,
+     "status_end": "0x0"
+    },
+    "op1": {
+     "status_after_start": "0x0",
+     "busy_polls": 0,
+     "status_end": "0x0"
+    },
+    "word0": "0xffffffff",
+    "word1": "0xffffffff",
+    "address_reg": "0x5000",
+    "gate_reg": "0x0"
+   },
+   "ok": true
+  },
+  {
+   "name": "single even word (QMK style)",
+   "word": 0,
+   "flags": 0,
+   "values": [
+    "0x12345678",
+    "0x0"
+   ],
+   "result": {
+    "op0": {
+     "status_after_start": "0x1",
+     "busy_polls": 240,
+     "status_end": "0x0"
+    },
+    "op1": {
+     "status_after_start": "0x0",
+     "busy_polls": 0,
+     "status_end": "0x0"
+    },
+    "word0": "0x12345678",
+    "word1": "0xffffffff",
+    "address_reg": "0x5000",
+    "gate_reg": "0x0"
+   },
+   "ok": true
+  },
+  {
+   "name": "single odd word (QMK style)",
+   "word": 1,
+   "flags": 0,
+   "values": [
+    "0x9abcdef0",
+    "0x0"
+   ],
+   "result": {
+    "op0": {
+     "status_after_start": "0x1",
+     "busy_polls": 240,
+     "status_end": "0x0"
+    },
+    "op1": {
+     "status_after_start": "0x0",
+     "busy_polls": 0,
+     "status_end": "0x0"
+    },
+    "word0": "0x9abcdef0",
+    "word1": "0xffffffff",
+    "address_reg": "0x5001",
+    "gate_reg": "0x0"
+   },
+   "ok": true
+  },
+  {
+   "name": "two words back to back (loader style)",
+   "word": 2,
+   "flags": 8,
+   "values": [
+    "0xf1e2d3c",
+    "0x4b5a6978"
+   ],
+   "result": {
+    "op0": {
+     "status_after_start": "0x1",
+     "busy_polls": 240,
+     "status_end": "0x0"
+    },
+    "op1": {
+     "status_after_start": "0x1",
+     "busy_polls": 240,
+     "status_end": "0x0"
+    },
+    "word0": "0xf1e2d3c",
+    "word1": "0x4b5a6978",
+    "address_reg": "0x5003",
+    "gate_reg": "0x0"
+   },
+   "ok": true
+  },
+  {
+   "name": "two words + ADDRESS rewrite (stock style)",
+   "word": 4,
+   "flags": 9,
+   "values": [
+    "0x11223344",
+    "0x55667788"
+   ],
+   "result": {
+    "op0": {
+     "status_after_start": "0x1",
+     "busy_polls": 240,
+     "status_end": "0x0"
+    },
+    "op1": {
+     "status_after_start": "0x1",
+     "busy_polls": 240,
+     "status_end": "0x0"
+    },
+    "word0": "0x11223344",
+    "word1": "0x55667788",
+    "address_reg": "0x5005",
+    "gate_reg": "0x0"
+   },
+   "ok": true
+  },
+  {
+   "name": "two words + delay",
+   "word": 6,
+   "flags": 10,
+   "values": [
+    "0x99aabbcc",
+    "0xddeeff00"
+   ],
+   "result": {
+    "op0": {
+     "status_after_start": "0x1",
+     "busy_polls": 240,
+     "status_end": "0x0"
+    },
+    "op1": {
+     "status_after_start": "0x1",
+     "busy_polls": 240,
+     "status_end": "0x0"
+    },
+    "word0": "0x99aabbcc",
+    "word1": "0xddeeff00",
+    "address_reg": "0x5007",
+    "gate_reg": "0x0"
+   },
+   "ok": true
+  },
+  {
+   "name": "two words + rewrite + delay",
+   "word": 8,
+   "flags": 11,
+   "values": [
+    "0x13579bdf",
+    "0x2468ace0"
+   ],
+   "result": {
+    "op0": {
+     "status_after_start": "0x1",
+     "busy_polls": 240,
+     "status_end": "0x0"
+    },
+    "op1": {
+     "status_after_start": "0x1",
+     "busy_polls": 240,
+     "status_end": "0x0"
+    },
+    "word0": "0x13579bdf",
+    "word1": "0x2468ace0",
+    "address_reg": "0x5009",
+    "gate_reg": "0x0"
+   },
+   "ok": true
+  },
+  {
+   "name": "two words starting odd",
+   "word": 11,
+   "flags": 8,
+   "values": [
+    "0xa5a5a5a5",
+    "0x5a5a5a5a"
+   ],
+   "result": {
+    "op0": {
+     "status_after_start": "0x1",
+     "busy_polls": 240,
+     "status_end": "0x0"
+    },
+    "op1": {
+     "status_after_start": "0x1",
+     "busy_polls": 240,
+     "status_end": "0x0"
+    },
+    "word0": "0xa5a5a5a5",
+    "word1": "0x5a5a5a5a",
+    "address_reg": "0x500c",
+    "gate_reg": "0x0"
+   },
+   "ok": true
+  },
+  {
+   "name": "final erase",
+   "word": 0,
+   "flags": 4,
+   "values": [
+    "0x0",
+    "0x0"
+   ],
+   "result": {
+    "op0": {
+     "status_after_start": "0x1",
+     "busy_polls": 24355,
+     "status_end": "0x0"
+    },
+    "op1": {
+     "status_after_start": "0x0",
+     "busy_polls": 0,
+     "status_end": "0x0"
+    },
+    "word0": "0xffffffff",
+    "word1": "0xffffffff",
+    "address_reg": "0x5000",
+    "gate_reg": "0x0"
+   },
+   "ok": true
+  }
+ ],
+ "core_before": {
+  "before": 0,
+  "after": 1,
+  "cpuid": "0x410cc200",
+  "nvic_iser": 0,
+  "systick": 4
+ },
+ "timing_before": {
+  "0x14": "0x207",
+  "0x18": "0xb",
+  "0x20": "0x40",
+  "0x24": "0x137",
+  "0x28": "0x144",
+  "0x30": "0x104",
+  "0x38": "0x114",
+  "0x3c": "0x34bc0",
+  "0x40": "0x15f900",
+  "0x4c": "0x6"
+ },
+ "before_sha256": "7d20987c1a6ebc7307d3f73c4a10445e8c0eda8efe06960f633f1aedbe276c1a",
+ "core_after": {
+  "before": 1,
+  "after": 1,
+  "cpuid": "0x410cc200",
+  "nvic_iser": 0,
+  "systick": 4
+ },
+ "whole_flash_unchanged": true,
+ "info_flash_unchanged": true,
+ "application_back": true
+}

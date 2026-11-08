@@ -1,0 +1,167 @@
+{
+ "page": "0xa0",
+ "bootloader": "v1.0.7",
+ "experiments": [
+  {
+   "name": "erase",
+   "word": 0,
+   "flags": 4,
+   "values": [
+    "0x0",
+    "0x0"
+   ],
+   "result": {
+    "op0": {
+     "status_after_start": "0x1",
+     "busy_polls": 24355,
+     "status_end": "0x0"
+    },
+    "op1": {
+     "status_after_start": "0x0",
+     "busy_polls": 0,
+     "status_end": "0x0"
+    },
+    "word0": "0xffffffff",
+    "word1": "0xffffffff",
+    "address_reg": "0x5000",
+    "gate_reg": "0x0"
+   },
+   "ok": true
+  },
+  {
+   "name": "flash_go replica, two words (predict word1 lost)",
+   "word": 2,
+   "flags": 26,
+   "values": [
+    "0xf1e2d3c",
+    "0x4b5a6978"
+   ],
+   "result": {
+    "op0": {
+     "status_after_start": "0xffffffff",
+     "busy_polls": 0,
+     "status_end": "0x3"
+    },
+    "op1": {
+     "status_after_start": "0xffffffff",
+     "busy_polls": 219,
+     "status_end": "0x0"
+    },
+    "word0": "0xffffffff",
+    "word1": "0x4b5a6978",
+    "address_reg": "0x5003",
+    "gate_reg": "0x0"
+   },
+   "ok": false
+  },
+  {
+   "name": "flash_go replica polling bits 0+1, two words (predict ok)",
+   "word": 4,
+   "flags": 58,
+   "values": [
+    "0x11223344",
+    "0x55667788"
+   ],
+   "result": {
+    "op0": {
+     "status_after_start": "0xffffffff",
+     "busy_polls": 241,
+     "status_end": "0x0"
+    },
+    "op1": {
+     "status_after_start": "0xffffffff",
+     "busy_polls": 241,
+     "status_end": "0x0"
+    },
+    "word0": "0x11223344",
+    "word1": "0x55667788",
+    "address_reg": "0x5005",
+    "gate_reg": "0x0"
+   },
+   "ok": true
+  },
+  {
+   "name": "flash_go replica, single word",
+   "word": 8,
+   "flags": 18,
+   "values": [
+    "0x13579bdf",
+    "0x0"
+   ],
+   "result": {
+    "op0": {
+     "status_after_start": "0xffffffff",
+     "busy_polls": 0,
+     "status_end": "0x3"
+    },
+    "op1": {
+     "status_after_start": "0x0",
+     "busy_polls": 0,
+     "status_end": "0x0"
+    },
+    "word0": "0x0",
+    "word1": "0xffffffff",
+    "address_reg": "0x5008",
+    "gate_reg": "0x0"
+   },
+   "ok": false
+  },
+  {
+   "name": "final erase",
+   "word": 0,
+   "flags": 4,
+   "values": [
+    "0x0",
+    "0x0"
+   ],
+   "result": {
+    "op0": {
+     "status_after_start": "0x1",
+     "busy_polls": 24355,
+     "status_end": "0x0"
+    },
+    "op1": {
+     "status_after_start": "0x0",
+     "busy_polls": 0,
+     "status_end": "0x0"
+    },
+    "word0": "0xffffffff",
+    "word1": "0xffffffff",
+    "address_reg": "0x5000",
+    "gate_reg": "0x0"
+   },
+   "ok": true
+  }
+ ],
+ "core_before": {
+  "before": 0,
+  "after": 1,
+  "cpuid": "0x410cc200",
+  "nvic_iser": 0,
+  "systick": 4
+ },
+ "timing_before": {
+  "0x14": "0x207",
+  "0x18": "0xb",
+  "0x20": "0x40",
+  "0x24": "0x137",
+  "0x28": "0x144",
+  "0x30": "0x104",
+  "0x38": "0x114",
+  "0x3c": "0x34bc0",
+  "0x40": "0x15f900",
+  "0x4c": "0x6"
+ },
+ "before_sha256": "965f334ac5ec2904221ebc51329c8496e8562e8e500a4c09414f6bf4b86c41b4",
+ "matrix": "race",
+ "core_after": {
+  "before": 1,
+  "after": 1,
+  "cpuid": "0x410cc200",
+  "nvic_iser": 0,
+  "systick": 4
+ },
+ "whole_flash_unchanged": true,
+ "info_flash_unchanged": true,
+ "application_back": true
+}

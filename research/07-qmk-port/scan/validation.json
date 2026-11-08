@@ -1,0 +1,90 @@
+{
+  "tables_match_original": true,
+  "original_routine_emulation_cases": [
+    {
+      "sample": 0,
+      "initial_bank_bits": 0,
+      "active_position_count": 0,
+      "passed": true
+    },
+    {
+      "sample": 0,
+      "initial_bank_bits": 63,
+      "active_position_count": 0,
+      "passed": true
+    },
+    {
+      "sample": 19,
+      "initial_bank_bits": 0,
+      "active_position_count": 0,
+      "passed": true
+    },
+    {
+      "sample": 19,
+      "initial_bank_bits": 63,
+      "active_position_count": 0,
+      "passed": true
+    },
+    {
+      "sample": 20,
+      "initial_bank_bits": 0,
+      "active_position_count": 0,
+      "passed": true
+    },
+    {
+      "sample": 20,
+      "initial_bank_bits": 63,
+      "active_position_count": 0,
+      "passed": true
+    },
+    {
+      "sample": 25,
+      "initial_bank_bits": 0,
+      "active_position_count": 0,
+      "passed": true
+    },
+    {
+      "sample": 25,
+      "initial_bank_bits": 63,
+      "active_position_count": 0,
+      "passed": true
+    },
+    {
+      "sample": 30,
+      "initial_bank_bits": 0,
+      "active_position_count": 0,
+      "passed": true
+    },
+    {
+      "sample": 30,
+      "initial_bank_bits": 63,
+      "active_position_count": 0,
+      "passed": true
+    },
+    {
+      "sample": 31,
+      "initial_bank_bits": 0,
+      "active_position_count": 62,
+      "passed": true
+    },
+    {
+      "sample": 31,
+      "initial_bank_bits": 63,
+      "active_position_count": 62,
+      "passed": true
+    },
+    {
+      "sample": 65535,
+      "initial_bank_bits": 0,
+      "active_position_count": 62,
+      "passed": true
+    },
+    {
+      "sample": 65535,
+      "initial_bank_bits": 63,
+      "active_position_count": 62,
+      "passed": true
+    }
+  ],
+  "limitations": "Offline MMIO storage model; delay helper bypassed. Does not validate physical timing, electrical behavior or C machine code."
+}

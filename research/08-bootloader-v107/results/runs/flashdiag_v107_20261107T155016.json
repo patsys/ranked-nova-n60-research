@@ -1,0 +1,25 @@
+{
+ "page": "0xa0",
+ "bootloader": "v1.0.7",
+ "experiments": [],
+ "core_before": {
+  "before": 0,
+  "after": 1,
+  "cpuid": "0x410cc200",
+  "nvic_iser": 0,
+  "systick": 4
+ },
+ "timing_before": {
+  "0x14": "0x207",
+  "0x18": "0xb",
+  "0x20": "0x40",
+  "0x24": "0x137",
+  "0x28": "0x144",
+  "0x30": "0x104",
+  "0x38": "0x114",
+  "0x3c": "0x34bc0",
+  "0x40": "0x15f900",
+  "0x4c": "0x6"
+ },
+ "before_sha256": "367d73d8fef57ad139577786fcea6046648b32e4df0fdc9bddb64b1b06bf4d25"
+}

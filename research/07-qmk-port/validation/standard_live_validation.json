@@ -1,0 +1,19 @@
+{
+  "installed_elf_sha256": "d84b5da4a41db556eb3553ef3c31157d9d0bec58a9af3315ac013c23cc0dba4d",
+  "flash_result": ".local-flasher/live_qmk_standard_20261103_01/result.json",
+  "flash_writes": false,
+  "passed": true,
+  "protocol": 13,
+  "layers": 3,
+  "keymap_bytes": 396,
+  "keymap_matches_installed_elf": true,
+  "keymap_sha256": "e0ff234d03e70f7cee6c6bc223b02a2266872efecfdf6fc27a6a30473a3d1e24",
+  "reversible_absent_slot_remap_passed": true,
+  "soak_seconds": 15,
+  "soak_queries": 142,
+  "rgb_mode": 4,
+  "rgb_saturation": 255,
+  "moving_rainbow_visual_confirmation_pending": false,
+  "physical_typing_confirmation_pending": false,
+  "user_confirmed_typing_and_moving_rainbow": true
+}

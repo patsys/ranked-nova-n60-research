@@ -1,0 +1,527 @@
+{
+  "method": "CPU-visible memory through own guarded START-only USB block stubs",
+  "flash_base": 0,
+  "flash_size": 131072,
+  "application_base": 8192,
+  "application_size": 117760,
+  "passes": [
+    {
+      "pass_number": 1,
+      "path": "firmware_dump\\flash_cpu_pass1.bin",
+      "blocks": [
+        {
+          "address": "0x0",
+          "length": 4096,
+          "sha256": "d19fb85cde24108c579434f3d1661a2ef56e5c0b2a4b932461f39882a16c7877"
+        },
+        {
+          "address": "0x1000",
+          "length": 4096,
+          "sha256": "913deac508d886b7c734a46009c5aed5bf2a33a24ef6096201fb22a5d2bf96ee"
+        },
+        {
+          "address": "0x2000",
+          "length": 4096,
+          "sha256": "3b876c01e391556378b9b59dfc7631ba6e33cdfee59043779b96f08faffe2685"
+        },
+        {
+          "address": "0x3000",
+          "length": 4096,
+          "sha256": "a548c09bb86b34da3ff09c8a04e0e910449d5724fb5ad5255f9cf0209639c895"
+        },
+        {
+          "address": "0x4000",
+          "length": 4096,
+          "sha256": "353c9db8ef9b10ff0b8ebc74e5cd7e6d811c0d4822f75ccad81aa8b422f67c4b"
+        },
+        {
+          "address": "0x5000",
+          "length": 4096,
+          "sha256": "93aed92ef0ac93f89b420b595fe52e44b3ef3bd09d36f77f76bf49788bd16e1e"
+        },
+        {
+          "address": "0x6000",
+          "length": 4096,
+          "sha256": "2fc7d6bc3496f9f24d6be686981ef96788ba7efb5b3f915449daf42626cfee4b"
+        },
+        {
+          "address": "0x7000",
+          "length": 4096,
+          "sha256": "4a7029f2d920ad237c84933662074cc9da6c35751d836dd8e9cffb298c3c47da"
+        },
+        {
+          "address": "0x8000",
+          "length": 4096,
+          "sha256": "acaa834a99e07d7a35f52f716e16771ea64ad5d2112bd8063620a8ab3185867e"
+        },
+        {
+          "address": "0x9000",
+          "length": 4096,
+          "sha256": "202f6eddf71d303807335da1da894914b2dd1518017872ad0c1a41a2aa458a8d"
+        },
+        {
+          "address": "0xa000",
+          "length": 4096,
+          "sha256": "7f82953b5f20402b2f776d6148957917178d23e01ab025e83cf16d12a8362061"
+        },
+        {
+          "address": "0xb000",
+          "length": 4096,
+          "sha256": "a4d3c6d8d7e468f9b7638aef9ff2f67e336fbf2a5fdbc5dc1038978f1fdba1f3"
+        },
+        {
+          "address": "0xc000",
+          "length": 4096,
+          "sha256": "b9d0743405a3c55e4c19ffe586b9ea43375b22635ffca272bfb3b5a091e1d029"
+        },
+        {
+          "address": "0xd000",
+          "length": 4096,
+          "sha256": "852e6edd5c2d19b2235b002b880752bbd71b9e9f6b9d413a028751c5a8cf3271"
+        },
+        {
+          "address": "0xe000",
+          "length": 4096,
+          "sha256": "ae6d282ad62813c6b550afac8c4f6c350c5f86f69b7bd0a5f4ae32f1d671c64b"
+        },
+        {
+          "address": "0xf000",
+          "length": 4096,
+          "sha256": "65a7cdb818e96f3ecab6ff6c7492cebf2c2422876f26186bf12285767a5dc3cc"
+        },
+        {
+          "address": "0x10000",
+          "length": 4096,
+          "sha256": "9ca342a46df0acc1ddaa9b3bd401bd13959504e9b673b6d98d1c0a439e190f79"
+        },
+        {
+          "address": "0x11000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x12000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x13000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x14000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x15000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x16000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x17000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x18000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x19000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x1a000",
+          "length": 4096,
+          "sha256": "1747ff14e2525c6539d087f18f1663393140354b132e0895657b714c45671b3d"
+        },
+        {
+          "address": "0x1b000",
+          "length": 4096,
+          "sha256": "c1835074bb990ec9f1df4e4f98edf4ef5dbeda7167a1851fc4a6f00d0994ffc4"
+        },
+        {
+          "address": "0x1c000",
+          "length": 4096,
+          "sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+        },
+        {
+          "address": "0x1d000",
+          "length": 4096,
+          "sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+        },
+        {
+          "address": "0x1e000",
+          "length": 4096,
+          "sha256": "2c3400b5832158a23b679324fa832b36e1ec4b403db5e2858742378f32b67a39"
+        },
+        {
+          "address": "0x1f000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        }
+      ],
+      "sha256": "5adca278d90a0672e05dfe5ad47d1635242f9ec0ff78827d83d9f28d6ccd8b49"
+    },
+    {
+      "pass_number": 2,
+      "path": "firmware_dump\\flash_cpu_pass2.bin",
+      "blocks": [
+        {
+          "address": "0x0",
+          "length": 4096,
+          "sha256": "d19fb85cde24108c579434f3d1661a2ef56e5c0b2a4b932461f39882a16c7877"
+        },
+        {
+          "address": "0x1000",
+          "length": 4096,
+          "sha256": "913deac508d886b7c734a46009c5aed5bf2a33a24ef6096201fb22a5d2bf96ee"
+        },
+        {
+          "address": "0x2000",
+          "length": 4096,
+          "sha256": "3b876c01e391556378b9b59dfc7631ba6e33cdfee59043779b96f08faffe2685"
+        },
+        {
+          "address": "0x3000",
+          "length": 4096,
+          "sha256": "a548c09bb86b34da3ff09c8a04e0e910449d5724fb5ad5255f9cf0209639c895"
+        },
+        {
+          "address": "0x4000",
+          "length": 4096,
+          "sha256": "353c9db8ef9b10ff0b8ebc74e5cd7e6d811c0d4822f75ccad81aa8b422f67c4b"
+        },
+        {
+          "address": "0x5000",
+          "length": 4096,
+          "sha256": "93aed92ef0ac93f89b420b595fe52e44b3ef3bd09d36f77f76bf49788bd16e1e"
+        },
+        {
+          "address": "0x6000",
+          "length": 4096,
+          "sha256": "2fc7d6bc3496f9f24d6be686981ef96788ba7efb5b3f915449daf42626cfee4b"
+        },
+        {
+          "address": "0x7000",
+          "length": 4096,
+          "sha256": "4a7029f2d920ad237c84933662074cc9da6c35751d836dd8e9cffb298c3c47da"
+        },
+        {
+          "address": "0x8000",
+          "length": 4096,
+          "sha256": "acaa834a99e07d7a35f52f716e16771ea64ad5d2112bd8063620a8ab3185867e"
+        },
+        {
+          "address": "0x9000",
+          "length": 4096,
+          "sha256": "202f6eddf71d303807335da1da894914b2dd1518017872ad0c1a41a2aa458a8d"
+        },
+        {
+          "address": "0xa000",
+          "length": 4096,
+          "sha256": "7f82953b5f20402b2f776d6148957917178d23e01ab025e83cf16d12a8362061"
+        },
+        {
+          "address": "0xb000",
+          "length": 4096,
+          "sha256": "a4d3c6d8d7e468f9b7638aef9ff2f67e336fbf2a5fdbc5dc1038978f1fdba1f3"
+        },
+        {
+          "address": "0xc000",
+          "length": 4096,
+          "sha256": "b9d0743405a3c55e4c19ffe586b9ea43375b22635ffca272bfb3b5a091e1d029"
+        },
+        {
+          "address": "0xd000",
+          "length": 4096,
+          "sha256": "852e6edd5c2d19b2235b002b880752bbd71b9e9f6b9d413a028751c5a8cf3271"
+        },
+        {
+          "address": "0xe000",
+          "length": 4096,
+          "sha256": "ae6d282ad62813c6b550afac8c4f6c350c5f86f69b7bd0a5f4ae32f1d671c64b"
+        },
+        {
+          "address": "0xf000",
+          "length": 4096,
+          "sha256": "65a7cdb818e96f3ecab6ff6c7492cebf2c2422876f26186bf12285767a5dc3cc"
+        },
+        {
+          "address": "0x10000",
+          "length": 4096,
+          "sha256": "9ca342a46df0acc1ddaa9b3bd401bd13959504e9b673b6d98d1c0a439e190f79"
+        },
+        {
+          "address": "0x11000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x12000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x13000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x14000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x15000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x16000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x17000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x18000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x19000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        },
+        {
+          "address": "0x1a000",
+          "length": 4096,
+          "sha256": "1747ff14e2525c6539d087f18f1663393140354b132e0895657b714c45671b3d"
+        },
+        {
+          "address": "0x1b000",
+          "length": 4096,
+          "sha256": "c1835074bb990ec9f1df4e4f98edf4ef5dbeda7167a1851fc4a6f00d0994ffc4"
+        },
+        {
+          "address": "0x1c000",
+          "length": 4096,
+          "sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+        },
+        {
+          "address": "0x1d000",
+          "length": 4096,
+          "sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7"
+        },
+        {
+          "address": "0x1e000",
+          "length": 4096,
+          "sha256": "2c3400b5832158a23b679324fa832b36e1ec4b403db5e2858742378f32b67a39"
+        },
+        {
+          "address": "0x1f000",
+          "length": 4096,
+          "sha256": "f47a8ec3e9aff2318d896942282ad4fe37d6391c82914f54a5da8a37de1300c6"
+        }
+      ],
+      "sha256": "5adca278d90a0672e05dfe5ad47d1635242f9ec0ff78827d83d9f28d6ccd8b49"
+    }
+  ],
+  "started_unix": 1793650775.453326,
+  "version": {
+    "request_hex": "000000000400000167657476",
+    "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "round_trip_ms": 0.0,
+    "version_words_hex": [
+      "a1050000",
+      "a1040000"
+    ]
+  },
+  "vectors": {
+    "stack_pointer": "0x20001c50",
+    "reset_vector": "0x2211",
+    "hex": "501c00201122000015220000dd29000000000000000000000000000000000000000000000000000000000000192200000000000000000000"
+  },
+  "reset_code_hex": "07480047fee7fee7fee7fee7fee720bfeff3108072b6704780f310887047fee7d920000030b50b46014600202022012409e00d46d5409d42",
+  "reset_disassembly": [
+    {
+      "address": "0x2210",
+      "mnemonic": "ldr",
+      "operands": "r0, [pc, #0x1c]"
+    },
+    {
+      "address": "0x2212",
+      "mnemonic": "bx",
+      "operands": "r0"
+    },
+    {
+      "address": "0x2214",
+      "mnemonic": "b",
+      "operands": "#0x2214"
+    },
+    {
+      "address": "0x2216",
+      "mnemonic": "b",
+      "operands": "#0x2216"
+    },
+    {
+      "address": "0x2218",
+      "mnemonic": "b",
+      "operands": "#0x2218"
+    },
+    {
+      "address": "0x221a",
+      "mnemonic": "b",
+      "operands": "#0x221a"
+    },
+    {
+      "address": "0x221c",
+      "mnemonic": "b",
+      "operands": "#0x221c"
+    },
+    {
+      "address": "0x221e",
+      "mnemonic": "wfe",
+      "operands": ""
+    },
+    {
+      "address": "0x2220",
+      "mnemonic": "mrs",
+      "operands": "r0, primask"
+    },
+    {
+      "address": "0x2224",
+      "mnemonic": "cpsid",
+      "operands": "i"
+    },
+    {
+      "address": "0x2226",
+      "mnemonic": "bx",
+      "operands": "lr"
+    },
+    {
+      "address": "0x2228",
+      "mnemonic": "msr",
+      "operands": "primask, r0"
+    },
+    {
+      "address": "0x222c",
+      "mnemonic": "bx",
+      "operands": "lr"
+    },
+    {
+      "address": "0x222e",
+      "mnemonic": "b",
+      "operands": "#0x222e"
+    },
+    {
+      "address": "0x2230",
+      "mnemonic": "movs",
+      "operands": "r0, #0xd9"
+    },
+    {
+      "address": "0x2232",
+      "mnemonic": "movs",
+      "operands": "r0, r0"
+    },
+    {
+      "address": "0x2234",
+      "mnemonic": "push",
+      "operands": "{r4, r5, lr}"
+    },
+    {
+      "address": "0x2236",
+      "mnemonic": "mov",
+      "operands": "r3, r1"
+    },
+    {
+      "address": "0x2238",
+      "mnemonic": "mov",
+      "operands": "r1, r0"
+    },
+    {
+      "address": "0x223a",
+      "mnemonic": "movs",
+      "operands": "r0, #0"
+    },
+    {
+      "address": "0x223c",
+      "mnemonic": "movs",
+      "operands": "r2, #0x20"
+    },
+    {
+      "address": "0x223e",
+      "mnemonic": "movs",
+      "operands": "r4, #1"
+    },
+    {
+      "address": "0x2240",
+      "mnemonic": "b",
+      "operands": "#0x2256"
+    },
+    {
+      "address": "0x2242",
+      "mnemonic": "mov",
+      "operands": "r5, r1"
+    },
+    {
+      "address": "0x2244",
+      "mnemonic": "lsrs",
+      "operands": "r5, r2"
+    },
+    {
+      "address": "0x2246",
+      "mnemonic": "cmp",
+      "operands": "r5, r3"
+    }
+  ],
+  "passes_identical": true,
+  "application_sha256": "24c9420a5cd1df4bc06472aad07965b360f7341815f234da109971246ed964c0",
+  "bootloader_sha256": "e46c6d9300a13f4d2eea7c16584d24ea6e4e1b83815e5f84f389d4aeb0915f62",
+  "application_vectors": [
+    "0x20001c50",
+    "0x2211",
+    "0x2215",
+    "0x29dd",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x2219",
+    "0x0",
+    "0x0",
+    "0x221b",
+    "0x30ed"
+  ],
+  "known_boot_code_matches": true,
+  "verified": true,
+  "cleanup": {
+    "normal_START": {
+      "total_ms": 16.8689,
+      "post_write_ms": 2.0163,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "final_state": {
+      "exit_query_error": "read error",
+      "application_collections": 6,
+      "bootloader_interfaces": 0
+    }
+  },
+  "finished_unix": 1793650881.1157305
+}

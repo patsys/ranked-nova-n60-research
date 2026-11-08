@@ -1,0 +1,323 @@
+{
+  "plaintext_sha256": "814535da3efb45c2d5c225da304875e3de8a887b31ff916cd04a10bb5710c026",
+  "trials": [
+    {
+      "crypto_mode": 1,
+      "stub_sha256": "569543ab55766b0e04c86a8f81dda6e4969295c4fc3291a1b0f1a9c147528f68",
+      "transactions": [
+        {
+          "sequence": 1,
+          "request_sha256": "92d9fac699abc54427744224f985edc205b424e6fb6b2aa17cfba06c0797c851",
+          "replies": [
+            "02010073380001773f08887cf77dec05ac48a9eebc08f3f43af0e14399d7995a4a47d0225a90d8d1e5f6f1d0b1a2fb034e66e27b758d5e69bc829a6bf831ba57"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 2,
+          "request_sha256": "6cfe0c3ba5956e5ce7e8df3a3a5c6e296d430692f887586e57db6188bdd4ad09",
+          "replies": [
+            "02020073380001770610127ffda2b395d70c924e2bab865f2e1264a9c5a8127291fcb9225df3a6cb96a2c748be990e4871ebaa826db9f3ca52b5ac12ebf07b1d"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 3,
+          "request_sha256": "3b0fa56f687cfea6f55c7be255c98f72591ea5a0233414b27647bbf16de28f27",
+          "replies": [
+            "02030073380001779b28f3d61f610ff5504780b79b37bcdaa2236f003e1ba181a31cd79ca6860fde7cbb2cf41c6acdd973bd0c44db110a1b3af0e14399d7995a"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 4,
+          "request_sha256": "8b65f02dd48a853bf864e249ea38b07f3e4f888fe826f95eb99468b3893a9d3d",
+          "replies": [
+            "02040073380001774a47d0225a90d8d13af0e14399d7995a4a47d0225a90d8d1bb0be970e244f4ba5a4c99d82d50b1afd7b10094219244d2885b19fcc3c32058"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 5,
+          "request_sha256": "92e49696d9544477f126a009e08c06b48345435bf857c59f788d0435744f8188",
+          "replies": [
+            "020500733800017739da7eac69ec1d743c007f899aa953a2419b73ecd8567959f616cc2a30e2d6df0dcea980bb61a8ceb03b9dd9e01c2d95279db446b3cb8057"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 6,
+          "request_sha256": "3ca6c67f3061d0eecae8559c198a51f8b4e38e9b0e33fcea72ea0e6706f4fb6b",
+          "replies": [
+            "020600733800017775190aa50995b760ab4999828908f904f91f761e21e86338e751ff87fb28778f576796a7481b718ca99082de4303620e1b6a59fecc663c44"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 7,
+          "request_sha256": "1ecb3cb4d67a6b99ab34f3d93240db9a7c3cc90ac4feb1b1149af0e0623fc50a",
+          "replies": [
+            "0207007338000177b28275d1a56149a2670ef81aa8effe7fe5da9c5820550ddb258f7431b842a4f1e751ff87fb28778f576796a7481b718cb28275d1a56149a2"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 8,
+          "request_sha256": "e3eaa995e416b058c89803b4d6d77c7c898f891da776d8552f72f23cd4b18ac1",
+          "replies": [
+            "0208007338000177670ef81aa8effe7f3a94412c9af657eef3c58b79095a9d14b28275d1a56149a2670ef81aa8effe7fb28275d1a56149a2670ef81aa8effe7f"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 9,
+          "request_sha256": "a0945755c514b8fb63c4b92b790351894ed1f3df15a32b36a659e6c5e350a4bc",
+          "replies": [
+            "02090073380001776bf9383ed2f33411c0024500206bd52ab28275d1a56149a2670ef81aa8effe7fb28275d1a56149a2670ef81aa8effe7f52187e63e115f1e4"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 10,
+          "request_sha256": "919550569ef8f1aee9482a639bbb185164bd8b2f78046d8b7279248303bc4f27",
+          "replies": [
+            "020a007308000177e199f45c355c2a41000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 11,
+          "request_sha256": "510156d8656b20a36926bb818057710a2e3091e1d4a5d062766a394cae1764ff",
+          "replies": [
+            "020b00730c0001775405002024030020010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "ordinary_ack_received": false
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 16.9868,
+        "post_write_ms": 2.0138,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "metadata": {
+        "source_pointer": "0x20000554",
+        "packet_context": "0x20000324",
+        "ram_crypto_flag": 1,
+        "source_is_raw_DATA_buffer": false
+      },
+      "observed_file": "ram_bypass_test\\observed_source_crypto_1.bin",
+      "observed_sha256": "cd6333dcb9c3aa2b902876b42a21e77491c596c9ff738624274b583628fe3750",
+      "source_matches_plaintext": false,
+      "first16_hex": "3f08887cf77dec05ac48a9eebc08f3f4",
+      "cleanup": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      }
+    },
+    {
+      "crypto_mode": 0,
+      "stub_sha256": "2f55694fc7c118846c0385cecde6060bd3279dbdba034bd66eaf1521da2255a0",
+      "transactions": [
+        {
+          "sequence": 1,
+          "request_sha256": "92d9fac699abc54427744224f985edc205b424e6fb6b2aa17cfba06c0797c851",
+          "replies": [
+            "0201007338000177501c00201122000015220000dd29000000000000000000000000000000000000000000000000000000000000192200000000000000000000"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 2,
+          "request_sha256": "6cfe0c3ba5956e5ce7e8df3a3a5c6e296d430692f887586e57db6188bdd4ad09",
+          "replies": [
+            "02020073380001771b220000ed300000452a0000c92d0000212f00005d3100002d310000e5280000012300002f2200002f2200002f220000b930000091300000"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 3,
+          "request_sha256": "3b0fa56f687cfea6f55c7be255c98f72591ea5a0233414b27647bbf16de28f27",
+          "replies": [
+            "0203007338000177292d0000fd3000002f2200001d2a0000f5290000f52c00002f2200002f2200002f2200002f22000000000000000000000000000000000000"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 4,
+          "request_sha256": "8b65f02dd48a853bf864e249ea38b07f3e4f888fe826f95eb99468b3893a9d3d",
+          "replies": [
+            "02040073380001770000000000000000000000000000000000000000000000007279373278785f626173655f73646b5f76312e312e3400000348854600f0d2f8"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 5,
+          "request_sha256": "92e49696d9544477f126a009e08c06b48345435bf857c59f788d0435744f8188",
+          "replies": [
+            "02050073380001770048004781cd0000501c0020401efdd17047401e00bffcd17047401e00bf00bf00bf00bff9d17047401e00bf00bf00bf00bf00bf00bff7d1"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 6,
+          "request_sha256": "3ca6c67f3061d0eecae8559c198a51f8b4e38e9b0e33fcea72ea0e6706f4fb6b",
+          "replies": [
+            "02060073380001777047401e00bf00bf00bf00bf00bf00bf00bf00bff5d17047401e00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bff2d17047401e00bf"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 7,
+          "request_sha256": "1ecb3cb4d67a6b99ab34f3d93240db9a7c3cc90ac4feb1b1149af0e0623fc50a",
+          "replies": [
+            "020700733800017700bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bfeed17047401e00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 8,
+          "request_sha256": "e3eaa995e416b058c89803b4d6d77c7c898f891da776d8552f72f23cd4b18ac1",
+          "replies": [
+            "020800733800017700bf00bf00bf00bf00bf00bf00bfebd17047401e00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 9,
+          "request_sha256": "a0945755c514b8fb63c4b92b790351894ed1f3df15a32b36a659e6c5e350a4bc",
+          "replies": [
+            "020900733800017700bf00bfe9d17047401e00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf00bf"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 10,
+          "request_sha256": "919550569ef8f1aee9482a639bbb185164bd8b2f78046d8b7279248303bc4f27",
+          "replies": [
+            "020a00730800017700bf00bfe4d17047000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "ordinary_ack_received": false
+        },
+        {
+          "sequence": 11,
+          "request_sha256": "510156d8656b20a36926bb818057710a2e3091e1d4a5d062766a394cae1764ff",
+          "replies": [
+            "020b00730c0001772c03002024030020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "ordinary_ack_received": false
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 16.9202,
+        "post_write_ms": 1.9977,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "metadata": {
+        "source_pointer": "0x2000032c",
+        "packet_context": "0x20000324",
+        "ram_crypto_flag": 0,
+        "source_is_raw_DATA_buffer": true
+      },
+      "observed_file": "ram_bypass_test\\observed_source_crypto_0.bin",
+      "observed_sha256": "814535da3efb45c2d5c225da304875e3de8a887b31ff916cd04a10bb5710c026",
+      "source_matches_plaintext": true,
+      "first16_hex": "501c00201122000015220000dd290000",
+      "cleanup": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      }
+    }
+  ],
+  "no_COMPLETE": true,
+  "plaintext_bypass_verified_without_programming": true,
+  "flash_verification": {
+    "baseline_sha256": "5adca278d90a0672e05dfe5ad47d1635242f9ec0ff78827d83d9f28d6ccd8b49",
+    "version": {
+      "request_hex": "000000000400000167657476",
+      "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "round_trip_ms": 0.0,
+      "version_words_hex": [
+        "a1050000",
+        "a1040000"
+      ]
+    },
+    "after_sha256": "60c00494fa7ebaacb663248f113ffb07fa38532980f28e9b2a2a489dea795dc4",
+    "byte_length": 131072,
+    "flash_unchanged": false,
+    "first_differences": [
+      "0x1a2e8",
+      "0x1a2e9",
+      "0x1a2ea",
+      "0x1a2eb",
+      "0x1a2ec",
+      "0x1a2ed",
+      "0x1a2ee",
+      "0x1a2ef",
+      "0x1a2f0",
+      "0x1a2f1",
+      "0x1a2f2",
+      "0x1a2f3",
+      "0x1a2f4",
+      "0x1a2f5",
+      "0x1a2f6",
+      "0x1a2f7",
+      "0x1a2f8",
+      "0x1a2f9",
+      "0x1a2fa",
+      "0x1a2fb",
+      "0x1a2fc",
+      "0x1a2fd",
+      "0x1a2fe",
+      "0x1a2ff",
+      "0x1a300",
+      "0x1a301",
+      "0x1a302",
+      "0x1a303",
+      "0x1a304",
+      "0x1a305",
+      "0x1a306",
+      "0x1a307"
+    ],
+    "cleanup": {
+      "normal_START": {
+        "total_ms": 16.7829,
+        "post_write_ms": 1.9867,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      }
+    },
+    "diff_ranges": [
+      {
+        "start": "0x1a2e8",
+        "end": "0x1a308",
+        "length": 32
+      }
+    ],
+    "bootloader_unchanged": true,
+    "application_code_region_unchanged": true
+  }
+}

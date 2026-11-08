@@ -1,0 +1,10 @@
+{
+  "passed_command_and_readback": true,
+  "requested": "animated rainbow color cycle",
+  "mode": 3,
+  "controller_reply": "0xa5",
+  "errors": 0,
+  "flash_writes": false,
+  "physical_confirmation_pending": true,
+  "note": "All keys cycle together; no spatial rainbow wave enabled. User reports Z has weaker blue; hardware defect unconfirmed."
+}

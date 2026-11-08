@@ -1,0 +1,118 @@
+{
+  "kind": "Fresh preflight backup only; no stock flash attempted",
+  "directory": "stock_flash_preparation/20261103T052626Z",
+  "passes": [
+    {
+      "file": "flash_pass1.bin",
+      "sha256": "fcbdc739b96ee151fcf0006ceba8a4783f81e5cb120491224988c5ac608d7e82"
+    },
+    {
+      "file": "flash_pass2.bin",
+      "sha256": "fcbdc739b96ee151fcf0006ceba8a4783f81e5cb120491224988c5ac608d7e82"
+    }
+  ],
+  "metadata": [
+    {
+      "file": "metadata_pass1.bin",
+      "sha256": "3bce58cb1e15aa6adfb8120c12b6911466a8d1f611a3efeefcb72c6bd7ca4d49"
+    },
+    {
+      "file": "metadata_pass2.bin",
+      "sha256": "3bce58cb1e15aa6adfb8120c12b6911466a8d1f611a3efeefcb72c6bd7ca4d49"
+    }
+  ],
+  "persistent_caveat": "Vendor mode transitions may append bookkeeping. Snapshot is within one boot session, not a promise of post-cleanup byte identity.",
+  "version": {
+    "request_hex": "000000000400000167657476",
+    "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "round_trip_ms": 16.0,
+    "version_words_hex": [
+      "a1050000",
+      "a1040000"
+    ]
+  },
+  "double_read_identical": true,
+  "boot_matches_original": true,
+  "application_reserved_region_matches_original": true,
+  "metadata_matches_prior_capture": true,
+  "changed_byte_count_vs_original": 64,
+  "first_changed_offsets": [
+    "0x1a2e8",
+    "0x1a2e9",
+    "0x1a2ea",
+    "0x1a2eb",
+    "0x1a2ec",
+    "0x1a2ed",
+    "0x1a2ee",
+    "0x1a2ef",
+    "0x1a2f0",
+    "0x1a2f1",
+    "0x1a2f2",
+    "0x1a2f3",
+    "0x1a2f4",
+    "0x1a2f5",
+    "0x1a2f6",
+    "0x1a2f7",
+    "0x1a2f8",
+    "0x1a2f9",
+    "0x1a2fa",
+    "0x1a2fb",
+    "0x1a2fc",
+    "0x1a2fd",
+    "0x1a2fe",
+    "0x1a2ff",
+    "0x1a300",
+    "0x1a301",
+    "0x1a302",
+    "0x1a303",
+    "0x1a304",
+    "0x1a305",
+    "0x1a306",
+    "0x1a307",
+    "0x1a308",
+    "0x1a309",
+    "0x1a30a",
+    "0x1a30b",
+    "0x1a30c",
+    "0x1a30d",
+    "0x1a30e",
+    "0x1a30f",
+    "0x1a310",
+    "0x1a311",
+    "0x1a312",
+    "0x1a313",
+    "0x1a314",
+    "0x1a315",
+    "0x1a316",
+    "0x1a317",
+    "0x1a318",
+    "0x1a319",
+    "0x1a31a",
+    "0x1a31b",
+    "0x1a31c",
+    "0x1a31d",
+    "0x1a31e",
+    "0x1a31f",
+    "0x1a320",
+    "0x1a321",
+    "0x1a322",
+    "0x1a323",
+    "0x1a324",
+    "0x1a325",
+    "0x1a326",
+    "0x1a327"
+  ],
+  "passed": true,
+  "cleanup": {
+    "normal_START": {
+      "total_ms": 16.7958,
+      "post_write_ms": 2.0238,
+      "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "final_state": {
+      "exit_query_error": "read error",
+      "application_collections": 6,
+      "bootloader_interfaces": 0
+    }
+  }
+}

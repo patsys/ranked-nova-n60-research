@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "assertions": 19,
+  "hardware_tested": false,
+  "elf_sha256": "5f5fc75128ba453c176b1e8c1f423f6beb1edfd663d2a7227a47025d50fb8792",
+  "limitation": "Synthetic controller events; does not establish physical USB timing or suspend current."
+}

@@ -1,0 +1,57 @@
+{
+  "cal0": {
+    "file": "readonly_stub/probe_cal0.bin",
+    "sha256": "fca6c8e3d812ad70757702b0bfcd321dd056623a3bc399c8048269f312305f0c",
+    "emulated_calls": 6
+  },
+  "cal8": {
+    "file": "readonly_stub/probe_cal8.bin",
+    "sha256": "cec5dbfc681919b3a14741aa92ac7138e10eda7fef49781ee3419789c18a1299",
+    "emulated_calls": 6
+  },
+  "lr0": {
+    "file": "readonly_stub/probe_lr0.bin",
+    "sha256": "41171a4a1c02090f8f7135c375ec0f9a718cd2689105e0e98b5a863ce7a3c446",
+    "emulated_calls": 6
+  },
+  "lr1": {
+    "file": "readonly_stub/probe_lr1.bin",
+    "sha256": "da30178762076334663571b0cff3450eaea160d05b1b904471ba041fadaac61f",
+    "emulated_calls": 6
+  },
+  "lr2": {
+    "file": "readonly_stub/probe_lr2.bin",
+    "sha256": "36845a6453d5eab3e43f176fb1ede304914022b881e690f6cd5070f35967d0fb",
+    "emulated_calls": 6
+  },
+  "lr3": {
+    "file": "readonly_stub/probe_lr3.bin",
+    "sha256": "eb5e3547165857deb0bd46c360cd7e53eb58bd61cd1c2c366772994cddfc00d7",
+    "emulated_calls": 6
+  },
+  "lr4": {
+    "file": "readonly_stub/probe_lr4.bin",
+    "sha256": "2360b3b6647b3083396e94af59f9f384a4fd9b1e5c2643304d66b1049a19da82",
+    "emulated_calls": 6
+  },
+  "lr5": {
+    "file": "readonly_stub/probe_lr5.bin",
+    "sha256": "c5633a48ffc56fc13fcfca5ccc9d6dc735fd81d1fceac24c055e90086774ed13",
+    "emulated_calls": 6
+  },
+  "lr6": {
+    "file": "readonly_stub/probe_lr6.bin",
+    "sha256": "a5c6164b83bf264b029b2b08cc0090d9db06f011ec241ca5edb680483efd04ce",
+    "emulated_calls": 6
+  },
+  "lr7": {
+    "file": "readonly_stub/probe_lr7.bin",
+    "sha256": "4cae0d1da8579531da7c180661186fd21cd11786b6516f18f3b8fb677216b5f3",
+    "emulated_calls": 6
+  },
+  "xorcheck": {
+    "file": "readonly_stub/probe_xorcheck.bin",
+    "sha256": "cc1b4b110f762ad8ffa76f73700454fe6309bdcf3e2e8e92e7ee494a8803ac40",
+    "emulated_calls": 6
+  }
+}

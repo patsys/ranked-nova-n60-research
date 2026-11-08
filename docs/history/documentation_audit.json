@@ -1,0 +1,441 @@
+{
+  "recorded_at": "2026-11-03T13:50:14.207531+00:00",
+  "hardware_access": false,
+  "links": [
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "crypto_research/README.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "qmk_flash/SUCCESS_20261103.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "REPORT.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "readonly_stub/EXECUTION_TEST.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "readonly_stub/USB_READ_CHANNEL.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "firmware_dump/README.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "firmware_dump/COVERAGE.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "firmware_dump/BOOT_CRYPTO_AND_QMK.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "ram_bypass_test/README.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "firmware_dump/key_scan_analysis.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "qmk_port/platform/CLOCK_CALIBRATION.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "firmware_dump/usb_driver_analysis.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "qmk_port/README.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "qmk_port/platform/PLATFORM_INTEGRATION.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "qmk_flash/RECOVERY_RESULT_20261103.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "qmk_flash/ram_scan/cold_start_audit.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "qmk_flash/DIAGNOSTIC_PLAN.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "qmk_port/runtime/USB_DIAGNOSTIC.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "stock_restore/BOUNDED_STUBS.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "stock_restore/ROLLBACK_FROM_BOOT_REVIEW.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "ANALYSIS_UPDATE.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "COMMUNICATION.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "readonly_stub/CALLER_TRACE.md",
+      "exists": true
+    },
+    {
+      "source": "REVERSE_ENGINEERING_GUIDE.md",
+      "target": "readonly_stub/BUFFER_TRACE.md",
+      "exists": true
+    },
+    {
+      "source": "REPORT.md",
+      "target": "REVERSE_ENGINEERING_GUIDE.md",
+      "exists": true
+    },
+    {
+      "source": "REPORT.md",
+      "target": "crypto_research/README.md",
+      "exists": true
+    },
+    {
+      "source": "REPORT.md",
+      "target": "REVERSE_ENGINEERING_GUIDE.md",
+      "exists": true
+    },
+    {
+      "source": "ANALYSIS_UPDATE.md",
+      "target": "REVERSE_ENGINEERING_GUIDE.md",
+      "exists": true
+    },
+    {
+      "source": "COMMUNICATION.md",
+      "target": "REVERSE_ENGINEERING_GUIDE.md",
+      "exists": true
+    },
+    {
+      "source": "firmware_dump/COVERAGE.md",
+      "target": "../REVERSE_ENGINEERING_GUIDE.md",
+      "exists": true
+    },
+    {
+      "source": "firmware_dump/COVERAGE.md",
+      "target": "../qmk_flash/SUCCESS_20261103.md",
+      "exists": true
+    },
+    {
+      "source": "firmware_dump/COVERAGE.md",
+      "target": "../crypto_research/README.md",
+      "exists": true
+    },
+    {
+      "source": "firmware_dump/BOOT_CRYPTO_AND_QMK.md",
+      "target": "../crypto_research/README.md",
+      "exists": true
+    },
+    {
+      "source": "firmware_dump/BOOT_CRYPTO_AND_QMK.md",
+      "target": "../REVERSE_ENGINEERING_GUIDE.md",
+      "exists": true
+    },
+    {
+      "source": "qmk_flash/SUCCESS_20261103.md",
+      "target": "../REVERSE_ENGINEERING_GUIDE.md",
+      "exists": true
+    },
+    {
+      "source": "qmk_port/README.md",
+      "target": "../REVERSE_ENGINEERING_GUIDE.md",
+      "exists": true
+    },
+    {
+      "source": "qmk_port/runtime/USB_DIAGNOSTIC.md",
+      "target": "../../REVERSE_ENGINEERING_GUIDE.md",
+      "exists": true
+    },
+    {
+      "source": "qmk_flash/ram_scan/README.md",
+      "target": "../../REVERSE_ENGINEERING_GUIDE.md",
+      "exists": true
+    },
+    {
+      "source": "stock_restore/README.md",
+      "target": "../REVERSE_ENGINEERING_GUIDE.md",
+      "exists": true
+    },
+    {
+      "source": "crypto_research/README.md",
+      "target": "key_extraction_result.json",
+      "exists": true
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "REVERSE_ENGINEERING_GUIDE.md",
+      "bytes": 17908,
+      "sha256": "dc55bb27dc4aa1851d1a3e10923e1f162790435b77a3e359ef133dca3b43a8d4"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 13824,
+      "sha256": "6c34b317d607fd3b786f654edd09ea3468661b070371dfa3e0a622010f46e8ac"
+    },
+    {
+      "path": "ANALYSIS_UPDATE.md",
+      "bytes": 4203,
+      "sha256": "365cd8b3e1346f2c2af4cc38b65a78ba4d6336be3f5512d0ac356e0bcd84bd71"
+    },
+    {
+      "path": "COMMUNICATION.md",
+      "bytes": 3950,
+      "sha256": "23d37613c21d7e0d8399d80b0c416510f8cc6f0836f45c5b2b3cf35ebdac411d"
+    },
+    {
+      "path": "firmware_dump/COVERAGE.md",
+      "bytes": 2113,
+      "sha256": "6178377e1855944dad48dfae2c239fbdf9468adbf40572398e7498ba5c28deda"
+    },
+    {
+      "path": "firmware_dump/BOOT_CRYPTO_AND_QMK.md",
+      "bytes": 3628,
+      "sha256": "2b886236da35aeb5fce9050ac86f638be2f824624176765671b9fa384c0c10b1"
+    },
+    {
+      "path": "qmk_flash/SUCCESS_20261103.md",
+      "bytes": 2416,
+      "sha256": "a60067701289a7b4da0dea5fdd47c71601c51a634bab1ad3cf53395eccc7749c"
+    },
+    {
+      "path": "qmk_port/README.md",
+      "bytes": 6312,
+      "sha256": "71678c80d11c9fdb7cc407695664496c7e6d64fb7cc952b495d8a28a0669a726"
+    },
+    {
+      "path": "qmk_port/runtime/USB_DIAGNOSTIC.md",
+      "bytes": 4686,
+      "sha256": "92b91cb0447c96da60f747900dffbc66d4c55c6d72c327a6138ef023461411bf"
+    },
+    {
+      "path": "qmk_flash/ram_scan/README.md",
+      "bytes": 4769,
+      "sha256": "e26da07fa632c3854036292e0d966d8e0e2200077bf43a518c1983364e35323f"
+    },
+    {
+      "path": "stock_restore/README.md",
+      "bytes": 1854,
+      "sha256": "51b0e5be8899d096f08a7e562149e80ea6569fbc2f0ca128bdaa1d44e614da2f"
+    },
+    {
+      "path": "crypto_research/README.md",
+      "bytes": 5289,
+      "sha256": "f3816fd01f9b74346d5185b1f40660f00038ce3607ad9d9cdbc559b8df715604"
+    },
+    {
+      "path": "fw_update.pcap",
+      "bytes": 548300,
+      "sha256": "e23cc86257ae25022b4566af0da415fca00187f36403e5a7e09be519026269a0"
+    },
+    {
+      "path": "layout_cap.pcap",
+      "bytes": 1164251,
+      "sha256": "676bab80f2c3dfcbaeab326e59fb4b5520171dc68c93121922ed66b7e8e01b1d"
+    },
+    {
+      "path": "vendor_stub.bin",
+      "bytes": 440,
+      "sha256": "fbf8d711262615c1fcfa7abad885e124032be8990da9af01f6e31a20da762ae8"
+    },
+    {
+      "path": "firmware_dump/flash_cpu_pass1.bin",
+      "bytes": 131072,
+      "sha256": "5adca278d90a0672e05dfe5ad47d1635242f9ec0ff78827d83d9f28d6ccd8b49"
+    },
+    {
+      "path": "firmware_dump/flash_cpu_pass2.bin",
+      "bytes": 131072,
+      "sha256": "5adca278d90a0672e05dfe5ad47d1635242f9ec0ff78827d83d9f28d6ccd8b49"
+    },
+    {
+      "path": "firmware_dump/boot_safety_audit/metadata_10000600.bin",
+      "bytes": 512,
+      "sha256": "3bce58cb1e15aa6adfb8120c12b6911466a8d1f611a3efeefcb72c6bd7ca4d49"
+    },
+    {
+      "path": "qmk_flash/manifest.json",
+      "bytes": 5175,
+      "sha256": "f94be4230e8e1753cf74250f83218635265612de46eac024739ff2786021d658"
+    },
+    {
+      "path": "qmk_flash/qmk_via_application_pages.bin",
+      "bytes": 59904,
+      "sha256": "d5979751baa00152980f1b4c461737ae49ed5788b85dc4167d1f2a1cc6d3dea6"
+    },
+    {
+      "path": "qmk_flash/rollback_stock_application_pages.bin",
+      "bytes": 59904,
+      "sha256": "7f7f5853e7192c737be85cc00e0b21db56e8a40bd68495900002921ef914762c"
+    },
+    {
+      "path": "qmk_flash/live_qmk_20261103T062706_170286Z/result.json",
+      "bytes": 46058,
+      "sha256": "61ac306f429f697cbce02033935824768d2bc876f67b359177c353d6d80e6c30"
+    },
+    {
+      "path": "qmk_flash/live_qmk_20261103T070202_026538Z/result.json",
+      "bytes": 46218,
+      "sha256": "d36ec1a119b3981949e15af7823eec16db49bfbc9574f3eb3d240e97b0e31bba"
+    },
+    {
+      "path": "qmk_flash/live_qmk_20261103T073628_065587Z/result.json",
+      "bytes": 46188,
+      "sha256": "20ae5fbf90c2d2c4d886628364c1b7437c1d4b81c723c3abdb4cee5f1569945a"
+    },
+    {
+      "path": "qmk_flash/live_rollback_20261103T073830_059181Z/diagnostic_trace.json",
+      "bytes": 6929,
+      "sha256": "36021847af04325f909e43ede335345ef50cb0c62296ae95f9a9851af9370885"
+    },
+    {
+      "path": "qmk_flash/live_qmk_20261103T075452_444196Z/result.json",
+      "bytes": 46250,
+      "sha256": "ed9a1fcfb259736830ed07d897e1f216db946f477c0c8638783214fca5df4aa8"
+    },
+    {
+      "path": "qmk_flash/via_live_queries.json",
+      "bytes": 740,
+      "sha256": "761aab4b9ae1fb6e3bf5a3f90c1a43ad4c137e73f17bdc74ff9e5ba9b9f9185b"
+    },
+    {
+      "path": "qmk_flash/runtime_soak.json",
+      "bytes": 6092,
+      "sha256": "acb9ab98e3a18632ce7ecf0e9adf9581092a58def3dec93a2ddf70feafb55841"
+    },
+    {
+      "path": "qmk_flash/via_live_remap.json",
+      "bytes": 1444,
+      "sha256": "238feffef371745f73c4f5e01dca42d9c64d9dde16b2ee8e908aeacdcd87be76"
+    },
+    {
+      "path": "qmk_port/runtime/validate_usb_diagnostic.py",
+      "bytes": 9900,
+      "sha256": "6f5f1f8e17ec94a2b5cf8f2d5051300f22443ecfffe160717b9741bcfbd1b273"
+    },
+    {
+      "path": "qmk_port/build_firmware.py",
+      "bytes": 6988,
+      "sha256": "145d7acd6e06eb7115e37dc8d1e89982d70a840f99423c6ee3f143b560c40845"
+    },
+    {
+      "path": "stock_restore/live_20261103T055849Z/result.json",
+      "bytes": 43059,
+      "sha256": "d9034158ab912bce7b1c6958492b79ebbc59f8eb3247884d931a8b5af0451f9a"
+    },
+    {
+      "path": "qmk_flash/live_rollback_20261103T064616_159843Z/result.json",
+      "bytes": 46419,
+      "sha256": "73077673bbca55634435bf60b679c83a562bf65eaf79a5ca6eb3c74c19286a0b"
+    },
+    {
+      "path": "qmk_flash/live_rollback_20261103T070503_261490Z/result.json",
+      "bytes": 46532,
+      "sha256": "249fee62be67d3a1f29f14c8ae037f809e79a892800211e7f58ca32facdc8001"
+    },
+    {
+      "path": "qmk_flash/live_rollback_20261103T073830_059181Z/result.json",
+      "bytes": 53945,
+      "sha256": "c10a9b3e7faf8d724f5c827e44bce3e1a5e4c5c3a19bf86af3a1297211f63c28"
+    },
+    {
+      "path": "crypto_research/extract_update_keys.py",
+      "bytes": 6653,
+      "sha256": "07f5af8d4d000f1761bfeafad04ebadd26fc1876e2e9ad1c312b9ac36463c8e7"
+    },
+    {
+      "path": "crypto_research/key_extraction_result.json",
+      "bytes": 21665,
+      "sha256": "e59111541e2bee061cefa0d4478ab0ad2765fdee6862ac5d203e2e43eb54c7e1"
+    },
+    {
+      "path": "crypto_research/master_key.bin",
+      "bytes": 16,
+      "sha256": "3017a1668623714c476b8e924bd9629cccf87e8fa9a7099e27b6de28cb396eb1"
+    },
+    {
+      "path": "crypto_research/captured_file_key.bin",
+      "bytes": 16,
+      "sha256": "5cb6ccc8cb184d380f67ea4b3dec29704aa3407afbe5e177b97bde81cce95821"
+    },
+    {
+      "path": "crypto_research/captured_update_plaintext.bin",
+      "bytes": 117760,
+      "sha256": "c3b065a937670b745c2a2a59b57b6e3e2a099e694ed10fa1a540d6559774249c"
+    },
+    {
+      "path": "crypto_research/zero_input_prediction.bin",
+      "bytes": 512,
+      "sha256": "55978e092b88562a322a6c68d053e5a4cec099ee463bc881a9b7a8adbfee958e"
+    }
+  ],
+  "database_snapshot_counts": {
+    "functions": 11208,
+    "edges": 35800,
+    "decompiled": 55,
+    "strings_of_interest": 16,
+    "findings": 92,
+    "usb_commands": 8,
+    "usb_protocol_notes": 7,
+    "dynamic_capture": 7,
+    "setmatrix_format": 9,
+    "remap_capture": 5,
+    "firmware_variants": 31,
+    "fw_memory_map": 4,
+    "firmware_identity": 10,
+    "flash_controller": 9,
+    "ecosystem_chips": 5,
+    "diagnostic_experiments": 52,
+    "finding_relations": 13,
+    "firmware_dumps": 5,
+    "porting_mmio_candidates": 44,
+    "porting_evidence_artifacts": 341,
+    "firmware_builds": 9
+  },
+  "database_ELF_blobs_verified": 9,
+  "database_dump_blobs_verified": 5,
+  "passed": true,
+  "installed_elf_sha256": "8409b03b951c6ca168efff46d750dfd7d9f8ea6a599a39c0a19cfb1c4b36b0c9",
+  "installed_body_sha256": "d5979751baa00152980f1b4c461737ae49ed5788b85dc4167d1f2a1cc6d3dea6"
+}

@@ -1,0 +1,45 @@
+{
+  "stub_sha256": "ce6de346869ebb3d6eac22bdf6e9984b9cd542fb213d917e3ac0764994bf9d5b",
+  "expected_number": 42,
+  "operation": "START only; guarded RAM stack return to native status builder",
+  "replies": [
+    {
+      "hex": "01000073010001772a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "payload_number": 42
+    }
+  ],
+  "version": {
+    "request_hex": "000000000400000167657476",
+    "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "round_trip_ms": 0.0,
+    "version_words_hex": [
+      "a1050000",
+      "a1040000"
+    ]
+  },
+  "start_frame_sha256": "d279145c6a0657f413f304a1b659ff5a9650d6fd7064a19b585fee022340a4cd",
+  "writes": [
+    65,
+    65,
+    65,
+    65,
+    65,
+    65,
+    65,
+    65
+  ],
+  "verified_usb_number": true,
+  "final_state": {
+    "exit_query": {
+      "request_hex": "000000000400000167657476",
+      "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "round_trip_ms": 0.0,
+      "version_words_hex": [
+        "a1050000",
+        "a1040000"
+      ]
+    },
+    "application_collections": 0,
+    "bootloader_interfaces": 1
+  }
+}

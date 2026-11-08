@@ -1,0 +1,571 @@
+{
+  "passed": true,
+  "case_count": 7,
+  "cases": [
+    {
+      "case": "stable_status_0",
+      "initial_status": 0,
+      "arrival_after_status_read": 0,
+      "arrival_bits": 0,
+      "native": {
+        "trace": [
+          [
+            "read",
+            0
+          ],
+          [
+            "read",
+            0
+          ]
+        ],
+        "status_reads": 2,
+        "pending_after": 0
+      },
+      "before": {
+        "trace": [
+          [
+            "read",
+            0
+          ],
+          [
+            "read",
+            0
+          ]
+        ],
+        "status_reads": 2,
+        "pending_after": 0
+      },
+      "fixed": {
+        "trace": [
+          [
+            "read",
+            0
+          ],
+          [
+            "read",
+            0
+          ]
+        ],
+        "status_reads": 2,
+        "pending_after": 0
+      },
+      "exact_fixed_native_match": true
+    },
+    {
+      "case": "stable_status_1",
+      "initial_status": 1,
+      "arrival_after_status_read": 0,
+      "arrival_bits": 0,
+      "native": {
+        "trace": [
+          [
+            "read",
+            1
+          ],
+          [
+            "read",
+            1
+          ],
+          [
+            "ack_write",
+            0
+          ],
+          [
+            "dispatch",
+            "event"
+          ],
+          [
+            "read",
+            0
+          ]
+        ],
+        "status_reads": 3,
+        "pending_after": 0
+      },
+      "before": {
+        "trace": [
+          [
+            "read",
+            1
+          ],
+          [
+            "ack_write",
+            0
+          ],
+          [
+            "dispatch",
+            "event"
+          ],
+          [
+            "read",
+            0
+          ]
+        ],
+        "status_reads": 2,
+        "pending_after": 0
+      },
+      "fixed": {
+        "trace": [
+          [
+            "read",
+            1
+          ],
+          [
+            "read",
+            1
+          ],
+          [
+            "ack_write",
+            0
+          ],
+          [
+            "dispatch",
+            "event"
+          ],
+          [
+            "read",
+            0
+          ]
+        ],
+        "status_reads": 3,
+        "pending_after": 0
+      },
+      "exact_fixed_native_match": true
+    },
+    {
+      "case": "stable_status_2",
+      "initial_status": 2,
+      "arrival_after_status_read": 0,
+      "arrival_bits": 0,
+      "native": {
+        "trace": [
+          [
+            "read",
+            2
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "ack_write",
+            0
+          ],
+          [
+            "dispatch",
+            "aux"
+          ]
+        ],
+        "status_reads": 3,
+        "pending_after": 0
+      },
+      "before": {
+        "trace": [
+          [
+            "read",
+            2
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "ack_write",
+            0
+          ],
+          [
+            "dispatch",
+            "aux"
+          ]
+        ],
+        "status_reads": 2,
+        "pending_after": 0
+      },
+      "fixed": {
+        "trace": [
+          [
+            "read",
+            2
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "ack_write",
+            0
+          ],
+          [
+            "dispatch",
+            "aux"
+          ]
+        ],
+        "status_reads": 3,
+        "pending_after": 0
+      },
+      "exact_fixed_native_match": true
+    },
+    {
+      "case": "stable_status_3",
+      "initial_status": 3,
+      "arrival_after_status_read": 0,
+      "arrival_bits": 0,
+      "native": {
+        "trace": [
+          [
+            "read",
+            3
+          ],
+          [
+            "read",
+            3
+          ],
+          [
+            "ack_write",
+            2
+          ],
+          [
+            "dispatch",
+            "event"
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "ack_write",
+            0
+          ],
+          [
+            "dispatch",
+            "aux"
+          ]
+        ],
+        "status_reads": 4,
+        "pending_after": 0
+      },
+      "before": {
+        "trace": [
+          [
+            "read",
+            3
+          ],
+          [
+            "ack_write",
+            2
+          ],
+          [
+            "dispatch",
+            "event"
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "ack_write",
+            0
+          ],
+          [
+            "dispatch",
+            "aux"
+          ]
+        ],
+        "status_reads": 2,
+        "pending_after": 0
+      },
+      "fixed": {
+        "trace": [
+          [
+            "read",
+            3
+          ],
+          [
+            "read",
+            3
+          ],
+          [
+            "ack_write",
+            2
+          ],
+          [
+            "dispatch",
+            "event"
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "ack_write",
+            0
+          ],
+          [
+            "dispatch",
+            "aux"
+          ]
+        ],
+        "status_reads": 4,
+        "pending_after": 0
+      },
+      "exact_fixed_native_match": true
+    },
+    {
+      "case": "aux_arrives_after_first_event_test",
+      "initial_status": 1,
+      "arrival_after_status_read": 1,
+      "arrival_bits": 2,
+      "native": {
+        "trace": [
+          [
+            "read",
+            1
+          ],
+          [
+            "read",
+            3
+          ],
+          [
+            "ack_write",
+            2
+          ],
+          [
+            "dispatch",
+            "event"
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "ack_write",
+            0
+          ],
+          [
+            "dispatch",
+            "aux"
+          ]
+        ],
+        "status_reads": 4,
+        "pending_after": 0
+      },
+      "before": {
+        "trace": [
+          [
+            "read",
+            1
+          ],
+          [
+            "ack_write",
+            0
+          ],
+          [
+            "dispatch",
+            "event"
+          ],
+          [
+            "read",
+            0
+          ]
+        ],
+        "status_reads": 2,
+        "pending_after": 0
+      },
+      "fixed": {
+        "trace": [
+          [
+            "read",
+            1
+          ],
+          [
+            "read",
+            3
+          ],
+          [
+            "ack_write",
+            2
+          ],
+          [
+            "dispatch",
+            "event"
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "ack_write",
+            0
+          ],
+          [
+            "dispatch",
+            "aux"
+          ]
+        ],
+        "status_reads": 4,
+        "pending_after": 0
+      },
+      "exact_fixed_native_match": true
+    },
+    {
+      "case": "event_arrives_after_aux_test",
+      "initial_status": 2,
+      "arrival_after_status_read": 2,
+      "arrival_bits": 1,
+      "native": {
+        "trace": [
+          [
+            "read",
+            2
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "read",
+            3
+          ],
+          [
+            "ack_write",
+            1
+          ],
+          [
+            "dispatch",
+            "aux"
+          ]
+        ],
+        "status_reads": 3,
+        "pending_after": 1
+      },
+      "before": {
+        "trace": [
+          [
+            "read",
+            2
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "ack_write",
+            0
+          ],
+          [
+            "dispatch",
+            "aux"
+          ]
+        ],
+        "status_reads": 2,
+        "pending_after": 0
+      },
+      "fixed": {
+        "trace": [
+          [
+            "read",
+            2
+          ],
+          [
+            "read",
+            2
+          ],
+          [
+            "read",
+            3
+          ],
+          [
+            "ack_write",
+            1
+          ],
+          [
+            "dispatch",
+            "aux"
+          ]
+        ],
+        "status_reads": 3,
+        "pending_after": 1
+      },
+      "exact_fixed_native_match": true
+    },
+    {
+      "case": "event_arrives_after_zero_first_test",
+      "initial_status": 0,
+      "arrival_after_status_read": 1,
+      "arrival_bits": 1,
+      "native": {
+        "trace": [
+          [
+            "read",
+            0
+          ],
+          [
+            "read",
+            1
+          ]
+        ],
+        "status_reads": 2,
+        "pending_after": 1
+      },
+      "before": {
+        "trace": [
+          [
+            "read",
+            0
+          ],
+          [
+            "read",
+            1
+          ]
+        ],
+        "status_reads": 2,
+        "pending_after": 1
+      },
+      "fixed": {
+        "trace": [
+          [
+            "read",
+            0
+          ],
+          [
+            "read",
+            1
+          ]
+        ],
+        "status_reads": 2,
+        "pending_after": 1
+      },
+      "exact_fixed_native_match": true
+    }
+  ],
+  "native_entry": "0x312c, application vector20=0x312d (external IRQ4)",
+  "native_source_sha256": "5adca278d90a0672e05dfe5ad47d1635242f9ec0ff78827d83d9f28d6ccd8b49",
+  "before_source_sha256": "d9b69c18d171ebb0f78b87c3b3a8558ca7321f98ca8d72b1344d80f6c1bc5925",
+  "fixed_source_sha256": "363ddd3bb6e1ed176254e3e58d65330240814bd1dd7410b59ecce14a1a0792a7",
+  "comparison": "Exact ordered status reads, ACK writes, synthetic inner dispatch boundaries and modeled remaining pending bits; before/fixed actual C compiled for Cortex-M0.",
+  "limits": "Inner EBF0/F310 callbacks are intercepted only to isolate actual outer dispatcher. Conditional W0C latch model is explicit, not verified silicon semantics. Tests do not establish physical IRQ timing, bus ordering or an actual IRQ storm."
+}

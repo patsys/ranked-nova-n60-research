@@ -1,0 +1,50 @@
+test_bad_stack_and_vectors (test_flasher.ImageTests.test_bad_stack_and_vectors) ... ok
+test_checksum (test_flasher.ImageTests.test_checksum) ... ok
+test_entry_must_agree (test_flasher.ImageTests.test_entry_must_agree) ... ok
+test_missing_or_repeated_eof (test_flasher.ImageTests.test_missing_or_repeated_eof) ... ok
+test_overlap_rejected_even_if_identical (test_flasher.ImageTests.test_overlap_rejected_even_if_identical) ... ok
+test_protected_and_outside_addresses (test_flasher.ImageTests.test_protected_and_outside_addresses) ... ok
+test_segment_and_linear_extensions (test_flasher.ImageTests.test_segment_and_linear_extensions) ... ok
+test_truncated_and_invalid_records (test_flasher.ImageTests.test_truncated_and_invalid_records) ... ok
+test_unsupported_or_malformed_record (test_flasher.ImageTests.test_unsupported_or_malformed_record) ... ok
+test_valid_vectors_and_entry (test_flasher.ImageTests.test_valid_vectors_and_entry) ... ok
+test_capture_cannot_supply_arbitrary_loader (test_flasher.LoaderTests.test_capture_cannot_supply_arbitrary_loader) ... ok
+test_capture_truncation_and_link_type (test_flasher.LoaderTests.test_capture_truncation_and_link_type) ... ok
+test_profile_format_and_hashes (test_flasher.LoaderTests.test_profile_format_and_hashes) ... ok
+test_unknown_vendor_bytes_are_not_patched (test_flasher.LoaderTests.test_unknown_vendor_bytes_are_not_patched) ... ok
+test_blank_candidate_is_reported_without_permitting_writes (test_flasher.NvmAuditTests.test_blank_candidate_is_reported_without_permitting_writes) ... ok
+test_nonblank_candidate_is_reported_as_not_erased (test_flasher.NvmAuditTests.test_nonblank_candidate_is_reported_as_not_erased) ... ok
+test_rejects_non_probe_manifest (test_flasher.NvmAuditTests.test_rejects_non_probe_manifest) ... ok
+test_any_readback_corruption_blocks_release (test_flasher.SessionTests.test_any_readback_corruption_blocks_release) ... ok
+test_backup_failure_before_erase (test_flasher.SessionTests.test_backup_failure_before_erase) ... ok
+test_existing_output_is_not_overwritten (test_flasher.SessionTests.test_existing_output_is_not_overwritten) ... ok
+test_explicit_recovery_restores_before_image_on_same_open_transport (test_flasher.SessionTests.test_explicit_recovery_restores_before_image_on_same_open_transport) ... ok
+test_failure_at_first_middle_and_last_page_holds_without_release (test_flasher.SessionTests.test_failure_at_first_middle_and_last_page_holds_without_release) ... ok
+test_log_failure_after_ack_stops_additional_pages (test_flasher.SessionTests.test_log_failure_after_ack_stops_additional_pages) ... ok
+test_metadata_mismatch_blocks_release (test_flasher.SessionTests.test_metadata_mismatch_blocks_release) ... ok
+test_read_only_probe_never_starts_programming (test_flasher.SessionTests.test_read_only_probe_never_starts_programming) ... ok
+test_real_windows_reader_lock_is_retried_without_usb (test_flasher.SessionTests.test_real_windows_reader_lock_is_retried_without_usb) ... ok
+test_release_failure_is_not_misreported_as_unverified_programming (test_flasher.SessionTests.test_release_failure_is_not_misreported_as_unverified_programming) ... ok
+test_success_full_backup_readback_and_protected_bytes (test_flasher.SessionTests.test_success_full_backup_readback_and_protected_bytes) ... ok
+test_transient_windows_journal_lock_does_not_repeat_programming (test_flasher.SessionTests.test_transient_windows_journal_lock_does_not_repeat_programming) ... ok
+test_unknown_boot_rejected_before_programming (test_flasher.SessionTests.test_unknown_boot_rejected_before_programming) ... ok
+test_authored_holder_and_release_match_validated_instructions (test_flasher.StubAndCLITests.test_authored_holder_and_release_match_validated_instructions) ... ok
+test_check_image_has_no_hid_or_profile_access (test_flasher.StubAndCLITests.test_check_image_has_no_hid_or_profile_access) ... ok
+test_invalid_image_is_rejected_before_profile_or_hardware (test_flasher.StubAndCLITests.test_invalid_image_is_rejected_before_profile_or_hardware) ... ok
+test_read_probe_boundaries (test_flasher.StubAndCLITests.test_read_probe_boundaries) ... ok
+test_restore_accepts_only_integrity_checked_application_backup (test_flasher.StubAndCLITests.test_restore_accepts_only_integrity_checked_application_backup) ... ok
+test_bad_ack_sequence_length_and_status (test_flasher.TransportTests.test_bad_ack_sequence_length_and_status) ... ok
+test_core_state_guard (test_flasher.TransportTests.test_core_state_guard) ... ok
+test_data_framing_and_range (test_flasher.TransportTests.test_data_framing_and_range) ... ok
+test_no_device_and_multiple_devices (test_flasher.TransportTests.test_no_device_and_multiple_devices) ... ok
+test_resume_holder_uses_read_only_probe_not_getv (test_flasher.TransportTests.test_resume_holder_uses_read_only_probe_not_getv) ... ok
+test_short_writes_and_reads (test_flasher.TransportTests.test_short_writes_and_reads) ... ok
+test_start_fragmentation_and_checksum (test_flasher.TransportTests.test_start_fragmentation_and_checksum) ... ok
+test_supported_version_and_zero_report_id (test_flasher.TransportTests.test_supported_version_and_zero_report_id) ... ok
+test_verified_release_accepts_native_exit_nack_or_disconnect (test_flasher.TransportTests.test_verified_release_accepts_native_exit_nack_or_disconnect) ... ok
+test_version_rejection (test_flasher.TransportTests.test_version_rejection) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 6.597s
+
+OK

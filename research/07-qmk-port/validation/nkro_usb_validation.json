@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "cases": [
+    "three distinct interfaces; boot keyboard and 32-byte NKRO endpoint4",
+    "NKRO GET_REPORT, idle, LED output; invalid IDs and boot-only protocol rejected",
+    "all 32 NKRO bytes submitted to endpoint4 FIFO",
+    "busy endpoint retains pending report; completion submits release",
+    "boot-interface SET_PROTOCOL clears old keys and selects six-key fallback/report mode"
+  ],
+  "case_count": 5,
+  "hardware_tested": false,
+  "elf_sha256": "47dd2ad858d5c2552217eb9603fe98a4a885b35cda14da0d0a61b95bda842fed",
+  "limitation": "Modeled MMIO, IRQs and host requests; physical Windows enumeration and rollover remain pending."
+}

@@ -1,0 +1,12 @@
+{
+  "bytes": 440,
+  "sha256": "fe41f84b2339bc9bf24d232d1396f2a1b9d297995d2c2d5c74dd0b825b762b9b",
+  "expected_usb_status_byte": 43,
+  "guards": {
+    "incoming_lr": "0x00001021",
+    "saved_lr": "0x00000cc3"
+  },
+  "ram_write": "SP+52: 0x00000cc3 -> 0x00000cc9",
+  "checks": "native verified control-flow emulation + two guard-failure cases passed",
+  "limitation": "reply helper body mocked in emulator; physical USB return not yet verified"
+}

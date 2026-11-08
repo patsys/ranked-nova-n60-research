@@ -1,0 +1,35 @@
+{
+  "method": "Offline Unicorn execution of original scatter initialization at 0x2284, stopped at main 0xcd80 before peripheral initialization",
+  "source_sha256": "5adca278d90a0672e05dfe5ad47d1635242f9ec0ff78827d83d9f28d6ccd8b49",
+  "regions": [
+    {
+      "source": 67140,
+      "destination": 536870912,
+      "length": 1364,
+      "function": 8872,
+      "file": "firmware_dump\\startup_ram_20000000.bin",
+      "sha256": "12b2ba125e5a57bd977244e9c408bc37422786c18a0f6dc4307c43843f664b15",
+      "all_zero": false
+    },
+    {
+      "source": 67848,
+      "destination": 536872276,
+      "length": 5884,
+      "function": 12708,
+      "file": "firmware_dump\\startup_ram_20000554.bin",
+      "sha256": "9009b1041f4a0d702396e29ac45d2d2782be3b9f47c91f13fbd58f5b622fd672",
+      "all_zero": true
+    },
+    {
+      "source": 67848,
+      "destination": 536883200,
+      "length": 1816,
+      "function": 12708,
+      "file": "firmware_dump\\startup_ram_20003000.bin",
+      "sha256": "1b07002f38c232f011b17f27fbbc0f54a476a09c0337d7b9bf34707169c92b7e",
+      "all_zero": true
+    }
+  ],
+  "ram_write_count": 3293,
+  "caveat": "Initialized ranges establish addresses used by this image, not total physical SRAM or free memory."
+}

@@ -1,0 +1,143 @@
+{
+  "kind": "Prepared fixed VIA QMK overlay; no device access or flash operation",
+  "prepared_only": true,
+  "usb_diagnostic": true,
+  "keymap": "neo2",
+  "rgb_enabled": true,
+  "rgb_component_validation_sha256": "13e4e0cdb43f17ee02e1c87a4ad503a3ee6ec8c72ece27c5944b9afe579c4427",
+  "diagnostic_trace_window": [
+    "0x20003000",
+    "0x20003100"
+  ],
+  "diagnostic_fault_stack_window": [
+    "0x20003100",
+    "0x200031b0"
+  ],
+  "usb_unconfigured_deadline_ticks": 5000,
+  "elf_file": "qmk_port\\build\\firmware_via_diagnostic_neo2_rgb\\nova_qmk_research.elf",
+  "elf_sha256": "1c63569e9e1dfbf343757fd425856a4891c08a53c4aae54345a465f0cabda88f",
+  "body_file": "qmk_flash\\qmk_via_application_pages.bin",
+  "body_sha256": "edd1d456d79546f9da38258e4d9e2a3a8c1a0940791bad8dd2e7868a61272f94",
+  "body_bytes": 59904,
+  "application_start": "0x2000",
+  "application_end_exclusive": "0x10a00",
+  "page_bytes": 512,
+  "pages": 117,
+  "min_page": 16,
+  "max_page": 132,
+  "rollback_file": "qmk_flash\\rollback_stock_application_pages.bin",
+  "rollback_sha256": "7f7f5853e7192c737be85cc00e0b21db56e8a40bd68495900002921ef914762c",
+  "reference_sha256": "5adca278d90a0672e05dfe5ad47d1635242f9ec0ff78827d83d9f28d6ccd8b49",
+  "metadata_sha256": "3bce58cb1e15aa6adfb8120c12b6911466a8d1f611a3efeefcb72c6bd7ca4d49",
+  "metadata_modified": false,
+  "elf_segments": [
+    {
+      "vaddr": "0x2000",
+      "flash_lma": "0x2000",
+      "file_offset": 4096,
+      "bytes": 22808,
+      "sha256": "360d34d79fba8616aacfce8d40fe9e21ba955df7915d4ebcb11620c0cf7f73cd",
+      "kind": "flash code/vectors/constants"
+    },
+    {
+      "vaddr": "0x20000600",
+      "flash_lma": "0x7918",
+      "file_offset": 30208,
+      "bytes": 384,
+      "sha256": "12e825e48afe2ac2c56420b803530a22f5a98dc54ebce56aaf1d5a81b64a3fba",
+      "kind": "initialized RAM data at flash LMA"
+    }
+  ],
+  "ram_reservations": [
+    {
+      "vaddr": "0x20000600",
+      "bytes": 2912,
+      "file_bytes": 384
+    },
+    {
+      "vaddr": "0x20000000",
+      "bytes": 7248,
+      "file_bytes": 0
+    }
+  ],
+  "flash_payload_last_exclusive": "0x7a98",
+  "changed_byte_count": 22538,
+  "stock_tail_preserved_from": "0x7a98",
+  "initial_sp": "0x20000200",
+  "reset_vector": "0x2171",
+  "build_manifest_sha256": "5f783a18530c5bbae27d3436a31efd5d3e9f458ebd74cec9c224a9bef9696574",
+  "source_and_build_validation_bound": true,
+  "test_evidence": [
+    {
+      "file": "qmk_port/build/firmware_via_diagnostic_neo2_rgb/elf_validation.json",
+      "sha256": "2c29cb8b62e499a5b54775b0065aa946bf4c10f492e01e231fd2f0686dc5fc25",
+      "bound_elf_sha256": "1c63569e9e1dfbf343757fd425856a4891c08a53c4aae54345a465f0cabda88f"
+    },
+    {
+      "file": "qmk_port/runtime/emergency_boot_neo2_rgb_validation.json",
+      "sha256": "eb5b253e9935d953728c642aa26792e22441333f27d75b8b9c938066181cce23",
+      "bound_elf_sha256": "1c63569e9e1dfbf343757fd425856a4891c08a53c4aae54345a465f0cabda88f"
+    },
+    {
+      "file": "qmk_port/runtime/usb_diagnostic_neo2_rgb_validation.json",
+      "sha256": "8cb0aac7ae69a21444e2adbde2c230f4d6a5a003f5bf12e7ff5253ae6ca128c8",
+      "bound_elf_sha256": "1c63569e9e1dfbf343757fd425856a4891c08a53c4aae54345a465f0cabda88f"
+    },
+    {
+      "file": "qmk_port/neo2/core_keymap_via_rgb_validation.json",
+      "sha256": "83bc509cc0422fad7ed5b870f38e3ee11b3d81d924e008709f2c2074d50563e9",
+      "bound_elf_sha256": "1c63569e9e1dfbf343757fd425856a4891c08a53c4aae54345a465f0cabda88f"
+    },
+    {
+      "file": "qmk_port/via/transport_neo2_rgb_validation.json",
+      "sha256": "326d0f89aee20e71159843928d1b5a826369f078201d2bcc9f4ff63684f63457",
+      "bound_elf_sha256": "1c63569e9e1dfbf343757fd425856a4891c08a53c4aae54345a465f0cabda88f"
+    },
+    {
+      "file": "qmk_port/rgb/firmware_validation.json",
+      "sha256": "7f685f5b03a44e29b73d4bbd6e7f952d64ba91b0d6c3a2017a3a7a6116e70335",
+      "bound_elf_sha256": "1c63569e9e1dfbf343757fd425856a4891c08a53c4aae54345a465f0cabda88f"
+    }
+  ],
+  "original_boot_emulation": {
+    "passed": true,
+    "started_at": "0x1cd",
+    "reached_qmk_reset": "0x2170",
+    "metadata_branch": "captured patch-list skips checksum path",
+    "checksum_calls": 0,
+    "controller_patch_writes": [
+      {
+        "address": "0x400130e8",
+        "value": "0xffff0000",
+        "size": 4
+      },
+      {
+        "address": "0x400130ec",
+        "value": "0xffffffff",
+        "size": 4
+      }
+    ],
+    "fixture": "Actual recovered code/captured info block; RAM-like MMIO, original delay bypassed"
+  },
+  "memory_budget": {
+    "data_bytes": 384,
+    "bss_bytes": 2528,
+    "exception_stack_bytes": 512,
+    "process_stack_bytes": 1024,
+    "remaining_heap_bytes": 2800,
+    "ram_allocation_window": [
+      "0x20000000",
+      "0x20001c50"
+    ]
+  },
+  "emergency_boot": "Default any populated key active in three scans before USB; original retained request+SYSRESET",
+  "physical_runtime_validated": false,
+  "risks": [
+    "Analog calibration/timing unverified; resting sensor values above30 could falsely request bootloader",
+    "Emergency key hook cannot recover before application startup/clock/matrix initialization succeeds",
+    "Clock nominal48MHz and physical USB behavior remain unverified",
+    "Captured patch-list boot mode also jumps to invalid applications; no automatic checksum recovery guarantee",
+    "VIA settings use RAM only and disappear on reset/power loss",
+    "Offline stack-use observations are not physical worst-case guarantees"
+  ]
+}

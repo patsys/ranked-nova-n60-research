@@ -1,0 +1,24 @@
+{
+  "format": 1,
+  "version": "0.1.1",
+  "created_at": "2026-11-07T16:32:43.677675+00:00",
+  "no_complete_command": true,
+  "write_started": false,
+  "verified": false,
+  "released": false,
+  "boot_verified": false,
+  "pages": [],
+  "host_sources": {
+    "__init__.py": "06ec534bcd027f63af2366ced96f1a3dcd5a099a5e04683698963bc4740597ba",
+    "cli.py": "1f91f8cb5c71621b38473f4997d79176896042c55f6dd79b8642380489c6f5e5",
+    "image.py": "fa126f3c5269802967bdea62268602f1abfbc728a9bcfa5c20eaea584dedb574",
+    "loader.py": "5aa8162f6641585880e6882a12e95cf8e8537799e6c3772aec7ab84b37466745",
+    "nvm_audit.py": "9f9180991026e2d271002f5d95dc4dd300e0d818c3323b9920754a5c453a1e06",
+    "profiles.py": "322800fd46d03ddef9cd5fb6619bf2f2fe58846d0cb1f03203d74ff380ac0b09",
+    "session.py": "2a4233f082493b15d61a2c39b188dac3b69898ee7c18e57972818ddbc19f301a",
+    "stubs.py": "dc0b2ad9209f76d04721fd5d981893326c31edc2532d580dcec061e7f3770451",
+    "transport.py": "e43be2ce90457b58d79a0604fdb5e19c2123ec08c71185ea435f2a7986688e1d"
+  },
+  "passed": false,
+  "error": "TimeoutError: Bootloader not found. For QMK, hold Esc while reconnecting; stock needs --enter-stock."
+}

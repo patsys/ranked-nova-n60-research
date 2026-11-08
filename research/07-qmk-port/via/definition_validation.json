@@ -1,0 +1,11 @@
+{
+  "definition": "nova_research.json",
+  "keys": 62,
+  "coordinates_match_recovered_geometry": true,
+  "usb_raw_usage_page": "0xFF60",
+  "usb_raw_usage_id": "0x61",
+  "layout_is_physical_iso": false,
+  "physical_layout": "Diagnostic rows are acquisition bank IDs; columns are acquisition channel IDs.",
+  "specification": "https://www.caniusevia.com/docs/specification/",
+  "raw_usage_note": "Raw usage selectors belong to USB HID descriptors/client discovery; undocumented JSON properties are deliberately not invented."
+}

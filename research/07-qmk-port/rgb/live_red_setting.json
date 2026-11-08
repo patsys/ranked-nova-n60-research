@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "requested": "solid red all populated keys",
+  "before": {
+    "ready": true,
+    "last_reply": "0xa5",
+    "submitted": 7010,
+    "completed": 7009,
+    "errors": 0,
+    "skipped": 0,
+    "mode": 1,
+    "hue": 0,
+    "sat": 0,
+    "val": 96,
+    "enabled": true
+  },
+  "after": {
+    "ready": true,
+    "last_reply": "0xa5",
+    "submitted": 7135,
+    "completed": 7134,
+    "errors": 0,
+    "skipped": 0,
+    "mode": 1,
+    "hue": 0,
+    "sat": 255,
+    "val": 96,
+    "enabled": true
+  },
+  "brightness_preserved": true,
+  "flash_writes": false,
+  "settings_persistence": "RAM only; reset restores compiled white default",
+  "physical_color_confirmation_pending": false,
+  "user_confirmed_all_keys_including_Z_red": true
+}

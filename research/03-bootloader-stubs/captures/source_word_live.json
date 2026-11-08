@@ -1,0 +1,847 @@
+{
+  "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+  "ciphertext_first_word": "f06d17be",
+  "sessions": [
+    {
+      "index": 0,
+      "spec": {
+        "entry": "0x6c",
+        "mode": "zero",
+        "offset": 314,
+        "high": false,
+        "sha256": "7346eaeab6599d84b8e70e8035ea424313ddaf29a385753ad58a5a5c0d14240a",
+        "emulated_calls": 12
+      },
+      "DATA": [
+        {
+          "sequence": 1,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 19.9775,
+          "post_write_ms": 3.1065,
+          "reply_hex": "02010073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "sequence": 2,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 20.1467,
+          "post_write_ms": 2.994,
+          "reply_hex": "02020073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 18.8444,
+        "post_write_ms": 1.9752,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "complete": true
+    },
+    {
+      "index": 1,
+      "spec": {
+        "entry": "0x6c",
+        "mode": "eight",
+        "offset": 314,
+        "high": false,
+        "sha256": "970cf967753fce509a4091d15aabcd279213e5666c298b8b490c178e8b74603b",
+        "emulated_calls": 12
+      },
+      "DATA": [
+        {
+          "sequence": 1,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 195.0221,
+          "post_write_ms": 178.0613,
+          "reply_hex": "02010073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "sequence": 2,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 194.6649,
+          "post_write_ms": 178.1426,
+          "reply_hex": "02020073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 16.8649,
+        "post_write_ms": 1.9969,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "complete": true
+    },
+    {
+      "index": 2,
+      "spec": {
+        "entry": "0x6c",
+        "mode": "read",
+        "offset": 0,
+        "high": false,
+        "sha256": "6742dc8427e998cd02f1b4cc542f1964582b5dee4345dcbcd2666dcb65b9da80",
+        "emulated_calls": 12
+      },
+      "DATA": [
+        {
+          "sequence": 1,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 20.0686,
+          "post_write_ms": 3.0299,
+          "reply_hex": "02010073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "sequence": 2,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 19.9755,
+          "post_write_ms": 2.9815,
+          "reply_hex": "02020073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 15.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 16.975,
+        "post_write_ms": 1.9826,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": [
+        {
+          "value": 0,
+          "estimate": -0.003502618962154797,
+          "residual_units": 0.003502618962154797,
+          "initially_unambiguous": true
+        },
+        {
+          "value": 0,
+          "estimate": -0.0005709437586141221,
+          "residual_units": 0.0005709437586141221,
+          "initially_unambiguous": true
+        }
+      ],
+      "complete": true
+    },
+    {
+      "index": 3,
+      "spec": {
+        "entry": "0x6c",
+        "mode": "read",
+        "offset": 0,
+        "high": true,
+        "sha256": "d6e329cb4abcae63e936fc6fdfd6b5eb7a9f34a18bb7d7be52d1db49fcfd22cb",
+        "emulated_calls": 12
+      },
+      "DATA": [
+        {
+          "sequence": 1,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 129.209,
+          "post_write_ms": 112.1646,
+          "reply_hex": "02010073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "sequence": 2,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 129.0686,
+          "post_write_ms": 112.1947,
+          "reply_hex": "02020073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 16.8681,
+        "post_write_ms": 1.9998,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": [
+        {
+          "value": 5,
+          "estimate": 4.986801162357364,
+          "residual_units": 0.013198837642636185,
+          "initially_unambiguous": true
+        },
+        {
+          "value": 5,
+          "estimate": 4.987796648103382,
+          "residual_units": 0.012203351896618031,
+          "initially_unambiguous": true
+        }
+      ],
+      "complete": true
+    },
+    {
+      "index": 4,
+      "spec": {
+        "entry": "0x6c",
+        "mode": "read",
+        "offset": 1,
+        "high": false,
+        "sha256": "74ad67cb7e93eb7ddbbc1a5594301a002d826d8e5c0c6aae1074c7d190315249",
+        "emulated_calls": 12
+      },
+      "DATA": [
+        {
+          "sequence": 1,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 282.2261,
+          "post_write_ms": 265.0588,
+          "reply_hex": "02010073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "sequence": 2,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 282.4005,
+          "post_write_ms": 264.8746,
+          "reply_hex": "02020073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 16.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 16.9502,
+        "post_write_ms": 2.0033,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": [
+        {
+          "value": 12,
+          "estimate": 11.978056046476008,
+          "residual_units": 0.021943953523992477,
+          "initially_unambiguous": true
+        },
+        {
+          "value": 12,
+          "estimate": 11.961527525769545,
+          "residual_units": 0.03847247423045452,
+          "initially_unambiguous": true
+        }
+      ],
+      "complete": true
+    },
+    {
+      "index": 5,
+      "spec": {
+        "entry": "0x6c",
+        "mode": "read",
+        "offset": 1,
+        "high": true,
+        "sha256": "48bce0b18946ab75a428d30d7b3b5de5628a71e54ea3e9fdd5b8a49c5815f66f",
+        "emulated_calls": 12
+      },
+      "DATA": [
+        {
+          "sequence": 1,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 41.9579,
+          "post_write_ms": 24.9923,
+          "reply_hex": "02010073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "sequence": 2,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 41.7839,
+          "post_write_ms": 25.0478,
+          "reply_hex": "02020073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 15.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 17.6999,
+        "post_write_ms": 1.9258,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": [
+        {
+          "value": 1,
+          "estimate": 1.0007521942810373,
+          "residual_units": 0.0007521942810373439,
+          "initially_unambiguous": true
+        },
+        {
+          "value": 1,
+          "estimate": 1.0073183570979158,
+          "residual_units": 0.00731835709791584,
+          "initially_unambiguous": true
+        }
+      ],
+      "complete": true
+    },
+    {
+      "index": 6,
+      "spec": {
+        "entry": "0x6c",
+        "mode": "read",
+        "offset": 2,
+        "high": false,
+        "sha256": "49bda3e0e6e8decb151eca3828c160631f10853bc889c9a683f4ac9c693101f5",
+        "emulated_calls": 12
+      },
+      "DATA": [
+        {
+          "sequence": 1,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 19.9821,
+          "post_write_ms": 3.0105,
+          "reply_hex": "02010073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "sequence": 2,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 19.8834,
+          "post_write_ms": 3.1871,
+          "reply_hex": "02020073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 15.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 17.0833,
+        "post_write_ms": 2.0207,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": [
+        {
+          "value": 0,
+          "estimate": -0.00438970522672142,
+          "residual_units": 0.00438970522672142,
+          "initially_unambiguous": true
+        },
+        {
+          "value": 0,
+          "estimate": 0.008819939183070825,
+          "residual_units": 0.008819939183070825,
+          "initially_unambiguous": true
+        }
+      ],
+      "complete": true
+    },
+    {
+      "index": 7,
+      "spec": {
+        "entry": "0x6c",
+        "mode": "read",
+        "offset": 2,
+        "high": true,
+        "sha256": "80064aec432f4b036385e91d15c4a2243883397edec73368e8f80464b60bc264",
+        "emulated_calls": 12
+      },
+      "DATA": [
+        {
+          "sequence": 1,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 19.858,
+          "post_write_ms": 2.8907,
+          "reply_hex": "02010073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "sequence": 2,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 19.7518,
+          "post_write_ms": 2.9717,
+          "reply_hex": "02020073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 17.0533,
+        "post_write_ms": 2.0076,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": [
+        {
+          "value": 0,
+          "estimate": -0.00986769154090086,
+          "residual_units": 0.00986769154090086,
+          "initially_unambiguous": true
+        },
+        {
+          "value": 0,
+          "estimate": -0.001018563665367599,
+          "residual_units": 0.001018563665367599,
+          "initially_unambiguous": true
+        }
+      ],
+      "complete": true
+    },
+    {
+      "index": 8,
+      "spec": {
+        "entry": "0x6c",
+        "mode": "read",
+        "offset": 3,
+        "high": false,
+        "sha256": "6318958adadb2711b0d32c8d897f0b39438b226c100f9db3963c9208439d9cd6",
+        "emulated_calls": 12
+      },
+      "DATA": [
+        {
+          "sequence": 1,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 20.0038,
+          "post_write_ms": 3.0467,
+          "reply_hex": "02010073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "sequence": 2,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 20.2074,
+          "post_write_ms": 3.2723,
+          "reply_hex": "02020073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 17.0025,
+        "post_write_ms": 1.9769,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": [
+        {
+          "value": 0,
+          "estimate": -0.0027344205474785525,
+          "residual_units": 0.0027344205474785525,
+          "initially_unambiguous": true
+        },
+        {
+          "value": 0,
+          "estimate": 0.012711491841784623,
+          "residual_units": 0.012711491841784623,
+          "initially_unambiguous": true
+        }
+      ],
+      "complete": true
+    },
+    {
+      "index": 9,
+      "spec": {
+        "entry": "0x6c",
+        "mode": "read",
+        "offset": 3,
+        "high": true,
+        "sha256": "ae354ff00e998c0d3968ed8cbbb0b4577a84e57216e89a1ef5a815a1d6d41eba",
+        "emulated_calls": 12
+      },
+      "DATA": [
+        {
+          "sequence": 1,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 64.1404,
+          "post_write_ms": 47.1092,
+          "reply_hex": "02010073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "sequence": 2,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 63.9615,
+          "post_write_ms": 46.8437,
+          "reply_hex": "02020073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 15.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 20.3751,
+        "post_write_ms": 1.9515,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": [
+        {
+          "value": 2,
+          "estimate": 2.0120716893734842,
+          "residual_units": 0.01207168937348424,
+          "initially_unambiguous": true
+        },
+        {
+          "value": 2,
+          "estimate": 2.002857002568105,
+          "residual_units": 0.0028570025681049493,
+          "initially_unambiguous": true
+        }
+      ],
+      "complete": true
+    },
+    {
+      "index": 10,
+      "spec": {
+        "entry": "0x6c",
+        "mode": "read",
+        "offset": 0,
+        "high": false,
+        "sha256": "6742dc8427e998cd02f1b4cc542f1964582b5dee4345dcbcd2666dcb65b9da80",
+        "emulated_calls": 12
+      },
+      "DATA": [
+        {
+          "sequence": 1,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 20.1196,
+          "post_write_ms": 3.1512,
+          "reply_hex": "02010073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "sequence": 2,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 20.1652,
+          "post_write_ms": 3.0051,
+          "reply_hex": "02020073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 16.9551,
+        "post_write_ms": 1.9994,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": [
+        {
+          "value": 0,
+          "estimate": 0.0020439564961921477,
+          "residual_units": 0.0020439564961921477,
+          "initially_unambiguous": true
+        },
+        {
+          "value": 0,
+          "estimate": 0.0005069980576493281,
+          "residual_units": 0.0005069980576493281,
+          "initially_unambiguous": true
+        }
+      ],
+      "complete": true
+    },
+    {
+      "index": 11,
+      "spec": {
+        "entry": "0x6c",
+        "mode": "read",
+        "offset": 0,
+        "high": true,
+        "sha256": "d6e329cb4abcae63e936fc6fdfd6b5eb7a9f34a18bb7d7be52d1db49fcfd22cb",
+        "emulated_calls": 12
+      },
+      "DATA": [
+        {
+          "sequence": 1,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 129.1612,
+          "post_write_ms": 112.1388,
+          "reply_hex": "02010073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "sequence": 2,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 128.9141,
+          "post_write_ms": 112.0102,
+          "reply_hex": "02020073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 17.0218,
+        "post_write_ms": 1.9881,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "decoded": [
+        {
+          "value": 5,
+          "estimate": 4.985621429077683,
+          "residual_units": 0.014378570922317202,
+          "initially_unambiguous": true
+        },
+        {
+          "value": 5,
+          "estimate": 4.979369518226238,
+          "residual_units": 0.02063048177376192,
+          "initially_unambiguous": true
+        }
+      ],
+      "complete": true
+    },
+    {
+      "index": 12,
+      "spec": {
+        "entry": "0x6c",
+        "mode": "eight",
+        "offset": 0,
+        "high": false,
+        "sha256": "970cf967753fce509a4091d15aabcd279213e5666c298b8b490c178e8b74603b",
+        "emulated_calls": 12
+      },
+      "DATA": [
+        {
+          "sequence": 1,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 194.8413,
+          "post_write_ms": 177.9117,
+          "reply_hex": "02010073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "sequence": 2,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 195.5603,
+          "post_write_ms": 178.2863,
+          "reply_hex": "02020073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 15.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 17.1302,
+        "post_write_ms": 2.166,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "complete": true
+    },
+    {
+      "index": 13,
+      "spec": {
+        "entry": "0x6c",
+        "mode": "zero",
+        "offset": 0,
+        "high": false,
+        "sha256": "7346eaeab6599d84b8e70e8035ea424313ddaf29a385753ad58a5a5c0d14240a",
+        "emulated_calls": 12
+      },
+      "DATA": [
+        {
+          "sequence": 1,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 19.9651,
+          "post_write_ms": 2.9748,
+          "reply_hex": "02010073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "sequence": 2,
+          "marker": null,
+          "payload_sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+          "total_ms": 20.2152,
+          "post_write_ms": 3.0006,
+          "reply_hex": "02020073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "version": {
+        "request_hex": "000000000400000167657476",
+        "response_hex": "000000001000000176657273696f6e3aa1050000a104000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "round_trip_ms": 0.0,
+        "version_words_hex": [
+          "a1050000",
+          "a1040000"
+        ]
+      },
+      "START": {
+        "total_ms": 17.06,
+        "post_write_ms": 2.0868,
+        "reply_hex": "01000073010001770400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "final_state": {
+        "exit_query_error": "read error",
+        "application_collections": 6,
+        "bootloader_interfaces": 0
+      },
+      "complete": true
+    }
+  ],
+  "error": "",
+  "result": {
+    "source_words_hex": [
+      "501c0020",
+      "501c0020"
+    ],
+    "ciphertext_first_word_hex": "f06d17be",
+    "sequences_match": true,
+    "source_equals_ciphertext": [
+      false,
+      false
+    ],
+    "repeated_first_byte_matches": true,
+    "calibration_passed": true
+  }
+}

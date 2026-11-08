@@ -1,0 +1,355 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "entry": "0x24",
+      "page": 0,
+      "status": 0,
+      "command_count": 1,
+      "first_word_address": "0x0",
+      "last_word_address": "0x0",
+      "mmio_writes": [
+        [
+          1073819856,
+          1
+        ],
+        [
+          1073819652,
+          0
+        ],
+        [
+          1073819648,
+          2
+        ],
+        [
+          1073819856,
+          0
+        ]
+      ]
+    },
+    {
+      "entry": "0x24",
+      "page": 15,
+      "status": 0,
+      "command_count": 1,
+      "first_word_address": "0x780",
+      "last_word_address": "0x780",
+      "mmio_writes": [
+        [
+          1073819856,
+          32768
+        ],
+        [
+          1073819652,
+          1920
+        ],
+        [
+          1073819648,
+          2
+        ],
+        [
+          1073819856,
+          0
+        ]
+      ]
+    },
+    {
+      "entry": "0x24",
+      "page": 16,
+      "status": 0,
+      "command_count": 1,
+      "first_word_address": "0x800",
+      "last_word_address": "0x800",
+      "mmio_writes": [
+        [
+          1073819856,
+          65536
+        ],
+        [
+          1073819652,
+          2048
+        ],
+        [
+          1073819648,
+          2
+        ],
+        [
+          1073819856,
+          0
+        ]
+      ]
+    },
+    {
+      "entry": "0x24",
+      "page": 207,
+      "status": 0,
+      "command_count": 1,
+      "first_word_address": "0x6780",
+      "last_word_address": "0x6780",
+      "mmio_writes": [
+        [
+          1073819880,
+          32768
+        ],
+        [
+          1073819652,
+          26496
+        ],
+        [
+          1073819648,
+          2
+        ],
+        [
+          1073819880,
+          0
+        ]
+      ]
+    },
+    {
+      "entry": "0x24",
+      "page": 208,
+      "status": 0,
+      "command_count": 1,
+      "first_word_address": "0x6800",
+      "last_word_address": "0x6800",
+      "mmio_writes": [
+        [
+          1073819880,
+          65536
+        ],
+        [
+          1073819652,
+          26624
+        ],
+        [
+          1073819648,
+          2
+        ],
+        [
+          1073819880,
+          0
+        ]
+      ]
+    },
+    {
+      "entry": "0x24",
+      "page": 255,
+      "status": 0,
+      "command_count": 1,
+      "first_word_address": "0x7f80",
+      "last_word_address": "0x7f80",
+      "mmio_writes": [
+        [
+          1073819884,
+          2147483648
+        ],
+        [
+          1073819652,
+          32640
+        ],
+        [
+          1073819648,
+          2
+        ],
+        [
+          1073819884,
+          0
+        ]
+      ]
+    },
+    {
+      "entry": "0x24",
+      "page": 256,
+      "status": 2,
+      "command_count": 0,
+      "first_word_address": null,
+      "last_word_address": null,
+      "mmio_writes": []
+    },
+    {
+      "entry": "0x24",
+      "page": 4294967295,
+      "status": 2,
+      "command_count": 0,
+      "first_word_address": null,
+      "last_word_address": null,
+      "mmio_writes": []
+    },
+    {
+      "entry": "0x6c",
+      "page": 0,
+      "status": 0,
+      "command_count": 128,
+      "first_word_address": "0x0",
+      "last_word_address": "0x7f",
+      "mmio_writes": [
+        [
+          1073819856,
+          1
+        ],
+        [
+          1073819656,
+          0
+        ],
+        [
+          1073819652,
+          0
+        ],
+        [
+          1073819856,
+          0
+        ]
+      ]
+    },
+    {
+      "entry": "0x6c",
+      "page": 15,
+      "status": 0,
+      "command_count": 128,
+      "first_word_address": "0x780",
+      "last_word_address": "0x7ff",
+      "mmio_writes": [
+        [
+          1073819856,
+          32768
+        ],
+        [
+          1073819656,
+          0
+        ],
+        [
+          1073819652,
+          1920
+        ],
+        [
+          1073819856,
+          0
+        ]
+      ]
+    },
+    {
+      "entry": "0x6c",
+      "page": 16,
+      "status": 0,
+      "command_count": 128,
+      "first_word_address": "0x800",
+      "last_word_address": "0x87f",
+      "mmio_writes": [
+        [
+          1073819856,
+          65536
+        ],
+        [
+          1073819656,
+          0
+        ],
+        [
+          1073819652,
+          2048
+        ],
+        [
+          1073819856,
+          0
+        ]
+      ]
+    },
+    {
+      "entry": "0x6c",
+      "page": 207,
+      "status": 0,
+      "command_count": 128,
+      "first_word_address": "0x6780",
+      "last_word_address": "0x67ff",
+      "mmio_writes": [
+        [
+          1073819880,
+          32768
+        ],
+        [
+          1073819656,
+          0
+        ],
+        [
+          1073819652,
+          26496
+        ],
+        [
+          1073819880,
+          0
+        ]
+      ]
+    },
+    {
+      "entry": "0x6c",
+      "page": 208,
+      "status": 0,
+      "command_count": 128,
+      "first_word_address": "0x6800",
+      "last_word_address": "0x687f",
+      "mmio_writes": [
+        [
+          1073819880,
+          65536
+        ],
+        [
+          1073819656,
+          0
+        ],
+        [
+          1073819652,
+          26624
+        ],
+        [
+          1073819880,
+          0
+        ]
+      ]
+    },
+    {
+      "entry": "0x6c",
+      "page": 255,
+      "status": 0,
+      "command_count": 128,
+      "first_word_address": "0x7f80",
+      "last_word_address": "0x7fff",
+      "mmio_writes": [
+        [
+          1073819884,
+          2147483648
+        ],
+        [
+          1073819656,
+          0
+        ],
+        [
+          1073819652,
+          32640
+        ],
+        [
+          1073819884,
+          0
+        ]
+      ]
+    },
+    {
+      "entry": "0x6c",
+      "page": 256,
+      "status": 2,
+      "command_count": 0,
+      "first_word_address": null,
+      "last_word_address": null,
+      "mmio_writes": []
+    },
+    {
+      "entry": "0x6c",
+      "page": 4294967295,
+      "status": 2,
+      "command_count": 0,
+      "first_word_address": null,
+      "last_word_address": null,
+      "mmio_writes": []
+    }
+  ],
+  "method": "Actual vendor stub and recovered boot ABI helper execution; RAM guard fixture matches native DATA preconditions; MMIO modeled as memory with busy bit clear; no real flash hardware",
+  "limitation": "Command-register reachability is not proof that physical flash accepts an erase/program; hardware protection remains unknown"
+}

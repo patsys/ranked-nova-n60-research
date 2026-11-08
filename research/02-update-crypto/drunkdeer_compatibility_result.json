@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-05",
+  "hardware_access": false,
+  "nova_master_key_source": "firmware_dump/boot_initial_ram.bin offset 0x21c (key bytes not reproduced in this report)",
+  "transform": "metadata=AES-128-ECB-encrypt(master,header[0:16]); file_key=AES-128-ECB-encrypt(master,header[16:32]); plaintext=AES-128-ECB-encrypt(file_key,AES-128-ECB-encrypt(master,body))",
+  "tests": [
+    {
+      "archive": "deerios/DrunkDeerFirmware DrunkdeerUpdaterV2.3.4.zip",
+      "archive_sha256": "5497357ae9238cf40a1af77097d7220361ee67ba90fc048c1f2ba7d33bd05718",
+      "encrypted_blobs_tested": 12,
+      "passed": 12,
+      "body_bytes": 118784,
+      "hardware_id": "0xa100",
+      "all_declared_lengths_match": true,
+      "all_full_body_xors_match": true,
+      "all_code_xors_match": true,
+      "vectors_plausible": true,
+      "models": [
+        "A75 ANSI/ISO",
+        "A75 Pro ANSI",
+        "G60 ANSI/ISO",
+        "G65 ISO/ANSI",
+        "G75 ANSI/JP"
+      ]
+    },
+    {
+      "archive": "deerios/DrunkDeerFirmware drunkdeer_A75_Pro_us_v0004_20240511.zip",
+      "archive_sha256": "6f33e4bb0811b19db8f0d7eb5a79f216bee28c5fc28f475b78d572a096e585b1",
+      "encrypted_blobs_tested": 1,
+      "passed": 1,
+      "body_bytes": 117760,
+      "hardware_id": "0xa100",
+      "all_declared_lengths_match": true,
+      "all_full_body_xors_match": true,
+      "all_code_xors_match": true,
+      "vectors_plausible": true
+    }
+  ],
+  "conclusion": "Strong evidence the sampled DrunkDeer .enc images use the same Nova master-key profile and transform. Each image derives its own file key from its header. Does not prove every DrunkDeer model/revision uses this key.",
+  "dual_bank_boot": {
+    "file": "DrunkdeerUpdaterV2.3.4/A75_master/DualBankBoot.bin and A75_ultra/DualBankBoot.bin",
+    "bytes": 8496,
+    "sha256": "710ce1cb1d57f9ffc04da970f122d24d4ccc107a1f3f6871b1c0e009c80ed092",
+    "identical_in_both_folders": true,
+    "package_also_contains": [
+      "A75Master.bin / A75Ultra.bin",
+      "blhost.exe"
+    ],
+    "conclusion": "separate image is included in Ultra/Master package; reviewed public evidence does not prove it is written during normal app update or replaces PID 0x1101 resident bootloader"
+  },
+  "sources": [
+    "https://github.com/deerios/DrunkDeerFirmware/blob/main/DrunkdeerUpdaterV2.3.4.zip",
+    "https://github.com/deerios/DrunkDeerFirmware/blob/main/drunkdeer_A75_Pro_us_v0004_20240511.zip",
+    "https://github.com/svumo/DrunkDeer-Control/blob/main/docs/firmware-flash-research.md"
+  ]
+}

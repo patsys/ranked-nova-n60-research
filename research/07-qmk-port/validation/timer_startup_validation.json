@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "elf_sha256": "75a14ce15eaa737da4fdafce2f84059b8b761588248dcf2184f2221e5e57bd26",
+  "cases": [
+    {
+      "interrupts_enabled": false,
+      "initialization_returned": false,
+      "instructions": 150021,
+      "ticks": 0,
+      "wait_entered": true
+    },
+    {
+      "interrupts_enabled": true,
+      "initialization_returned": true,
+      "instructions": 144551,
+      "ticks": 564,
+      "wait_entered": true
+    }
+  ],
+  "hardware_tested": false,
+  "limitation": "Models timer delivery eligibility; physical SysTick exception entry and timing remain unverified."
+}
