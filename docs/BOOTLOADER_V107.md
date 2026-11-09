@@ -47,9 +47,15 @@ v1.0.5: retained request 0x5ac396c5 → bootloader. Otherwise, if the info-flash
 list (0x10000750, (address, value) pairs restricted to 0x400130d0..0x400130ec) is
 present and valid, **jump to the application without the GPIO and checksum checks**.
 
-v1.0.7: retained request → bootloader. Then **always**: boot GPIO (0x10000714),
-metadata header XOR, application XOR; only afterwards the patch list is validated.
-Any failure → 0xffff0002 → stays in the bootloader (recoverable, not a brick).
+v1.0.7: retained request → bootloader. Then **always**: recovery pin pair
+(0x10000700), metadata header XOR, application XOR; only afterwards the patch list is
+validated. Any failure → 0xffff0002 → stays in the bootloader (recoverable, not a brick).
+
+Correction (9 November): this section first named 0x10000714 the boot GPIO. The pin pair
+is 0x10000700 (bits 5:0 and 13:8, both low → bootloader); 0x10000714 is an alternative
+retained-request value used instead of 0x5ac396c5 when not erased. Both are 0xffffffff on
+this unit and on the G65, so no pin forces the bootloader. See
+`research/09-g65/README.md`.
 
 Checksum (0x40c) = XOR of 32-bit words. Metadata (0x10000600):
 - +0x08 bootloader length 0x1834, +0x0c XOR 0xcb9380f2 (verified)

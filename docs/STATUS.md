@@ -1,4 +1,4 @@
-# Current status — 7 November 2026
+# Current status — 9 November 2026
 
 ## Working
 
@@ -15,6 +15,21 @@
   GCC 14.3 and QMK's GCC 15.2 toolchain.
 - Personal keymaps: https://github.com/patsys/qmk_userspace (GitHub Actions builds
   against the platform branch).
+
+## Ranked G65 (since 9 November)
+
+- Third board: Ranked G65 (`3532:a0c2`, RY7203 + RY1206 v1.0, magnetic switches). Same
+  v1.0.7 bootloader bytes as the N60 #2; board ID `0xa102` instead of `0xa104`.
+- Stock firmware backed up read-only (two matching full reads plus metadata); the
+  stock application is longer (`0x2000..0x12ebc`), settings at pages `0xd0..0xec`.
+- No recovery pin is configured: only a firmware request or a failing checksum keeps
+  the bootloader. A QMK build must offer a bootloader entry that does not need key scanning.
+- ry72xx-flasher has G65 support in the working tree (board from the GETV board ID and
+  metadata, 136 application pages, own loader variant); tests pass, not yet released and
+  not yet validated by a write on hardware.
+- Key scan decoded from the stock firmware: same ADC scheme as the N60 with 5 banks × 14
+  channels and 69 positions (ISO 65%). Open: key names per position, LEDs, role of the
+  RY1206. See `research/09-g65/`.
 
 ## Resolved since 5 November
 

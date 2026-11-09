@@ -76,6 +76,16 @@ Evidence: the loader source in [ry72xx-flasher](https://github.com/patsys/ry72xx
 
 Evidence: `docs/BOOTLOADER_V107.md`, `research/08-bootloader-v107/results/`, `research/08-bootloader-v107/`, [QMK branch](https://github.com/patsys/qmk_firmware/tree/ranked-nova-platform).
 
+## 9. Ranked G65: identification and read-only backup (9 November)
+
+- A Ranked G65 enumerated as `3532:a0c2` "Guardian 65% Keyboard" with the N60's six HID collections. The PCB carries an RY7203 and an RY1206 v1.0.
+- The stock mode switch `04 a5 01` entered the bootloader; GETV returned `a1070000a1020000`. ry72xx-flasher refused it (unknown second word). The bootloader code reads that word from metadata `0x1000062c` only for the GETV reply, so it is a board ID, not a bootloader revision.
+- A read-only script drove the flasher's own read stubs with the v1.0.7 profile. The boot region was byte-identical to the N60 v1.0.7 bootloader; two full flash and metadata reads matched.
+- The metadata application length is `0x10ebc`, about 9 KiB longer than the N60's. The flasher's fixed 117-page range would have truncated a G65 restore; it now selects the board from GETV and metadata and writes 136 pages on the G65.
+- The boot decision's recovery pin pair is at `0x10000700` (not `0x10000714` as written earlier) and is erased on both boards: no key or pin forces the bootloader.
+
+Evidence: `research/09-g65/`.
+
 ## Lessons that changed the investigation
 
 1. A success ACK is not proof that a custom return value arrived.
@@ -87,3 +97,4 @@ Evidence: `docs/BOOTLOADER_V107.md`, `research/08-bootloader-v107/results/`, `re
 7. Check the bootloader revision first; an unknown revision means read-only analysis until every native address is verified.
 8. Measure peripheral behaviour on a disposable page before trusting an emulator model; the model is only as good as the measurement behind it.
 9. Never stop a recovery holder after a failed write.
+10. A known bootloader is not a known board: check the application range and recovery entry of each new board before writing.

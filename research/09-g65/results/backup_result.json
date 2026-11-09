@@ -1,0 +1,35 @@
+{
+ "board": "Ranked G65 / Guardian 65%",
+ "app_usb": "3532:a0c2",
+ "getv": "a1070000a1020000",
+ "profile_used": "v1.0.7",
+ "core_before": {
+  "before": 0,
+  "after": 1,
+  "cpuid": "0x410cc200",
+  "nvic_iser": 0,
+  "systick": 4
+ },
+ "boot_sha256": "eae819e411e7a1d336f75567e0aa7b2e432311694ae73ecdce4c417d548f3c01",
+ "boot_matches_n60_v107": true,
+ "boot_version_string": "ry72xx_boot_usb_v1.0.7",
+ "pass_1": {
+  "flash_sha256": "84d15762b38da5e63b4feb1b8af88ce14ed18f339c0adf3a28d59f670a7b6693",
+  "metadata_sha256": "6826af683ce8bbad509f4dd680d44fe03b191ae0efd72392cba5551f9c6cb504",
+  "seconds": 46.3
+ },
+ "pass_2": {
+  "flash_sha256": "84d15762b38da5e63b4feb1b8af88ce14ed18f339c0adf3a28d59f670a7b6693",
+  "metadata_sha256": "6826af683ce8bbad509f4dd680d44fe03b191ae0efd72392cba5551f9c6cb504",
+  "seconds": 45.8
+ },
+ "passes_match": true,
+ "boot_region_stable": true,
+ "core_after": {
+  "before": 1,
+  "after": 1,
+  "cpuid": "0x410cc200",
+  "nvic_iser": 0,
+  "systick": 4
+ }
+}

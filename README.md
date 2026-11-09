@@ -2,7 +2,9 @@
 
 A reproducible, evidence-led record of reverse engineering the Ranked Nova N60 keyboard, its vendor updater and bootloader, and a research QMK port. This repository contains the experiment history (including failed approaches), source tools, firmware/USB evidence, and test results.
 
-> **Current status (7 November 2026):** a second Nova N60 with the newer bootloader v1.0.7 runs QMK (Neo2 + VIA). The authored loader's lost-word failure was traced to the flash controller's STATUS timing, measured on a scratch page and fixed; the flasher supports v1.0.5 and v1.0.7. The QMK upstream candidate is prepared on a fork branch; no PR has been opened yet (photos and maintainer feedback pending). The first board has been soft-bricked since 4 November.
+> **Current status (9 November 2026):** a Ranked G65 on the same RY7203 bootloader v1.0.7 was identified and its stock firmware backed up read-only; see [research/09-g65](research/09-g65/).
+>
+> **7 November 2026:** a second Nova N60 with the newer bootloader v1.0.7 runs QMK (Neo2 + VIA). The authored loader's lost-word failure was traced to the flash controller's STATUS timing, measured on a scratch page and fixed; the flasher supports v1.0.5 and v1.0.7. The QMK upstream candidate is prepared on a fork branch; no PR has been opened yet (photos and maintainer feedback pending). The first board has been soft-bricked since 4 November.
 >
 > Published components: [ry72xx-flasher](https://github.com/patsys/ry72xx-flasher) · [QMK branch](https://github.com/patsys/qmk_firmware/tree/ranked-nova-platform) · [QMK userspace](https://github.com/patsys/qmk_userspace)
 
@@ -30,6 +32,7 @@ research/                one folder per phase, each with a README
   06-stock-restore/      bounded flashing and stock rollback
   07-qmk-port/           QMK platform bring-up, validation and persistence probes
   08-bootloader-v107/    second board, bootloader v1.0.7, flash-controller root cause
+  09-g65/                Ranked G65: identification, read-only backup, boot decision
 evidence/MANIFEST.json   size and SHA-256 of every file, including unpublished vendor material
 ```
 
