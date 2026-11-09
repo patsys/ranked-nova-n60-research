@@ -28,8 +28,9 @@
 
 ## Not ready / open
 
-- First keyboard (v1.0.5) is soft-bricked since 4 November (half-erased application,
-  SWD pad damaged); see the experiment log.
+- First keyboard (v1.0.5) is retired: soft-bricked since 4 November, no USB enumeration
+  at all (checked 9 November), SWD clock pad torn, chip-level soldering ruled out. A
+  replacement unit cost about 23 euros; the old board is kept as a spare-parts donor.
 - QMK PR not opened: keyboard photos, maintainer feedback on a new bare-metal platform
   and on the handwired/onekey requirement (no RY7203 development board exists).
 - The fixed loader is validated on v1.0.7 hardware only; on v1.0.5 in emulation.
