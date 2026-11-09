@@ -34,8 +34,8 @@
     },
     {
       "path": "docs/EXPERIMENT_LOG.md",
-      "bytes": 12427,
-      "sha256": "afc516357e4e6d83975899481851dc7710ed7f514187056d46f0cef34acb37da"
+      "bytes": 11916,
+      "sha256": "72a3ae9bc6e1cca21f02a3fe2a90b3ee690f7e41b1b90e22b6c2e266bddcb626"
     },
     {
       "path": "docs/REPRODUCING.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "docs/STATUS.md",
-      "bytes": 2176,
-      "sha256": "f772164320db5dc77671f514e24d2280aa50c3db72463ca67e2c2aabadfac892"
+      "bytes": 2046,
+      "sha256": "956870569a20a579c0dacb87729656c5d70dc020e631b9ad2bc431785aac8ee2"
     },
     {
       "path": "docs/TECHNICAL_FINDINGS.md",
@@ -153,9 +153,39 @@
       "sha256": "4749396d9259795ee39fc035ce61fbcc34b87fd631ac1e6c20a0470a5a5592c5"
     },
     {
+      "path": "research/02-update-crypto/captured_file_key.bin",
+      "bytes": 16,
+      "sha256": "5cb6ccc8cb184d380f67ea4b3dec29704aa3407afbe5e177b97bde81cce95821",
+      "included": false
+    },
+    {
+      "path": "research/02-update-crypto/captured_header_metadata.bin",
+      "bytes": 16,
+      "sha256": "c71117fe35610a0917c3121b788a30ae709fd5227196ec7142ee067a1607edaf",
+      "included": false
+    },
+    {
+      "path": "research/02-update-crypto/captured_update_ciphertext.bin",
+      "bytes": 117760,
+      "sha256": "d571168a27bba5bd93722b103cdd833b90f2beced0bf5b6c5d55ecc3a0f04929",
+      "included": false
+    },
+    {
+      "path": "research/02-update-crypto/captured_update_plaintext.bin",
+      "bytes": 117760,
+      "sha256": "c3b065a937670b745c2a2a59b57b6e3e2a099e694ed10fa1a540d6559774249c",
+      "included": false
+    },
+    {
       "path": "research/02-update-crypto/check_vendor_key_compat.py",
       "bytes": 2500,
       "sha256": "5508f3bb658a859b2fbb120211285f6526ec0065edf7d14ed85e5afb869ea49c"
+    },
+    {
+      "path": "research/02-update-crypto/configuration_candidate.bin",
+      "bytes": 16,
+      "sha256": "3017a1668623714c476b8e924bd9629cccf87e8fa9a7099e27b6de28cb396eb1",
+      "included": false
     },
     {
       "path": "research/02-update-crypto/drunkdeer_compatibility_result.json",
@@ -171,6 +201,12 @@
       "path": "research/02-update-crypto/key_extraction_result.json",
       "bytes": 21641,
       "sha256": "58b2f149c25a8194685a5303ece0251ec0d8a0aa7f254004f5cb92be6f18f40d"
+    },
+    {
+      "path": "research/02-update-crypto/master_key.bin",
+      "bytes": 16,
+      "sha256": "3017a1668623714c476b8e924bd9629cccf87e8fa9a7099e27b6de28cb396eb1",
+      "included": false
     },
     {
       "path": "research/02-update-crypto/offline_key_audit.json",
@@ -2668,6 +2704,12 @@
       "sha256": "f90d7404b7f9d52900ab71c752de87ee61070a4cc22df59cce0b03167b52c47b"
     },
     {
+      "path": "research/03-bootloader-stubs/captures/captured_first_page.bin",
+      "bytes": 512,
+      "sha256": "d26540dd504da8a065eb2f43033981634631010a3b5739b7d93b2cffb8b418c4",
+      "included": false
+    },
+    {
       "path": "research/03-bootloader-stubs/captures/chunk_buffer_live.json",
       "bytes": 5224,
       "sha256": "a5f77eb847b696904ae4ace4156e183ca08095322fdab750daa5901b18cb0686"
@@ -2713,6 +2755,18 @@
       "sha256": "8dc26a19ab1888dcabd5b345a477912ceb5052412dafe649f65f65c59efc34df"
     },
     {
+      "path": "research/03-bootloader-stubs/captures/fw_update.pcap",
+      "bytes": 548300,
+      "sha256": "e23cc86257ae25022b4566af0da415fca00187f36403e5a7e09be519026269a0",
+      "included": false
+    },
+    {
+      "path": "research/03-bootloader-stubs/captures/layout_cap.pcap",
+      "bytes": 1164251,
+      "sha256": "676bab80f2c3dfcbaeab326e59fb4b5520171dc68c93121922ed66b7e8e01b1d",
+      "included": false
+    },
+    {
       "path": "research/03-bootloader-stubs/captures/lr_readback_live.json",
       "bytes": 15257,
       "sha256": "517de01daa5a3edff47bc5a3eea77038538b8639fa3dd520bd9c4d218c1f554d"
@@ -2721,6 +2775,12 @@
       "path": "research/03-bootloader-stubs/captures/number_readback_live.json",
       "bytes": 2768,
       "sha256": "943e980de40e2fb50886a82a21bcc6dbfb8d9c42c5c406e570d09733578d725b"
+    },
+    {
+      "path": "research/03-bootloader-stubs/captures/ranked_nova_recovered_firmware_bundle.zip",
+      "bytes": 3065031,
+      "sha256": "23de1d179ef158f9e900812f6e1631fc724319e6077ea7db414a6c6ed944ff02",
+      "included": false
     },
     {
       "path": "research/03-bootloader-stubs/captures/saved_lr_readback_live.json",
@@ -2791,6 +2851,12 @@
       "path": "research/03-bootloader-stubs/captures/usb_reply_builder_0bbc.bin",
       "bytes": 32,
       "sha256": "530834e1377fa6d2147cf6609a8e3e6f6f4e8a60f2a4dbf79235fe85bedd3001"
+    },
+    {
+      "path": "research/03-bootloader-stubs/captures/vendor_stub.bin",
+      "bytes": 440,
+      "sha256": "fbf8d711262615c1fcfa7abad885e124032be8990da9af01f6e31a20da762ae8",
+      "included": false
     },
     {
       "path": "research/03-bootloader-stubs/diagnostic.bin",
@@ -3588,6 +3654,18 @@
       "sha256": "8c1a97767bc6cabf647e9cd5355a1c5ffb167c0d76db12a6a59155bbec54f88d"
     },
     {
+      "path": "research/04-firmware-dump/application_plaintext_0x2000.bin",
+      "bytes": 117760,
+      "sha256": "24c9420a5cd1df4bc06472aad07965b360f7341815f234da109971246ed964c0",
+      "included": false
+    },
+    {
+      "path": "research/04-firmware-dump/application_thumb_linear.txt",
+      "bytes": 2442963,
+      "sha256": "2fe1b76d27c97018543938a99cbd119c27e7f2f27c0819fd81b3cf788dc8a795",
+      "included": false
+    },
+    {
       "path": "research/04-firmware-dump/audit_boot_acceptance.py",
       "bytes": 8444,
       "sha256": "0dbc3926368d9274efb10531977865b3560435113d543e05f0dd600047615f67"
@@ -3618,6 +3696,12 @@
       "sha256": "dbafff3b22d68196fd03f646f83e013b9ce592235a91b8024832f8b074968b81"
     },
     {
+      "path": "research/04-firmware-dump/boot_initial_ram.bin",
+      "bytes": 3056,
+      "sha256": "8c7914a2c12dff884067e207a6d33e4d9b4e68c027faf3336c1458019ac9cd30",
+      "included": false
+    },
+    {
       "path": "research/04-firmware-dump/boot_irq_dependency_audit.md",
       "bytes": 5052,
       "sha256": "b4b5e9aa8e9253439bf2fdbf8ac980df28808cef69e365000bd0c694092bd5a7"
@@ -3636,6 +3720,12 @@
       "path": "research/04-firmware-dump/boot_reset_recovery_validation.json",
       "bytes": 3939,
       "sha256": "aa3ce8ef42338b6f77d092b39578df9adac3c8938a8ec0ae89ee2ed3dcd07041"
+    },
+    {
+      "path": "research/04-firmware-dump/boot_safety_audit/factory_clock_10000234.bin",
+      "bytes": 4,
+      "sha256": "aea61104133c661985d4c4a3708b4d8819b111a34c753accad01ba823871839b",
+      "included": false
     },
     {
       "path": "research/04-firmware-dump/boot_safety_audit/factory_clock_read_result.json",
@@ -3673,6 +3763,18 @@
       "sha256": "16d67e41be1750615a3d0641853b555c9b11f823b611998bf9e9ab6c2450ce0f"
     },
     {
+      "path": "research/04-firmware-dump/bootloader_0x0000.bin",
+      "bytes": 8192,
+      "sha256": "e46c6d9300a13f4d2eea7c16584d24ea6e4e1b83815e5f84f389d4aeb0915f62",
+      "included": false
+    },
+    {
+      "path": "research/04-firmware-dump/bootloader_thumb_linear.txt",
+      "bytes": 169525,
+      "sha256": "ef2fbb6e70bf367fcf7fc4b13282942c26e0444ed49c363eceb8793bfdd0ef02",
+      "included": false
+    },
+    {
       "path": "research/04-firmware-dump/clock_offline_traces.json",
       "bytes": 8064,
       "sha256": "6b89d50dc464f7cf806debeb0e34778ba1d8102e2f7b9c8b488aa58fab0e5e78"
@@ -3691,6 +3793,24 @@
       "path": "research/04-firmware-dump/flash_bounds_audit.md",
       "bytes": 9321,
       "sha256": "fdd37f5b8c914b52eda7d375ccc272f9020955c2d23bd67749b139065129f75d"
+    },
+    {
+      "path": "research/04-firmware-dump/flash_bounds_native_ranges.txt",
+      "bytes": 20582,
+      "sha256": "32d41039e9c839919c01b3240eae48bfe2bda349923480fb87001bc1f686dc19",
+      "included": false
+    },
+    {
+      "path": "research/04-firmware-dump/flash_cpu_pass1.bin",
+      "bytes": 131072,
+      "sha256": "5adca278d90a0672e05dfe5ad47d1635242f9ec0ff78827d83d9f28d6ccd8b49",
+      "included": false
+    },
+    {
+      "path": "research/04-firmware-dump/flash_cpu_pass2.bin",
+      "bytes": 131072,
+      "sha256": "5adca278d90a0672e05dfe5ad47d1635242f9ec0ff78827d83d9f28d6ccd8b49",
+      "included": false
     },
     {
       "path": "research/04-firmware-dump/inventory.json",
@@ -3793,9 +3913,33 @@
       "sha256": "499067a0643020d9fe099d0b70748543b0893672f1a7b6a3abbd87e1962107a9"
     },
     {
+      "path": "research/04-firmware-dump/startup_ram_20000000.bin",
+      "bytes": 1364,
+      "sha256": "12b2ba125e5a57bd977244e9c408bc37422786c18a0f6dc4307c43843f664b15",
+      "included": false
+    },
+    {
+      "path": "research/04-firmware-dump/startup_ram_20000554.bin",
+      "bytes": 5884,
+      "sha256": "9009b1041f4a0d702396e29ac45d2d2782be3b9f47c91f13fbd58f5b622fd672",
+      "included": false
+    },
+    {
+      "path": "research/04-firmware-dump/startup_ram_20003000.bin",
+      "bytes": 1816,
+      "sha256": "1b07002f38c232f011b17f27fbbc0f54a476a09c0337d7b9bf34707169c92b7e",
+      "included": false
+    },
+    {
       "path": "research/04-firmware-dump/startup_ram_analysis.json",
       "bytes": 1263,
       "sha256": "1153a0599a784520beaed109d5c6711bdeda43f0ad1c2b9caddeae206084a80c"
+    },
+    {
+      "path": "research/04-firmware-dump/startup_thumb.txt",
+      "bytes": 2448,
+      "sha256": "06be9fdddbeee6c7b7d751d14e38abf8b83b690f579271df170679d795becf0b",
+      "included": false
     },
     {
       "path": "research/04-firmware-dump/test_recovery_entry.py",
@@ -3813,9 +3957,21 @@
       "sha256": "489ea2eb6ebf578014f7646d8e96a01034a74765e3cc8881fa6378cd816fa2dd"
     },
     {
+      "path": "research/04-firmware-dump/usb_control_ranges.txt",
+      "bytes": 25694,
+      "sha256": "54536399c20b1e6be48df28c4802fc5a82a038e6b413d0f9c0bd54d6289b109a",
+      "included": false
+    },
+    {
       "path": "research/04-firmware-dump/usb_driver_analysis.md",
       "bytes": 7037,
       "sha256": "bd66e2e274e3c8d0fa72703920c0497abda62e7baadc0d485e326672efbe8000"
+    },
+    {
+      "path": "research/04-firmware-dump/usb_driver_ranges.txt",
+      "bytes": 45934,
+      "sha256": "85d74edcd25e3d398b5dfb96dae5d43a00efd329624e8a157a5232884a8eea85",
+      "included": false
     },
     {
       "path": "research/04-firmware-dump/usb_transactions.json",
@@ -3848,9 +4004,21 @@
       "sha256": "4e5ca20bda3bb81c7034114135855d58a2c6e72b427e616504e3f6ed47d0dec1"
     },
     {
+      "path": "research/05-ram-bypass/flash_after.bin",
+      "bytes": 131072,
+      "sha256": "60c00494fa7ebaacb663248f113ffb07fa38532980f28e9b2a2a489dea795dc4",
+      "included": false
+    },
+    {
       "path": "research/05-ram-bypass/flash_verification_usb.json",
       "bytes": 852799,
       "sha256": "910b636b669706f589db9cc3a5aadaca06173f73bd0e35ecf8385a67ce428a08"
+    },
+    {
+      "path": "research/05-ram-bypass/observed_source_crypto_0.bin",
+      "bytes": 512,
+      "sha256": "814535da3efb45c2d5c225da304875e3de8a887b31ff916cd04a10bb5710c026",
+      "included": false
     },
     {
       "path": "research/05-ram-bypass/observed_source_crypto_1.bin",
@@ -3866,6 +4034,12 @@
       "path": "research/05-ram-bypass/ordinary_read_control.json",
       "bytes": 1047,
       "sha256": "fe3c372cd4194785ea111a1e5e384a5a9fccdce0a5e6e3035574ee168937b56f"
+    },
+    {
+      "path": "research/05-ram-bypass/plaintext_test_page.bin",
+      "bytes": 512,
+      "sha256": "814535da3efb45c2d5c225da304875e3de8a887b31ff916cd04a10bb5710c026",
+      "included": false
     },
     {
       "path": "research/05-ram-bypass/result.json",
@@ -3953,9 +4127,21 @@
       "sha256": "3705bf2c7255b0d54668149ce9cfbf2b4c20174b6e98c63713b037fdc8f5e468"
     },
     {
+      "path": "research/06-stock-restore/bounded_stock_stub.bin",
+      "bytes": 440,
+      "sha256": "5f741245d37bd3066e108385e95e3589aecf20d5f48d381a45d231225808b37f",
+      "included": false
+    },
+    {
       "path": "research/06-stock-restore/bounded_stock_stub.disasm.txt",
       "bytes": 9033,
       "sha256": "aaa92a280e1d00862d65b28d3bbb6c65a923468974bf36f2bbfac8ea85119e4b"
+    },
+    {
+      "path": "research/06-stock-restore/bounded_stock_stub_v2.bin",
+      "bytes": 440,
+      "sha256": "1a72d7cccea5043d144744f3c67ff9070af8e6961fb2bf729a2071a34a42da18",
+      "included": false
     },
     {
       "path": "research/06-stock-restore/bounded_stock_stub_v2.disasm.txt",
@@ -3966,6 +4152,12 @@
       "path": "research/06-stock-restore/bounded_stock_stub_v2_validation.json",
       "bytes": 90313,
       "sha256": "4b4d9846a927d4afc757e5753b780ec45fbf656f1bd78a633418aa0a9f3a1f5e"
+    },
+    {
+      "path": "research/06-stock-restore/bounded_stock_stub_v3.bin",
+      "bytes": 440,
+      "sha256": "e4c466571f03c5ece7ae4417c281dd9be3787d659945633acec7cfb92dae3a8c",
+      "included": false
     },
     {
       "path": "research/06-stock-restore/bounded_stock_stub_v3.disasm.txt",
@@ -4013,6 +4205,12 @@
       "sha256": "6760ce9a4b83219f4578f43362a6983598a86b6dca6e1b7314b034911d15ec05"
     },
     {
+      "path": "research/06-stock-restore/hold_stub.bin",
+      "bytes": 440,
+      "sha256": "1c04bf5c4c9ae72885acfd8a62dc948219bb36c4cbc7a12ea3106367a0ebf871",
+      "included": false
+    },
+    {
       "path": "research/06-stock-restore/hold_stub_validation.json",
       "bytes": 503,
       "sha256": "f35c354187224e7b07192e40cb337bac227079295ebf6cf6d43519b5cb952a2a"
@@ -4038,6 +4236,12 @@
       "sha256": "f0b0847f5b5dec2edc77740b54305dd4f41dcc014e795510291fd053706d6823"
     },
     {
+      "path": "research/06-stock-restore/release_stub.bin",
+      "bytes": 440,
+      "sha256": "57332cb094949feeba32c44fa829bb57069eaef61d92bceab161601737af4323",
+      "included": false
+    },
+    {
       "path": "research/06-stock-restore/release_stub_validation.json",
       "bytes": 1113,
       "sha256": "4411a542c184e6b1bd2d0a0f1c7159717f8490b188c932c3aef9b1bdee2067be"
@@ -4048,9 +4252,27 @@
       "sha256": "81f809d3dcaf961e932b5886cf768e64fb02f28331739cf82f0fb7e458afb690"
     },
     {
+      "path": "research/06-stock-restore/results/20261103T052626Z/flash_pass1.bin",
+      "bytes": 131072,
+      "sha256": "fcbdc739b96ee151fcf0006ceba8a4783f81e5cb120491224988c5ac608d7e82",
+      "included": false
+    },
+    {
+      "path": "research/06-stock-restore/results/20261103T052626Z/flash_pass2.bin",
+      "bytes": 131072,
+      "sha256": "fcbdc739b96ee151fcf0006ceba8a4783f81e5cb120491224988c5ac608d7e82",
+      "included": false
+    },
+    {
       "path": "research/06-stock-restore/results/20261103T052626Z/manifest.json",
       "bytes": 2883,
       "sha256": "de8cf07f5dab7c3463c1c13289394147c4ca830c0b2aa3de3f3cb85bb6f05368"
+    },
+    {
+      "path": "research/06-stock-restore/results/20261103T052626Z/stock_application_pages.bin",
+      "bytes": 59904,
+      "sha256": "7f7f5853e7192c737be85cc00e0b21db56e8a40bd68495900002921ef914762c",
+      "included": false
     },
     {
       "path": "research/06-stock-restore/results/20261103T052626Z/stock_candidate.json",
@@ -4343,9 +4565,45 @@
       "sha256": "4f5d57406a56539fb903bc423c5acff2d329735d92abe9962b7cb7e0d93f19be"
     },
     {
+      "path": "research/07-qmk-port/results/final-read-only-probe/after_flash.bin",
+      "bytes": 131072,
+      "sha256": "4f1f2c75387c0fd14d21e7b33ac7462311a7c7f6072453e0265b46df2fce11c5",
+      "included": false
+    },
+    {
+      "path": "research/07-qmk-port/results/final-read-only-probe/before_flash.bin",
+      "bytes": 131072,
+      "sha256": "4f1f2c75387c0fd14d21e7b33ac7462311a7c7f6072453e0265b46df2fce11c5",
+      "included": false
+    },
+    {
+      "path": "research/07-qmk-port/results/final-read-only-probe/expected_flash.bin",
+      "bytes": 131072,
+      "sha256": "4f1f2c75387c0fd14d21e7b33ac7462311a7c7f6072453e0265b46df2fce11c5",
+      "included": false
+    },
+    {
       "path": "research/07-qmk-port/results/final-read-only-probe/result.json",
       "bytes": 2355,
       "sha256": "5d2eb991d247ebffccc1f125053b73be499663f550e44e81d94fc74af1123ca0"
+    },
+    {
+      "path": "research/07-qmk-port/results/gate-clear-flash/after_flash.bin",
+      "bytes": 131072,
+      "sha256": "4f1f2c75387c0fd14d21e7b33ac7462311a7c7f6072453e0265b46df2fce11c5",
+      "included": false
+    },
+    {
+      "path": "research/07-qmk-port/results/gate-clear-flash/before_flash.bin",
+      "bytes": 131072,
+      "sha256": "43e346047d3b953b983ee32707337d96d0b9a17adb87ac412ec6561ee3779a67",
+      "included": false
+    },
+    {
+      "path": "research/07-qmk-port/results/gate-clear-flash/expected_flash.bin",
+      "bytes": 131072,
+      "sha256": "4f1f2c75387c0fd14d21e7b33ac7462311a7c7f6072453e0265b46df2fce11c5",
+      "included": false
     },
     {
       "path": "research/07-qmk-port/results/gate-clear-flash/result.json",
@@ -4751,6 +5009,12 @@
       "path": "research/07-qmk-port/usb/native_control_irq_traces.json",
       "bytes": 8449,
       "sha256": "57097e1a0b00fca25ed3250f2195325c0f61ce8172955b895e78f865dd33ef16"
+    },
+    {
+      "path": "research/07-qmk-port/usb/native_irq_ranges.txt",
+      "bytes": 15465,
+      "sha256": "ac700acaae0c112444285a60630f85a3ea7344782dc4b986740547b2c61b9e58",
+      "included": false
     },
     {
       "path": "research/07-qmk-port/usb/ranked_usb_device.c",

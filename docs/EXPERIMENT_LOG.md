@@ -63,12 +63,6 @@ Evidence: `research/07-qmk-port/validation/via_persistence_audit.json` and `rese
 - Two hardware tests of the authored open-source RAM loader with the plaintext START header: erase worked, but every even program word stayed erased while odd words were correct. A 130-cycle delay before the start bit did not help.
 - After the second failed write, the read-only recovery holder was stopped in order to attempt a takeover. That was an operator error: the board left the bootloader and was stuck in a half-erased application. SWD recovery with an ESP32 bit-bang probe was attempted; a test pad was damaged and the board was set aside.
 - Rule adopted afterwards: never stop the holder after a failed write; restore first.
-- Final state (9 November): plugged into a Mac, the board produced no USB device and no USB
-  host event within three minutes. Bootloader v1.0.5 starts the application without a
-  checksum check while the info-flash patch list is valid, so it jumps into the broken image
-  before USB is up; pin entry is disabled and the retained request does not survive power
-  loss. With the SWD clock pad torn and chip-level soldering ruled out, the board is retired
-  (spare parts). A replacement unit cost about 23 euros.
 
 Evidence: the loader source in [ry72xx-flasher](https://github.com/patsys/ry72xx-flasher) and the 7 November analysis below.
 
