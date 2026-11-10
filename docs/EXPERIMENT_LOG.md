@@ -94,6 +94,7 @@ Evidence: `research/09-g65/`.
 - A first Neo2 image without VIA was flashed by mistake; `neo2_via` replaced it. VIA saving survived a power cycle.
 - A raw-sample export showed the switches are on/off (0 or ~135); the stock firmware uses fixed thresholds only. Hall-effect features were not added.
 - A raw HID bootloader request that needed no key was useful during bring-up but bypasses QMK's physical-presence model; it and the diagnostic queries are now a development build flag, off by default.
+- Every RGB Matrix effect was enabled in both keyboard definitions (first tried in the Neo2 keymaps, then moved to `keyboard.json`, where upstream keeps it). The Nova N60 received the same build with the board-table flasher: 117 pages verified, but the restarted application took longer than the flasher's 10 s to appear, so the run ended with a timeout although the write was correct.
 
 Evidence: `research/09-g65/README.md`, `research/09-g65/results/`.
 

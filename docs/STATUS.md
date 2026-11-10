@@ -33,6 +33,9 @@
   `RANKED_DIAGNOSTICS=yes`.
 - The G65 switches read 0 or ~135 with nothing in between: on/off, no travel information, so
   no adjustable actuation or Rapid Trigger. See `research/09-g65/`.
+- Both boards compile every RGB Matrix effect; VIA definitions for both are in qmk_userspace.
+  The N60 was updated with the board-table flasher (117 pages, verified); the flasher's 10 s
+  wait for the restarted keyboard was too short once.
 
 ## Resolved since 5 November
 

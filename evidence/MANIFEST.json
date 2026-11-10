@@ -34,8 +34,8 @@
     },
     {
       "path": "docs/EXPERIMENT_LOG.md",
-      "bytes": 14833,
-      "sha256": "625a6a6e9c2b08d5d326396f52da8cb289415b7c945c5af2325eec6b0c364296"
+      "bytes": 15219,
+      "sha256": "87ed357069fa0fbe4202d95bc149d5a5ab78bf54a338617b98a4b638e6d75d06"
     },
     {
       "path": "docs/REPRODUCING.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "docs/STATUS.md",
-      "bytes": 3292,
-      "sha256": "893233c0c53894d2803411dc4777d9a96f12e2c1adfec4f51631e7fbb0ba83c4"
+      "bytes": 3533,
+      "sha256": "a321ee20f3c2945ac7996b76bc0f9660f655388afde79a65e08f12251e0cc8db"
     },
     {
       "path": "docs/TECHNICAL_FINDINGS.md",
@@ -5643,8 +5643,8 @@
     },
     {
       "path": "research/09-g65/README.md",
-      "bytes": 12026,
-      "sha256": "ad8dd784875ea802d2aeb5baff566531c611239e35374e5ee99b5d3c96a6179c"
+      "bytes": 13026,
+      "sha256": "c00cc8d7d49a6eb36321fb5fcc11c19df260294783a4b0c775d6d3a974e8413a"
     },
     {
       "path": "research/09-g65/backup/boot_0000_1fff.bin",
@@ -5723,8 +5723,8 @@
     },
     {
       "path": "research/09-g65/results/qmk_flashes.json",
-      "bytes": 5011,
-      "sha256": "c2677d831f6bced092a1419bc00586c7601e58db4dc86c98eb2898db0cda3670"
+      "bytes": 7688,
+      "sha256": "9090593eae2f343161836e416c9e0d057e3166be7c5eb66cede7dd4c20c7f69e"
     },
     {
       "path": "research/09-g65/results/sensor_measurement.json",

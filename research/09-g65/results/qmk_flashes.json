@@ -154,5 +154,83 @@
    "application_interfaces": 3,
    "bootloader_interfaces": 0
   }
+ },
+ {
+  "run": "g65_qmk_neo2_via_release_1",
+  "image": "G65 neo2_via as committed (diagnostics off)",
+  "hex_sha256": "bbbfc1ec736c7cc358058492b35ec3412575809e2ddf22eabd95b657bff2088e",
+  "board": "Ranked G65",
+  "boot_version": "a1070000a1020000",
+  "pages": 136,
+  "passed": true,
+  "verified": true,
+  "released": true,
+  "whole_flash_matches_expected": true,
+  "bootloader_unchanged": true,
+  "outside_application_unchanged": true,
+  "hidden_metadata_unchanged": true,
+  "boot_checksum_word": {
+   "address": "0x201c",
+   "image": "0x2173",
+   "written": "0xccf01f91"
+  },
+  "before_flash_sha256": "ff01ac78250e2b581a43ec985a137da253e98f64cf8d5e2aa2a59e8c6637b64a",
+  "after_flash_sha256": "e27702601e3b8ad01d2d5e2161399dbf11bb95e5f5910932fcfc7c98eb158b9c",
+  "final_state": {
+   "application_interfaces": 3,
+   "bootloader_interfaces": 0
+  },
+  "error": null
+ },
+ {
+  "run": "g65_qmk_neo2_via_alleffects_2",
+  "image": "G65 neo2_via with every RGB Matrix effect",
+  "hex_sha256": "01c1087ffb4ad84f5e87091ab3fb3ce5953f3578d06b930430048651375673db",
+  "board": "Ranked G65",
+  "boot_version": "a1070000a1020000",
+  "pages": 136,
+  "passed": true,
+  "verified": true,
+  "released": true,
+  "whole_flash_matches_expected": true,
+  "bootloader_unchanged": true,
+  "outside_application_unchanged": true,
+  "hidden_metadata_unchanged": true,
+  "boot_checksum_word": {
+   "address": "0x201c",
+   "image": "0x2173",
+   "written": "0xe74d53b7"
+  },
+  "before_flash_sha256": "e0108b3a8605ccaaf8835a28a239d6969c781a704f7239db8959b486aedf76c7",
+  "after_flash_sha256": "446b8bf4530b882b6fa166b019f17d1ce65b52ac96f77c34c69a2579ff592fe0",
+  "final_state": {
+   "application_interfaces": 3,
+   "bootloader_interfaces": 0
+  },
+  "error": null
+ },
+ {
+  "run": "n60_qmk_neo2_via_alleffects_1",
+  "image": "Nova N60 neo2_via with every RGB Matrix effect (first N60 write with the board table)",
+  "hex_sha256": "380550b804379571ccf454deb9ac5b6aeb885207bd4487b6a96abb0306719fd5",
+  "board": "Ranked Nova N60",
+  "boot_version": "a1070000a1040000",
+  "pages": 117,
+  "passed": false,
+  "verified": true,
+  "released": true,
+  "whole_flash_matches_expected": true,
+  "bootloader_unchanged": true,
+  "outside_application_unchanged": true,
+  "hidden_metadata_unchanged": true,
+  "boot_checksum_word": {
+   "address": "0x201c",
+   "image": "0x2173",
+   "written": "0x4d2f4830"
+  },
+  "before_flash_sha256": "5e21419421a2d4089b9abf46bc47188b6341cdcfc2a0bbd134b170e94a2c74bb",
+  "after_flash_sha256": "d506373b376665025201be5eb74b7c2f663c089c8ffa1d9b2f0b4fcd2012d898",
+  "final_state": null,
+  "error": "TimeoutError: Image verified, but application enumeration was not observed; use Esc recovery"
  }
 ]

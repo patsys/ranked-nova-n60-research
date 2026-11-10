@@ -157,9 +157,21 @@ USB `3532:a0c2`, wear-leveling pages F8-FF (erased and permitted on this unit) a
 The Neo2, Neo2-with-VIA and VIA keymaps are in [qmk_userspace](https://github.com/patsys/qmk_userspace),
 with the VIA definition `keyboards/ranked/g65/ranked_g65_via.json`.
 
-Six images were flashed with ry72xx-flasher, each with full readback and the bootloader, the stock
-settings and the metadata unchanged (`results/qmk_flashes.json`). Typing, VIA with saving across a
-power cycle, the three colour channels and the border ring were confirmed on the board.
+Eight images were flashed to the G65 with ry72xx-flasher, each with full readback and the
+bootloader, the stock settings and the metadata unchanged (`results/qmk_flashes.json`). Typing, VIA
+with saving across a power cycle, the three colour channels and the border ring were confirmed on
+the board.
+
+Both boards now compile every QMK RGB Matrix effect (50, set in each `keyboard.json`, as upstream
+keyboards do; QMK enables key-press and framebuffer support itself). The largest image (G65
+neo2_via) is 39.8 KB with 1.1 KB of RAM free. The VIA definitions for the G65 and the N60 in
+qmk_userspace list the effects in QMK's order; enabling more effects renumbers them, so a saved
+effect number can select a different effect after the update.
+
+The same build was flashed to the Nova N60, the first N60 write with the board table (117 pages).
+Readback matched, but the flasher reported that the application did not enumerate within its
+10 s window; the N60 was running normally shortly afterwards. The N60's own default saturation
+is 0, so every effect shows white until a colour is chosen.
 
 Development builds (`RANKED_DIAGNOSTICS=yes`) add a raw HID bootloader request that needs no key
 (`07 00 B0 'RYBL'`, `g65_qmk_bootloader.py`) and read-only LED status (`08 00 B1`, `g65_led_status.py`)
@@ -179,7 +191,7 @@ entered only by key (Bootmagic Esc, `QK_BOOT`), as in upstream QMK.
 | `g65_led_status.py` | LED controller status and RGB Matrix settings (development builds) |
 | `g65_sensor_log.py` | Raw sample log of all positions over raw HID (development builds) |
 | `g65_via_color.py` | Set the RGB Matrix effect, colour and brightness over VIA, without saving |
-| `results/qmk_flashes.json` | Hash-only results of the six QMK flashes |
+| `results/qmk_flashes.json` | Hash-only results of the QMK flashes (eight G65, one N60) |
 | `results/sensor_measurement.json` | Summary of the switch measurement |
 
 ## Not included
@@ -191,6 +203,8 @@ The G65 bootloader, stock application, settings pages and metadata are not publi
 
 - Restore the stock application from the backup once, to validate the flasher's restore path on
   the G65 (136 pages).
+- Find out why the N60 took longer than the flasher's 10 s to enumerate after release; consider a
+  longer wait and a message that does not suggest recovery after a verified write.
 - Media keys (the stock firmware has a consumer collection), LED controller sleep (`0xc1`/`0xc2`),
   reactive lighting.
 - A US (ANSI) G65 would need its own USB ID, board ID and position table.
