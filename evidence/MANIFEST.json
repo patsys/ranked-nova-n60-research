@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4514,
-      "sha256": "1470837e4687cdba91b13e80fda9f04253201519872640693f3c4e1961fcbe9a"
+      "bytes": 4527,
+      "sha256": "7d15397597d66fdf5e0fdf74980fdc641cef5d219f440fd4679c1d9cfb8204e6"
     },
     {
       "path": "docs/BOOTLOADER_V107.md",
@@ -34,8 +34,8 @@
     },
     {
       "path": "docs/EXPERIMENT_LOG.md",
-      "bytes": 13155,
-      "sha256": "d7a5715ed0e149915ea3c235c19599ed757beaf99bb016607954ef8a86e83ffb"
+      "bytes": 14833,
+      "sha256": "625a6a6e9c2b08d5d326396f52da8cb289415b7c945c5af2325eec6b0c364296"
     },
     {
       "path": "docs/REPRODUCING.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "docs/STATUS.md",
-      "bytes": 3022,
-      "sha256": "f53a023e36748f4f02327f75f79fad00aec9e3c31fbc923d544116db90ace723"
+      "bytes": 3292,
+      "sha256": "893233c0c53894d2803411dc4777d9a96f12e2c1adfec4f51631e7fbb0ba83c4"
     },
     {
       "path": "docs/TECHNICAL_FINDINGS.md",
@@ -5643,8 +5643,8 @@
     },
     {
       "path": "research/09-g65/README.md",
-      "bytes": 7153,
-      "sha256": "25a84940c0558f487a6bcd7dcac23cdccc5faadc0514cd4b613ae7cd23041826"
+      "bytes": 12026,
+      "sha256": "ad8dd784875ea802d2aeb5baff566531c611239e35374e5ee99b5d3c96a6179c"
     },
     {
       "path": "research/09-g65/backup/boot_0000_1fff.bin",
@@ -5682,9 +5682,34 @@
       "sha256": "738c50999502a0a3310b3a014c1897b97431a1234980c1364990550bb4a95b99"
     },
     {
+      "path": "research/09-g65/g65_emulate_init.py",
+      "bytes": 1823,
+      "sha256": "730831113b1b4e0ce34054b050eca71a21e7ac06975bbb1190adf2bb200b9935"
+    },
+    {
       "path": "research/09-g65/g65_getv.py",
       "bytes": 1655,
       "sha256": "e1b0fdde25885f305e82082f9550ce0d3300b03293b47565bd5d3fa8a958f173"
+    },
+    {
+      "path": "research/09-g65/g65_led_status.py",
+      "bytes": 1021,
+      "sha256": "edd75a3af0ee5230442864d43f243d3b41d9fda6099bb0c02616d532ee568cb5"
+    },
+    {
+      "path": "research/09-g65/g65_qmk_bootloader.py",
+      "bytes": 839,
+      "sha256": "f0efd537215e49db00d26b69c776d7b2ee93a4637c3af7aa42c25a19bf877665"
+    },
+    {
+      "path": "research/09-g65/g65_sensor_log.py",
+      "bytes": 1872,
+      "sha256": "dab678397580c052063c0cf775e709b6137baffbc00b87477ccf5b99efa10ea3"
+    },
+    {
+      "path": "research/09-g65/g65_via_color.py",
+      "bytes": 981,
+      "sha256": "19bbf676bca668b2623d3b7fa6269f693d8cac296ebb48945ad89189b484ed07"
     },
     {
       "path": "research/09-g65/results/backup_result.json",
@@ -5697,9 +5722,19 @@
       "sha256": "bd71f66cf43b8aea76a57811588cd2edf4989ba565f4199a947321a9a15edd7e"
     },
     {
+      "path": "research/09-g65/results/qmk_flashes.json",
+      "bytes": 5011,
+      "sha256": "c2677d831f6bced092a1419bc00586c7601e58db4dc86c98eb2898db0cda3670"
+    },
+    {
+      "path": "research/09-g65/results/sensor_measurement.json",
+      "bytes": 581,
+      "sha256": "446fa9a2e22efc4a994a8ce8574f82f457d1d97a30026efe709838e470f502d8"
+    },
+    {
       "path": "research/README.md",
-      "bytes": 2042,
-      "sha256": "391cfcbe54edb1a5717c0a59a5696332952677b81cc3a15720f8430d3d683e1c"
+      "bytes": 2061,
+      "sha256": "44bd63d51febf29f7e2c13848b7fc276b25737031035063df5965108aca8bf03"
     }
   ]
 }

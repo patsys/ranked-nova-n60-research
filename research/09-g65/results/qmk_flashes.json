@@ -1,0 +1,158 @@
+[
+ {
+  "run": "g65_qmk_neo2_first_flash",
+  "image": "QMK neo2, no RGB",
+  "hex_sha256": "8d7e1a9bbcb30f87c8b80e0667748ea696605f576823f384eeeb24af69d9ee2a",
+  "board": "Ranked G65",
+  "boot_version": "a1070000a1020000",
+  "pages": 136,
+  "passed": true,
+  "verified": true,
+  "released": true,
+  "whole_flash_matches_expected": true,
+  "bootloader_unchanged": true,
+  "outside_application_unchanged": true,
+  "hidden_metadata_unchanged": true,
+  "boot_checksum_word": {
+   "address": "0x201c",
+   "image": "0x2173",
+   "written": "0xaf79b8c"
+  },
+  "before_flash_sha256": "ed28dfdcd37d7806057929841812ff0ebb606b39e72fceb909a319156dd58de4",
+  "after_flash_sha256": "a0f1865d5afd6e0be9e0d8a5262b21a97062711818f23dacca1c328b60f9f86e",
+  "final_state": {
+   "application_interfaces": 3,
+   "bootloader_interfaces": 0
+  }
+ },
+ {
+  "run": "g65_qmk_neo2_rgb_1",
+  "image": "QMK neo2 with RGB, first LED driver",
+  "hex_sha256": "9402ff0ffc31a52ac93221edfdffe80459a2910aa8582811b5a00657ea5bb392",
+  "board": "Ranked G65",
+  "boot_version": "a1070000a1020000",
+  "pages": 136,
+  "passed": true,
+  "verified": true,
+  "released": true,
+  "whole_flash_matches_expected": true,
+  "bootloader_unchanged": true,
+  "outside_application_unchanged": true,
+  "hidden_metadata_unchanged": true,
+  "boot_checksum_word": {
+   "address": "0x201c",
+   "image": "0x2173",
+   "written": "0x33724d45"
+  },
+  "before_flash_sha256": "7f81e331c15232761c8f6fcd98f7939a11783d1e868676e56d8436da769a3934",
+  "after_flash_sha256": "1e94e4d035f270ed7731697cb83f55679df871dff553c38506a16638c55f31bc",
+  "final_state": {
+   "application_interfaces": 3,
+   "bootloader_interfaces": 0
+  }
+ },
+ {
+  "run": "g65_qmk_neo2_via_rgb_1",
+  "image": "QMK neo2_via with RGB",
+  "hex_sha256": "f37c72a9b25f7e3adb0b0b523996ff3bd4e4018291cc875968322af979fc5b41",
+  "board": "Ranked G65",
+  "boot_version": "a1070000a1020000",
+  "pages": 136,
+  "passed": true,
+  "verified": true,
+  "released": true,
+  "whole_flash_matches_expected": true,
+  "bootloader_unchanged": true,
+  "outside_application_unchanged": true,
+  "hidden_metadata_unchanged": true,
+  "boot_checksum_word": {
+   "address": "0x201c",
+   "image": "0x2173",
+   "written": "0xba8f2979"
+  },
+  "before_flash_sha256": "5f4fc348ef9926290d18e14e8fe6b11b2054217729b8888c534c5845d488f628",
+  "after_flash_sha256": "41b16c42ee332489f262f9994bbbb8ac3cef0d6ba5dcff715fdd1ecb1e3c9a26",
+  "final_state": {
+   "application_interfaces": 3,
+   "bootloader_interfaces": 0
+  }
+ },
+ {
+  "run": "g65_qmk_neo2_via_rainbow_1",
+  "image": "neo2_via + static rainbow effect (later removed)",
+  "hex_sha256": "88fdb6cfbd9e5c24b5557847807ec6d9573de1520931b327ea682772f12e9a1b",
+  "board": "Ranked G65",
+  "boot_version": "a1070000a1020000",
+  "pages": 136,
+  "passed": true,
+  "verified": true,
+  "released": true,
+  "whole_flash_matches_expected": true,
+  "bootloader_unchanged": true,
+  "outside_application_unchanged": true,
+  "hidden_metadata_unchanged": true,
+  "boot_checksum_word": {
+   "address": "0x201c",
+   "image": "0x2173",
+   "written": "0x4e07910b"
+  },
+  "before_flash_sha256": "e558d1a7c089be85165886d0485be3ae2f4efba99b5d9917ccb27a10e89628f3",
+  "after_flash_sha256": "a3e8b0815e8ef2229e44a13d6dee54f3b7c5d50c52ee9a58b08408581790480f",
+  "final_state": {
+   "application_interfaces": 3,
+   "bootloader_interfaces": 0
+  }
+ },
+ {
+  "run": "g65_qmk_neo2_via_rgbfix_1",
+  "image": "neo2_via, LED start-up retry",
+  "hex_sha256": "28f5c1a36a13e4d5e0f685674e6efa381129e1391a8d04c69f580c071ea87c0c",
+  "board": "Ranked G65",
+  "boot_version": "a1070000a1020000",
+  "pages": 136,
+  "passed": true,
+  "verified": true,
+  "released": true,
+  "whole_flash_matches_expected": true,
+  "bootloader_unchanged": true,
+  "outside_application_unchanged": true,
+  "hidden_metadata_unchanged": true,
+  "boot_checksum_word": {
+   "address": "0x201c",
+   "image": "0x2173",
+   "written": "0x3ff32309"
+  },
+  "before_flash_sha256": "f8715046bb8bbc95a69c38983c6c2e79c82462bfec097d037e6f9a2684bd4f60",
+  "after_flash_sha256": "69d83e3edf861648ef8ea56651802422b7a10c75fe6e36243fe2b14ca8307227",
+  "final_state": {
+   "application_interfaces": 3,
+   "bootloader_interfaces": 0
+  }
+ },
+ {
+  "run": "g65_qmk_neo2_via_samples_1",
+  "image": "neo2_via + raw sample query (diagnostics)",
+  "hex_sha256": "1ea27efdf4d24f8dc6cc2a4f3977a9afd524f79ff8ffc3c28dc846016058e9d1",
+  "board": "Ranked G65",
+  "boot_version": "a1070000a1020000",
+  "pages": 136,
+  "passed": true,
+  "verified": true,
+  "released": true,
+  "whole_flash_matches_expected": true,
+  "bootloader_unchanged": true,
+  "outside_application_unchanged": true,
+  "hidden_metadata_unchanged": true,
+  "boot_checksum_word": {
+   "address": "0x201c",
+   "image": "0x2173",
+   "written": "0xe0e2ff68"
+  },
+  "before_flash_sha256": "0c74beb3d778f7ad4a752e03a01f4df34d2cec16e1a5304053be29ad0afa8fc6",
+  "after_flash_sha256": "ff01ac78250e2b581a43ec985a137da253e98f64cf8d5e2aa2a59e8c6637b64a",
+  "final_state": {
+   "application_interfaces": 3,
+   "bootloader_interfaces": 0
+  }
+ }
+]

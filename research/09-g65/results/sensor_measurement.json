@@ -1,0 +1,27 @@
+{
+ "description": "20 s raw-sample log at ~76 samples/s while F and O were pressed; all other keys idle",
+ "rate_per_s": 76,
+ "keys": {
+  "F": {
+   "position": "b2c4",
+   "samples": 1528,
+   "histogram_by_10": {
+    "0": 1430,
+    "130": 98
+   },
+   "max": 137
+  },
+  "O": {
+   "position": "b1c9",
+   "samples": 1528,
+   "histogram_by_10": {
+    "0": 1391,
+    "130": 136,
+    "140": 1
+   },
+   "max": 141
+  }
+ },
+ "max_other_keys": 22,
+ "conclusion": "each key reads 0 at rest and a steady ~135 when pressed, with no intermediate values: on/off switching, no travel information"
+}

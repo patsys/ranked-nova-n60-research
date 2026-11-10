@@ -86,6 +86,17 @@ Evidence: `docs/BOOTLOADER_V107.md`, `research/08-bootloader-v107/results/`, `re
 
 Evidence: `research/09-g65/`.
 
+## 10. Ranked G65: QMK, LEDs and a switch measurement (9–10 November)
+
+- The N60 scan code moved to `keyboards/ranked/common`; the N60 image stayed the same apart from the order of four constant tables. `keyboards/ranked/g65` uses it with the stock G65 tables. Neo2 typing worked on the first flash.
+- The LED controller turned out to be on I2C (address `0x34`, 2 MHz), not SPI as on the N60; frame layout, border ring and handshake were recovered from the stock code, the I2C configuration from RAM-initialised data by emulating the stock reset path.
+- The first LED driver worked after flashing but left the LEDs dark after a cold power-up: it gave up on the `0xa5` handshake after about 250 ms, while a cold controller needed about two seconds (8 attempts). It now retries without blocking. The N60 never showed this because SPI frames simply go out until the controller listens.
+- A first Neo2 image without VIA was flashed by mistake; `neo2_via` replaced it. VIA saving survived a power cycle.
+- A raw-sample export showed the switches are on/off (0 or ~135); the stock firmware uses fixed thresholds only. Hall-effect features were not added.
+- A raw HID bootloader request that needed no key was useful during bring-up but bypasses QMK's physical-presence model; it and the diagnostic queries are now a development build flag, off by default.
+
+Evidence: `research/09-g65/README.md`, `research/09-g65/results/`.
+
 ## Lessons that changed the investigation
 
 1. A success ACK is not proof that a custom return value arrived.
@@ -98,3 +109,5 @@ Evidence: `research/09-g65/`.
 8. Measure peripheral behaviour on a disposable page before trusting an emulator model; the model is only as good as the measurement behind it.
 9. Never stop a recovery holder after a failed write.
 10. A known bootloader is not a known board: check the application range and recovery entry of each new board before writing.
+11. Test a peripheral driver from a cold power-up, not only after flashing: a controller that stays powered through the update hides start-up timing.
+12. Measure before building on a marketing assumption: the "analog" switch path delivered two levels only.

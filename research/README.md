@@ -14,7 +14,7 @@ results and reports of a phase live together.
 | [06-stock-restore](06-stock-restore/) | Bounded flashing and stock rollback | Stock rewrite and QMK rollbacks verified |
 | [07-qmk-port](07-qmk-port/) | QMK on the RY72xx platform | Typing, RGB, VIA, NKRO, remote wake work; persistent VIA open on board 1 |
 | [08-bootloader-v107](08-bootloader-v107/) | Second board, bootloader v1.0.7 | Flash-controller timing root cause fixed; QMK + VIA flashed |
-| [09-g65](09-g65/) | Ranked G65 on the same bootloader | Identified, stock backed up read-only; longer application, no recovery pin |
+| [09-g65](09-g65/) | Ranked G65 on the same bootloader | Stock backed up; QMK with Neo2, VIA and RGB (I2C LED controller) running; switches are on/off |
 
 The chronological story with failed attempts is in [docs/EXPERIMENT_LOG.md](../docs/EXPERIMENT_LOG.md).
 

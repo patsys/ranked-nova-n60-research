@@ -1,4 +1,4 @@
-# Current status — 9 November 2026
+# Current status — 10 November 2026
 
 ## Working
 
@@ -24,12 +24,15 @@
   stock application is longer (`0x2000..0x12ebc`), settings at pages `0xd0..0xec`.
 - No recovery pin is configured: only a firmware request or a failing checksum keeps
   the bootloader. A QMK build must offer a bootloader entry that does not need key scanning.
-- ry72xx-flasher has G65 support in the working tree (board from the GETV board ID and
-  metadata, 136 application pages, own loader variant); tests pass, not yet released and
-  not yet validated by a write on hardware.
-- Key scan decoded from the stock firmware: same ADC scheme as the N60 with 5 banks × 14
-  channels and 69 positions (ISO 65%). Open: key names per position, LEDs, role of the
-  RY1206. See `research/09-g65/`.
+- ry72xx-flasher (main) supports the G65: board from the GETV board ID and metadata, 136
+  application pages, own loader variant. Six QMK flashes with full readback on hardware;
+  restoring the stock application is still untested.
+- QMK runs on the G65 (`keyboards/ranked/g65`, shared scan code in `keyboards/ranked/common`):
+  Neo2 with VIA (saving works across a power cycle), RGB on 69 keys and a 40-LED border ring
+  through an I2C LED controller. Bootloader by key only; raw HID entry and diagnostics need
+  `RANKED_DIAGNOSTICS=yes`.
+- The G65 switches read 0 or ~135 with nothing in between: on/off, no travel information, so
+  no adjustable actuation or Rapid Trigger. See `research/09-g65/`.
 
 ## Resolved since 5 November
 
